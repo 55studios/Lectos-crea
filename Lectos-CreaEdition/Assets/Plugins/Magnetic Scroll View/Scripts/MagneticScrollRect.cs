@@ -599,7 +599,7 @@ namespace MagneticScrollView
 
 #if UNITY_EDITOR
             if (!Application.isPlaying && m_autoArranging)
-                StartAutoArranging ();
+               StartAutoArranging ();
             else
                 StopAutoArranging ();
 #else            
