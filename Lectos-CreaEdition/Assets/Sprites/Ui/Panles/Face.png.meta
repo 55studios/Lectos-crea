@@ -1,0 +1,3011 @@
+fileFormatVersion: 2
+guid: afa1c927af93a324cbadac536d2eb1f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Face
+  - first:
+      213: 21300002
+    second: PlanteFace_00
+  - first:
+      213: 21300004
+    second: PlanteFace_01
+  - first:
+      213: 21300006
+    second: PlanteFace_02
+  - first:
+      213: 21300008
+    second: PlanteFace_03
+  - first:
+      213: 21300010
+    second: PlanteFace_04
+  - first:
+      213: 21300012
+    second: PlanteFace_05
+  - first:
+      213: 21300014
+    second: PlanteFace_06
+  - first:
+      213: 21300016
+    second: PlanteFace_07
+  - first:
+      213: 21300018
+    second: PlanteFace_08
+  - first:
+      213: 21300020
+    second: PlanteFace_09
+  - first:
+      213: 21300022
+    second: PlanteFace_10
+  - first:
+      213: 21300024
+    second: PlanteFace_11
+  - first:
+      213: 21300026
+    second: PlanteFace_12
+  - first:
+      213: 21300028
+    second: PlanteFace_13
+  - first:
+      213: 21300030
+    second: PlanteFace_14
+  - first:
+      213: 21300032
+    second: PlanteFace_15
+  - first:
+      213: 21300034
+    second: PlanteFace_16
+  - first:
+      213: 21300036
+    second: PlanteFace_17
+  - first:
+      213: 21300038
+    second: PlanteFace_18
+  - first:
+      213: 21300040
+    second: PlanteFace_19
+  - first:
+      213: 21300042
+    second: PlanteFace_20
+  - first:
+      213: 21300044
+    second: PlanteFace_21
+  - first:
+      213: 21300046
+    second: PlanteFace_22
+  - first:
+      213: 21300048
+    second: PlanteFace_23
+  - first:
+      213: 21300050
+    second: PlanteFace_24
+  - first:
+      213: 21300052
+    second: PlanteFace_25
+  - first:
+      213: 21300054
+    second: PlanteFace_26
+  - first:
+      213: 21300056
+    second: PlanteFace_27
+  - first:
+      213: 21300058
+    second: PlanteFace_28
+  - first:
+      213: 21300060
+    second: PlanteFace_29
+  - first:
+      213: 21300062
+    second: PlanteFace_30
+  - first:
+      213: 21300064
+    second: PlanteFace_31
+  - first:
+      213: 21300066
+    second: PlanteFace_32
+  - first:
+      213: 21300068
+    second: PlanteFace_33
+  - first:
+      213: 21300070
+    second: PlanteFace_34
+  - first:
+      213: 21300072
+    second: PlanteFace_35
+  - first:
+      213: 21300074
+    second: PlanteFace_36
+  - first:
+      213: 21300076
+    second: PlanteFace_37
+  - first:
+      213: 21300078
+    second: PlanteFace_38
+  - first:
+      213: 21300080
+    second: PlanteFace_39
+  - first:
+      213: 21300082
+    second: PlanteFace_40
+  - first:
+      213: 21300084
+    second: PlanteFace_41
+  - first:
+      213: 21300086
+    second: PlanteFace_42
+  - first:
+      213: 21300088
+    second: PlanteFace_43
+  - first:
+      213: 21300090
+    second: PlanteFace_44
+  - first:
+      213: 21300092
+    second: PlanteFace_45
+  - first:
+      213: 21300094
+    second: PlanteFace_46
+  - first:
+      213: 21300096
+    second: PlanteFace_47
+  - first:
+      213: 21300098
+    second: PlanteFace_48
+  - first:
+      213: 21300100
+    second: PlanteFace_49
+  - first:
+      213: 21300102
+    second: PlanteFace_50
+  - first:
+      213: 21300104
+    second: PlanteFace_51
+  - first:
+      213: 21300106
+    second: PlanteFace_52
+  - first:
+      213: 21300108
+    second: PlanteFace_53
+  - first:
+      213: 21300110
+    second: PlanteFace_54
+  - first:
+      213: 21300112
+    second: PlanteFace_55
+  - first:
+      213: 21300114
+    second: PlanteFace_56
+  - first:
+      213: 21300116
+    second: PlanteFace_57
+  - first:
+      213: 21300118
+    second: PlanteFace_58
+  - first:
+      213: 21300120
+    second: PlanteFace_59
+  - first:
+      213: 21300122
+    second: PlanteFace_60
+  - first:
+      213: 21300124
+    second: PlanteFace_61
+  - first:
+      213: 21300126
+    second: PlanteFace_62
+  - first:
+      213: 21300128
+    second: PlanteFace_63
+  - first:
+      213: 21300130
+    second: PlanteFace_64
+  - first:
+      213: 21300132
+    second: PlanteFace_65
+  - first:
+      213: 21300134
+    second: PlanteFace_66
+  - first:
+      213: 21300136
+    second: PlanteFace_67
+  - first:
+      213: 21300138
+    second: PlanteFace_68
+  - first:
+      213: 21300140
+    second: PlanteFace_69
+  - first:
+      213: 21300142
+    second: PlanteFace_70
+  - first:
+      213: 21300144
+    second: PlanteFace_71
+  - first:
+      213: 21300146
+    second: PlanteFace_72
+  - first:
+      213: 21300148
+    second: PlanteFace_73
+  - first:
+      213: 21300150
+    second: PlanteFace_74
+  - first:
+      213: 21300152
+    second: PlanteFace_75
+  - first:
+      213: 21300154
+    second: PlanteFace_76
+  - first:
+      213: 21300156
+    second: PlanteFace_77
+  - first:
+      213: 21300158
+    second: PlanteFace_78
+  - first:
+      213: 21300160
+    second: PlanteFace_79
+  - first:
+      213: 21300162
+    second: PlanteFace_80
+  - first:
+      213: 21300164
+    second: PlanteFace_81
+  - first:
+      213: 21300166
+    second: PlanteFace_82
+  - first:
+      213: 21300168
+    second: PlanteFace_83
+  - first:
+      213: 21300170
+    second: PlanteFace_84
+  - first:
+      213: 21300172
+    second: PlanteFace_85
+  - first:
+      213: 21300174
+    second: PlanteFace_86
+  - first:
+      213: 21300176
+    second: PlanteFace_87
+  - first:
+      213: 21300178
+    second: PlanteFace_88
+  - first:
+      213: 21300180
+    second: PlanteFace_89
+  - first:
+      213: 21300182
+    second: PlanteFace_90
+  - first:
+      213: 21300184
+    second: PlanteFace_91
+  - first:
+      213: 21300186
+    second: PlanteFace_92
+  - first:
+      213: 21300188
+    second: PlanteFace_93
+  - first:
+      213: 21300190
+    second: PlanteFace_94
+  - first:
+      213: 21300192
+    second: PlanteFace_95
+  - first:
+      213: 21300194
+    second: PlanteFace_96
+  - first:
+      213: 21300196
+    second: PlanteFace_97
+  - first:
+      213: 21300198
+    second: PlanteFace_98
+  - first:
+      213: 21300200
+    second: PlanteFace_99
+  - first:
+      213: 21300202
+    second: PlanteFace_100
+  - first:
+      213: 21300204
+    second: PlanteFace_101
+  - first:
+      213: 21300206
+    second: PlanteFace_102
+  - first:
+      213: 21300208
+    second: PlanteFace_103
+  - first:
+      213: 21300210
+    second: PlanteFace_104
+  - first:
+      213: 21300212
+    second: PlanteFace_105
+  - first:
+      213: 21300214
+    second: PlanteFace_106
+  - first:
+      213: 21300216
+    second: PlanteFace_107
+  - first:
+      213: 21300218
+    second: PlanteFace_108
+  - first:
+      213: 21300220
+    second: PlanteFace_109
+  - first:
+      213: 21300222
+    second: PlanteFace_110
+  - first:
+      213: 21300224
+    second: PlanteFace_111
+  - first:
+      213: 21300226
+    second: PlanteFace_112
+  - first:
+      213: 21300228
+    second: PlanteFace_113
+  - first:
+      213: 21300230
+    second: PlanteFace_114
+  - first:
+      213: 21300232
+    second: PlanteFace_115
+  - first:
+      213: 21300234
+    second: PlanteFace_116
+  - first:
+      213: 21300236
+    second: PlanteFace_117
+  - first:
+      213: 21300238
+    second: PlanteFace_118
+  - first:
+      213: 21300240
+    second: PlanteFace_119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlanteFace_00
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1855
+        width: 387
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5878553, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f53bacc690ec240a0f6b55cd4b2718
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_01
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1544
+        width: 387
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5878553, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d86d96382644f54494a7d1e63d8618b
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_02
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1850
+        width: 387
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5878553, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6627d76118bf91547a1f5a17f6c359f3
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_03
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1537
+        width: 387
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5878553, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6f7f4fc5667c8428c2fee28ecf0da2
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_04
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1533
+        width: 387
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5878553, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47ee0fb52d82b9499e3ab7930896baa
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_05
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 3778
+        width: 410
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5841463, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa89d89dbc64e6e40a08b4adefcb99a7
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_06
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 3778
+        width: 410
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5841463, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c55332356db0654fadcdef47c799ddf
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_07
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1526
+        width: 387
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5878553, y: 0.413522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a54378b7183aa42bd28298b1e8c309
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_08
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2506
+        width: 386
+        height: 323
+      alignment: 9
+      pivot: {x: 0.5816062, y: 0.3978328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b520f4e119344343bbf875307a2a448
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_09
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1218
+        width: 386
+        height: 315
+      alignment: 9
+      pivot: {x: 0.58419687, y: 0.42063493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2c440e1db7f994eb4792b65a3e5f38
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_10
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1213
+        width: 388
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5786083, y: 0.4169329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5922f321de8b5f24e800932f12baa675
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2475
+        width: 388
+        height: 326
+      alignment: 9
+      pivot: {x: 0.5760309, y: 0.44325152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dd0e9f1db79db45922cb28a89d83e8
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_12
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2495
+        width: 396
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5770202, y: 0.4390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0bab773fff2f246ab0ff515c30da46
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_13
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1216
+        width: 382
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5798429, y: 0.44875777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a405c2e451c12c4ea01e9d6a54a247e
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_14
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 1221
+        width: 387
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5723514, y: 0.4477848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c22aa4752ba7f47a77dfed0120a664
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_15
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1870
+        width: 388
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.4544025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c93fbb5abdf57041bf8249b90eb36e0
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 3778
+        width: 411
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5632603, y: 0.4544025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a712299a7c07149b219868ca0f87e9
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_17
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 3778
+        width: 411
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5632603, y: 0.4544025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdbfeb18d9deaf4ca810fb885c9cd78
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_18
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 624
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e135fdf7ebfa64458e2123889e45a6f
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_19
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 605
+        width: 388
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.42166665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8f5687492c7144f82f35058409bbc8
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_20
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 2827
+        width: 411
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5632603, y: 0.43300653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45caa9edc1fd6764790270e383f4e9f4
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_21
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2829
+        width: 411
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5632603, y: 0.42927632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bd40f59e6f2244d8da747b74070abc
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_22
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 600
+        width: 388
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.43300653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a05fac1e293db48aad9473a10b283a
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_23
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 921
+        width: 388
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.42166665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140395c3fe408a0438e260224629db7e
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_24
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 604
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1ee31cf54c204429816eb3f05a259f
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_25
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 308
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b3be0b399b571468ee4cd6e982f55f
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_26
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 303
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0242646b0ecb55440a7960b7c4d3de1c
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_27
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 621
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213e137dadaa52c49bd8ea9c38b70baa
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_28
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 327
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40586bf27541ee4bbb8d4c7c3eaf120
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_29
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 307
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d055e744af60dad448e2c5498a9735af
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_30
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 11
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823c21f2f636e6a4298b9ce2c3d7f5ca
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_31
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 616
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beefdc7fc0c2fb46aa027adedc30382
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_32
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 324
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c7a4583555cb1419b148fc3e770947
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_33
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 30
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8954ed412be3e43992f6d1c307112e
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_34
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 10
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2102dd3b7649fd845941a2d4b5137789
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_35
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 319
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e39b10646252df49b3e27de95989083
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_36
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 27
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734b795465f0b7442bb18fa35e0dc404
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_37
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 22
+        width: 388
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5708763, y: 0.41582492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a445c803600d7924d9868bc4876d9a53
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_38
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1219
+        width: 388
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5167526, y: 0.3920635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc82a0f9723ebf49856be2c25a3a992
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_39
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 894
+        width: 377
+        height: 322
+      alignment: 9
+      pivot: {x: 0.46286473, y: 0.3400621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368a49c7c16bb2a4e9b3e9c7761c8efd
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_40
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 599
+        width: 377
+        height: 320
+      alignment: 9
+      pivot: {x: 0.46286473, y: 0.3515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67109193bde8a3d4aa7cadb5c6196f34
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_41
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1851
+        width: 385
+        height: 322
+      alignment: 9
+      pivot: {x: 0.45324674, y: 0.35248446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f17d823c10d64142877e8ef8674166f
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_42
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2486
+        width: 393
+        height: 322
+      alignment: 9
+      pivot: {x: 0.456743, y: 0.34937888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ff92c1c0b8d644eb24d037cbb76b04
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_43
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 2810
+        width: 394
+        height: 322
+      alignment: 9
+      pivot: {x: 0.4606599, y: 0.3400621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5635b8e293ca2534fadc6688d6022075
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_44
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2493
+        width: 391
+        height: 322
+      alignment: 9
+      pivot: {x: 0.4539642, y: 0.3400621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f861fa6d9bc6f5543a1e6b70184cbc2c
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_45
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 2189
+        width: 390
+        height: 317
+      alignment: 9
+      pivot: {x: 0.4525641, y: 0.329653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea67b1891dee0448c281f84a3845f1
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3126
+        width: 391
+        height: 325
+      alignment: 9
+      pivot: {x: 0.4590793, y: 0.35538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbbeaf6afd88a2458ee13aca73f529f
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_47
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 3774
+        width: 399
+        height: 322
+      alignment: 9
+      pivot: {x: 0.47243106, y: 0.35248446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62b941c21165c24a99aba0b11e9dd06
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_48
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 901
+        width: 377
+        height: 320
+      alignment: 9
+      pivot: {x: 0.46286473, y: 0.3515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f45f0cd5d53df49b1a803e43027639
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 377
+        height: 322
+      alignment: 9
+      pivot: {x: 0.46286473, y: 0.3400621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252fcbd97e137a14f824293b5993ce58
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_50
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 1869
+        width: 386
+        height: 320
+      alignment: 9
+      pivot: {x: 0.511658, y: 0.3296875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64961245075a2f458c0f9b3aa4cd7d0
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_51
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 2168
+        width: 382
+        height: 325
+      alignment: 9
+      pivot: {x: 0.6269634, y: 0.3123077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40193b62ab69d3b438f4810080daf437
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_52
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 1232
+        width: 383
+        height: 317
+      alignment: 9
+      pivot: {x: 0.6644909, y: 0.30441642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc0b656d2cddcf47a5cb3fccec1e038
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_53
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 903
+        width: 383
+        height: 310
+      alignment: 9
+      pivot: {x: 0.6827676, y: 0.3016129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c8f26a2601070458867744a6e98bc9
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_54
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1538
+        width: 384
+        height: 322
+      alignment: 9
+      pivot: {x: 0.67057294, y: 0.33074534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d54fdebacafe04e94a0b2a1bb02c85
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_55
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1862
+        width: 389
+        height: 317
+      alignment: 9
+      pivot: {x: 0.6696658, y: 0.32018927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da1d1244a29e194ca8fd352461c7123
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_56
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 2188
+        width: 390
+        height: 317
+      alignment: 9
+      pivot: {x: 0.6679487, y: 0.32018927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad148131e547f97459cde3ae1bad471e
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_57
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1844
+        width: 385
+        height: 322
+      alignment: 9
+      pivot: {x: 0.66883117, y: 0.33074534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbe1bd7867ec3e4bbbf5f74aabfac29
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_58
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 584
+        width: 380
+        height: 310
+      alignment: 9
+      pivot: {x: 0.68026316, y: 0.30483872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6187727b882d988469ec3ea0eb004418
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_59
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1230
+        width: 383
+        height: 317
+      alignment: 9
+      pivot: {x: 0.6644909, y: 0.30441642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dd84f1f6810ed48b557039a79ae3d9
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_60
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 3461
+        width: 404
+        height: 317
+      alignment: 9
+      pivot: {x: 0.65470296, y: 0.32018927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d00b474bee3a2d44b2cd2a28d4c22a9
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_61
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2181
+        width: 399
+        height: 317
+      alignment: 9
+      pivot: {x: 0.65037596, y: 0.29810727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ef8561bc4bbfd4e8985abe9ba33737
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_62
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 2491
+        width: 384
+        height: 322
+      alignment: 9
+      pivot: {x: 0.67057294, y: 0.33074534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f01c235f5a5db4eb1df7d19b2ee94b
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_63
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 1231
+        width: 385
+        height: 318
+      alignment: 9
+      pivot: {x: 0.66883117, y: 0.32232705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e05ddc38fac424da39266f7f4961d2
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_64
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2818
+        width: 403
+        height: 315
+      alignment: 9
+      pivot: {x: 0.6488834, y: 0.31587303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4a5e974fa392943b2a9e26a9e088a8
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3776
+        width: 412
+        height: 320
+      alignment: 9
+      pivot: {x: 0.651699, y: 0.3234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5537703e82c084793f3927ca347a20
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3451
+        width: 393
+        height: 325
+      alignment: 9
+      pivot: {x: 0.68066156, y: 0.3123077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ffa6f715eb38c45951139be62086e0
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_67
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1549
+        width: 384
+        height: 321
+      alignment: 9
+      pivot: {x: 0.67578125, y: 0.3224299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d648570217f6184d96cf6b12ee72051
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2801
+        width: 391
+        height: 325
+      alignment: 9
+      pivot: {x: 0.6662404, y: 0.3123077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea53b7bbadd7f0418141ef69fb90303
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_69
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 2489
+        width: 387
+        height: 321
+      alignment: 9
+      pivot: {x: 0.6679587, y: 0.32554516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46120815eb7ea2847923b0700d759462
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_70
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1534
+        width: 389
+        height: 316
+      alignment: 9
+      pivot: {x: 0.6670951, y: 0.31170887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9e56f8c38fc5c45955153d262e2f2a
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_71
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 2505
+        width: 387
+        height: 322
+      alignment: 9
+      pivot: {x: 0.6627907, y: 0.30590063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa47f6dc53d9154da7537dda390c5bf
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_72
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 1860
+        width: 390
+        height: 315
+      alignment: 9
+      pivot: {x: 0.6730769, y: 0.31587303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b722f0e519cb64d9212640a27d03fb
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_73
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3450
+        width: 389
+        height: 328
+      alignment: 9
+      pivot: {x: 0.6722365, y: 0.3246951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5160da6889ad82b468e1b1b8fbdd6fed
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_74
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 2179
+        width: 390
+        height: 317
+      alignment: 9
+      pivot: {x: 0.6730769, y: 0.31388012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794a66213095b9643b321fd78d60ea60
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_75
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 905
+        width: 383
+        height: 314
+      alignment: 9
+      pivot: {x: 0.6827676, y: 0.31369427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dce8b0f3ef77f4997dff7efe0a6d62
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_76
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 913
+        width: 381
+        height: 317
+      alignment: 9
+      pivot: {x: 0.6627297, y: 0.30441642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505430c834ae3d540b22e7b3f4c67252
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_77
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 1549
+        width: 392
+        height: 311
+      alignment: 9
+      pivot: {x: 0.6135204, y: 0.36495176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0434449498965d246a55459fb389db2c
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_78
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 918
+        width: 386
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5712435, y: 0.4392971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bf9e56d1100004b949ec5eb55af567
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_79
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2166
+        width: 392
+        height: 320
+      alignment: 9
+      pivot: {x: 0.565051, y: 0.4453125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42ca0e5ec5abb1458be51ffaf9382e1
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_80
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 906
+        width: 384
+        height: 312
+      alignment: 9
+      pivot: {x: 0.58463544, y: 0.44070512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52923daccb8b8943b2fadb44e60f7f2
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_81
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 590
+        width: 379
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5791557, y: 0.4392971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea5d823f06267e448d6d4a8167e7f67
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_82
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 919
+        width: 386
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5712435, y: 0.4392971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be2c3f783c54f24aa8a2c7d01462a15
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_83
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1860
+        width: 390
+        height: 321
+      alignment: 9
+      pivot: {x: 0.57564104, y: 0.49376947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a5b4c72bd5cbf48a94907f64170ed4
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2149
+        width: 383
+        height: 326
+      alignment: 9
+      pivot: {x: 0.5548303, y: 0.5291411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6efaf486a985d4f8f4e004f2532d01
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_85
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 1221
+        width: 379
+        height: 323
+      alignment: 9
+      pivot: {x: 0.560686, y: 0.5340557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ebed61ffeec5148bddb89e36116b46
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_86
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2173
+        width: 390
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5628205, y: 0.5419255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54742601a5bbc7e4987cd418e3cc78d1
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1177
+        width: 381
+        height: 322
+      alignment: 9
+      pivot: {x: 0.56036747, y: 0.52329195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bd13bcaad3f924facdb8098076a892
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_88
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 2173
+        width: 391
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5613811, y: 0.52689874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e006800a551445438a907656e3b3aa8
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_89
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 2175
+        width: 391
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5613811, y: 0.52689874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75122772d4ac9b044bd8a561b5987741
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_90
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 1547
+        width: 381
+        height: 322
+      alignment: 9
+      pivot: {x: 0.56036747, y: 0.52329195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d782035aee7624bac03764f3252267
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1499
+        width: 381
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5577428, y: 0.53858024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4e5ba5446b0854cb04ba1acd134a01
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_92
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 2496
+        width: 387
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5697674, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352c31a673ee51d45ae4fc624cd591ca
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1823
+        width: 383
+        height: 326
+      alignment: 9
+      pivot: {x: 0.5548303, y: 0.5291411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a783d1bf00ab6447821f3721181902d
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_94
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 2813
+        width: 390
+        height: 320
+      alignment: 9
+      pivot: {x: 0.55, y: 0.3703125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a45c7de0966154bb8e3692af94ce34
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_95
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2498
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e32715a5773b340aa821eb8e9cdbaa
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_96
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 2815
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ae7b291761e964ea5a67f1361bf49b
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_97
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 3133
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2ad27e7ac2c64409e57b76b6beff8e
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_98
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3133
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29ff1bdcfbc0a34cb340baf087c7479
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_99
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 3133
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db06ee822406b143ac47efed87d79ca
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_100
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3140
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e4dae191352704c9b78ca6dab62e2b
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_101
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 3457
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339b753d93b5a7b4bbc3ab3664009776
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_102
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3457
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c72748a9cce1244fa469591edd7da01
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_103
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 3775
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc909c535c818a47be612b0730f6725
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_104
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 3775
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b282dc04da27d4ea32cf7d64111319
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_105
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 3775
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e4e968a9aef8248af2bf3c6522d928
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_106
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3775
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f401bf383395174bbfcffadbc13a3dd
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_107
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 3454
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6a2fb99c0212e4ea42c73ec022bc83
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_108
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 3453
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e36bc4ee0e54245b7f4465afa47b05
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_109
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 3136
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975394ed720582a4e8fc668a82453ffb
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_110
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3136
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55e8dc1a9369ad4393800a08838e139
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_111
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3129
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1a7e1795f756c48a14e80e39c2c5a8
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_112
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2819
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fda8e303ec4f704bb6dccaa96414790
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_113
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 3454
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c706f37e5d9146443a6cd0c4b40c52d2
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_114
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 3454
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c6fb99903b005498f4bf894130fb2c
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_115
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3454
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa34a711cb8de84ea6f69155e8e7337
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_116
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 3133
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f43cdee5841594e878cc731547ca92
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_117
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 3132
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e55ce1070e3b7043aa6bddccada1e2d
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_118
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2815
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a30b4e44598d8140b2cd18575bf2bf7
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteFace_119
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2808
+        width: 397
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5403023, y: 0.36915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4966a5da506431a45a022df4d19e3e56
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6b0c339ec8309394dace3c93c7b771eb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
