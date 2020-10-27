@@ -3,10 +3,142 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/Sprites/Caras/Face.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/LANA-LECHE-LIBRO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/lobo-Lupa-saco.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/queso-sala-sopa.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/seis-siete-tigre.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/TAZA-TETERO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/TOMATE-TUBO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/TOQUE-TUCAN.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHALECO-CHIVO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHIZA-CHUCHA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHUPO-FARO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHUZO-FELIZ.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/FICHA-FUTBOL.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/FILA-JERINGA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/FOTO-HECHIZA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/JAMON-JINETE.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/JARRA-MUÑECA-NAVE.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/JOYA-JUGO-MICO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MAMA-MESA-MINA-MOFA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MANO-JIRAFA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MONO-MORA-NENE-NIDO-NOMO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MOTO-NUBE.RAMA-RANA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/RANCHO-REMO-ROJO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/RUEDA-ZETA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/ZAPATO-ZORRO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/BUÑUELO-DADO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/DAGA-DAÑO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/dinosaurio-uva-uña.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/divan-domino.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/DUCHA-DUEÑA-ÑIÑA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GALLETA-LLEVA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GALLO-LLORA-VINO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GATO-GAVETA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GELATINA-SUEÑO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GIGANTE-VELA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GUSANO-VACA-VUELA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/llanta-volcan.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/LLUVIA-PIÑATA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/ÑANDU-LLAVE.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/VAGON-VIÑEDO.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/VALLE-VIGA-VILLA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/YATE-YEMA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/YOGA-DADIVA.tpsheet
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/YOYO-YUCA.tpsheet
+- Assets/Sprites/Palabras/Palabras.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Sprites/Caras/Face.png
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/LANA-LECHE-LIBRO.png
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/lobo-Lupa-saco.png
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/queso-sala-sopa.png
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/seis.siete-tigre.png
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/TAZA-TETERO-tigre.png
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/TOMATE-TUBO-tigre.png
+- Assets/Sprites/Palabras/OPTIMIZED/AMARILLO/TOQUE-TUCAN-tigre.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHALECO-CHIVOe.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHIZA-CHUCHA.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHUPO-FARO.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/CHUZO-FELIZ.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/FICHA-FUTBOL.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/FILA-JERINGA.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/FOTO-HECHIZA.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/JAMON-JINETE.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/JARRA-MUÑECA-NAVE.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/JOYA-JUGO-MICO.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MAMA-MESA-MINA-MOFA.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MANO-JIRAFA.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MONO-MORA-NENE-NIDO-NOMO.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/MOTO-NUBE.RAMA-RANA.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/RANCHO-REMO-ROJO.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/RUEDA-ZETA.png
+- Assets/Sprites/Palabras/OPTIMIZED/AZUL/ZAPATO-ZORRO.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/BUÑUELO-DADO.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/DAGA-DAÑO.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/dinosaurio-uva-uña.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/divan-domino.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/DUCHA-DUEÑA-ÑIÑA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GALLETA-LLEVA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GALLO-LLORA-VINO.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GATO-GAVETA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GELATINA-SUEÑO.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GIGANTE-VELA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/GUSANO-VACA-VUELA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/llanta-volcan.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/LLUVIA-PIÑATA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/ÑANDU-LLAVE.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/VAGON-VIÑEDO.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/VALLE-VIGA-VILLA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/YATE-YEMA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/YOGA-DADIVA.png
+- Assets/Sprites/Palabras/OPTIMIZED/ROJO/YOYO-YUCA.png
+- Assets/Sprites/Palabras/palabras.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 enableDebugOutput: 0
