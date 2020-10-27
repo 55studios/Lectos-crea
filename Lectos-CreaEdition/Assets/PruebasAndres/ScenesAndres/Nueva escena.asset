@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a756fa37c9521fe4a990735b423800c9, type: 3}
+  m_Name: Nueva escena
+  m_EditorClassIdentifier: 
+  puntosLogrables: 3
+  reward: 
+  tipoMinijuego: 1
+  activadores:
+  - {fileID: 21300000, guid: 710540c44f8f19a408b6ace244ea1f6c, type: 3}
+  - {fileID: 21300000, guid: c8fd8d8f6ece5a047bdbe600e472401d, type: 3}
+  - {fileID: 21300000, guid: dd3f73ae659dff94088e0a804e235cab, type: 3}
+  receptores:
+  - {fileID: 21300000, guid: c710106962598774495ab7bb24b7383c, type: 3}
+  - {fileID: 21300000, guid: a511649da7928b445bf4302aab7824a0, type: 3}
+  - {fileID: 21300000, guid: b61cdf7030fdda249a1ea40948a0e8e3, type: 3}
+  respuestasTexto: []

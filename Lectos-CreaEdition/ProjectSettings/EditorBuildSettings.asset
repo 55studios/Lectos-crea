@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/PruebasAndres.unity
+    guid: cdc3d7498d94d0f4ea62e71405eadf40
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/Template5-5.unity
+    guid: 04192f9409e01a54aa46fd06e362042c
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/Template5-1.unity
+    guid: aebfef5b35a7de74f839adad0b874c5c
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateEscribir.unity
+    guid: 19a7cff4a5a4d554e92442e514323d53
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateMemoria.unity
+    guid: fa306bed5541c9a41ae393080b8b4659
   m_configObjects: {}
