@@ -16,11 +16,11 @@ MonoBehaviour:
   reward: 
   tipoMinijuego: 1
   activadores:
-  - {fileID: 21300000, guid: 710540c44f8f19a408b6ace244ea1f6c, type: 3}
-  - {fileID: 21300000, guid: c8fd8d8f6ece5a047bdbe600e472401d, type: 3}
-  - {fileID: 21300000, guid: dd3f73ae659dff94088e0a804e235cab, type: 3}
+  - {fileID: 21300000, guid: d98cb9a761b4db54eaf6f9ca5b7bfbcb, type: 3}
+  - {fileID: 21300000, guid: ad120e6ed419e7145a31a198c613bec3, type: 3}
+  - {fileID: 21300000, guid: 8f920980f112ee146a75570a4df48cdc, type: 3}
   receptores:
-  - {fileID: 21300000, guid: c710106962598774495ab7bb24b7383c, type: 3}
-  - {fileID: 21300000, guid: a511649da7928b445bf4302aab7824a0, type: 3}
-  - {fileID: 21300000, guid: b61cdf7030fdda249a1ea40948a0e8e3, type: 3}
+  - {fileID: 21300000, guid: 149b7ce767d15d945b23c406afeff0ee, type: 3}
+  - {fileID: 21300000, guid: 7523fb14ffc806f45ae8a1c34cbb4626, type: 3}
+  - {fileID: 21300000, guid: 97a61a9be7fb7814290a03667d3f382b, type: 3}
   respuestasTexto: []
