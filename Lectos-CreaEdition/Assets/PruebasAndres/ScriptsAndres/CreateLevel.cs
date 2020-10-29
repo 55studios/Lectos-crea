@@ -11,6 +11,8 @@ public class CreateLevel : MonoBehaviour
     public GameObject receptorTextoPrefab;
     public GameObject receptorMemoriaPrefab;
 
+    public GameObject botones;
+
     Organizador Or;
     GameObject[] receptoresCreados;
     int posicionListaReceptores;
@@ -22,6 +24,7 @@ public class CreateLevel : MonoBehaviour
     public void Cargar (string s)
     {
         puntaje = 0;
+        botones.SetActive(false);
         SceneManager.LoadScene(s, LoadSceneMode.Additive);
         SceneManager.sceneLoaded += OnSceneLoaded;
         nombreMinijuego = s;
@@ -153,6 +156,7 @@ public class CreateLevel : MonoBehaviour
             Or = null;
             maxPuntaje = 0;
             creado = false;
+            botones.SetActive(true);
         }
     }
 }
