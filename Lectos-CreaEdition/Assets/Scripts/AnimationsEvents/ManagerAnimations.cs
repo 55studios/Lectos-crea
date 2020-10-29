@@ -12,4 +12,10 @@ public class ManagerAnimations : MonoBehaviour
             animationsScales[i].OutAnimation();
         }
     }
+
+    public void OnAnimationIn() {
+        for (int i = 0; i < animationsScales.Count; i++) {
+            animationsScales[i].InAnimation();
+        }
+    }
 }
