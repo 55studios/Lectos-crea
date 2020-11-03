@@ -5,6 +5,10 @@ using UnityEngine;
 [System.Serializable]
 public class GalaxiaAData : MonoBehaviour {
 
+    private void Start() {
+        LoadData();
+    }
+
     public List<Planets> PlanetsV;
 
     public void PlanetDataSaved(int m_id, bool m_block, int m_Stars, int m_Porcent) {
@@ -13,7 +17,7 @@ public class GalaxiaAData : MonoBehaviour {
         PlanetsV[m_id].Stars = m_Stars;
         PlanetsV[m_id].Porcent = m_Porcent;
         Debug.Log(PlanetsV[m_id].Block + " " + PlanetsV[m_id].Stars + " " + PlanetsV[m_id].Porcent);
-
+        StartCoroutine(SaveData());
     }
 
     public void MoonDataSaved(int m_Planet_Id, int m_Moon_Id, bool m_Block, bool m_Intro, int m_Stars) {
@@ -22,7 +26,9 @@ public class GalaxiaAData : MonoBehaviour {
         PlanetsV[m_Planet_Id].moons[m_Moon_Id].Block = m_Block;
         PlanetsV[m_Planet_Id].moons[m_Moon_Id].Stars = m_Stars;
         Debug.Log(PlanetsV[m_Planet_Id].moons[m_Moon_Id].Block
-          + " " + PlanetsV[m_Planet_Id].moons[m_Moon_Id].Stars);
+        + " " + PlanetsV[m_Planet_Id].moons[m_Moon_Id].Stars);
+        StartCoroutine(SaveData());
+
     }
 
     public void MinigamesDataSaved(int m_Planet_Id, int m_Moon_Id,
@@ -36,8 +42,30 @@ public class GalaxiaAData : MonoBehaviour {
             + PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].TimeRecord + " "
             + PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].stars + " "
             + PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].Reward);
+        StartCoroutine(SaveData());
+
+    }
+
+    public void LoadData() {
+
+        string data = PlayerPrefs.GetString("galaxia");
+        if (data == null) {
+            return;
+        }
+        print("Load data: " + data);
+        JsonUtility.FromJsonOverwrite(data, this);
+        //PlanetsV = galaxiaA.PlanetsV;
+        Debug.Log("Data loaded " + PlanetsV[0].Block);
+    }
+
+    IEnumerator SaveData() {
+
+        string data = JsonUtility.ToJson(this);
+        PlayerPrefs.SetString("galaxia", data);
+       yield return null;
     }
 }
+
 [System.Serializable]
 public class Planets {
 

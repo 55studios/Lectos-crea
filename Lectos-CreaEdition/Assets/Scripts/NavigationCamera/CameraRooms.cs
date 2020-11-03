@@ -89,11 +89,13 @@ public class CameraRooms : MonoBehaviour {
         }
         else if (actualPosition >= 1) {
             yield return new WaitForSeconds(RoomsR[actualPosition - 1].DelayBeforeTransitionRoom);
+            RoomsR[actualPosition - 1].OnBeforeTransition.Invoke();
             RoomControl.position = RoomsR[actualPosition - 1].RoomsR.position;
         }
         else if (actualPosition <= -1) {
             yield return new WaitForSeconds(RoomsL[Mathf.Abs(actualPosition) - 1].DelayBeforeTransitionRoom);
             if (Mathf.Abs(actualPosition) <= RoomsL.Length) {
+                RoomsL[Mathf.Abs(actualPosition) - 1].OnBeforeTransition.Invoke();
                 RoomControl.position = RoomsL[Mathf.Abs(actualPosition) - 1].RoomsL.position;
             }
         }

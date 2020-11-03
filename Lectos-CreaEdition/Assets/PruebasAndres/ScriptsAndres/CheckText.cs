@@ -1,0 +1,58 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class CheckText : MonoBehaviour
+{
+    Text t;
+    string respuesta;
+    // Start is called before the first frame update
+    void Start()
+    {
+        t = GameObject.FindWithTag("Texto").GetComponent<Text>();
+        respuesta = GetComponent<RespuestaTexto>().respuesta;
+        TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        foreach (char c in Input.inputString)
+        {
+            if (c == '\b') // al apachurrar delete borra 
+            {
+                if (t.text.Length != 0)
+                {
+                    t.text = t.text.Substring(0, t.text.Length - 1);
+                }
+            }
+            /*else if ((c == '\n') || (c == '\r')) // al apachurrar enter, aca se puede hacer que el juego compare la respuesta con enter y no automaticamente, por si se llega a necesitar
+            {           
+            }*/
+            else
+            {
+                if (t.text.Length < respuesta.Length)
+                {
+                    t.text += c; //le añade la letra apachurrada al texto
+                }
+            }
+        }
+
+        if (t.text.Length == respuesta.Length)
+        { //cuando la cantidad de letras tecleadas es igual a la cantidad de letras del nombre de la imagen que es la respuesta como tal
+            if (t.text == respuesta)  //si el texto es igual a la respuesta correcta pasa a la siguiente
+            {
+                print("Correctin");
+                Destroy(gameObject);
+                GameObject controlador = GameObject.FindWithTag("GameController");
+                controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
+                t.text = "";
+            }
+            else
+            {
+                //aca es donde toca poner el vuelve a intentarlo y sumar un error si la respuesta estaba mal
+            }
+        }
+    }
+}
