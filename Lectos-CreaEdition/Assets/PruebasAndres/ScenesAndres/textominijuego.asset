@@ -17,9 +17,9 @@ MonoBehaviour:
   tipoMinijuego: 2
   activadores: []
   receptores:
-  - {fileID: 21300000, guid: 710540c44f8f19a408b6ace244ea1f6c, type: 3}
-  - {fileID: 21300000, guid: c8fd8d8f6ece5a047bdbe600e472401d, type: 3}
-  - {fileID: 21300000, guid: dd3f73ae659dff94088e0a804e235cab, type: 3}
+  - tigre
+  - tigre
+  - tigre
   respuestasTexto:
   - juan
   - kang

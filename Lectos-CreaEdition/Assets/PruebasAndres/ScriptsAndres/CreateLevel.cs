@@ -60,46 +60,54 @@ public class CreateLevel : MonoBehaviour
         }
     }
 
-    void CreateSprites (Transform[] posiciones, Sprite[] imagenes, GameObject prefab, bool b)
+    void CreateSprites (Transform[] posiciones, string[] imagenes, GameObject prefab, bool b)
     {
         System.Array.Sort(posiciones, RandomSort);
         if (posiciones.Length > 1)
         {
             for (int i = 0; i < posiciones.Length; i++)
             {
+                Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes[i]);
                 GameObject elemento = Instantiate(prefab, posiciones[i].position, Quaternion.identity);
-                elemento.GetComponent<SpriteRenderer>().sprite = imagenes[i];
-                elemento.name = imagenes[i].name;
+                elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
                 elemento.GetComponent<Respuesta>().respuesta = i;
+                if (elemento.GetComponent<Drop>() != null)
+                {
+                    elemento.GetComponent<Drop>().frames = temporales;
+                }
             }
         } else
         {
             receptoresCreados = new GameObject[imagenes.Length];
             for (int i = 0; i < imagenes.Length; i++)
             {
+                Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes[i]);
                 GameObject elemento = Instantiate(prefab, posiciones[0].position, Quaternion.identity);
-                elemento.GetComponent<SpriteRenderer>().sprite = imagenes[i];
-                elemento.name = imagenes[i].name;
+                elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
                 elemento.GetComponent<Respuesta>().respuesta = i;
                 receptoresCreados[i] = elemento;
                 if (i > 0)
                 {
                     elemento.SetActive(false);
                 }
+                if (elemento.GetComponent<Drop>() != null)
+                {
+                    elemento.GetComponent<Drop>().frames = temporales;
+                }
             }
             posicionListaReceptores = 0;
         }
     }
 
-    void CreateSpritesText (Transform[] posiciones, Sprite[] imagenes, GameObject prefab)
+    void CreateSpritesText (Transform[] posiciones, string[] imagenes, GameObject prefab)
     {
         System.Array.Sort(posiciones, RandomSort);
         receptoresCreados = new GameObject[imagenes.Length];
         for (int i = 0; i < imagenes.Length; i++)
         {
+            Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes[i]);
             GameObject elemento = Instantiate(prefab, posiciones[0].position, Quaternion.identity);
-            elemento.GetComponent<SpriteRenderer>().sprite = imagenes[i];
-            elemento.name = imagenes[i].name;
+            elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
             elemento.GetComponent<RespuestaTexto>().respuesta = SC.respuestasTexto[i];
             receptoresCreados[i] = elemento;
             if (i > 0)
@@ -110,7 +118,7 @@ public class CreateLevel : MonoBehaviour
         posicionListaReceptores = 0;
     }
 
-    void CreateSpritesMemoria (Transform[] posiciones, Sprite[] imagenes1, Sprite[] imagenes2, GameObject prefab)
+    void CreateSpritesMemoria (Transform[] posiciones, string[] imagenes1, string[] imagenes2, GameObject prefab)
     {
         int n = 0;
         System.Array.Sort(posiciones, RandomSort);
@@ -120,13 +128,15 @@ public class CreateLevel : MonoBehaviour
             {
                 n++;
             }
+            Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes1[i]);
             GameObject elemento = Instantiate(prefab, posiciones[n].position, Quaternion.identity);
-            elemento.GetComponent<SpriteRenderer>().sprite = imagenes1[i];
+            elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
             elemento.GetComponent<Respuesta>().respuesta = i;
             elemento.GetComponent<Memoria>().checker = Or.gameObject;
             n++;
+            Sprite[] temporales2 = Resources.LoadAll<Sprite>("Tigre/" + imagenes2[i]);
             GameObject elemento2 = Instantiate(prefab, posiciones[n].position, Quaternion.identity);
-            elemento2.GetComponent<SpriteRenderer>().sprite = imagenes2[i];
+            elemento2.GetComponent<SpriteRenderer>().sprite = temporales2[0];
             elemento2.GetComponent<Respuesta>().respuesta = i;
             elemento2.GetComponent<Memoria>().checker = Or.gameObject;
         }
