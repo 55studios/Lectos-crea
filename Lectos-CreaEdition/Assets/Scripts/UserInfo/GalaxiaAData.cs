@@ -5,7 +5,18 @@ using UnityEngine;
 [System.Serializable]
 public class GalaxiaAData : MonoBehaviour {
 
-    private void Start() {
+    public static GalaxiaAData _data;
+    public bool dataloaded = false;
+
+    private void Awake() {
+        if (_data == null) {
+            _data = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (_data != this) {
+            Destroy(gameObject);
+        }
+        dataloaded = false;
         LoadData();
     }
 
@@ -56,6 +67,7 @@ public class GalaxiaAData : MonoBehaviour {
         JsonUtility.FromJsonOverwrite(data, this);
         //PlanetsV = galaxiaA.PlanetsV;
         Debug.Log("Data loaded " + PlanetsV[0].Block);
+        dataloaded = true;
     }
 
     IEnumerator SaveData() {
