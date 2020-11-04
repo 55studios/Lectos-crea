@@ -6,6 +6,7 @@ using DG.Tweening;
 public class ScaleAnimationInOut : MonoBehaviour {
 
     public bool isUi;
+    public float waitforAwake = 0;
     public bool onStartAnimation;
     public float waitForInit = 1;
     public float delayIn = 1;
@@ -19,18 +20,11 @@ public class ScaleAnimationInOut : MonoBehaviour {
     private RectTransform mainTransform;
 
     void Start() {
-        StartCoroutine(StartAnim());
+        StartCoroutine(AwakeAnimation());
     }
 
     public void InAnimation() {
-        if (isUi) {
-            mainTransform = this.gameObject.GetComponent<RectTransform>();
-                mainTransform.DOScale(moveTo, delayIn).SetEase(easeIn);
-        }
-        else {
-            _mainTransform = this.gameObject.GetComponent<Transform>();
-                _mainTransform.DOScale(moveTo, delayIn).SetEase(easeIn);
-        }
+        StartCoroutine(StartAnim());
     }
 
     public void OutAnimation() {
@@ -46,6 +40,22 @@ public class ScaleAnimationInOut : MonoBehaviour {
 
     IEnumerator StartAnim() {
         yield return new WaitForSeconds(waitForInit);
+        if (isUi) {
+            mainTransform = this.gameObject.GetComponent<RectTransform>();
+            if (onStartAnimation) {
+                mainTransform.DOScale(moveTo, delayIn).SetEase(easeIn);
+            }
+        }
+        else {
+            _mainTransform = this.gameObject.GetComponent<Transform>();
+            if (onStartAnimation) {
+                _mainTransform.DOScale(moveTo, delayIn).SetEase(easeIn);
+            }
+        }
+    }
+
+    IEnumerator AwakeAnimation() {
+        yield return new WaitForSeconds(waitforAwake);
         if (isUi) {
             mainTransform = this.gameObject.GetComponent<RectTransform>();
             if (onStartAnimation) {
