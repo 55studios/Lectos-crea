@@ -1,10 +1,41 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class HandlerData : MonoBehaviour
+using UnityEngine.UI;
+public class HandlerDataPlanet : MonoBehaviour
 {
+    public Button[] planets;
 
-    public void SaveData() {
+    private GalaxiaAData _Data;
+
+    private void Start() {
+        _Data = GameObject.Find("DataUser").GetComponent<GalaxiaAData>();
+        if (_Data.dataloaded) {
+            Debug.Log("Data Loaded sucess ");
+            for (int i = 0; i < planets.Length; i++) {
+                planets[i].interactable = true ^ _Data.PlanetsV[i].Block;
+                Debug.Log(planets[i].interactable);
+            }
+        }
+        else {
+            _Data.LoadData();
+            TryLoadData();
+        }
+    }
+
+    private void TryLoadData() {
+        if (_Data.dataloaded) {
+            Debug.Log("Data Loaded sucess ");
+            for (int i = 0; i < planets.Length; i++) {
+                planets[i].interactable = _Data.PlanetsV[i].Block;
+            }
+        }
+        else {
+            _Data.LoadData();
+            return;
+        }
+    }
+
+    private void saveDataPlanets() {
     }
 }

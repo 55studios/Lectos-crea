@@ -147,6 +147,6 @@ public class CameraRooms : MonoBehaviour {
 
             gx.PlanetDataSaved(0,true,1,50);
             gx.MoonDataSaved(0,0, true, false, 1);
-            gx.MinigamesDataSaved(0,0,1,false,5.6f,3,null);        }
+            gx.MinigamesDataSaved(0,0,1,true,false,5.6f,3,null);        }
     }
 }
