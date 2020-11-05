@@ -16,11 +16,11 @@ MonoBehaviour:
   reward: 
   tipoMinijuego: 3
   activadores:
-  - {fileID: 21300000, guid: 0242a1b3851b8564d8a1eee039443765, type: 3}
-  - {fileID: 21300000, guid: 3c5ecc90c242dff4f82a434f8302d847, type: 3}
-  - {fileID: 21300000, guid: fecdc617017ba5e49bfc7a98c8a70578, type: 3}
+  - tigre
+  - tigre
+  - tigre
   receptores:
-  - {fileID: 21300000, guid: 80b4791fcd142a044b717a93c4438b0b, type: 3}
-  - {fileID: 21300000, guid: 187a0db1dd8bb21408ff8b2d4182c686, type: 3}
-  - {fileID: 21300000, guid: 3fd0634eed350df4db735ba7fe99d05e, type: 3}
+  - tigre
+  - tigre
+  - tigre
   respuestasTexto: []
