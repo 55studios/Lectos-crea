@@ -3,9 +3,9 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/Sprites/Caras/Face.tpsheet
-- Assets/Sprites/CREA 2020/Palabras/AZUL/MONO-MORA-NENE-NIDO-NOMO.tpsheet
+- Assets/Sprites/CREA 2020/caritas/Face.tpsheet
 textureFileNames:
-- Assets/Sprites/CREA 2020/Palabras/AZUL/MONO-MORA-NENE-NIDO-NOMO.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
-- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 enableDebugOutput: 0
