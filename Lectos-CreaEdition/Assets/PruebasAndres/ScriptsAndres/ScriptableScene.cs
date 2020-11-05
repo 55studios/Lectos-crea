@@ -8,7 +8,7 @@ public class ScriptableScene : ScriptableObject
     public int puntosLogrables;
     public string reward;
     public int tipoMinijuego;
-    public Sprite[] activadores;
-    public Sprite[] receptores;
+    public string[] activadores;
+    public string[] receptores;
     public string[] respuestasTexto;
 }

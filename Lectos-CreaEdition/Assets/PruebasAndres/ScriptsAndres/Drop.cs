@@ -6,6 +6,8 @@ public class Drop : MonoBehaviour
 {
     bool correcta;
     GameObject activadorCorrecto;
+    public Sprite[] frames;
+    int frame = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +19,11 @@ public class Drop : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0) && correcta)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 1f);
             Destroy(activadorCorrecto);
             GameObject controlador = GameObject.FindWithTag("GameController");
             controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
+            InvokeRepeating("animar", 0, 0.1f);
         }
     }
 
@@ -36,5 +39,15 @@ public class Drop : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         correcta = false;
+    }
+
+    void animar()
+    {
+        GetComponent<SpriteRenderer>().sprite = frames[frame];
+        frame++;
+        if (frame == frames.Length - 1)
+        {
+            frame = 0;
+        }
     }
 }
