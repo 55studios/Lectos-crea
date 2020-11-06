@@ -12,7 +12,7 @@ public class CheckText : MonoBehaviour
     {
         t = GameObject.FindWithTag("Texto").GetComponent<Text>();
         respuesta = GetComponent<RespuestaTexto>().respuesta;
-        TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
+        //TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
     }
 
     // Update is called once per frame

@@ -1241,6 +1241,8 @@ MonoBehaviour:
     type: 3}
   receptorMemoriaPrefab: {fileID: 8183871477525997618, guid: d3154441bb0fef341b345984844308e6,
     type: 3}
+  receptorSonidosPrefab: {fileID: 3217571764099719950, guid: b7f5b783142af2446be11239039b6a30,
+    type: 3}
   botones: {fileID: 1936040334}
 --- !u!4 &1887150183
 Transform:

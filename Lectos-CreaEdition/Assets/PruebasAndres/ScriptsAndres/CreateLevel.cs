@@ -10,6 +10,7 @@ public class CreateLevel : MonoBehaviour
     public GameObject receptorPrefab;
     public GameObject receptorTextoPrefab;
     public GameObject receptorMemoriaPrefab;
+    public GameObject receptorSonidosPrefab;
 
     public GameObject botones;
 
@@ -57,6 +58,11 @@ public class CreateLevel : MonoBehaviour
                     As.clip = SC.acierto;
                     Transform[] recepMemo = Or.receptores;
                     CreateSpritesMemoria(recepMemo, SC.activadores, SC.receptores, receptorMemoriaPrefab);
+                    break;
+                case 3: //sonidos
+                    As.clip = SC.acierto;
+                    Transform[] recepSonido = Or.receptores;
+                    CreateSpritesSonidos(recepSonido, SC.activadores, SC.receptores, receptorMemoriaPrefab);
                     break;
                 default:
                     print("No tipo de minijuego");
@@ -144,6 +150,25 @@ public class CreateLevel : MonoBehaviour
             elemento2.GetComponent<SpriteRenderer>().sprite = temporales2[0];
             elemento2.GetComponent<Respuesta>().respuesta = i;
             elemento2.GetComponent<Memoria>().checker = Or.gameObject;
+        }
+    }
+
+    void CreateSpritesSonidos(Transform[] posiciones, string[] imagenes, string[] audios, GameObject prefab)
+    {
+        System.Array.Sort(posiciones, RandomSort);
+        PlaySonidos play = GameObject.FindGameObjectWithTag("Reproductor").GetComponent<PlaySonidos>();
+        
+        for (int i = 0; i < imagenes.Length; i++)
+        {
+            Sprite[] temporales = Resources.LoadAll<Sprite>(SC.path + imagenes[i]);
+            GameObject elemento = Instantiate(prefab, posiciones[i].position, Quaternion.identity);
+            elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
+            elemento.GetComponent<RespuestaTexto>().respuesta = imagenes[i];
+            if (elemento.GetComponent<Sonido>() != null)
+            {
+                elemento.GetComponent<Sonido>().frames = temporales;
+            }
+            play.sonidos[i] = Resources.Load<AudioClip>(SC.path + audios[i]);
         }
     }
 
