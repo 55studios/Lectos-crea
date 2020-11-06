@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Activador
+  - Receptor
+  - Organizador
+  - Texto
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -14,14 +19,14 @@ TagManager:
   - 
   - 
   - PostProsessing
+  - Gameplay
   - ParrallaxBase
   - Parrallax_1
   - Parrallax_2
   - Parrallax_3
-  - 
-  - 
-  - 
-  - 
+  - Parrallax_4
+  - Parrallax_5
+  - Parrallax_6
   - 
   - 
   - 
@@ -40,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3709331115
     locked: 0

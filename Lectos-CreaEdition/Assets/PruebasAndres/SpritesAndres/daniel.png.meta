@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: c710106962598774495ab7bb24b7383c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5444141793433982336
+    second: daniel_0
+  - first:
+      213: -4215949190154214171
+    second: daniel_1
+  - first:
+      213: -5890805140413879123
+    second: daniel_2
+  - first:
+      213: -4002757211248908598
+    second: daniel_3
+  - first:
+      213: 7180336801396101713
+    second: daniel_4
+  - first:
+      213: 2419973749391558783
+    second: daniel_5
+  - first:
+      213: 4182917627185097721
+    second: daniel_6
+  - first:
+      213: 1964362746943535077
+    second: daniel_7
+  - first:
+      213: 3901551724858850474
+    second: daniel_8
+  - first:
+      213: -4713724707560928328
+    second: daniel_9
+  - first:
+      213: 3357787443383074284
+    second: daniel_10
+  - first:
+      213: 5730474419300598889
+    second: daniel_11
+  - first:
+      213: 6566070834610293170
+    second: daniel_12
+  - first:
+      213: 289878487192343983
+    second: daniel_13
+  - first:
+      213: 3853914776644624728
+    second: daniel_14
+  - first:
+      213: 7517014553599110838
+    second: daniel_15
+  - first:
+      213: 8495074265731197051
+    second: daniel_16
+  - first:
+      213: -5257977711277151818
+    second: daniel_17
+  - first:
+      213: -8389553093143693410
+    second: daniel_18
+  - first:
+      213: 5917040444516719060
+    second: daniel_19
+  - first:
+      213: -1809956257008185580
+    second: daniel_20
+  - first:
+      213: -7133999472220484212
+    second: daniel_21
+  - first:
+      213: 7993376740125784068
+    second: daniel_22
+  - first:
+      213: 3012631176614883077
+    second: daniel_23
+  - first:
+      213: 9068441076027266153
+    second: daniel_24
+  - first:
+      213: -2617481645295780903
+    second: daniel_25
+  - first:
+      213: 1077949877124278306
+    second: daniel_26
+  - first:
+      213: -7469873649459058346
+    second: daniel_27
+  - first:
+      213: 4717663350040703685
+    second: daniel_28
+  - first:
+      213: 5935752819063969815
+    second: daniel_29
+  - first:
+      213: 3032793561564925097
+    second: daniel_30
+  - first:
+      213: 3578736115780896443
+    second: daniel_31
+  - first:
+      213: 3112824677563324551
+    second: daniel_32
+  - first:
+      213: -7876739518385247577
+    second: daniel_33
+  - first:
+      213: 2542717244266286270
+    second: daniel_34
+  - first:
+      213: 5876622876800839965
+    second: daniel_35
+  - first:
+      213: 4018075837229634873
+    second: daniel_36
+  - first:
+      213: 7316280745312653883
+    second: daniel_37
+  - first:
+      213: 2207914909098313402
+    second: daniel_38
+  - first:
+      213: 1263876290340141561
+    second: daniel_39
+  - first:
+      213: 5081103400352372429
+    second: daniel_40
+  - first:
+      213: 7873881509877022959
+    second: daniel_41
+  - first:
+      213: -7243596022052004653
+    second: daniel_42
+  - first:
+      213: 6301074790074232546
+    second: daniel_43
+  - first:
+      213: 4650333873097573868
+    second: daniel_44
+  - first:
+      213: 5818268355471210533
+    second: daniel_45
+  - first:
+      213: 7524047639635264493
+    second: daniel_46
+  - first:
+      213: 9179539881865841204
+    second: daniel_47
+  - first:
+      213: -9132966044610030331
+    second: daniel_48
+  - first:
+      213: -516865986289649270
+    second: daniel_49
+  - first:
+      213: -2688244608043150685
+    second: daniel_50
+  - first:
+      213: 1514350964208363197
+    second: daniel_51
+  - first:
+      213: 2862173277688994108
+    second: daniel_52
+  - first:
+      213: 7423838101070622487
+    second: daniel_53
+  - first:
+      213: -1963000010565299457
+    second: daniel_54
+  - first:
+      213: -3441235197070172296
+    second: daniel_55
+  - first:
+      213: -7207262566626666006
+    second: daniel_56
+  - first:
+      213: -7087738470338152175
+    second: daniel_57
+  - first:
+      213: 3512947590258430428
+    second: daniel_58
+  - first:
+      213: -8387330634315639730
+    second: daniel_59
+  - first:
+      213: 5061028784477548463
+    second: daniel_60
+  - first:
+      213: 1353074741324002795
+    second: daniel_61
+  - first:
+      213: 7989240119953825349
+    second: daniel_62
+  - first:
+      213: 7521911673770584460
+    second: daniel_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daniel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a628712e58274b0800000000000000
+      internalID: -5444141793433982336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daniel_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e423c17c80fd75c0800000000000000
+      internalID: -4215949190154214171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daniel_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dace5948fe7af3ea0800000000000000
+      internalID: -5890805140413879123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daniel_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6206d16895378c0800000000000000
+      internalID: -4002757211248908598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
