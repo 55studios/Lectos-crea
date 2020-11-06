@@ -1,17 +1,23 @@
 fileFormatVersion: 2
-guid: ec3bad38055f03d49bb5452ea0808e6b
+guid: 217144569c6901f42a3e523d74b7369e
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: entrada
+    second: In
   - first:
-      74: 4558906970725523724
-    second: loop menu
+      74: -7446342837689089968
+    second: IdleMain
   - first:
-      74: 1264856853600882804
-    second: salida
+      74: -3263482200277438940
+    second: NextRoom
+  - first:
+      74: 388881159317704120
+    second: IdleNextRoom
+  - first:
+      74: 8976386963219592276
+    second: AfterIn
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -41,10 +47,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: entrada
+      name: In
       takeName: Take 001
       internalID: 0
-      firstFrame: 0
+      firstFrame: 1
       lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
@@ -70,7 +76,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: loop menu
+      name: IdleMain
       takeName: Take 001
       internalID: 0
       firstFrame: 41
@@ -99,11 +105,69 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: salida
+      name: NextRoom
       takeName: Take 001
       internalID: 0
       firstFrame: 251
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdleNextRoom
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 310
       lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AfterIn
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -178,16 +242,15 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: bn_root
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9f50289241050f1499fdd90dd98de41e,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
