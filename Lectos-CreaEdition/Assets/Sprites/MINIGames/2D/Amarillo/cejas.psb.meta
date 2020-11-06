@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66621c4b61522ea4597898064463223e
+guid: fff948ccf38ced84ba4e1d10e37ff394
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 10
+  - name: Group 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 806
-      height: 693
-    spriteID: 0149435d75df6bd47ac4884cfe225656
+      width: 793
+      height: 654
+    spriteID: 23e2a1bdb8e4ef549a1c93cbb68642fd
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -7, y: -10}
+    uvTransform: {x: -10, y: -30}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -116,7 +116,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 1024
   importedTextureHeight: 1024
-  documentSize: {x: 845, y: 712}
+  documentSize: {x: 845, y: 711}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -128,19 +128,12 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Group 2
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 00000000000000000000000000000000
-    layerID: 53
-    mosaicPosition: {x: 0, y: 0}
-  - name: Layer 10
-    spriteName: Layer 10
+  - name: Group 3
+    spriteName: Group 3
     isGroup: 0
-    parentIndex: 0
-    spriteID: 0149435d75df6bd47ac4884cfe225656
-    layerID: 48
+    parentIndex: -1
+    spriteID: 23e2a1bdb8e4ef549a1c93cbb68642fd
+    layerID: 305
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -148,7 +141,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: tigre Texture
-  prefabAssetName: tigre Prefab
-  spriteLibAssetName: tigre Sprite Lib
+  textureAssetName: cejas Texture
+  prefabAssetName: cejas Prefab
+  spriteLibAssetName: cejas Sprite Lib
   secondarySpriteTextures: []
