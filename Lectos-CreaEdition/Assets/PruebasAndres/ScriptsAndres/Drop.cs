@@ -19,11 +19,11 @@ public class Drop : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0) && correcta)
         {
-            Destroy(gameObject, 1f);
+            
             Destroy(activadorCorrecto);
-            GameObject controlador = GameObject.FindWithTag("GameController");
-            controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
+            Invoke("cambiarImagen", 1f);
             InvokeRepeating("animar", 0, 0.1f);
+            Destroy(gameObject, 1f);
         }
     }
 
@@ -49,5 +49,12 @@ public class Drop : MonoBehaviour
         {
             frame = 0;
         }
+    }
+
+    void cambiarImagen ()
+    {
+        print("se llamo");
+        GameObject controlador = GameObject.FindWithTag("GameController");
+        controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
     }
 }

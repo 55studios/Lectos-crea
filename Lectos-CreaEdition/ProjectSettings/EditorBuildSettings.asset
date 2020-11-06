@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PruebasAndres/ScenesAndres/TemplateMemoria.unity
     guid: fa306bed5541c9a41ae393080b8b4659
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateEscribir.unity
+    guid: 19a7cff4a5a4d554e92442e514323d53
   m_configObjects: {}

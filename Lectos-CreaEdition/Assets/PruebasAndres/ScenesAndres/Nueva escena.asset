@@ -12,15 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a756fa37c9521fe4a990735b423800c9, type: 3}
   m_Name: Nueva escena
   m_EditorClassIdentifier: 
-  puntosLogrables: 3
+  puntosLogrables: 5
   reward: 
-  tipoMinijuego: 1
+  acierto: {fileID: 8300000, guid: dc136a3fc6c533b41bff831e9e8ca7db, type: 3}
+  tipoDeMinijuego: 0
   activadores:
-  - tigre
-  - tigre
-  - tigre
+  - lana
+  - leche
+  - libro
+  - lobo
+  - lupa
   receptores:
-  - tigre
-  - tigre
-  - tigre
-  respuestasTexto: []
+  - lana
+  - leche
+  - libro
+  - lobo
+  - lupa
+  locacion: 100
+  path: Imagenes/

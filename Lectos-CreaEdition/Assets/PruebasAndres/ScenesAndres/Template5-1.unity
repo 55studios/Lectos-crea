@@ -184,6 +184,8 @@ MonoBehaviour:
   - {fileID: 1930821877}
   - {fileID: 168821843}
   - {fileID: 1435310605}
+  - {fileID: 1768291146}
+  - {fileID: 613783392}
   receptores:
   - {fileID: 799390606}
 --- !u!4 &361059589
