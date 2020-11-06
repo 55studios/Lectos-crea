@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc2b5835a183e85429dddf2255fdf938
+guid: 1593739a3c4443c4fb1af83f7af3ff54
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 3
+  - name: Layer 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 444
-      height: 455
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
+      width: 441
+      height: 398
+    spriteID: e7e10bdd1586e284281d71077422d5f1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: -8}
+    uvTransform: {x: -25, y: -42}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -116,7 +116,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 512
   importedTextureHeight: 512
-  documentSize: {x: 444, y: 488}
+  documentSize: {x: 485, y: 470}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -128,12 +128,19 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 3
-    spriteName: Layer 3
-    isGroup: 0
+  - name: Group 1
+    spriteName: 
+    isGroup: 1
     parentIndex: -1
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
-    layerID: 53
+    spriteID: 00000000000000000000000000000000
+    layerID: 77
+    mosaicPosition: {x: 0, y: 0}
+  - name: Layer 4
+    spriteName: Layer 4
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e7e10bdd1586e284281d71077422d5f1
+    layerID: 76
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +148,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: cara Texture
-  prefabAssetName: cara Prefab
-  spriteLibAssetName: cara Sprite Lib
+  textureAssetName: ojos3 Texture
+  prefabAssetName: ojos3 Prefab
+  spriteLibAssetName: ojos3 Sprite Lib
   secondarySpriteTextures: []

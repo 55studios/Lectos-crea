@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc2b5835a183e85429dddf2255fdf938
+guid: a5796c3fec6fc4c4eb10c233f4a4afa1
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 3
+  - name: Layer 7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,10 +95,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 444
-      height: 455
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
+      y: 137
+      width: 165
+      height: 153
+    spriteID: 246647ea9795cf54faf972ce3feda357
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: -8}
+    uvTransform: {x: -69, y: -356}
+  - name: Layer 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 177
+      y: 137
+      width: 157
+      height: 153
+    spriteID: 29bfa3edd1c436642b8255ea9c865491
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -254, y: -356}
+  - name: Layer 8 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 469
+      height: 125
+    spriteID: 610eac5668efc7743bd5f18fb921d9f0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -85, y: -291}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -116,7 +160,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 512
   importedTextureHeight: 512
-  documentSize: {x: 444, y: 488}
+  documentSize: {x: 664, y: 708}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -128,12 +172,47 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 3
-    spriteName: Layer 3
-    isGroup: 0
+  - name: Group 1
+    spriteName: 
+    isGroup: 1
     parentIndex: -1
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
-    layerID: 53
+    spriteID: 00000000000000000000000000000000
+    layerID: 55
+    mosaicPosition: {x: 0, y: 0}
+  - name: cejas
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 75
+    mosaicPosition: {x: 0, y: 0}
+  - name: Layer 7
+    spriteName: Layer 7
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 246647ea9795cf54faf972ce3feda357
+    layerID: 60
+    mosaicPosition: {x: 4, y: 137}
+  - name: Layer 6
+    spriteName: Layer 6
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 29bfa3edd1c436642b8255ea9c865491
+    layerID: 59
+    mosaicPosition: {x: 177, y: 137}
+  - name: ojos
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 73
+    mosaicPosition: {x: 0, y: 0}
+  - name: Layer 8 copy
+    spriteName: Layer 8 copy
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 610eac5668efc7743bd5f18fb921d9f0
+    layerID: 63
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +220,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: cara Texture
-  prefabAssetName: cara Prefab
-  spriteLibAssetName: cara Sprite Lib
+  textureAssetName: cara separada Texture
+  prefabAssetName: cara separada Prefab
+  spriteLibAssetName: cara separada Sprite Lib
   secondarySpriteTextures: []

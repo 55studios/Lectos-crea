@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc2b5835a183e85429dddf2255fdf938
+guid: 1816d9fe68f55f44b8f6adfe21898061
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 444
-      height: 455
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
+      width: 384
+      height: 318
+    spriteID: 451a52ef5ecc0414fa133fdd3cac508f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: -8}
+    uvTransform: {x: -18, y: -16}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -116,7 +116,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 512
   importedTextureHeight: 512
-  documentSize: {x: 444, y: 488}
+  documentSize: {x: 428, y: 359}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -128,12 +128,19 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Group 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
   - name: Layer 3
     spriteName: Layer 3
     isGroup: 0
-    parentIndex: -1
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
-    layerID: 53
+    parentIndex: 0
+    spriteID: 451a52ef5ecc0414fa133fdd3cac508f
+    layerID: 67
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +148,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: cara Texture
-  prefabAssetName: cara Prefab
-  spriteLibAssetName: cara Sprite Lib
+  textureAssetName: ojos4 Texture
+  prefabAssetName: ojos4 Prefab
+  spriteLibAssetName: ojos4 Sprite Lib
   secondarySpriteTextures: []
