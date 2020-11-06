@@ -7,8 +7,34 @@ public class ScriptableScene : ScriptableObject
 {
     public int puntosLogrables;
     public string reward;
-    public int tipoMinijuego;
+    public AudioClip acierto;
+    public enum Tipo {draganddrop, escribir, memoria};
+    public Tipo tipoDeMinijuego;
     public string[] activadores;
     public string[] receptores;
-    public string[] respuestasTexto;
+    public enum Locacion {amaluna1, amaluna2, prueba = 100 };
+    public Locacion locacion;
+    [HideInInspector]
+    public string path;
+
+    private void Awake()
+    {
+        switch ((int)locacion)
+        {
+            case 0:
+                path = "amaluna1/";
+                break;
+            case 1:
+                path = "amaluna2/";
+                break;
+            case 2:
+                path = "amaluna3/";
+                break;
+            case 100:
+                path = "Imagenes/";
+                break;
+            default:
+                break;
+        }
+    }
 }

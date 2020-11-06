@@ -14,6 +14,7 @@ public class CreateLevel : MonoBehaviour
     public GameObject botones;
 
     Organizador Or;
+    AudioSource As;
     GameObject[] receptoresCreados;
     int posicionListaReceptores;
     int puntaje;
@@ -37,19 +38,23 @@ public class CreateLevel : MonoBehaviour
             creado = true;
             maxPuntaje = SC.puntosLogrables;
             Or = GameObject.FindGameObjectWithTag("Organizador").GetComponent<Organizador>();
-            switch (SC.tipoMinijuego)
+            As = GetComponent<AudioSource>();
+            switch ((int)SC.tipoDeMinijuego)
             {
-                case 1: //drag&drop                
+                case 0: //drag&drop 
+                    As.clip = SC.acierto;
                     Transform[] activ = Or.activadores;
                     Transform[] recep = Or.receptores;
                     CreateSprites(activ, SC.activadores, activadorPrefab, false);
                     CreateSprites(recep, SC.receptores, receptorPrefab, true);
                     break;
-                case 2: //escribir palabra
+                case 1: //escribir palabra
+                    As.clip = SC.acierto;
                     Transform[] recepText = Or.receptores;
                     CreateSpritesText(recepText, SC.receptores, receptorTextoPrefab);
                     break;
-                case 3: //memoria
+                case 2: //memoria
+                    As.clip = SC.acierto;
                     Transform[] recepMemo = Or.receptores;
                     CreateSpritesMemoria(recepMemo, SC.activadores, SC.receptores, receptorMemoriaPrefab);
                     break;
@@ -67,7 +72,7 @@ public class CreateLevel : MonoBehaviour
         {
             for (int i = 0; i < posiciones.Length; i++)
             {
-                Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes[i]);
+                Sprite[] temporales = Resources.LoadAll<Sprite>(SC.path + imagenes[i]);
                 GameObject elemento = Instantiate(prefab, posiciones[i].position, Quaternion.identity);
                 elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
                 elemento.GetComponent<Respuesta>().respuesta = i;
@@ -81,7 +86,7 @@ public class CreateLevel : MonoBehaviour
             receptoresCreados = new GameObject[imagenes.Length];
             for (int i = 0; i < imagenes.Length; i++)
             {
-                Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes[i]);
+                Sprite[] temporales = Resources.LoadAll<Sprite>(SC.path + imagenes[i]);
                 GameObject elemento = Instantiate(prefab, posiciones[0].position, Quaternion.identity);
                 elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
                 elemento.GetComponent<Respuesta>().respuesta = i;
@@ -105,10 +110,10 @@ public class CreateLevel : MonoBehaviour
         receptoresCreados = new GameObject[imagenes.Length];
         for (int i = 0; i < imagenes.Length; i++)
         {
-            Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes[i]);
+            Sprite[] temporales = Resources.LoadAll<Sprite>(SC.path + imagenes[i]);
             GameObject elemento = Instantiate(prefab, posiciones[0].position, Quaternion.identity);
             elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
-            elemento.GetComponent<RespuestaTexto>().respuesta = SC.respuestasTexto[i];
+            elemento.GetComponent<RespuestaTexto>().respuesta = imagenes[i];
             receptoresCreados[i] = elemento;
             if (i > 0)
             {
@@ -128,13 +133,13 @@ public class CreateLevel : MonoBehaviour
             {
                 n++;
             }
-            Sprite[] temporales = Resources.LoadAll<Sprite>("Tigre/" + imagenes1[i]);
+            Sprite[] temporales = Resources.LoadAll<Sprite>(SC.path + imagenes1[i]);
             GameObject elemento = Instantiate(prefab, posiciones[n].position, Quaternion.identity);
             elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
             elemento.GetComponent<Respuesta>().respuesta = i;
             elemento.GetComponent<Memoria>().checker = Or.gameObject;
             n++;
-            Sprite[] temporales2 = Resources.LoadAll<Sprite>("Tigre/" + imagenes2[i]);
+            Sprite[] temporales2 = Resources.LoadAll<Sprite>(SC.path + imagenes2[i]);
             GameObject elemento2 = Instantiate(prefab, posiciones[n].position, Quaternion.identity);
             elemento2.GetComponent<SpriteRenderer>().sprite = temporales2[0];
             elemento2.GetComponent<Respuesta>().respuesta = i;
@@ -152,6 +157,7 @@ public class CreateLevel : MonoBehaviour
     {
         print("correcto!!!!!");
         puntaje++;
+        As.Play();
         if (receptoresCreados != null && posicionListaReceptores < receptoresCreados.Length - 1)
         {
             posicionListaReceptores++;
