@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b7d8abed791c98b42a1cec89c9bbb378
+guid: 2fa7e20e1e9f91940852f9b3c823802c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 488
-      height: 616
-    spriteID: 48a69e555de9dee42833c607908783f5
+      width: 751
+      height: 370
+    spriteID: 2a0e68847d6552645826be83d25f2545
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,21 +108,21 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -23, y: -22}
+    uvTransform: {x: -14, y: -23}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 512
-  importedTextureHeight: 1024
-  documentSize: {x: 572, y: 674}
+  importedTextureWidth: 1024
+  importedTextureHeight: 512
+  documentSize: {x: 794, y: 416}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 512
-  textureActualHeight: 1024
+  textureActualWidth: 1024
+  textureActualHeight: 512
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
@@ -132,8 +132,8 @@ ScriptedImporter:
     spriteName: Group 7
     isGroup: 0
     parentIndex: -1
-    spriteID: 48a69e555de9dee42833c607908783f5
-    layerID: 197
+    spriteID: 2a0e68847d6552645826be83d25f2545
+    layerID: 219
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: boca Texture
-  prefabAssetName: boca Prefab
-  spriteLibAssetName: boca Sprite Lib
+  textureAssetName: tubover2 Texture
+  prefabAssetName: tubover2 Prefab
+  spriteLibAssetName: tubover2 Sprite Lib
   secondarySpriteTextures: []

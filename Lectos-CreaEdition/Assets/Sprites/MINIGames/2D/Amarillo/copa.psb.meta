@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b7d8abed791c98b42a1cec89c9bbb378
+guid: 550ccfb583b4fcc41bfd9396c3193f86
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Group 7
+  - name: Group 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 488
-      height: 616
-    spriteID: 48a69e555de9dee42833c607908783f5
+      width: 432
+      height: 733
+    spriteID: 66b76f0b7185e5348b7a16cc498b0b20
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -23, y: -22}
+    uvTransform: {x: -37, y: -10}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -116,7 +116,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 512
   importedTextureHeight: 1024
-  documentSize: {x: 572, y: 674}
+  documentSize: {x: 518, y: 767}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -128,12 +128,12 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Group 7
-    spriteName: Group 7
+  - name: Group 4
+    spriteName: Group 4
     isGroup: 0
     parentIndex: -1
-    spriteID: 48a69e555de9dee42833c607908783f5
-    layerID: 197
+    spriteID: 66b76f0b7185e5348b7a16cc498b0b20
+    layerID: 252
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: boca Texture
-  prefabAssetName: boca Prefab
-  spriteLibAssetName: boca Sprite Lib
+  textureAssetName: copa Texture
+  prefabAssetName: copa Prefab
+  spriteLibAssetName: copa Sprite Lib
   secondarySpriteTextures: []
