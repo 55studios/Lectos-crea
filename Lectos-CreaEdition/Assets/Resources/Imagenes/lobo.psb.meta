@@ -87,29 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 15
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 215
-      height: 129
-    spriteID: b591fe5ff61bbf64db223a90547d394c
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: -20}
-  - name: Layer 17
+  - name: 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -131,7 +109,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -2, y: 758}
-  - name: Layer 6
+  - name: 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -153,6 +131,28 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 574, y: -20}
+  - name: 2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 575
+      height: 766
+    spriteID: bee8d255ecf96b840bcaec1547e9b0bf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: -20}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -172,27 +172,27 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 17
-    spriteName: Layer 17
+  - name: 1
+    spriteName: 1
     isGroup: 0
     parentIndex: -1
     spriteID: 9fbad6ccc8c8c7847b7ce387c670efeb
     layerID: 55
     mosaicPosition: {x: 4, y: 778}
-  - name: Layer 15
-    spriteName: Layer 15
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b591fe5ff61bbf64db223a90547d394c
-    layerID: 52
-    mosaicPosition: {x: 4, y: 4}
-  - name: Layer 6
-    spriteName: Layer 6
+  - name: 3
+    spriteName: 3
     isGroup: 0
     parentIndex: -1
     spriteID: d229fb493ad875a4ea8dfd3a6ade0a49
     layerID: 30
     mosaicPosition: {x: 587, y: 4}
+  - name: 2 copy
+    spriteName: 2 copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bee8d255ecf96b840bcaec1547e9b0bf
+    layerID: 71
+    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
     parts: []
