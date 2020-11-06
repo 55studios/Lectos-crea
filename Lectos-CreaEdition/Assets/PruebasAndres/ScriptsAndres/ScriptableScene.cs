@@ -8,7 +8,7 @@ public class ScriptableScene : ScriptableObject
     public int puntosLogrables;
     public string reward;
     public AudioClip acierto;
-    public enum Tipo {draganddrop, escribir, memoria};
+    public enum Tipo {draganddrop, escribir, memoria, sonidos};
     public Tipo tipoDeMinijuego;
     public string[] activadores;
     public string[] receptores;
