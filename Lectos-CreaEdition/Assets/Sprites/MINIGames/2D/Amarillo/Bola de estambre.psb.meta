@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14e32251942e8fe4ba322dca1372b11d
+guid: 5ee932c6b4340ac428825b6eea2c4fcd
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 3
+  - name: cola1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 560
       y: 4
-      width: 444
-      height: 455
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
+      width: 266
+      height: 286
+    spriteID: a3ce327cc5c98fc4592ed50ac6c32c00
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,40 +108,105 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: -8}
+    uvTransform: {x: 556, y: -8}
+  - name: Group 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 548
+      height: 543
+    spriteID: c1556b954dffdf94f8b88babc0d3a282
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -112, y: -116}
+  - name: cola3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 555
+      width: 218
+      height: 270
+    spriteID: 09baea30cd436b646982a0ba7a07e4ff
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -11, y: 527}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 512
-  importedTextureHeight: 512
-  documentSize: {x: 444, y: 488}
+  importedTextureWidth: 1024
+  importedTextureHeight: 1024
+  documentSize: {x: 664, y: 708}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 512
-  textureActualHeight: 512
+  textureActualWidth: 1024
+  textureActualHeight: 1024
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 3
-    spriteName: Layer 3
+  - name: Group 1 copy 2
+    spriteName: Group 1 copy 2
     isGroup: 0
     parentIndex: -1
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
-    layerID: 53
+    spriteID: c1556b954dffdf94f8b88babc0d3a282
+    layerID: 47
     mosaicPosition: {x: 4, y: 4}
+  - name: Group 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+  - name: cola3
+    spriteName: cola3
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 09baea30cd436b646982a0ba7a07e4ff
+    layerID: 6
+    mosaicPosition: {x: 4, y: 555}
+  - name: cola1
+    spriteName: cola1
+    isGroup: 0
+    parentIndex: 1
+    spriteID: a3ce327cc5c98fc4592ed50ac6c32c00
+    layerID: 4
+    mosaicPosition: {x: 560, y: 4}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: boca Texture
-  prefabAssetName: boca Prefab
-  spriteLibAssetName: boca Sprite Lib
+  textureAssetName: Bola de estambre Texture
+  prefabAssetName: Bola de estambre Prefab
+  spriteLibAssetName: Bola de estambre Sprite Lib
   secondarySpriteTextures: []

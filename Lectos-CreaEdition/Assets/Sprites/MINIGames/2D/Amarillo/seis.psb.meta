@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14e32251942e8fe4ba322dca1372b11d
+guid: eeea5b15d3f641c4485dac82d274bb19
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 3
+  - name: Layer 10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 444
-      height: 455
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
+      width: 422
+      height: 632
+    spriteID: 4ae20e68b3c14964e8cec27deebdc5d1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,32 +108,32 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: -8}
+    uvTransform: {x: -15, y: -45}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 512
-  importedTextureHeight: 512
-  documentSize: {x: 444, y: 488}
+  importedTextureHeight: 1024
+  documentSize: {x: 455, y: 698}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 512
-  textureActualHeight: 512
+  textureActualHeight: 1024
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 3
-    spriteName: Layer 3
+  - name: Layer 10
+    spriteName: Layer 10
     isGroup: 0
     parentIndex: -1
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
-    layerID: 53
+    spriteID: 4ae20e68b3c14964e8cec27deebdc5d1
+    layerID: 63
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: boca Texture
-  prefabAssetName: boca Prefab
-  spriteLibAssetName: boca Sprite Lib
+  textureAssetName: seis Texture
+  prefabAssetName: seis Prefab
+  spriteLibAssetName: seis Sprite Lib
   secondarySpriteTextures: []

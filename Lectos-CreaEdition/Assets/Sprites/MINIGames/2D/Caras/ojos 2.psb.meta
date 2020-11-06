@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14e32251942e8fe4ba322dca1372b11d
+guid: 978e802c18cdd064592ff4b8d2f48b90
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 444
-      height: 455
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
+      width: 393
+      height: 415
+    spriteID: 775bf505772ce6d42a05ae07252dcf28
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: -8}
+    uvTransform: {x: 4, y: 4}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -116,7 +116,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 512
   importedTextureHeight: 512
-  documentSize: {x: 444, y: 488}
+  documentSize: {x: 393, y: 415}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -132,8 +132,8 @@ ScriptedImporter:
     spriteName: Layer 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
-    layerID: 53
+    spriteID: 775bf505772ce6d42a05ae07252dcf28
+    layerID: 7
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: boca Texture
-  prefabAssetName: boca Prefab
-  spriteLibAssetName: boca Sprite Lib
+  textureAssetName: ojos 2 Texture
+  prefabAssetName: ojos 2 Prefab
+  spriteLibAssetName: ojos 2 Sprite Lib
   secondarySpriteTextures: []
