@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14e32251942e8fe4ba322dca1372b11d
+guid: fc2b5835a183e85429dddf2255fdf938
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -98,7 +98,7 @@ ScriptedImporter:
       y: 4
       width: 444
       height: 455
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
+    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -132,7 +132,7 @@ ScriptedImporter:
     spriteName: Layer 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 522813ee4eb79b345b3da9a9de3c9ea0
+    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
     layerID: 53
     mosaicPosition: {x: 4, y: 4}
   characterData:
@@ -141,7 +141,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: boca Texture
-  prefabAssetName: boca Prefab
-  spriteLibAssetName: boca Sprite Lib
+  textureAssetName: cara Texture
+  prefabAssetName: cara Prefab
+  spriteLibAssetName: cara Sprite Lib
   secondarySpriteTextures: []
