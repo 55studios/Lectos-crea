@@ -17,16 +17,16 @@ MonoBehaviour:
   acierto: {fileID: 0}
   tipoDeMinijuego: 0
   activadores:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - pato
+  - perro
+  - pico
+  - pollito
+  - puma
   receptores:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - patop
+  - perrop
+  - picop
+  - pollitop
+  - pumap
   locacion: 0
   path: amaluna1/

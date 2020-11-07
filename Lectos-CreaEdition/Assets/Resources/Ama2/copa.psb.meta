@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc2b5835a183e85429dddf2255fdf938
+guid: 723e9e3914fab30448a14f34f04a69f0
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,29 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 444
-      height: 455
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: -8}
-  - name: Layer 2
+  - name: Hue/Saturation 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -118,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 456
       y: 4
-      width: 444
-      height: 453
-    spriteID: 8326c5d8da24aeb45948bc39ff58abf5
+      width: 432
+      height: 733
+    spriteID: a0ed24e26f93b89459298a32e4c95dff
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,8 +108,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 456, y: -7}
-  - name: Layer 1
+    uvTransform: {x: 415, y: -10}
+  - name: Hue/Saturation 1 copy 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -139,10 +117,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 467
-      width: 418
-      height: 440
-    spriteID: 7f1c2679bd0ccee42b84d82807fb3d09
+      y: 748
+      width: 439
+      height: 734
+    spriteID: 9b4c9f4ea2600dd468c72aa17d920961
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,54 +130,76 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -13, y: 447}
+    uvTransform: {x: -31, y: 736}
+  - name: Hue/Saturation 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 444
+      height: 736
+    spriteID: 9d14734fa60f2d04a89da05c07d31ebe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -29, y: -6}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 1024
-  importedTextureHeight: 1024
-  documentSize: {x: 444, y: 488}
+  importedTextureHeight: 2048
+  documentSize: {x: 518, y: 767}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 1024
-  textureActualHeight: 1024
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 3
-    spriteName: Layer 3
+  - name: Hue/Saturation 1
+    spriteName: Hue/Saturation 1
     isGroup: 0
     parentIndex: -1
-    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
-    layerID: 53
-    mosaicPosition: {x: 4, y: 4}
-  - name: Layer 2
-    spriteName: Layer 2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8326c5d8da24aeb45948bc39ff58abf5
-    layerID: 51
+    spriteID: a0ed24e26f93b89459298a32e4c95dff
+    layerID: 256
     mosaicPosition: {x: 456, y: 4}
-  - name: Layer 1
-    spriteName: Layer 1
+  - name: Hue/Saturation 1 copy 2
+    spriteName: Hue/Saturation 1 copy 2
     isGroup: 0
     parentIndex: -1
-    spriteID: 7f1c2679bd0ccee42b84d82807fb3d09
-    layerID: 49
-    mosaicPosition: {x: 4, y: 467}
+    spriteID: 9b4c9f4ea2600dd468c72aa17d920961
+    layerID: 255
+    mosaicPosition: {x: 4, y: 748}
+  - name: Hue/Saturation 1 copy
+    spriteName: Hue/Saturation 1 copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d14734fa60f2d04a89da05c07d31ebe
+    layerID: 254
+    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: cara Texture
-  prefabAssetName: cara Prefab
-  spriteLibAssetName: cara Sprite Lib
+  textureAssetName: copa Texture
+  prefabAssetName: copa Prefab
+  spriteLibAssetName: copa Sprite Lib
   secondarySpriteTextures: []
