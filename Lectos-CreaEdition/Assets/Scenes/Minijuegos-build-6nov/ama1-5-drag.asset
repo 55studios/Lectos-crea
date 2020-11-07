@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosLogrables: 0
   reward: 
-  acierto: {fileID: 0}
+  acierto: {fileID: 8300000, guid: 8082871792fc3f948998824eae29dffb, type: 3}
   tipoDeMinijuego: 0
   activadores:
   - lanap
@@ -29,4 +29,4 @@ MonoBehaviour:
   - lobo
   - lupa
   locacion: 0
-  path: amaluna1/
+  path: Ama1/

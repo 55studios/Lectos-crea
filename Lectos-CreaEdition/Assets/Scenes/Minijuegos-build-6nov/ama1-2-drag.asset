@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a756fa37c9521fe4a990735b423800c9, type: 3}
   m_Name: ama1-2-drag
   m_EditorClassIdentifier: 
-  puntosLogrables: 0
+  puntosLogrables: 5
   reward: 
-  acierto: {fileID: 0}
+  acierto: {fileID: 8300000, guid: 8082871792fc3f948998824eae29dffb, type: 3}
   tipoDeMinijuego: 0
   activadores:
   - patop
@@ -29,4 +29,4 @@ MonoBehaviour:
   - pollito
   - puma
   locacion: 0
-  path: amaluna1/
+  path: Ama1/

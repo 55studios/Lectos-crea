@@ -21,8 +21,15 @@ public class Drop : MonoBehaviour
         {
             
             Destroy(activadorCorrecto);
-            Invoke("cambiarImagen", 1f);
-            InvokeRepeating("animar", 0, 0.1f);
+            if (frames.Length > 1)
+            {
+                Invoke("cambiarImagen", 1f);
+                InvokeRepeating("animar", 0, 0.1f);
+            } else
+            {
+                cambiarImagen();
+            }
+            
             Destroy(gameObject, 1f);
         }
     }
