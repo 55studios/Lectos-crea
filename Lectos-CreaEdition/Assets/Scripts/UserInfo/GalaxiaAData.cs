@@ -43,16 +43,13 @@ public class GalaxiaAData : MonoBehaviour {
     }
 
     public void MinigamesDataSaved(int m_Planet_Id, int m_Moon_Id,
-        int m_MiniGame_Id, bool m_Tutorial, float m_Time, int m_stars, GameObject m_Reward) {
+        int m_MiniGame_Id, bool m_Block, bool m_Tutorial, float m_Time, int m_stars, GameObject m_Reward) {
 
+        PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].Block = m_Block;
         PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].Tutorial = m_Tutorial;
         PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].TimeRecord = m_Time;
         PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].stars = m_stars;
         PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].Reward = m_Reward;
-        Debug.Log(PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].Tutorial + " "
-            + PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].TimeRecord + " "
-            + PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].stars + " "
-            + PlanetsV[m_Planet_Id].moons[m_Moon_Id].MinigamesList[m_MiniGame_Id].Reward);
         StartCoroutine(SaveData());
 
     }
@@ -71,7 +68,6 @@ public class GalaxiaAData : MonoBehaviour {
     }
 
     IEnumerator SaveData() {
-
         string data = JsonUtility.ToJson(this);
         PlayerPrefs.SetString("galaxia", data);
        yield return null;
@@ -116,6 +112,8 @@ public class Moons {
 
 [System.Serializable]
 public class Minigames {
+    [SerializeField]
+    public bool Block;
 
     [SerializeField]
     public bool Tutorial;

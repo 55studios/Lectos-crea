@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfd8773a9f3bf1e4f968b5efc15065c2
+guid: fc2b5835a183e85429dddf2255fdf938
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 446
+      width: 444
       height: 455
-    spriteID: a9d224438cf42404e800675f043464a5
+    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -132,7 +132,7 @@ ScriptedImporter:
     spriteName: Layer 3
     isGroup: 0
     parentIndex: -1
-    spriteID: a9d224438cf42404e800675f043464a5
+    spriteID: 3c8c00f16d9d9bd4d94217e396f897a8
     layerID: 53
     mosaicPosition: {x: 4, y: 4}
   characterData:
@@ -141,7 +141,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: ojos Texture
-  prefabAssetName: ojos Prefab
-  spriteLibAssetName: ojos Sprite Lib
+  textureAssetName: cara Texture
+  prefabAssetName: cara Prefab
+  spriteLibAssetName: cara Sprite Lib
   secondarySpriteTextures: []
