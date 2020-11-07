@@ -7,6 +7,7 @@ public class CheckText : MonoBehaviour
 {
     Text t;
     string respuesta;
+    bool completo;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,12 +36,14 @@ public class CheckText : MonoBehaviour
                 if (t.text.Length < respuesta.Length)
                 {
                     t.text += c; //le añade la letra apachurrada al texto
+                    completo = false;
                 }
             }
         }
 
         if (t.text.Length == respuesta.Length)
         { //cuando la cantidad de letras tecleadas es igual a la cantidad de letras del nombre de la imagen que es la respuesta como tal
+            completo = true;
             if (t.text == respuesta)  //si el texto es igual a la respuesta correcta pasa a la siguiente
             {
                 print("Correctin");
@@ -53,6 +56,19 @@ public class CheckText : MonoBehaviour
             {
                 //aca es donde toca poner el vuelve a intentarlo y sumar un error si la respuesta estaba mal
             }
+        }
+    }
+
+    public void AgregarChar (string c)
+    {
+        if (!completo && c.Length == 1)
+        {
+            t.text += c;
+        }
+        else if (t.text.Length > 0 && c == "Borrar")
+        {
+            completo = false;
+            t.text = t.text.Substring(0, t.text.Length - 1);
         }
     }
 }
