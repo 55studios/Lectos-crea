@@ -769,8 +769,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764589721}
   m_HandleRect: {fileID: 1764589720}
   m_Direction: 0
-  m_Value: -0.00000045009102
-  m_Size: 0.4774301
+  m_Value: -0.0000003750759
+  m_Size: 0.47743014
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93b6f07fa15ba94b825b6f6315b266d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: PruebasAndres
+  currentScene: Planeta_Amarillo
 --- !u!4 &89256374
 Transform:
   m_ObjectHideFlags: 0
@@ -2413,7 +2413,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1121832015}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.3273732
+  m_Size: 0.32737318
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5523,7 +5523,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &964847346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7602,7 +7602,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 513639732}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11105,6 +11105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467324247713863938, guid: 855c55767bf4cdd498b61398ce87f4f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3467324247713863997, guid: 855c55767bf4cdd498b61398ce87f4f3,
         type: 3}
