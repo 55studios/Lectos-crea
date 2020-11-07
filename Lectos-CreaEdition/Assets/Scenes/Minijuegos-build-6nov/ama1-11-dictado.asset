@@ -18,10 +18,10 @@ MonoBehaviour:
   tipoDeMinijuego: 1
   activadores: []
   receptores:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - pala
+  - pico
+  - lupa
+  - lata
+  - pollito
   locacion: 0
   path: amaluna1/

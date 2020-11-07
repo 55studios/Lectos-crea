@@ -14,17 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosLogrables: 5
   reward: 
-  tipoMinijuego: 0
+  acierto: {fileID: 0}
+  tipoDeMinijuego: 0
   activadores:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - beisbol1
+  - voleibol1
+  - futbol1
+  - tenis1
+  - basquetbol1
   receptores:
-  - 
-  - 
-  - 
-  - 
-  - 
-  respuestasTexto: []
+  - beisbol2
+  - voleibol2
+  - futbol2
+  - tenis2
+  - basquetbol2
+  locacion: 0
+  path: amaluna1/

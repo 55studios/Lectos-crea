@@ -17,16 +17,16 @@ MonoBehaviour:
   acierto: {fileID: 0}
   tipoDeMinijuego: 0
   activadores:
-  - tazap
-  - teterop
-  - tigrep
-  - tomatep
-  - tucanp
+  - 
+  - 
+  - 
+  - 
+  - 
   receptores:
-  - taza
-  - tetero
-  - tigre
-  - tomate
-  - tucan
+  - 
+  - 
+  - 
+  - 
+  - 
   locacion: 0
   path: amaluna1/

@@ -17,16 +17,16 @@ MonoBehaviour:
   acierto: {fileID: 0}
   tipoDeMinijuego: 0
   activadores:
-  - lanap
-  - lechep
-  - librop
-  - lobop
-  - lupap
+  - 
+  - 
+  - 
+  - 
+  - 
   receptores:
-  - lana
-  - leche
-  - libro
-  - lobo
-  - lupa
+  - 
+  - 
+  - 
+  - 
+  - 
   locacion: 0
   path: amaluna1/
