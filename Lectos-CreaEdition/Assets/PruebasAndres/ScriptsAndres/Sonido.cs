@@ -8,13 +8,12 @@ public class Sonido : MonoBehaviour
     PlaySonidos playS;
     public Sprite[] frames;
     int frame = 0;
-    bool clickeable;
+    public bool clickeable;
 
     // Start is called before the first frame update
     void Start()
     {
         playS = GameObject.FindGameObjectWithTag("Reproductor").GetComponent<PlaySonidos>();
-        clickeable = true;
     }
 
     private void OnMouseUp()

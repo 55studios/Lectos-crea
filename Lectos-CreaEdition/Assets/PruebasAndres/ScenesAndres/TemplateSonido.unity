@@ -165,7 +165,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activadores: []
-  receptores: []
+  receptores:
+  - {fileID: 654520636}
+  - {fileID: 605649834}
+  - {fileID: 467154107}
+  - {fileID: 540656781}
+  - {fileID: 865020662}
 --- !u!1 &467154106
 GameObject:
   m_ObjectHideFlags: 0
