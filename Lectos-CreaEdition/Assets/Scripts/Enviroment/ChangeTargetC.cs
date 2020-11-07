@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class ChangeTargetC : MonoBehaviour {
 
+    public string nextScene;
+
     private Transform rocket;
     private Transform lectosName;
     private ProCamera2D influenceChange;
