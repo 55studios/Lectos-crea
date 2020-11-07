@@ -15,7 +15,7 @@ MonoBehaviour:
   puntosLogrables: 0
   reward: 
   acierto: {fileID: 0}
-  tipoDeMinijuego: 0
+  tipoDeMinijuego: 3
   activadores:
   - 
   - 
@@ -29,4 +29,4 @@ MonoBehaviour:
   - 
   - 
   locacion: 0
-  path: amaluna1/
+  path: Ama1/
