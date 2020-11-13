@@ -8,11 +8,11 @@ public class ScriptableScene : ScriptableObject
     public int puntosLogrables;
     public string reward;
     public AudioClip acierto;
-    public enum Tipo {draganddrop, escribir, memoria};
+    public enum Tipo {draganddrop, escribir, memoria, sonidos};
     public Tipo tipoDeMinijuego;
     public string[] activadores;
     public string[] receptores;
-    public enum Locacion {amaluna1, amaluna2, prueba = 100 };
+    public enum Locacion {Ama1, Ama2, Ama3, prueba = 100 };
     public Locacion locacion;
     [HideInInspector]
     public string path;
@@ -22,13 +22,13 @@ public class ScriptableScene : ScriptableObject
         switch ((int)locacion)
         {
             case 0:
-                path = "amaluna1/";
+                path = "Ama1/";
                 break;
             case 1:
-                path = "amaluna2/";
+                path = "Ama2/";
                 break;
             case 2:
-                path = "amaluna3/";
+                path = "Ama3/";
                 break;
             case 100:
                 path = "Imagenes/";

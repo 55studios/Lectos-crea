@@ -14,6 +14,8 @@ public class HandlerDataPlanet : MonoBehaviour
             Debug.Log("Data Loaded sucess ");
             for (int i = 0; i < planets.Length; i++) {
                 planets[i].interactable = true ^ _Data.PlanetsV[i].Block;
+                _Data.PlanetDataSaved(1, true, 0,0);
+                _Data.PlanetDataSaved(2, true, 0, 0);
                 Debug.Log(planets[i].interactable);
             }
         }
@@ -36,6 +38,7 @@ public class HandlerDataPlanet : MonoBehaviour
         }
     }
 
-    private void saveDataPlanets() {
+    private void SaveDataPlanets(int idPlanet) {
+        
     }
 }

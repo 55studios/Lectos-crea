@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 9ab469fc3fa840142acdb1ad0ea4da99
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: fc6c5978e24854d4ebb565e27d686bf2
+  - enabled: 1
+    path: Assets/Scenes/Planeta_Amarillo.unity
+    guid: b324a1b92d064864ea5d6bf5d657bf77
   - enabled: 1
     path: Assets/PruebasAndres/ScenesAndres/PruebasAndres.unity
     guid: cdc3d7498d94d0f4ea62e71405eadf40
@@ -23,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PruebasAndres/ScenesAndres/TemplateEscribir.unity
     guid: 19a7cff4a5a4d554e92442e514323d53
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateSonido.unity
+    guid: c6a5adfb5b65fe44fbb4ce787dd9ce38
   m_configObjects: {}
