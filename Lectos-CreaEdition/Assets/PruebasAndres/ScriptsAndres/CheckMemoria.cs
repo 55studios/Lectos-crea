@@ -21,7 +21,7 @@ public class CheckMemoria : MonoBehaviour
         if (activados != 2)
         {
             Go.GetComponent<SpriteRenderer>().color = Color.white;
-            Go.GetComponent<Memoria>().activado = true;
+            Go.GetComponent<Memo>().activado = true;
             Go.transform.Find("Back").gameObject.SetActive(false);
             activados++;
             objetos[activados - 1] = Go;
@@ -29,7 +29,7 @@ public class CheckMemoria : MonoBehaviour
             {
                 if (objetos[0].GetComponent<Respuesta>().respuesta == objetos[1].GetComponent<Respuesta>().respuesta)
                 {                   
-                    controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
+                    controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
                     Destroy(objetos[0], 1f);
                     Destroy(objetos[1], 1f);
                     Invoke("NoActivados", 1f);
@@ -53,8 +53,8 @@ public class CheckMemoria : MonoBehaviour
         objetos[1].GetComponent<SpriteRenderer>().color = Color.black;
         objetos[0].transform.Find("Back").gameObject.SetActive(true);
         objetos[1].transform.Find("Back").gameObject.SetActive(true);
-        objetos[0].GetComponent<Memoria>().activado = false;
-        objetos[1].GetComponent<Memoria>().activado = false;
+        objetos[0].GetComponent<Memo>().activado = false;
+        objetos[1].GetComponent<Memo>().activado = false;
         activados = 0;
     }
 }

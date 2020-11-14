@@ -8,13 +8,8 @@ public class Drop : MonoBehaviour
     GameObject activadorCorrecto;
     public Sprite[] frames;
     int frame = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public bool hielo;
+    
     void Update()
     {
         if (Input.GetMouseButtonUp(0) && correcta)
@@ -23,13 +18,16 @@ public class Drop : MonoBehaviour
             Destroy(activadorCorrecto);
             if (frames.Length > 1)
             {
-                Invoke("cambiarImagen", 1f);
+                cambiarImagen();
                 InvokeRepeating("animar", 0, 0.1f);
             } else
             {
                 cambiarImagen();
             }
-            
+            if (hielo)
+            {
+                transform.Find("Hielo").gameObject.SetActive(false);
+            }            
             Destroy(gameObject, 1f);
         }
     }
@@ -62,6 +60,6 @@ public class Drop : MonoBehaviour
     {
         print("se llamo");
         GameObject controlador = GameObject.FindWithTag("GameController");
-        controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
+        controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
     }
 }

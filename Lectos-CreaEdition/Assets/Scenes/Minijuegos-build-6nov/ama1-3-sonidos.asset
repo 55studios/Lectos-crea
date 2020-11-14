@@ -30,3 +30,4 @@ MonoBehaviour:
   - pumap
   locacion: 0
   path: Ama1/
+  particulas: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141, type: 3}

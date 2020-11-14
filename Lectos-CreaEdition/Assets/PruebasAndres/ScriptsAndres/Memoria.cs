@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Memoria : MonoBehaviour
+[CreateAssetMenu(fileName = "Nuevo Memoria", menuName = "Minigames/Memoria")]
+public class Memoria : MinigameData
 {
-    public GameObject checker;
-    public bool activado;
-
-    private void OnMouseUp()
+    public void OnEnable()
     {
-        if (Input.GetMouseButtonUp(0) && !activado)
-        {
-            checker.GetComponent<CheckMemoria>().Activar(gameObject);
-        }
+        Tipo = 2;
+        Template = "TemplateMemoria";
     }
+
+    public AudioClip flip;
+
+    public SpriteAsset[] parejasElemento1;
+    public SpriteAsset[] parejasElemento2;
 }
