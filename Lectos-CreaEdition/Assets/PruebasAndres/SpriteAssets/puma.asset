@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
+  m_Name: puma
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 6472841219049058882, guid: 614b4f3ca0c9602468dba41c1c03fb46, type: 3}
+  - {fileID: 6801258187658889964, guid: 614b4f3ca0c9602468dba41c1c03fb46, type: 3}
+  - {fileID: -3471437602824343823, guid: 614b4f3ca0c9602468dba41c1c03fb46, type: 3}

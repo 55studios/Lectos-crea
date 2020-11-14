@@ -49,7 +49,7 @@ public class CheckText : MonoBehaviour
                 print("Correctin");
                 Destroy(gameObject);
                 GameObject controlador = GameObject.FindWithTag("GameController");
-                controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
+                controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
                 t.text = "";
             }
             else

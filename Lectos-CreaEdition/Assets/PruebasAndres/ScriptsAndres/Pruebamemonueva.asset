@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4938fd8f73879794881f46fb2f91b7ca, type: 3}
+  m_Name: Pruebamemonueva
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 8082871792fc3f948998824eae29dffb, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  locacion: 0
+  path: 
+  flip: {fileID: 0}
+  parejasElemento1:
+  - {fileID: 11400000, guid: 532b8a069f798e54db4e93afb3a7be92, type: 2}
+  - {fileID: 11400000, guid: 53dc208082908ac40bbb5f5226bf649a, type: 2}
+  - {fileID: 11400000, guid: 9fdb17ba4a575264dbfb729c07a2fc84, type: 2}
+  - {fileID: 11400000, guid: f3ab4987aacb3214688794a70b42b89b, type: 2}
+  - {fileID: 11400000, guid: a5efea7eccd97d040bd20601406b1625, type: 2}
+  parejasElemento2:
+  - {fileID: 11400000, guid: dc4f5ee90090efe409791a346fa8a460, type: 2}
+  - {fileID: 11400000, guid: 1ff30236278a7384799354545e58bc4d, type: 2}
+  - {fileID: 11400000, guid: db288cfe339bb4b41917efe8597689d7, type: 2}
+  - {fileID: 11400000, guid: 987dcfd8f8dd8ed459981e61f07afaab, type: 2}
+  - {fileID: 11400000, guid: 502eea884f556054ea9c10237950304c, type: 2}

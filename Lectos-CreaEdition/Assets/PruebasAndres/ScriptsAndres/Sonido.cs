@@ -25,7 +25,7 @@ public class Sonido : MonoBehaviour
                 clickeable = false;
                 playS.CambiarAudio();
                 GameObject controlador = GameObject.FindWithTag("GameController");
-                controlador.GetComponent<CreateLevel>().RespuestaCorrecta();
+                controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
                 if (frames.Length > 1)
                 {
                     InvokeRepeating("animar", 0, 0.1f);

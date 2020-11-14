@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "Nuevo Sonidos", menuName = "Minigames/Sonidos")]
+public class Sonidos : MinigameData
+{
+    private void OnEnable()
+    {
+        Tipo = 3;
+        Template = "TemplateSonido";
+    }
+
+    public SpriteAsset[] clickeables;
+    public Sprite[] animacionCorrecto;
+
+    public AudioClip[] sonidosParlante;
+    public AudioClip[] sonidosCorrecto;
+}
