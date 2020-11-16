@@ -13,6 +13,16 @@ public class LoadScenesStandart : MonoBehaviour {
         StartCoroutine(LoadingScenes());
     }
 
+    public void InJustTransition() {
+        transition.GetComponent<Animator>().SetTrigger("In");
+        //StartCoroutine(JustTarnsitionIn());
+    }
+
+    public void OutJustTransition() {
+        transition.GetComponent<Animator>().SetTrigger("Out");
+        //StartCoroutine(JustTarnsitionOut());
+    }
+
     public void QuitApp()
     {
         Application.Quit();
@@ -22,6 +32,13 @@ public class LoadScenesStandart : MonoBehaviour {
         transition.GetComponent<Animator>().SetTrigger("Out");
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(currentScene);
+    }
+
+    IEnumerator JustTarnsitionIn() {
+        yield return new WaitForSeconds(3f);
+    }
+    IEnumerator JustTarnsitionOut() {
+        yield return new WaitForSeconds(3f);
     }
 }
 
