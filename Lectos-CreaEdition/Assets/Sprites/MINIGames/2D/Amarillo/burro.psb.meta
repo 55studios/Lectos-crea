@@ -109,25 +109,83 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -109, y: -22}
+  - name: Group 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 831
+      width: 710
+      height: 818
+    spriteID: f6cc1a29c05b35d4f91cca9bcd0e5631
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -111, y: 807}
+  - name: Group 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 727
+      y: 4
+      width: 715
+      height: 818
+    spriteID: 1516fb2b9a8449c4a84a902b06e02252
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 614, y: -23}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 1024
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
   documentSize: {x: 845, y: 845}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
-  textureActualHeight: 1024
+  textureActualWidth: 2048
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Group 3
+    spriteName: Group 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f6cc1a29c05b35d4f91cca9bcd0e5631
+    layerID: 269
+    mosaicPosition: {x: 4, y: 831}
+  - name: Group 2
+    spriteName: Group 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1516fb2b9a8449c4a84a902b06e02252
+    layerID: 262
+    mosaicPosition: {x: 727, y: 4}
   - name: Group 1
     spriteName: Group 1
     isGroup: 0

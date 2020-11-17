@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 640517b9a1dad9142aecafc0dcbc0b83
+guid: 635096394d6e4af47be611947bae1e09
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Group 8
+  - name: Group 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 761
       y: 4
-      width: 747
-      height: 675
-    spriteID: 3b7ca30db455fd0429760c8b4dd28390
+      width: 739
+      height: 691
+    spriteID: 72b45a9295806af45b7cccbca73acae7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,32 +108,90 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -15, y: 4}
+    uvTransform: {x: 726, y: 4}
+  - name: Group 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 724
+      width: 741
+      height: 691
+    spriteID: 0bf55d62cf6aeeb4d8259f0712060cad
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -31, y: 716}
+  - name: Group 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 749
+      height: 712
+    spriteID: 3ed337ed73b2cc745b663b181cab5dc1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -17, y: 4}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 1024
-  documentSize: {x: 791, y: 704}
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 797, y: 730}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
-  textureActualHeight: 1024
+  textureActualWidth: 2048
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Group 8
-    spriteName: Group 8
+  - name: Group 3
+    spriteName: Group 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 3b7ca30db455fd0429760c8b4dd28390
-    layerID: 324
+    spriteID: 72b45a9295806af45b7cccbca73acae7
+    layerID: 208
+    mosaicPosition: {x: 761, y: 4}
+  - name: Group 2
+    spriteName: Group 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0bf55d62cf6aeeb4d8259f0712060cad
+    layerID: 204
+    mosaicPosition: {x: 4, y: 724}
+  - name: Group 1
+    spriteName: Group 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3ed337ed73b2cc745b663b181cab5dc1
+    layerID: 200
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -141,7 +199,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: bicicleta Texture
-  prefabAssetName: bicicleta Prefab
-  spriteLibAssetName: bicicleta Sprite Lib
+  textureAssetName: babosa Texture
+  prefabAssetName: babosa Prefab
+  spriteLibAssetName: babosa Sprite Lib
   secondarySpriteTextures: []

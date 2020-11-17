@@ -94,7 +94,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1013
+      x: 1041
       y: 4
       width: 982
       height: 992
@@ -108,8 +108,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 944, y: -26}
-  - name: cuerpo3
+    uvTransform: {x: 989, y: 4}
+  - name: Layer 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -117,10 +117,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1060
-      width: 980
-      height: 982
-    spriteID: 85e75b16e05c23e419f214020709835d
+      y: 1041
+      width: 984
+      height: 995
+    spriteID: c2feb13aa2571744ebb6224854e7b243
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,8 +130,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -65, y: 1007}
-  - name: cuerpo1
+    uvTransform: {x: -63, y: 1001}
+  - name: Layer 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -140,9 +140,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1001
-      height: 1048
-    spriteID: 3f9c93d29a12b73498d4282214d85684
+      width: 1029
+      height: 1029
+    spriteID: 132c2d311155e3148a63715174679a86
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -48, y: 4}
+    uvTransform: {x: -47, y: -21}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -172,34 +172,27 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Group 1
-    spriteName: 
-    isGroup: 1
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
-    layerID: 11
-    mosaicPosition: {x: 0, y: 0}
+    spriteID: c2feb13aa2571744ebb6224854e7b243
+    layerID: 10
+    mosaicPosition: {x: 4, y: 1041}
+  - name: Layer 2
+    spriteName: Layer 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 132c2d311155e3148a63715174679a86
+    layerID: 9
+    mosaicPosition: {x: 4, y: 4}
   - name: linea
     spriteName: linea
     isGroup: 0
-    parentIndex: 0
+    parentIndex: -1
     spriteID: c0c89c9912281dc4cb0332eddf384a0e
     layerID: 8
-    mosaicPosition: {x: 1013, y: 4}
-  - name: cuerpo3
-    spriteName: cuerpo3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 85e75b16e05c23e419f214020709835d
-    layerID: 6
-    mosaicPosition: {x: 4, y: 1060}
-  - name: cuerpo1
-    spriteName: cuerpo1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3f9c93d29a12b73498d4282214d85684
-    layerID: 4
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 1041, y: 4}
   characterData:
     bones: []
     parts: []
