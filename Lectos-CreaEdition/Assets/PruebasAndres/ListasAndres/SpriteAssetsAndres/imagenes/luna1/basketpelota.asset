@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
   m_Name: basketpelota
   m_EditorClassIdentifier: 
-  frames: []
+  frames:
+  - {fileID: 21300000, guid: e37133ea3c77bec4493f7a2268c34da3, type: 3}

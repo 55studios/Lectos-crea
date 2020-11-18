@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: tubo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -4092205364420328820, guid: f4d82d09dbd95cd4082b5ab493cc8298, type: 3}
+  - {fileID: -7597494137269138976, guid: f4d82d09dbd95cd4082b5ab493cc8298, type: 3}
+  - {fileID: -3551321753342517394, guid: f4d82d09dbd95cd4082b5ab493cc8298, type: 3}

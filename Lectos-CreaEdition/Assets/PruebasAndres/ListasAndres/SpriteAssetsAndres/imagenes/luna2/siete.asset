@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: siete
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -2376375729330384482, guid: 4fd2064aaf4217c47b038b3eec3d086f, type: 3}
+  - {fileID: -8985241589440484968, guid: 4fd2064aaf4217c47b038b3eec3d086f, type: 3}
+  - {fileID: 5789357712754506893, guid: 4fd2064aaf4217c47b038b3eec3d086f, type: 3}

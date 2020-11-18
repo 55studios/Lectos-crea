@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: bote
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2627306781441699355, guid: 124530b196efc6441b80a5bd76a826c0, type: 3}
+  - {fileID: -6964249786256193954, guid: 124530b196efc6441b80a5bd76a826c0, type: 3}
+  - {fileID: 8131429923579720691, guid: 124530b196efc6441b80a5bd76a826c0, type: 3}

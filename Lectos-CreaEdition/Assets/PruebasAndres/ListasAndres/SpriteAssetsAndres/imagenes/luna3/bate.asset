@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: bate
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -7183352143669790021, guid: 9f330b926635bf6498c1deab450c97e2, type: 3}
+  - {fileID: -7485238036229568029, guid: 9f330b926635bf6498c1deab450c97e2, type: 3}
+  - {fileID: 7959138598561829864, guid: 9f330b926635bf6498c1deab450c97e2, type: 3}

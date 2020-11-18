@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: sopa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -1137526599728633218, guid: 5e1c1a1a1d20d95469e456d91c505fb0, type: 3}
+  - {fileID: -3598399618156116117, guid: 5e1c1a1a1d20d95469e456d91c505fb0, type: 3}
+  - {fileID: -1521458011143817681, guid: 5e1c1a1a1d20d95469e456d91c505fb0, type: 3}

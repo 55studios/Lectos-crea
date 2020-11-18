@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: cola
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -5391072057235577417, guid: 077ae3bac51c76e49b6d46030db0e20e, type: 3}
+  - {fileID: -5229593450777310841, guid: 077ae3bac51c76e49b6d46030db0e20e, type: 3}
+  - {fileID: 5103352589876466986, guid: 077ae3bac51c76e49b6d46030db0e20e, type: 3}

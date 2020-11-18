@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: burro
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 848780716103598258, guid: e83d0862f8bd3f0498244c1ade9cdb3e, type: 3}
+  - {fileID: 8115539910025390648, guid: e83d0862f8bd3f0498244c1ade9cdb3e, type: 3}
+  - {fileID: -5864707562913446428, guid: e83d0862f8bd3f0498244c1ade9cdb3e, type: 3}
