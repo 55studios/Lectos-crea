@@ -10,7 +10,8 @@ public class DragAndDrop : MinigameData
         Tipo = 0;
         Template = "Template5-1";
     }
-
+    [HideInInspector]
+    public int variante = 0;
     public SpriteAsset[] arrastrables;
     public SpriteAsset[] receptores;
 

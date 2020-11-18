@@ -9,26 +9,47 @@ public class Drop : MonoBehaviour
     public Sprite[] frames;
     int frame = 0;
     public bool hielo;
+    public bool vehiculos;
+    public bool temporal;
+    public Transform posActivador;
     
     void Update()
     {
         if (Input.GetMouseButtonUp(0) && correcta)
-        {
-            
-            Destroy(activadorCorrecto);
+        {           
             if (frames.Length > 1)
             {
-                cambiarImagen();
-                InvokeRepeating("animar", 0, 0.1f);
+                CambiarImagen();
+                InvokeRepeating("Animar", 0, 0.1f);
             } else
             {
-                cambiarImagen();
+                CambiarImagen();
             }
             if (hielo)
             {
                 transform.Find("Hielo").gameObject.SetActive(false);
-            }            
-            Destroy(gameObject, 1f);
+            }
+             if (vehiculos)
+            {
+                activadorCorrecto.transform.SetParent(gameObject.transform);
+                activadorCorrecto.GetComponent<Drag>().enabled = false;
+                activadorCorrecto.transform.position = posActivador.position;
+                GameObject.FindWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().Mover();
+            } else
+            {
+                if (!temporal)
+                {
+                    Destroy(activadorCorrecto);
+                    Destroy(gameObject, 1f);
+                }
+                
+            }
+             if (temporal)
+            {
+                activadorCorrecto.GetComponent<Drag>().enabled = false;
+                activadorCorrecto.transform.position = transform.position;
+                Destroy(gameObject);
+            }
         }
     }
 
@@ -46,7 +67,7 @@ public class Drop : MonoBehaviour
         correcta = false;
     }
 
-    void animar()
+    void Animar()
     {
         GetComponent<SpriteRenderer>().sprite = frames[frame];
         frame++;
@@ -56,7 +77,7 @@ public class Drop : MonoBehaviour
         }
     }
 
-    void cambiarImagen ()
+    void CambiarImagen ()
     {
         print("se llamo");
         GameObject controlador = GameObject.FindWithTag("GameController");

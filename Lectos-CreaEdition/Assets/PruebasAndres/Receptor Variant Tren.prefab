@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Receptor Variant Tren
       objectReference: {fileID: 0}
+    - target: {fileID: 8474506245655239943, guid: 304cf45606d84364a84e0fc26e4ca6b1,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9017932447841238631, guid: 304cf45606d84364a84e0fc26e4ca6b1,
         type: 3}
       propertyPath: m_Offset.x

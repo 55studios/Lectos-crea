@@ -11,6 +11,8 @@ public class Congelados : MinigameData
         Template = "TemplateCongelados";
     }
 
+    [HideInInspector]
+    public int variante = 1;
     public SpriteAsset[] arrastrables;
     public SpriteAsset[] receptores;
 

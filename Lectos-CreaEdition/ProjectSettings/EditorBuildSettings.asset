@@ -35,4 +35,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PruebasAndres/ScenesAndres/TemplateCongelados.unity
     guid: 51846f3bdd983f0438da2472061edfd5
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateTren.unity
+    guid: 4c2dd0a33bc83b84888afc10e13ae106
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateAsteroides.unity
+    guid: 673dd71b9a65cb14d8c1fe9904961120
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateEstrellas.unity
+    guid: 5b4b45fb67d34584aa298058464fc193
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateHabitaciones.unity
+    guid: 74df9d6af2895e745afd3cdc86111d93
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateRompecabezas.unity
+    guid: 123739763f997c4449c6852482377d2a
   m_configObjects: {}
