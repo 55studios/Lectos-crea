@@ -8,13 +8,18 @@ public class CheckText : MonoBehaviour
     Text t;
     string respuesta;
     bool completo;
+    int indexsonido;
+    public AudioSource audioS;
+    public AudioClip[] misSonidos;
+
     // Start is called before the first frame update
     void Start()
     {
+        indexsonido = 0;
         t = GameObject.FindWithTag("Texto").GetComponent<Text>();
-        respuesta = GetComponent<RespuestaTexto>().respuesta;
-        //TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
+        respuesta = GetComponent<RespuestaTexto>().respuesta;       
     }
+
 
     // Update is called once per frame
     void Update()
@@ -69,6 +74,16 @@ public class CheckText : MonoBehaviour
         {
             completo = false;
             t.text = t.text.Substring(0, t.text.Length - 1);
+        }
+    }
+
+    void IniciarSonidoRespuesta ()
+    {
+        if (audioS != null && misSonidos != null)
+        {
+            audioS.Stop();
+            audioS.clip = misSonidos[indexsonido];
+            audioS.Play();
         }
     }
 }
