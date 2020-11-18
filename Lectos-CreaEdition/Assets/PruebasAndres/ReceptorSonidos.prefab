@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -111,6 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frames: []
   clickeable: 0
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!61 &-5718838638722706687
 BoxCollider2D:
   m_ObjectHideFlags: 0

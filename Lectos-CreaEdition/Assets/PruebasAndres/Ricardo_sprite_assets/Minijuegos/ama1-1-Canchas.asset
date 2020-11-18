@@ -29,7 +29,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b9e6c9ae8d698a64784afa00584d81e2, type: 2}
   - {fileID: 11400000, guid: 0816eadca94880c4a88df1e88ee0dea1, type: 2}
   - {fileID: 11400000, guid: 7227f1f71f300d7439a72bdc3aa56a2b, type: 2}
-  animacionFinal: []
+  animacionFinal:
+  - {fileID: 11400000, guid: a2e5a922620a11e4786529a3aa36bfef, type: 2}
+  - {fileID: 11400000, guid: 627e1b610d7b9b644a015114bfdbf427, type: 2}
+  - {fileID: 11400000, guid: b9e6c9ae8d698a64784afa00584d81e2, type: 2}
+  - {fileID: 11400000, guid: 0816eadca94880c4a88df1e88ee0dea1, type: 2}
+  - {fileID: 11400000, guid: 7227f1f71f300d7439a72bdc3aa56a2b, type: 2}
   sonidosArrastrar:
   - {fileID: 8300000, guid: d709b4cc6c074fd42a36353fce0ae833, type: 3}
   - {fileID: 8300000, guid: c3f707925c0cc594cbe5d3278b0145a3, type: 3}

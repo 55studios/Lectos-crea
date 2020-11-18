@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
   m_Name: buque
   m_EditorClassIdentifier: 
-  frames: []
+  frames:
+  - {fileID: 21300000, guid: d5dcc3ebb304afd409b432bc269e2080, type: 3}

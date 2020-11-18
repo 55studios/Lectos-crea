@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 2
 --- !u!114 &2654873
 MonoBehaviour:
@@ -778,7 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 9
 --- !u!114 &60721214
 MonoBehaviour:
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 1
 --- !u!114 &125401798
 MonoBehaviour:
@@ -1877,7 +1877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 3
 --- !u!114 &140968777
 MonoBehaviour:
@@ -2623,7 +2623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 1
 --- !u!114 &219745387
 MonoBehaviour:
@@ -3217,7 +3217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 1
 --- !u!114 &242941709
 MonoBehaviour:
@@ -3487,7 +3487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 4
 --- !u!114 &247568076
 MonoBehaviour:
@@ -3931,7 +3931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 7
 --- !u!114 &255869968
 MonoBehaviour:
@@ -4763,13 +4763,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationsScales:
   - {fileID: 1704225829}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 125401796}
+  - {fileID: 438331417}
+  - {fileID: 140968775}
+  - {fileID: 1993678663}
+  - {fileID: 1750797665}
+  - {fileID: 507105459}
+  - {fileID: 255869966}
 --- !u!114 &304095858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5227,7 +5227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 3
 --- !u!114 &350446650
 MonoBehaviour:
@@ -6304,7 +6304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 2
 --- !u!114 &438331419
 MonoBehaviour:
@@ -6729,7 +6729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 5
 --- !u!114 &448403975
 MonoBehaviour:
@@ -7935,7 +7935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 0
 --- !u!114 &505217554
 MonoBehaviour:
@@ -8173,7 +8173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 6
 --- !u!114 &507105461
 MonoBehaviour:
@@ -8447,7 +8447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 5
 --- !u!114 &511550346
 MonoBehaviour:
@@ -10271,7 +10271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 2
 --- !u!114 &657646791
 MonoBehaviour:
@@ -10888,7 +10888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 6
 --- !u!114 &679458598
 MonoBehaviour:
@@ -11675,7 +11675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 6
 --- !u!114 &730123084
 MonoBehaviour:
@@ -14848,7 +14848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 8
 --- !u!114 &973943815
 MonoBehaviour:
@@ -15564,7 +15564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 0
 --- !u!114 &1007777696
 MonoBehaviour:
@@ -19639,7 +19639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 7
 --- !u!114 &1291462193
 MonoBehaviour:
@@ -20319,7 +20319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 7
 --- !u!114 &1353127618
 MonoBehaviour:
@@ -20809,7 +20809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
   index: 3
 --- !u!114 &1372293574
 MonoBehaviour:
@@ -24246,7 +24246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 4
 --- !u!114 &1595051486
 MonoBehaviour:
@@ -25191,7 +25191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 0
 --- !u!114 &1704225831
 MonoBehaviour:
@@ -25816,7 +25816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 5
 --- !u!114 &1750797667
 MonoBehaviour:
@@ -27503,7 +27503,8 @@ MonoBehaviour:
   receptorSonidosPrefab: {fileID: 3217571764099719950, guid: b7f5b783142af2446be11239039b6a30,
     type: 3}
   InterfazFinMinijuego: {fileID: 1032150817}
-  receptorTrenPrefab: {fileID: 0}
+  receptorTrenPrefab: {fileID: 155120060774206947, guid: eb459ac6862cfbc46ac08fd04a564af8,
+    type: 3}
 --- !u!4 &1887150183
 Transform:
   m_ObjectHideFlags: 0
@@ -28269,7 +28270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
   index: 10
 --- !u!114 &1950188943
 MonoBehaviour:
@@ -28566,7 +28567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 834f32caadafcbc42903ec1a0b5a1bf0, type: 2}
+  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
   index: 4
 --- !u!114 &1993678665
 MonoBehaviour:

@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: CAMA
+  m_Name: cama
   m_EditorClassIdentifier: 
-  frames: []
+  frames:
+  - {fileID: 21300000, guid: f6f5504542d1a5c468bb4dac2c11c35e, type: 3}
