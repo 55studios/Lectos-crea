@@ -10,6 +10,8 @@ public class Drag : MonoBehaviour
     float posY;
     Vector3 originalPos;
     private LineRenderer lineRenderer;
+    public AudioSource audioS;
+    public AudioClip miSonido;
 
     public float speed;
 
@@ -28,7 +30,6 @@ public class Drag : MonoBehaviour
             Vector3 newPos;
             newPos = Input.mousePosition;
             newPos = Camera.main.ScreenToWorldPoint(newPos);
-
             this.gameObject.transform.localPosition = new Vector3(newPos.x - posX, newPos.y - posY, 0);
         }
         else
@@ -47,7 +48,12 @@ public class Drag : MonoBehaviour
 
             posX = mousePos.x - this.transform.localPosition.x;
             posY = mousePos.y - this.transform.localPosition.y;
-
+            if (audioS != null && miSonido != null)
+            {
+                audioS.Stop();
+                audioS.clip = miSonido;
+                audioS.Play();
+            }
             moviendo = true;
         }
     }

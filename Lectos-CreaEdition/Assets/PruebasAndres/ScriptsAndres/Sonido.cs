@@ -9,6 +9,8 @@ public class Sonido : MonoBehaviour
     public Sprite[] frames;
     int frame = 0;
     public bool clickeable;
+    public AudioSource audioS;
+    public AudioClip miSonido;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,12 @@ public class Sonido : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0) && clickeable)
         {
+            if (audioS != null && miSonido != null)
+            {
+                audioS.Stop();
+                audioS.clip = miSonido;
+                audioS.Play();
+            }
             if (playS.audioActual == GetComponent<Respuesta>().respuesta)
             {
                 clickeable = false;
@@ -29,8 +37,7 @@ public class Sonido : MonoBehaviour
                 if (frames.Length > 1)
                 {
                     InvokeRepeating("animar", 0, 0.1f);
-                }
-                
+                }                
                 Destroy(gameObject, 1f);
             }
         }

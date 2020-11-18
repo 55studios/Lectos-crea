@@ -12,11 +12,19 @@ public class Drop : MonoBehaviour
     public bool vehiculos;
     public bool temporal;
     public Transform posActivador;
-    
+    public AudioSource audioS;
+    public AudioClip miSonido;
+
     void Update()
     {
         if (Input.GetMouseButtonUp(0) && correcta)
-        {           
+        {
+            if (audioS != null && miSonido != null)
+            {
+                audioS.Stop();
+                audioS.clip = miSonido;
+                audioS.Play();
+            }
             if (frames.Length > 1)
             {
                 CambiarImagen();
