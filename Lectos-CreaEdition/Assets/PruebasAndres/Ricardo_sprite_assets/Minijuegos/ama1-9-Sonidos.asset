@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf57e1d91bf2c748b7e9bb157ea75a7, type: 3}
+  m_Name: ama1-9-Sonidos
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  clickeables:
+  - {fileID: 11400000, guid: 507d2ff7912d81c46a24d41564f2acfb, type: 2}
+  - {fileID: 11400000, guid: 2ca8de180d3e8ed4f865681cb4905410, type: 2}
+  - {fileID: 11400000, guid: 9d6ce5736a53f494a98c0c9144eda1c5, type: 2}
+  - {fileID: 11400000, guid: 3ae05fa7d167244449e518cdd2191a0b, type: 2}
+  - {fileID: 11400000, guid: 4a7b418bab6a9b542921d6a1c5b577e2, type: 2}
+  animacionCorrecto:
+  - {fileID: -8954382217956679251, guid: 832b07e9e4d31414e9d1f14cba4d6965, type: 3}
+  - {fileID: 7117163450868215058, guid: 450b81b1a503cb44aa0c1697898e8722, type: 3}
+  - {fileID: -8191021876737586977, guid: 92db9dd3f037b9c43be6254be230fb0c, type: 3}
+  - {fileID: -2622064470843035371, guid: 47c54bc127bd3dc4d844e939fdcb6850, type: 3}
+  - {fileID: -3014775205863211706, guid: b2db6a918bf256d43907edb43ff0e293, type: 3}
+  sonidosParlante:
+  - {fileID: 8300000, guid: 346ce3d6f595f654f8baeb32826c3dec, type: 3}
+  - {fileID: 8300000, guid: 0495b3fa5b2e42d49bafeeaabf9ccf7f, type: 3}
+  - {fileID: 8300000, guid: a79e25ba73a157745b8629dbaebab8c0, type: 3}
+  - {fileID: 8300000, guid: 6a81371af541f5e4e93f034d9f47e260, type: 3}
+  - {fileID: 8300000, guid: 51844195cbc95564587593f261a94d89, type: 3}
+  sonidosCorrecto: []

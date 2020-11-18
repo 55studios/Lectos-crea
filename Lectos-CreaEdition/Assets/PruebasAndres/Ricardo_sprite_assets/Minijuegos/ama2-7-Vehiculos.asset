@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a64e25d596c56f4ea09ae5f1ee3f7da, type: 3}
+  m_Name: ama2-7-Vehiculos
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  variante: 2
+  variacion: 0
+  arrastrables:
+  - {fileID: 11400000, guid: 551a1e635881e894fb7a5db23593e3a4, type: 2}
+  - {fileID: 11400000, guid: 0304d8cf0da54e646b30a148aea4bbe4, type: 2}
+  - {fileID: 11400000, guid: 93ec368dc4edbee4cbd9b855413a7f6d, type: 2}
+  - {fileID: 11400000, guid: 359d1b0b49fb5ee4d83d99a71b634f4d, type: 2}
+  - {fileID: 11400000, guid: af38bc6e47611434bb0c7fddd3bd634e, type: 2}
+  receptores:
+  - {fileID: 11400000, guid: 1980ff32ad05ea144953211ff3e80078, type: 2}
+  - {fileID: 11400000, guid: c3fdcd26fbf7600449cf1d12d2667037, type: 2}
+  - {fileID: 11400000, guid: 49993f8025d5e144cab48a09d07c1a8c, type: 2}
+  - {fileID: 11400000, guid: 85c9d252983ddac4ba60f00b32e0cfea, type: 2}
+  - {fileID: 11400000, guid: 5bcf57bec95832c40acf6cdfe99deead, type: 2}
+  sonidosArrastrar:
+  - {fileID: 8300000, guid: 5d21e14ed79dedc46a9914978d86294c, type: 3}
+  - {fileID: 8300000, guid: 4798ae9d47c40d64b933b69a5da3867d, type: 3}
+  - {fileID: 8300000, guid: 2aeeaf88c2ed0624285c4438ff6dfe9d, type: 3}
+  - {fileID: 8300000, guid: 76a71c43fa063f345a7b6d48ca583a1e, type: 3}
+  - {fileID: 8300000, guid: 8415ba32bb8abab4fa1a80c42bac7934, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: 95eb277a66c09324db750ab6245fb9de, type: 3}
+  - {fileID: 8300000, guid: 05ef453e90541c94587352073bfa15db, type: 3}
+  - {fileID: 8300000, guid: 438b4e1d6935b1f4baddba2de7d01369, type: 3}
+  - {fileID: 8300000, guid: 226ff3e5d64780c40aa2a80bf6ec9a04, type: 3}
+  - {fileID: 8300000, guid: c435afc5891d8264684708b19db18f34, type: 3}

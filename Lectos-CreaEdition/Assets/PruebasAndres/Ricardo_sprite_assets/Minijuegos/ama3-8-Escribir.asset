@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309196475b9b705428fea4edf50f4695, type: 3}
+  m_Name: ama3-8-Escribir
+  m_EditorClassIdentifier: 
+  puntosLogrables: 10
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  respuestas:
+  - {fileID: 11400000, guid: 51ddbb7dd210acc47a1dad3436214cec, type: 2}
+  - {fileID: 11400000, guid: 6bc56e9a284d44544abdf4642e01d71e, type: 2}
+  - {fileID: 11400000, guid: 9d9adb553736a074fbef286c17177914, type: 2}
+  - {fileID: 11400000, guid: c10b0735e442f3848824f846b3be130d, type: 2}
+  - {fileID: 11400000, guid: c3e10ad7131a2fb4c97c77f5628acc74, type: 2}
+  - {fileID: 11400000, guid: 61d26ff93dd643b4c92dab13a79ba850, type: 2}
+  - {fileID: 11400000, guid: f106fe6f0d9462740b60471e4ea10c96, type: 2}
+  - {fileID: 11400000, guid: 19d2aaa32337eae4a8c554b8b80cf4df, type: 2}
+  - {fileID: 11400000, guid: b74b27c6066fb254b804e84952d212b4, type: 2}
+  - {fileID: 11400000, guid: 655944bbe7fea414b86d2f5ace92c29d, type: 2}
+  sonidosRespuestas:
+  - {fileID: 8300000, guid: e72f3b0bb219c3449aadfa5f09b8c598, type: 3}
+  - {fileID: 8300000, guid: 7d2fdd7db0733a74ca78fde3b7760cba, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: fc1192e024fe8d24793d529c5789315c, type: 3}

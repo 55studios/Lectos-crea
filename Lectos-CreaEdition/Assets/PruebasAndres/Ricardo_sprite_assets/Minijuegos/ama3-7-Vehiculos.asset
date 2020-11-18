@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a64e25d596c56f4ea09ae5f1ee3f7da, type: 3}
+  m_Name: ama3-7-Vehiculos
+  m_EditorClassIdentifier: 
+  puntosLogrables: 2
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  variante: 2
+  variacion: 0
+  arrastrables:
+  - {fileID: 11400000, guid: 7e6506b8cd7dc524e8f702e179b654a2, type: 2}
+  - {fileID: 11400000, guid: 7ebcbf0c2b56b054aac3c3b58d3aa4f0, type: 2}
+  receptores:
+  - {fileID: 11400000, guid: d0153d5970f80884589eb266dd40af43, type: 2}
+  - {fileID: 11400000, guid: a884c623064553e4d84e1485fe293f8d, type: 2}
+  sonidosArrastrar:
+  - {fileID: 8300000, guid: 8ce20be913b8da44ba4f5af658bd4456, type: 3}
+  - {fileID: 8300000, guid: 65877cd68248ec842b1afa915b9fa7dc, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: e72f3b0bb219c3449aadfa5f09b8c598, type: 3}
+  - {fileID: 8300000, guid: fc1192e024fe8d24793d529c5789315c, type: 3}
