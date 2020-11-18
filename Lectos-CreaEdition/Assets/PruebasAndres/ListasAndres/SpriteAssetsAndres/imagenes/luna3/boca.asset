@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: boca
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1901472733646232760, guid: b558c466ced55dd469e8d5f47be2a66e, type: 3}
+  - {fileID: 5111016120261584117, guid: b558c466ced55dd469e8d5f47be2a66e, type: 3}
+  - {fileID: -1422836023874120890, guid: b558c466ced55dd469e8d5f47be2a66e, type: 3}

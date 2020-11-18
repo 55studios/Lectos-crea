@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: copa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -7365867223671865068, guid: 723e9e3914fab30448a14f34f04a69f0, type: 3}
+  - {fileID: 1079540818780941610, guid: 723e9e3914fab30448a14f34f04a69f0, type: 3}
+  - {fileID: -1277097240942953623, guid: 723e9e3914fab30448a14f34f04a69f0, type: 3}

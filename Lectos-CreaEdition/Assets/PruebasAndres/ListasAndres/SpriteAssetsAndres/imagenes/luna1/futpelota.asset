@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: futpelota
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: fbb016a97c9c33d4e9e9cba9cd445530, type: 3}

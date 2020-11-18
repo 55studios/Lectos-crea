@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: cuna
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1273111523708713699, guid: 2f17ca0aac0a704498ff3674c4ff8848, type: 3}

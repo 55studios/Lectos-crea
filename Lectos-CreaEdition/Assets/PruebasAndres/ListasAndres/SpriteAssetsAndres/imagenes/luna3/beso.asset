@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: beso
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5357705515655123690, guid: 69a0782e434e13349a15164262cffc94, type: 3}

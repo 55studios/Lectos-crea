@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: cejas
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -2614286804149147913, guid: 71d7b2f4d81920c488ebdd03299afbf7, type: 3}
+  - {fileID: -2836498597555779010, guid: 71d7b2f4d81920c488ebdd03299afbf7, type: 3}
+  - {fileID: 8298897404689969652, guid: 71d7b2f4d81920c488ebdd03299afbf7, type: 3}

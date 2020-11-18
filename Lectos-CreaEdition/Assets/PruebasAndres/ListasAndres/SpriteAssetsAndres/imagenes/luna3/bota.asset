@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: bota
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5474364817351063870, guid: dc3b34391af53564fbc8944d1a5720b0, type: 3}
+  - {fileID: 573400170481791291, guid: dc3b34391af53564fbc8944d1a5720b0, type: 3}
+  - {fileID: 6820233607778197422, guid: dc3b34391af53564fbc8944d1a5720b0, type: 3}
