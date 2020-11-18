@@ -22,14 +22,15 @@ public class Sonido : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0) && clickeable)
         {
-            if (audioS != null && miSonido != null)
-            {
-                audioS.Stop();
-                audioS.clip = miSonido;
-                audioS.Play();
-            }
+            
             if (playS.audioActual == GetComponent<Respuesta>().respuesta)
             {
+                if (audioS != null && miSonido != null)
+                {
+                    audioS.Stop();
+                    audioS.clip = miSonido;
+                    audioS.Play();
+                }
                 clickeable = false;
                 playS.CambiarAudio();
                 GameObject controlador = GameObject.FindWithTag("GameController");

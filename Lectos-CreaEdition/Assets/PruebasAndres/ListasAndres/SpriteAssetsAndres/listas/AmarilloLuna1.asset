@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: AmarilloLuna1
   m_EditorClassIdentifier: 
   lista:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 396d8e5435ec13d40920bfd74b99caca, type: 2}
+  - {fileID: 11400000, guid: ebec137b3099022448ccbf07fc625c12, type: 2}
+  - {fileID: 11400000, guid: d8f71b3a5b70fe541951dae793e6140e, type: 2}
+  - {fileID: 11400000, guid: 04bc7cb657ccdbb4e8a54faa22d1e427, type: 2}
+  - {fileID: 11400000, guid: ba223d172dbb46e449fee9176ae31103, type: 2}
+  - {fileID: 11400000, guid: bd78e3d4705a9ff4b9a79100c62db5c2, type: 2}
+  - {fileID: 11400000, guid: 6ed2d57df81799a4aa5f114e5e0c919a, type: 2}
+  - {fileID: 11400000, guid: 8720bc807ad8e3b4c804c765128bd9fa, type: 2}
+  - {fileID: 11400000, guid: 315f99d4b31bcf3418f267605a20c4e3, type: 2}
+  - {fileID: 11400000, guid: dd1bbe410d519df40a3a8ad307b33adf, type: 2}
+  - {fileID: 11400000, guid: 5ab7b52006a43fb4c9d59d9fb489129a, type: 2}
