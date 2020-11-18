@@ -12,7 +12,7 @@ public class Sonidos : MinigameData
     }
 
     public SpriteAsset[] clickeables;
-    public Sprite[] animacionCorrecto;
+    public SpriteAsset[] animacionCorrecto;
 
     public AudioClip[] sonidosParlante;
     public AudioClip[] sonidosCorrecto;
