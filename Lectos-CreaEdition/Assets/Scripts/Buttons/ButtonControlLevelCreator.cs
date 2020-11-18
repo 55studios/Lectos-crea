@@ -8,15 +8,22 @@ public class ButtonControlLevelCreator : MonoBehaviour
     private float waitTimeDuring = 0.8f;
     private float WaitingTimeEnd = 0.5f;
 
-    private GameObject fondo;
+    private SpriteRenderer fondo;
     private Animator transition;
     private ButtonToController controllerMiniGames;
+    private GameObject parent;
+    private MoveAnimationInOut moons;
+    //private MoveAnimationInOut moon_2;
+    //private MoveAnimationInOut moon_3;
 
     private void Start() {
-
         controllerMiniGames = GetComponent<ButtonToController>();
-        fondo = GameObject.Find("FondoPlaneta");
+        fondo = GameObject.Find("FondoPlaneta").GetComponent<SpriteRenderer>();
         transition = GameObject.Find("TransitionAnimation").GetComponent<Animator>();
+        parent = GameObject.Find("MinijuegoTerminado");
+        moons = GameObject.Find("Moons").GetComponent<MoveAnimationInOut>();
+        //moon_2 = GameObject.Find("Moon_2").GetComponent<MoveAnimationInOut>();
+        //moon_3 = GameObject.Find("Moon_3").GetComponent<MoveAnimationInOut>();
     }
     public void OnCLickInTransition() {
         StartCoroutine(InTransitionEvent());
@@ -27,18 +34,22 @@ public class ButtonControlLevelCreator : MonoBehaviour
     }
 
     IEnumerator InTransitionEvent() {
-        transition.SetTrigger("In");
+        transition.SetTrigger("Out");
         yield return new WaitForSeconds(waitTimeStart);
-        fondo.SetActive(false);
+        fondo.enabled = true;
         yield return new WaitForSeconds(waitTimeDuring);
-        fondo.SetActive(true);
+        transition.SetTrigger("In");
+        moons.InAnimation();
+        //moon_2.InAnimation();
+        //moon_3.InAnimation();
+        parent.SetActive(false);
     }
 
     IEnumerator OutTransitionEvent() {
         yield return new WaitForSeconds(waitTimeStart);
         transition.SetTrigger("Out");
         yield return new WaitForSeconds(waitTimeDuring);
-        fondo.SetActive(false);
+        fondo.enabled = false;
         controllerMiniGames.CrearMinijuego();
         yield return new WaitForSeconds(WaitingTimeEnd);
         transition.SetTrigger("In");
