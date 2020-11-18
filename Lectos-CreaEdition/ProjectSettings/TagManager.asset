@@ -10,6 +10,7 @@ TagManager:
   - Texto
   - FxTemporaire
   - Reproductor
+  - AnimadorVehiculos
   layers:
   - Default
   - TransparentFX
