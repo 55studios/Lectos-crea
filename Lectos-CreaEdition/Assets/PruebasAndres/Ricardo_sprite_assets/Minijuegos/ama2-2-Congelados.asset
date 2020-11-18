@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89fa929672dbf3b48a0b7af673804490, type: 3}
+  m_Name: ama2-2-Congelados
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  variante: 1
+  arrastrables:
+  - {fileID: 11400000, guid: 37fab60cd2a562c4098b26b6785303c8, type: 2}
+  - {fileID: 11400000, guid: 43fd846603406254d8b8ad6b20637aab, type: 2}
+  - {fileID: 11400000, guid: c2e6cf6bc10c5a64986a874b75b489fc, type: 2}
+  - {fileID: 11400000, guid: 33d024dc771d86a43b1cf70510f2b2d6, type: 2}
+  - {fileID: 11400000, guid: 3786d0580ebad1643bebff817eaf2d87, type: 2}
+  receptores:
+  - {fileID: 11400000, guid: 2d2efdb5ee5fe6a419b9876ff58a9fef, type: 2}
+  - {fileID: 11400000, guid: 1bda5a5f570bc4643a38b9a4892b960c, type: 2}
+  - {fileID: 11400000, guid: 521e896857f85bf4ab113dc1b59e4ece, type: 2}
+  - {fileID: 11400000, guid: 1446b16269c25cc439fe4b30d91633d9, type: 2}
+  - {fileID: 11400000, guid: c319090f8d5674e49a5b69fe7d450543, type: 2}
+  sonidosArrastrar: []
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: 43af2f96609df954c8b9ca99bdd0825a, type: 3}
+  - {fileID: 8300000, guid: 49768e84dec12a24aa12419f19b38a8b, type: 3}
+  - {fileID: 8300000, guid: e2576346a46df0d438fc9464320eba0a, type: 3}
+  - {fileID: 8300000, guid: d64c2d007825dce459aa58d3fb6c3e1c, type: 3}
+  - {fileID: 8300000, guid: f8f28b5b151b7ad45a9ee176711be955, type: 3}
