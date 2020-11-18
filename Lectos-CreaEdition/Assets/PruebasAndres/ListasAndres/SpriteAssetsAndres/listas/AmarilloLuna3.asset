@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: AmarilloLuna3
   m_EditorClassIdentifier: 
   lista:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 78cca473a9492e44a8bd9d6f62a82691, type: 2}
+  - {fileID: 11400000, guid: 04d7e1faa9e06dc4fb4c6f95f5924a51, type: 2}
+  - {fileID: 11400000, guid: 31a9b32059ac8c4418f490f932373638, type: 2}
+  - {fileID: 11400000, guid: 2fcd468eb7678754fa4ea44818b9507d, type: 2}
+  - {fileID: 11400000, guid: 64b087adc8c1c7040870967e630c0ad8, type: 2}
+  - {fileID: 11400000, guid: 6b947f9f01ae60347a43a37f414929c9, type: 2}
+  - {fileID: 11400000, guid: fa2ab9ee9024f3a469d76ae643b0b309, type: 2}
+  - {fileID: 11400000, guid: 5d831aeb1469b0a4f819d55129d842f6, type: 2}

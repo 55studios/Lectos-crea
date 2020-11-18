@@ -52,50 +52,50 @@ public class CreateLevel : MonoBehaviour
                     Transform[] activ = Or.activadores;
                     Transform[] recep = Or.receptores;
                     DragAndDrop Dyd = (DragAndDrop)MGD;
-                    CreateSprites(activ, Dyd.arrastrables, activadorPrefab, Dyd.variante);
-                    CreateSprites(recep, Dyd.receptores, receptorPrefab, Dyd.variante);
+                    CreateSprites(activ, Dyd.arrastrables, activadorPrefab, Dyd.variante, Dyd.sonidosArrastrar, Or.gameObject);
+                    CreateSprites(recep, Dyd.receptores, receptorPrefab, Dyd.variante, Dyd.sonidosCorrecto, Or.gameObject);
                     break;
                 case 1: //escribir palabra
                     As.clip = MGD.sonidoAcierto;
                     Transform[] recepText = Or.receptores;
                     Escribir Es = (Escribir)MGD;
-                    CreateSpritesText(recepText, Es.respuestas, receptorTextoPrefab);
+                    CreateSpritesText(recepText, Es.respuestas, receptorTextoPrefab, Es.sonidosRespuestas, Or.gameObject);
                     break;
                 case 2: //memoria
                     As.clip = MGD.sonidoAcierto;
                     Transform[] recepMemo = Or.receptores;
                     Memoria Me = (Memoria)MGD;
-                    CreateSpritesMemoria(recepMemo, Me.parejasElemento1, Me.parejasElemento2, receptorMemoriaPrefab);
+                    CreateSpritesMemoria(recepMemo, Me.parejasElemento1, Me.parejasElemento2, receptorMemoriaPrefab, Me.flip, Or.gameObject);
                     break;
                 case 3: //sonidos
                     As.clip = MGD.sonidoAcierto;
                     Transform[] recepSonido = Or.receptores;
                     Sonidos So = (Sonidos)MGD;
-                    CreateSpritesSonidos(recepSonido, So.clickeables, So.sonidosParlante, receptorSonidosPrefab);
+                    CreateSpritesSonidos(recepSonido, So.clickeables, So.sonidosParlante, receptorSonidosPrefab, So.sonidosCorrecto, Or.gameObject);
                     break;
                 case 4: //congelados 
                     As.clip = MGD.sonidoAcierto;
                     Transform[] activCon = Or.activadores;
                     Transform[] recepCon = Or.receptores;
                     Congelados DydCon = (Congelados)MGD;
-                    CreateSprites(activCon, DydCon.arrastrables, activadorPrefab, DydCon.variante);
-                    CreateSprites(recepCon, DydCon.receptores, receptorCongeladoPrefab, DydCon.variante);
+                    CreateSprites(activCon, DydCon.arrastrables, activadorPrefab, DydCon.variante, DydCon.sonidosArrastrar, Or.gameObject);
+                    CreateSprites(recepCon, DydCon.receptores, receptorCongeladoPrefab, DydCon.variante, DydCon.sonidosCorrecto, Or.gameObject);
                     break;
                 case 5: //tren 
                     As.clip = MGD.sonidoAcierto;
                     Transform[] activTren = Or.activadores;
                     Transform[] recepTren = Or.receptores;
                     Vehiculos DydTren = (Vehiculos)MGD;
-                    CreateSprites(activTren, DydTren.arrastrables, activadorPrefab, DydTren.variante);
-                    CreateSprites(recepTren, DydTren.receptores, receptorTrenPrefab, DydTren.variante);
+                    CreateSprites(activTren, DydTren.arrastrables, activadorPrefab, DydTren.variante, DydTren.sonidosArrastrar, Or.gameObject);
+                    CreateSprites(recepTren, DydTren.receptores, receptorTrenPrefab, DydTren.variante, DydTren.sonidosCorrecto, Or.gameObject);
                     break;
                 case 6: //canchas 
                     As.clip = MGD.sonidoAcierto;
                     Transform[] activCan = Or.activadores;
                     Transform[] recepCan = Or.receptores;
                     Canchas DydCan = (Canchas)MGD;
-                    CreateSpritesCanchas(activCan, DydCan.arrastrables, activadorPrefab, DydCan.animacionFinal);
-                    CreateSpritesCanchas(recepCan, DydCan.receptores, receptorPrefab, DydCan.animacionFinal);
+                    CreateSpritesCanchas(activCan, DydCan.arrastrables, activadorPrefab, DydCan.animacionFinal, DydCan.sonidosArrastrar, Or.gameObject);
+                    CreateSpritesCanchas(recepCan, DydCan.receptores, receptorPrefab, DydCan.animacionFinal, DydCan.sonidosCorrecto, Or.gameObject);
                     break;
                 case 7: //habitaciones 
                     As.clip = MGD.sonidoAcierto;
@@ -112,7 +112,7 @@ public class CreateLevel : MonoBehaviour
         }
     }
 
-    void CreateSprites (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, int variante)
+    void CreateSprites (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, int variante, AudioClip[] sonidos, GameObject reproductor)
     {
         System.Array.Sort(posiciones, RandomSort);
         if (posiciones.Length > 1)
@@ -126,6 +126,8 @@ public class CreateLevel : MonoBehaviour
                 if (elemento.GetComponent<Drop>() != null)
                 {
                     elemento.GetComponent<Drop>().frames = temporales;
+                    elemento.GetComponent<Drop>().miSonido = sonidos[i];
+                    elemento.GetComponent<Drop>().audioS = reproductor.GetComponent<AudioSource>();
                     if (variante == 1)
                     {
                         elemento.GetComponent<Drop>().hielo = true;
@@ -135,6 +137,11 @@ public class CreateLevel : MonoBehaviour
                         elemento.GetComponent<Drop>().vehiculos = true;
                         elemento.GetComponent<Drop>().posActivador = posiciones[i].transform.Find("1").transform;
                     }
+                }
+                if (elemento.GetComponent<Drag>() != null)
+                {
+                    elemento.GetComponent<Drag>().miSonido = sonidos[i];
+                    elemento.GetComponent<Drag>().audioS = reproductor.GetComponent<AudioSource>();
                 }
             }
         } else
@@ -154,6 +161,8 @@ public class CreateLevel : MonoBehaviour
                 if (elemento.GetComponent<Drop>() != null)
                 {
                     elemento.GetComponent<Drop>().frames = temporales;
+                    elemento.GetComponent<Drop>().miSonido = sonidos[i];
+                    elemento.GetComponent<Drop>().audioS = reproductor.GetComponent<AudioSource>();
                     if (variante == 1)
                     {
                         elemento.GetComponent<Drop>().hielo = true;
@@ -165,12 +174,17 @@ public class CreateLevel : MonoBehaviour
                         elemento.GetComponent<Drop>().posActivador = posiciones[i].transform.Find("1").transform;
                     }
                 }
+                if (elemento.GetComponent<Drag>() != null)
+                {
+                    elemento.GetComponent<Drag>().miSonido = sonidos[i];
+                    elemento.GetComponent<Drag>().audioS = reproductor.GetComponent<AudioSource>();
+                }
             }
             posicionListaReceptores = 0;
         }
     }
 
-    void CreateSpritesText (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab)
+    void CreateSpritesText (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, AudioClip[] sonidos, GameObject reproductor)
     {
         System.Array.Sort(posiciones, RandomSort);
         receptoresCreados = new GameObject[imagenes.Length];
@@ -180,6 +194,11 @@ public class CreateLevel : MonoBehaviour
             GameObject elemento = Instantiate(prefab, posiciones[0].position, Quaternion.identity);
             elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
             elemento.GetComponent<RespuestaTexto>().respuesta = imagenes[i].name;
+            if (elemento.GetComponent<CheckText>() != null)
+            {
+                elemento.GetComponent<CheckText>().miSonido = sonidos[i];
+                elemento.GetComponent<CheckText>().audioS = reproductor.GetComponent<AudioSource>();
+            }           
             receptoresCreados[i] = elemento;
             if (i > 0)
             {
@@ -189,7 +208,7 @@ public class CreateLevel : MonoBehaviour
         posicionListaReceptores = 0;
     }
 
-    void CreateSpritesMemoria (Transform[] posiciones, SpriteAsset[] imagenes1, SpriteAsset[] imagenes2, GameObject prefab)
+    void CreateSpritesMemoria(Transform[] posiciones, SpriteAsset[] imagenes1, SpriteAsset[] imagenes2, GameObject prefab, AudioClip flip, GameObject reproductor)
     {
         int n = 0;
         System.Array.Sort(posiciones, RandomSort);
@@ -204,16 +223,26 @@ public class CreateLevel : MonoBehaviour
             elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
             elemento.GetComponent<Respuesta>().respuesta = i;
             elemento.GetComponent<Memo>().checker = Or.gameObject;
+            if (flip != null)
+            {
+                elemento.GetComponent<Memo>().miSonido = flip;
+                elemento.GetComponent<Memo>().audioS = reproductor.GetComponent<AudioSource>();
+            }            
             n++;
             Sprite[] temporales2 = imagenes2[i].frames;
             GameObject elemento2 = Instantiate(prefab, posiciones[n].position, Quaternion.identity);
             elemento2.GetComponent<SpriteRenderer>().sprite = temporales2[0];
             elemento2.GetComponent<Respuesta>().respuesta = i;
             elemento2.GetComponent<Memo>().checker = Or.gameObject;
+            if (flip != null)
+            {
+                elemento2.GetComponent<Memo>().miSonido = flip;
+                elemento.GetComponent<Memo>().audioS = reproductor.GetComponent<AudioSource>();
+            }
         }
     }
 
-    void CreateSpritesSonidos(Transform[] posiciones, SpriteAsset[] imagenes, AudioClip[] audios, GameObject prefab)
+    void CreateSpritesSonidos(Transform[] posiciones, SpriteAsset[] imagenes, AudioClip[] audios, GameObject prefab, AudioClip[] sonidosCorrecto, GameObject reproductor)
     {
         System.Array.Sort(posiciones, RandomSort);
         GameObject play = GameObject.FindGameObjectWithTag("Reproductor");
@@ -230,13 +259,17 @@ public class CreateLevel : MonoBehaviour
             {
                 elemento.GetComponent<Sonido>().frames = temporales;
                 play.GetComponent<PlaySonidos>().elementosSonido[i] = elemento.GetComponent<Sonido>();
-            }
-            
+                if (sonidosCorrecto != null)
+                {
+                    elemento.GetComponent<Sonido>().miSonido = sonidosCorrecto[i];
+                    elemento.GetComponent<Sonido>().audioS = reproductor.GetComponent<AudioSource>();
+                }                
+            }            
             play.GetComponent<PlaySonidos>().sonidos[i] = audios[i];
         }
     }
 
-    void CreateSpritesCanchas(Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, SpriteAsset[] animaciones)
+    void CreateSpritesCanchas(Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, SpriteAsset[] animaciones, AudioClip[] sonidos, GameObject reproductor)
     {
         for (int i = 0; i < posiciones.Length; i++)
         {
@@ -248,6 +281,13 @@ public class CreateLevel : MonoBehaviour
             if (elemento.GetComponent<Drop>() != null)
             {
                 elemento.GetComponent<Drop>().frames = temporales2;
+                elemento.GetComponent<Drop>().miSonido = sonidos[i];
+                elemento.GetComponent<Drop>().audioS = reproductor.GetComponent<AudioSource>();
+            }
+            if (elemento.GetComponent<Drag>() != null)
+            {
+                elemento.GetComponent<Drag>().miSonido = sonidos[i];
+                elemento.GetComponent<Drag>().audioS = reproductor.GetComponent<AudioSource>();
             }
         }
     }

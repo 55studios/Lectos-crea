@@ -160,6 +160,8 @@ MonoBehaviour:
   vehiculos: 0
   temporal: 1
   posActivador: {fileID: 0}
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!61 &45711901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -428,6 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e748eebac04e6b547baa68a16ac432a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
   speed: 8
 --- !u!61 &175552027
 BoxCollider2D:
@@ -559,6 +563,8 @@ MonoBehaviour:
   vehiculos: 0
   temporal: 1
   posActivador: {fileID: 0}
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!61 &176169768
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -827,6 +833,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e748eebac04e6b547baa68a16ac432a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
   speed: 8
 --- !u!61 &317984739
 BoxCollider2D:
@@ -1062,6 +1070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e748eebac04e6b547baa68a16ac432a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
   speed: 8
 --- !u!61 &335211065
 BoxCollider2D:
@@ -1193,6 +1203,8 @@ MonoBehaviour:
   vehiculos: 0
   temporal: 1
   posActivador: {fileID: 0}
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!61 &408502950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1357,6 +1369,8 @@ MonoBehaviour:
   vehiculos: 0
   temporal: 1
   posActivador: {fileID: 0}
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!61 &433630675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1491,6 +1505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1214964561}
+  - component: {fileID: 1214964562}
   m_Layer: 0
   m_Name: OrganizadorFake (1)
   m_TagString: Organizador
@@ -1512,6 +1527,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1214964562
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214964560}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1340815987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1662,8 @@ MonoBehaviour:
   vehiculos: 0
   temporal: 1
   posActivador: {fileID: 0}
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!61 &1340815989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1819,6 +1932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e748eebac04e6b547baa68a16ac432a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
   speed: 8
 --- !u!61 &1488353033
 BoxCollider2D:
@@ -2054,6 +2169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e748eebac04e6b547baa68a16ac432a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
   speed: 8
 --- !u!61 &1677678560
 BoxCollider2D:
@@ -2371,6 +2488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e748eebac04e6b547baa68a16ac432a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
   speed: 8
 --- !u!61 &2085320736
 BoxCollider2D:
@@ -2502,6 +2621,8 @@ MonoBehaviour:
   vehiculos: 0
   temporal: 1
   posActivador: {fileID: 0}
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!61 &2136018997
 BoxCollider2D:
   m_ObjectHideFlags: 0

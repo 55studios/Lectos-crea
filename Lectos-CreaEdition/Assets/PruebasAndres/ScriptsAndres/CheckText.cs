@@ -8,18 +8,16 @@ public class CheckText : MonoBehaviour
     Text t;
     string respuesta;
     bool completo;
-    int indexsonido;
     public AudioSource audioS;
-    public AudioClip[] misSonidos;
+    public AudioClip miSonido;
 
     // Start is called before the first frame update
     void Start()
     {
-        indexsonido = 0;
         t = GameObject.FindWithTag("Texto").GetComponent<Text>();
-        respuesta = GetComponent<RespuestaTexto>().respuesta;       
+        respuesta = GetComponent<RespuestaTexto>().respuesta;
+        Invoke("IniciarSonidoRespuesta", 2f);
     }
-
 
     // Update is called once per frame
     void Update()
@@ -52,10 +50,11 @@ public class CheckText : MonoBehaviour
             if (t.text == respuesta)  //si el texto es igual a la respuesta correcta pasa a la siguiente
             {
                 print("Correctin");
-                Destroy(gameObject);
+                IniciarSonidoRespuesta();                
                 GameObject controlador = GameObject.FindWithTag("GameController");
                 controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
                 t.text = "";
+                Destroy(gameObject);
             }
             else
             {
@@ -79,10 +78,10 @@ public class CheckText : MonoBehaviour
 
     void IniciarSonidoRespuesta ()
     {
-        if (audioS != null && misSonidos != null)
+        if (audioS != null && miSonido != null)
         {
             audioS.Stop();
-            audioS.clip = misSonidos[indexsonido];
+            audioS.clip = miSonido;
             audioS.Play();
         }
     }
