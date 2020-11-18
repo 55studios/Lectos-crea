@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f846df6fccb7474c96d8dff0e58f8f2, type: 3}
+  m_Name: Luna1-1Canchas
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 8082871792fc3f948998824eae29dffb, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  arrastrables:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  receptores: []
+  animacionFinal: []
+  sonidosArrastrar: []
+  sonidosCorrecto: []
