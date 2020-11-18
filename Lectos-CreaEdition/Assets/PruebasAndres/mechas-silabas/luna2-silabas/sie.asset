@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: sie
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 0fdd35ec3456b0543b76864dd74c1961, type: 3}

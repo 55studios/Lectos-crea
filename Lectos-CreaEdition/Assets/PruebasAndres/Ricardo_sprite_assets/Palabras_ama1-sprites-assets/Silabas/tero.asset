@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
   m_Name: tero
   m_EditorClassIdentifier: 
-  frames: []
+  frames:
+  - {fileID: 21300000, guid: b6c0f1e165984cf41bdc2e030a5f3eaf, type: 3}

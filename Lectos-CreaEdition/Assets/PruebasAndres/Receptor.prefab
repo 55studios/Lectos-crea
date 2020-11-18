@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 7
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -126,6 +126,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frames: []
+  hielo: 0
+  vehiculos: 0
+  temporal: 0
+  posActivador: {fileID: 0}
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
 --- !u!50 &-1851697471557114095
 Rigidbody2D:
   serializedVersion: 4

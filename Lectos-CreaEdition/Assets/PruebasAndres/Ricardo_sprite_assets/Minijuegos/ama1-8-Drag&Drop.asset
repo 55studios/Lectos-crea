@@ -23,17 +23,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2ca8de180d3e8ed4f865681cb4905410, type: 2}
   - {fileID: 11400000, guid: 9d6ce5736a53f494a98c0c9144eda1c5, type: 2}
   - {fileID: 11400000, guid: 3ae05fa7d167244449e518cdd2191a0b, type: 2}
-  - {fileID: 11400000, guid: 2eeed9f7366c09540be29fa5934fdfda, type: 2}
+  - {fileID: 11400000, guid: 4a7b418bab6a9b542921d6a1c5b577e2, type: 2}
   receptores:
-  - {fileID: 11400000, guid: 1dd3425c386aa1441abfc35bc9242e7a, type: 2}
-  - {fileID: 11400000, guid: 99eed44c3fea2e744974dc813fb580d2, type: 2}
-  - {fileID: 11400000, guid: 85bbd6a5d0cb55f438c3d997471226cd, type: 2}
-  - {fileID: 11400000, guid: c7ad95c4ddbd49a498d5ec9e27f28922, type: 2}
-  - {fileID: 11400000, guid: 8b62d167a11ae9049a77b75d0b6c667f, type: 2}
+  - {fileID: 11400000, guid: 135b4e1750a23534e978a2cd203cb68c, type: 2}
+  - {fileID: 11400000, guid: dfa42926068d6ec4cb48431a6cf4bbf6, type: 2}
+  - {fileID: 11400000, guid: b53206dee7cf9f44c9e1a6cf685c2a8f, type: 2}
+  - {fileID: 11400000, guid: 85dd68d281c752841a5da86c46eb8b6d, type: 2}
+  - {fileID: 11400000, guid: 1882c8e047646814fade00067d10e8a4, type: 2}
   sonidosArrastrar:
-  - {fileID: 8300000, guid: a02e96f638ec0294987a6331321ef2bc, type: 3}
-  - {fileID: 8300000, guid: a0d29a0e38d8a2244bdd98c1009c5262, type: 3}
-  - {fileID: 8300000, guid: fbf8bdfd67c08c04b90c7f140e92c228, type: 3}
-  - {fileID: 8300000, guid: 7d2fdd7db0733a74ca78fde3b7760cba, type: 3}
-  - {fileID: 8300000, guid: 696a84af88f1b9e42b760c67c08986ba, type: 3}
+  - {fileID: 8300000, guid: 346ce3d6f595f654f8baeb32826c3dec, type: 3}
+  - {fileID: 8300000, guid: 0495b3fa5b2e42d49bafeeaabf9ccf7f, type: 3}
+  - {fileID: 8300000, guid: a79e25ba73a157745b8629dbaebab8c0, type: 3}
+  - {fileID: 8300000, guid: 6a81371af541f5e4e93f034d9f47e260, type: 3}
+  - {fileID: 8300000, guid: 51844195cbc95564587593f261a94d89, type: 3}
   sonidosCorrecto: []

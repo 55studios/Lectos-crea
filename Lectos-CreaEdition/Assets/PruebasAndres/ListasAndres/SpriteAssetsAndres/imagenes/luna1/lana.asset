@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: lana
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -5326321381098842371, guid: 5ee932c6b4340ac428825b6eea2c4fcd, type: 3}
-  - {fileID: -7811543224568593373, guid: 5ee932c6b4340ac428825b6eea2c4fcd, type: 3}
-  - {fileID: 8858810833373127817, guid: 5ee932c6b4340ac428825b6eea2c4fcd, type: 3}
+  - {fileID: 6858257994810689640, guid: 0b9dfdb12994a8947abd9c26fc6fb705, type: 3}

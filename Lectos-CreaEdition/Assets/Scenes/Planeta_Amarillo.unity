@@ -4763,13 +4763,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationsScales:
   - {fileID: 1704225829}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 125401796}
+  - {fileID: 438331417}
+  - {fileID: 140968775}
+  - {fileID: 1993678663}
+  - {fileID: 1750797665}
+  - {fileID: 507105459}
+  - {fileID: 255869966}
 --- !u!114 &304095858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27503,7 +27503,8 @@ MonoBehaviour:
   receptorSonidosPrefab: {fileID: 3217571764099719950, guid: b7f5b783142af2446be11239039b6a30,
     type: 3}
   InterfazFinMinijuego: {fileID: 1032150817}
-  receptorTrenPrefab: {fileID: 0}
+  receptorTrenPrefab: {fileID: 155120060774206947, guid: eb459ac6862cfbc46ac08fd04a564af8,
+    type: 3}
 --- !u!4 &1887150183
 Transform:
   m_ObjectHideFlags: 0
