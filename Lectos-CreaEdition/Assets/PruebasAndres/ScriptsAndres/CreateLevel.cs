@@ -328,6 +328,7 @@ public class CreateLevel : MonoBehaviour
         Or = null;
         maxPuntaje = 0;
         creado = false;
+        temporalFake = false;
         InterfazFinMinijuego.SetActive(true);
     }
 

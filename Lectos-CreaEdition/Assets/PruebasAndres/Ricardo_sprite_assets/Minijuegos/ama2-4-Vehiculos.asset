@@ -31,7 +31,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7475c99a4257fc74ebb103533fa92c3d, type: 2}
   - {fileID: 11400000, guid: 85c9d252983ddac4ba60f00b32e0cfea, type: 2}
   - {fileID: 11400000, guid: e355865626a60b949ae1667cd2bd162b, type: 2}
-  sonidosArrastrar: []
+  sonidosArrastrar:
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
   sonidosCorrecto:
   - {fileID: 8300000, guid: 43af2f96609df954c8b9ca99bdd0825a, type: 3}
   - {fileID: 8300000, guid: 49768e84dec12a24aa12419f19b38a8b, type: 3}

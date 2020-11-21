@@ -21,7 +21,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f65d286a8f5914f43abba5a4303d564e, type: 2}
   - {fileID: 11400000, guid: af6dfe2388b845e40b7caee29c2055f3, type: 2}
   - {fileID: 11400000, guid: 85620125fc24df840941ec5db46a59f8, type: 2}
-  - {fileID: 11400000, guid: dfa42926068d6ec4cb48431a6cf4bbf6, type: 2}
+  - {fileID: 11400000, guid: 9bda70a0bf5c9eb40b881ddeac8c6689, type: 2}
   - {fileID: 11400000, guid: 391b73b9cdde00543a3e722ee7b1772a, type: 2}
   receptores:
   - {fileID: 11400000, guid: a2e5a922620a11e4786529a3aa36bfef, type: 2}
@@ -41,4 +41,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c3b2af0fadd28fe4bb5270f5db47b847, type: 3}
   - {fileID: 8300000, guid: a5e90a229c31c7b49abe4e255bbe98e9, type: 3}
   - {fileID: 8300000, guid: 0d3ff5407b4875a40b135ebfc3835f9f, type: 3}
-  sonidosCorrecto: []
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
