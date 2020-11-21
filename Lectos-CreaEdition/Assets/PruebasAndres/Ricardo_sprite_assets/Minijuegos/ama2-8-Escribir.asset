@@ -18,18 +18,18 @@ MonoBehaviour:
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
   respuestas:
-  - {fileID: 11400000, guid: ccb2b8059554edc48bbbd81db66dd3c9, type: 2}
-  - {fileID: 11400000, guid: aaa02b675f566804796d92db973e7f4f, type: 2}
-  - {fileID: 11400000, guid: 33d024dc771d86a43b1cf70510f2b2d6, type: 2}
-  - {fileID: 11400000, guid: ce98f35d64fe73646a687854cafad7e7, type: 2}
-  - {fileID: 11400000, guid: db631adffbe155148b8f773feefd28e3, type: 2}
-  - {fileID: 11400000, guid: 8b0a282a3002ed947946e563f6838189, type: 2}
-  - {fileID: 11400000, guid: 1a3b0b8b0f97d6a44bc77963689d5823, type: 2}
+  - {fileID: 11400000, guid: 9fdb17ba4a575264dbfb729c07a2fc84, type: 2}
+  - {fileID: 11400000, guid: d5ebd052c2b180748a0a44d202be910b, type: 2}
+  - {fileID: 11400000, guid: 1446b16269c25cc439fe4b30d91633d9, type: 2}
+  - {fileID: 11400000, guid: 74f9be6dd6b79b54e9dbed92d26c3058, type: 2}
+  - {fileID: 11400000, guid: 158e932ccd8172e4e9d39a9b5734f305, type: 2}
+  - {fileID: 11400000, guid: b2ec3ef99c900bb41b244e64d0c73d5b, type: 2}
+  - {fileID: 11400000, guid: b31cd2dfd63dfcc4eaaa721ba07b4e84, type: 2}
   sonidosRespuestas:
   - {fileID: 8300000, guid: 020ea3ed70f3a3b4ca792fb36e7d422d, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
   - {fileID: 8300000, guid: d64c2d007825dce459aa58d3fb6c3e1c, type: 3}
   - {fileID: 8300000, guid: 226ff3e5d64780c40aa2a80bf6ec9a04, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
   - {fileID: 8300000, guid: 95eb277a66c09324db750ab6245fb9de, type: 3}

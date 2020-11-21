@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: cine
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -3279321591439571374, guid: 56a52106c77c2464b9b994a3db8b9ad7, type: 3}
