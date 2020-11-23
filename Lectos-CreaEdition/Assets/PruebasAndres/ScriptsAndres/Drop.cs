@@ -5,7 +5,9 @@ using UnityEngine;
 public class Drop : MonoBehaviour
 {
     bool correcta;
+    bool incorrecta;
     GameObject activadorCorrecto;
+    AudioSource errorAS;
     public Sprite[] frames;
     int frame = 0;
     public bool hielo;
@@ -37,7 +39,7 @@ public class Drop : MonoBehaviour
             {
                 transform.Find("Hielo").gameObject.SetActive(false);
             }
-             if (vehiculos)
+            if (vehiculos)
             {
                 activadorCorrecto.transform.SetParent(gameObject.transform);
                 activadorCorrecto.GetComponent<Drag>().enabled = false;
@@ -49,8 +51,7 @@ public class Drop : MonoBehaviour
                 {
                     Destroy(activadorCorrecto);
                     Destroy(gameObject, 1f);
-                }
-                
+                }               
             }
              if (temporal)
             {
@@ -58,6 +59,11 @@ public class Drop : MonoBehaviour
                 activadorCorrecto.transform.position = transform.position;
                 Destroy(gameObject);
             }
+        } else if (Input.GetMouseButtonUp(0) && incorrecta)
+        {
+            GameObject controlador = GameObject.FindWithTag("GameController");
+            controlador.GetComponent<CreateLevel>().Error();
+            print("llamando error");
         }
     }
 
@@ -67,12 +73,16 @@ public class Drop : MonoBehaviour
         {
             correcta = true;
             activadorCorrecto = collision.gameObject;
+        } else
+        {
+            incorrecta = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         correcta = false;
+        incorrecta = false;
     }
 
     void Animar()
@@ -90,5 +100,15 @@ public class Drop : MonoBehaviour
         print("se llamo");
         GameObject controlador = GameObject.FindWithTag("GameController");
         controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
+    }
+
+    private void OnMouseUp()
+    {
+        //if (!correcta)
+        //{
+            GameObject controlador = GameObject.FindWithTag("GameController");
+            controlador.GetComponent<CreateLevel>().Error();
+            print("llamando error");
+        //}
     }
 }
