@@ -7,13 +7,14 @@ using UnityEngine.SceneManagement;
 public class ChangeTargetC : MonoBehaviour {
 
     public string nextScene;
+    public Animator transition;
 
     private Transform rocket;
     private Transform lectosName;
     private ProCamera2D influenceChange;
     private CameraTarget camRocket;
     private CameraTarget camlectosN;
-    private ProCamera2DTransitionsFX _fx;
+    //private ProCamera2DTransitionsFX _fx;
     public GameObject lectos;
     private Animator animRobot;
     private MeshRenderer onTv;
@@ -26,13 +27,13 @@ public class ChangeTargetC : MonoBehaviour {
     void Start()
     {
         influenceChange = GetComponent<ProCamera2D>();
-        _fx = GetComponent<ProCamera2DTransitionsFX>();
+        //_fx = GetComponent<ProCamera2DTransitionsFX>();
         shakeRocket = GetComponent<ProCamera2DShake>();
         rocket = GameObject.Find("Rocket").transform;
         lectosName = GameObject.Find("Lectos").transform;
         camRocket = influenceChange.AddCameraTarget(rocket, 1, 1);
         camlectosN = influenceChange.AddCameraTarget(lectosName, 0, 0);
-        _fx.TransitionEnter();
+        //_fx.TransitionEnter();
         animRobot = GameObject.Find("LectoRobot").GetComponent<Animator>();
         onTv = lectos.GetComponent<MeshRenderer>();
         onTv.material.SetFloat("_TimeLine", 10);
@@ -51,7 +52,8 @@ public class ChangeTargetC : MonoBehaviour {
         yield return new WaitForSeconds(1.2f);
         TurnOnTv = true;
         yield return new WaitForSeconds(6);
-        _fx.TransitionExit();
+        //_fx.TransitionExit();
+        transition.SetTrigger("Out");
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(1);
     }
