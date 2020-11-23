@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: dd3f73ae659dff94088e0a804e235cab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5, y: 5}
+  m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
 --- !u!114 &-3411018682189598961
 MonoBehaviour:
@@ -124,6 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e748eebac04e6b547baa68a16ac432a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioS: {fileID: 0}
+  miSonido: {fileID: 0}
   speed: 8
 --- !u!114 &-5291884419511939858
 MonoBehaviour:

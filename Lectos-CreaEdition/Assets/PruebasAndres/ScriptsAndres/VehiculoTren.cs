@@ -13,10 +13,12 @@ public class VehiculoTren : MonoBehaviour
     {
         indexAnim = 1;
         transform.DOMoveX(puntosEnX[0], 3f).SetEase(Ease.InOutCubic);
+        GetComponent<AudioSource>().PlayDelayed(1f);
     }
 
     public void Mover()
     {
+        GetComponent<AudioSource>().Play();
         transform.DOMoveX(puntosEnX[indexAnim], 2f).SetEase(Ease.InOutCubic);
         indexAnim++;
     }

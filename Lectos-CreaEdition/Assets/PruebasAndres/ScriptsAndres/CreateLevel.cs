@@ -14,6 +14,7 @@ public class CreateLevel : MonoBehaviour
     public GameObject receptorSonidosPrefab;
     public GameObject InterfazFinMinijuego;
     public GameObject receptorTrenPrefab;
+    public GameObject receptorAsteroidePrefab;
 
     Organizador Or;
     AudioSource As;
@@ -26,6 +27,12 @@ public class CreateLevel : MonoBehaviour
     float timeStart;
     float timeEnd;
     bool temporalFake;
+    [SerializeField]
+    AudioSource ganar;
+    [SerializeField]
+    AudioSource perder;
+    [SerializeField]
+    AudioSource error;
 
     public void Cargar (string s)
     {
@@ -115,16 +122,24 @@ public class CreateLevel : MonoBehaviour
     void CreateSprites (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, int variante, AudioClip[] sonidos, GameObject reproductor)
     {
         System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
+        GameObject[] elementosCreados = new GameObject[imagenes.Length];
+        bool sonDrop = false;
         if (posiciones.Length > 1)
         {
-            for (int i = 0; i < posiciones.Length; i++)
+            for (int i = 0; i < imagenes.Length; i++)
             {
                 Sprite[] temporales = imagenes[i].frames;
                 GameObject elemento = Instantiate(prefab, posiciones[i].position, Quaternion.identity);
+                elemento.transform.localScale = posiciones[i].localScale;
                 elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
                 elemento.GetComponent<Respuesta>().respuesta = i;
                 if (elemento.GetComponent<Drop>() != null)
                 {
+                    sonDrop = true;
+                    print(sonDrop);
+                    elementosCreados[i] = elemento;
                     elemento.GetComponent<Drop>().frames = temporales;
                     elemento.GetComponent<Drop>().miSonido = sonidos[i];
                     elemento.GetComponent<Drop>().audioS = reproductor.GetComponent<AudioSource>();
@@ -133,15 +148,30 @@ public class CreateLevel : MonoBehaviour
                         elemento.GetComponent<Drop>().hielo = true;
                     } else if (variante == 2)
                     {
-                        elemento.transform.SetParent(posiciones[i]);
                         elemento.GetComponent<Drop>().vehiculos = true;
-                        elemento.GetComponent<Drop>().posActivador = posiciones[i].transform.Find("1").transform;
                     }
                 }
                 if (elemento.GetComponent<Drag>() != null)
                 {
                     elemento.GetComponent<Drag>().miSonido = sonidos[i];
                     elemento.GetComponent<Drag>().audioS = reproductor.GetComponent<AudioSource>();
+                }
+            }
+            if (sonDrop)
+            {
+                System.Array.Sort(elementosCreados, RandomSortGameObject);
+                System.Array.Sort(elementosCreados, RandomSortGameObject);
+                System.Array.Sort(elementosCreados, RandomSortGameObject);
+                for (int i = 0; i< elementosCreados.Length; i++)
+                {
+                    elementosCreados[i].transform.position = posiciones[i].position;
+                    elementosCreados[i].transform.SetParent(posiciones[i]);
+                    elementosCreados[i].transform.localScale = new Vector3(30, 30, 30);
+                    print(elementosCreados[i].transform.localScale);
+                    if (variante == 2)
+                    {
+                        elementosCreados[i].GetComponent<Drop>().posActivador = posiciones[i].transform.Find("1").transform;
+                    }
                 }
             }
         } else
@@ -151,15 +181,15 @@ public class CreateLevel : MonoBehaviour
             {
                 Sprite[] temporales = imagenes[i].frames;
                 GameObject elemento = Instantiate(prefab, posiciones[0].position, Quaternion.identity);
+                elemento.transform.localScale = posiciones[0].localScale;
                 elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
                 elemento.GetComponent<Respuesta>().respuesta = i;
                 receptoresCreados[i] = elemento;
-                if (i > 0)
-                {
-                    elemento.SetActive(false);
-                }
                 if (elemento.GetComponent<Drop>() != null)
                 {
+                    sonDrop = true;
+                    elementosCreados[i] = elemento;
+                    elemento.SetActive(false);
                     elemento.GetComponent<Drop>().frames = temporales;
                     elemento.GetComponent<Drop>().miSonido = sonidos[i];
                     elemento.GetComponent<Drop>().audioS = reproductor.GetComponent<AudioSource>();
@@ -181,13 +211,28 @@ public class CreateLevel : MonoBehaviour
                 }
             }
             posicionListaReceptores = 0;
+            if (sonDrop)
+            {
+                System.Array.Sort(elementosCreados, RandomSortGameObject);
+                System.Array.Sort(elementosCreados, RandomSortGameObject);
+                System.Array.Sort(elementosCreados, RandomSortGameObject);
+                for (int i = 0; i < elementosCreados.Length; i++)
+                {
+                    elementosCreados[i].transform.position = posiciones[0].position;
+                }
+                elementosCreados[0].SetActive(true);
+                receptoresCreados = elementosCreados;
+            }
         }
     }
 
     void CreateSpritesText (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, AudioClip[] sonidos, GameObject reproductor)
     {
         System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
         receptoresCreados = new GameObject[imagenes.Length];
+        GameObject[] elementosCreados = new GameObject[imagenes.Length];
         for (int i = 0; i < imagenes.Length; i++)
         {
             Sprite[] temporales = imagenes[i].frames;
@@ -200,17 +245,20 @@ public class CreateLevel : MonoBehaviour
                 elemento.GetComponent<CheckText>().audioS = reproductor.GetComponent<AudioSource>();
             }           
             receptoresCreados[i] = elemento;
-            if (i > 0)
-            {
-                elemento.SetActive(false);
-            }
+            receptoresCreados[i].SetActive(false);
         }
+        System.Array.Sort(receptoresCreados, RandomSortGameObject);
+        System.Array.Sort(receptoresCreados, RandomSortGameObject);
+        System.Array.Sort(receptoresCreados, RandomSortGameObject);
+        receptoresCreados[0].SetActive(true);
         posicionListaReceptores = 0;
     }
 
     void CreateSpritesMemoria(Transform[] posiciones, SpriteAsset[] imagenes1, SpriteAsset[] imagenes2, GameObject prefab, AudioClip flip, GameObject reproductor)
     {
         int n = 0;
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
         System.Array.Sort(posiciones, RandomSort);
         for (int i = 0; i < imagenes1.Length; i++)
         {
@@ -245,6 +293,8 @@ public class CreateLevel : MonoBehaviour
     void CreateSpritesSonidos(Transform[] posiciones, SpriteAsset[] imagenes, AudioClip[] audios, GameObject prefab, AudioClip[] sonidosCorrecto, GameObject reproductor)
     {
         System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
         GameObject play = GameObject.FindGameObjectWithTag("Reproductor");
         print(play);
         play.GetComponent<PlaySonidos>().sonidos = new AudioClip[audios.Length];
@@ -271,11 +321,15 @@ public class CreateLevel : MonoBehaviour
 
     void CreateSpritesCanchas(Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, SpriteAsset[] animaciones, AudioClip[] sonidos, GameObject reproductor)
     {
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
         for (int i = 0; i < posiciones.Length; i++)
         {
             Sprite[] temporales = imagenes[i].frames;
             Sprite[] temporales2 = animaciones[i].frames;
             GameObject elemento = Instantiate(prefab, posiciones[i].position, Quaternion.identity);
+            elemento.transform.localScale = posiciones[i].localScale;
             elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
             elemento.GetComponent<Respuesta>().respuesta = i;
             if (elemento.GetComponent<Drop>() != null)
@@ -297,6 +351,11 @@ public class CreateLevel : MonoBehaviour
         return Random.Range(-1, 2);
     }
 
+    int RandomSortGameObject (GameObject a, GameObject b)
+    {
+        return Random.Range(-1, 2);
+    }
+
     public void RespuestaCorrecta(Vector3 posiParticulas)
     {
         print("correcto!!!!!");
@@ -311,9 +370,15 @@ public class CreateLevel : MonoBehaviour
             Invoke("CambiarReceptor", 1f);
         }
         if (puntaje == maxPuntaje)
-        {
+        {           
+            ganar.PlayDelayed(1f);
             Invoke("TerminarMinijuego", 1f);
         }
+    }
+
+    public void Error ()
+    {
+        error.Play();
     }
 
     void TerminarMinijuego ()
@@ -341,6 +406,8 @@ public class CreateLevel : MonoBehaviour
     public void SetNextLevelButton (ListaMinigames lm, int ind)
     {
         ButtonToController siguienteNivel = InterfazFinMinijuego.transform.Find("Siguiente").GetComponent<ButtonToController>();
+        siguienteNivel.gameObject.SetActive(true);
+        InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(false);
         siguienteNivel.Lista = lm;
         siguienteNivel.index = ind + 1;
         if (siguienteNivel.index > lm.lista.Length - 1)
