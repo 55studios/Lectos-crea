@@ -25,6 +25,7 @@ public class CreateLevel : MonoBehaviour
     int puntaje;
     int maxPuntaje;
     string nombreMinijuego;
+    string mainScene;
     bool creado;
     float timeStart;
     float timeEnd;
@@ -54,6 +55,10 @@ public class CreateLevel : MonoBehaviour
     {
         if (!creado)
         {
+            Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
+            mainScene = SceneManager.GetActiveScene().name;
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName(nombreMinijuego));
+            Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
             creado = true;
             OnLoadGame.Invoke();
             maxPuntaje = MGD.puntosLogrables;
@@ -426,9 +431,8 @@ public class CreateLevel : MonoBehaviour
 
     void TerminarMinijuego ()
     {
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(mainScene));
         timeEnd = Time.deltaTime;
-        print(timeStart.ToString("F2"));
-        print(timeEnd.ToString("F2"));
         puntaje = 0;
         print("Terminado el juego" + nombreMinijuego);
         SceneManager.UnloadSceneAsync(nombreMinijuego);
