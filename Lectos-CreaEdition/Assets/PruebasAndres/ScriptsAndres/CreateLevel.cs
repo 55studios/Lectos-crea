@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class CreateLevel : MonoBehaviour
@@ -35,6 +36,11 @@ public class CreateLevel : MonoBehaviour
     [SerializeField]
     AudioSource error;
 
+    [Space(8)]
+    [Header("Events")]
+    public UnityEvent OnLoadGame;
+    public UnityEvent OnDisableGame;
+
     public void Cargar (string s)
     {
         InterfazFinMinijuego.SetActive(false);
@@ -49,6 +55,7 @@ public class CreateLevel : MonoBehaviour
         if (!creado)
         {
             creado = true;
+            OnLoadGame.Invoke();
             maxPuntaje = MGD.puntosLogrables;
             timeStart = Time.deltaTime;
             Or = GameObject.FindGameObjectWithTag("Organizador").GetComponent<Organizador>();
@@ -429,6 +436,7 @@ public class CreateLevel : MonoBehaviour
         Or = null;
         maxPuntaje = 0;
         creado = false;
+        OnDisableGame.Invoke();
         temporalFake = false;
         InterfazFinMinijuego.SetActive(true);
     }
