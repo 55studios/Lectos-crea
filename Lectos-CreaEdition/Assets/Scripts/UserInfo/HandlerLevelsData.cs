@@ -16,14 +16,13 @@ public class HandlerLevelsData : MonoBehaviour
     private string dataPlanet;
 
     private void Awake() {
-        
         _FirstTime = PlayerPrefs.GetInt(PlanetName + "startGame", _FirstTime);
         if (_FirstTime == 0) {
             for (int i = 0; i < _LevelsData.Length; i++) {
                 _LevelsData[i].Stars = new bool[3];
                 _LevelsData[i].RecordTime = 0.0f;
                 _LevelsData[i].isActive = false;
-                _LevelsData[i].LevelButton.GetComponent<Button>().interactable = false;
+                _LevelsData[i].LevelButton.transform.GetComponent<Button>().interactable = false;
                 for (int s = 0; s < _LevelsData[i].Stars.Length; s++) {
                     _LevelsData[i].Stars[s] = false;
                     _LevelsData[i].LevelButton.transform.GetChild(1).GetChild(s).GetComponent<Image>().sprite = BlockStar;
@@ -115,10 +114,7 @@ public class HandlerLevelsData : MonoBehaviour
 [System.Serializable]
 public class FieldsOfGame {
     public GameObject LevelButton;
-    [HideInInspector]
     public bool isActive;
-    [HideInInspector]
     public bool[] Stars = new bool[3];
-    [HideInInspector]
     public float RecordTime = 0;
 }
