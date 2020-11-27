@@ -8,6 +8,7 @@ public class VehiculoEstrella : MonoBehaviour
 
     public Transform encuentro;
 
+
     private void OnEnable()
     {
         transform.DOMove(encuentro.position, 3.2f).SetDelay(1f);

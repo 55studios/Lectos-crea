@@ -37,6 +37,7 @@ public class CheckMemoria : MonoBehaviour
                 else
                 {                    
                     Invoke("Desactivar", 1f);
+                    controlador.GetComponent<CreateLevel>().Error();
                 }
             }
         }    

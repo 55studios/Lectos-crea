@@ -12,7 +12,6 @@ public class Sonido : MonoBehaviour
     public AudioSource audioS;
     public AudioClip miSonido;
 
-    // Start is called before the first frame update
     void Start()
     {
         playS = GameObject.FindGameObjectWithTag("Reproductor").GetComponent<PlaySonidos>();
@@ -40,6 +39,10 @@ public class Sonido : MonoBehaviour
                     InvokeRepeating("animar", 0, 0.1f);
                 }                
                 Destroy(gameObject, 1f);
+            } else
+            {
+                GameObject controlador = GameObject.FindWithTag("GameController");
+                controlador.GetComponent<CreateLevel>().Error();
             }
         }
     }

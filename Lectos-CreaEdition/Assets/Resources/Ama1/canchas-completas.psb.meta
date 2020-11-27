@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: 31064d8bae4043241a5305780163b953
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Raqueta_Separado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1383
+      width: 422
+      height: 423
+    spriteID: 164d2da8fcce4c64a9844ab1bc71dd07
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -42, y: 1326}
+  - name: Tenis_ball
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 959
+      y: 1330
+      width: 319
+      height: 306
+    spriteID: ddec0e82cfe73474398a981bece3a47d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 833, y: 1183}
+  - name: Raqueta_Separado_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 479
+      width: 460
+      height: 461
+    spriteID: 607f2ddd04502d04e81d577309bf693a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -28, y: 446}
+  - name: Futball_Ball__Separado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 1641
+      width: 358
+      height: 386
+    spriteID: 7466b496bb8866b468d3c450e6811a98
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 405, y: 1606}
+  - name: Arco_Separado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1449
+      y: 4
+      width: 501
+      height: 281
+    spriteID: f8b719e057728ac48bae11a2ab652b0d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1438, y: -110}
+  - name: Arco_Complete
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 459
+      width: 469
+      height: 375
+    spriteID: 332c7f618f2950846824ca6edbbc4cd7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 456, y: 437}
+  - name: Boleyball_ball__Separado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 842
+      width: 385
+      height: 386
+    spriteID: d95aa28e620b03a4a881e0345c933711
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 405, y: 769}
+  - name: Bolleyball_Separado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 959
+      y: 726
+      width: 473
+      height: 256
+    spriteID: 8d8128c27b0372545b9d51b26d2cf3ac
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 938, y: 578}
+  - name: Bolleyball_Complete
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 4
+      width: 473
+      height: 447
+    spriteID: 1b4bb5db527e18146b37e95d65c61d47
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 457, y: -56}
+  - name: Beisbol
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 959
+      y: 990
+      width: 339
+      height: 332
+    spriteID: 08870c1a72666484f9d1a0267fccdfd5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 856, y: 894}
+  - name: Bate_Separado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 948
+      width: 429
+      height: 427
+    spriteID: 415a24d87b3cfbd4cb3aed9b153be66a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -43, y: 893}
+  - name: Bate_Complete
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 959
+      y: 4
+      width: 482
+      height: 397
+    spriteID: 7c01b94d05671d7478f82b27dc52f68e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 942, y: -22}
+  - name: Basketball_ball
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 1236
+      width: 352
+      height: 397
+    spriteID: a6b643806f8aa9646802224e19fb051f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 403, y: 1214}
+  - name: Aro_Separado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 959
+      y: 409
+      width: 425
+      height: 309
+    spriteID: 8b6604835408dd443a719ff3f33ba4ed
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 918, y: 307}
+  - name: Aro_Complete
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 466
+      height: 467
+    spriteID: be0c901a6e0f9fb43a1f24632eddd2cf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -27, y: -8}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 1
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 13
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 512, y: 512}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Raqueta_Separado
+    spriteName: Raqueta_Separado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 164d2da8fcce4c64a9844ab1bc71dd07
+    layerID: 227
+    mosaicPosition: {x: 4, y: 1383}
+  - name: Tenis_ball
+    spriteName: Tenis_ball
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ddec0e82cfe73474398a981bece3a47d
+    layerID: 226
+    mosaicPosition: {x: 959, y: 1330}
+  - name: Raqueta_Separado
+    spriteName: Raqueta_Separado_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 607f2ddd04502d04e81d577309bf693a
+    layerID: 51
+    mosaicPosition: {x: 4, y: 479}
+  - name: Futball_Ball__Separado
+    spriteName: Futball_Ball__Separado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7466b496bb8866b468d3c450e6811a98
+    layerID: 140
+    mosaicPosition: {x: 478, y: 1641}
+  - name: Arco_Separado
+    spriteName: Arco_Separado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f8b719e057728ac48bae11a2ab652b0d
+    layerID: 74
+    mosaicPosition: {x: 1449, y: 4}
+  - name: Arco_Complete
+    spriteName: Arco_Complete
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 332c7f618f2950846824ca6edbbc4cd7
+    layerID: 93
+    mosaicPosition: {x: 478, y: 459}
+  - name: Boleyball_ball__Separado
+    spriteName: Boleyball_ball__Separado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d95aa28e620b03a4a881e0345c933711
+    layerID: 116
+    mosaicPosition: {x: 478, y: 842}
+  - name: Bolleyball_Separado
+    spriteName: Bolleyball_Separado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8d8128c27b0372545b9d51b26d2cf3ac
+    layerID: 102
+    mosaicPosition: {x: 959, y: 726}
+  - name: Bolleyball_Complete
+    spriteName: Bolleyball_Complete
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1b4bb5db527e18146b37e95d65c61d47
+    layerID: 130
+    mosaicPosition: {x: 478, y: 4}
+  - name: Beisbol
+    spriteName: Beisbol
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 08870c1a72666484f9d1a0267fccdfd5
+    layerID: 152
+    mosaicPosition: {x: 959, y: 990}
+  - name: Bate_Separado
+    spriteName: Bate_Separado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 415a24d87b3cfbd4cb3aed9b153be66a
+    layerID: 166
+    mosaicPosition: {x: 4, y: 948}
+  - name: Bate_Complete
+    spriteName: Bate_Complete
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7c01b94d05671d7478f82b27dc52f68e
+    layerID: 181
+    mosaicPosition: {x: 959, y: 4}
+  - name: Basketball_ball
+    spriteName: Basketball_ball
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a6b643806f8aa9646802224e19fb051f
+    layerID: 190
+    mosaicPosition: {x: 478, y: 1236}
+  - name: Aro_Separado
+    spriteName: Aro_Separado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8b6604835408dd443a719ff3f33ba4ed
+    layerID: 201
+    mosaicPosition: {x: 959, y: 409}
+  - name: Aro_Complete
+    spriteName: Aro_Complete
+    isGroup: 0
+    parentIndex: -1
+    spriteID: be0c901a6e0f9fb43a1f24632eddd2cf
+    layerID: 212
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: canchas-completas Texture
+  prefabAssetName: canchas-completas Prefab
+  spriteLibAssetName: canchas-completas Sprite Lib
+  secondarySpriteTextures: []

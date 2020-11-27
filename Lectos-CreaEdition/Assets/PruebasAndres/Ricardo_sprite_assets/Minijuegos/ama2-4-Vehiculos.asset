@@ -18,7 +18,7 @@ MonoBehaviour:
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
   variante: 2
-  variacion: 0
+  variacion: 2
   arrastrables:
   - {fileID: 11400000, guid: 557bd7a71e609b743a916671069e0958, type: 2}
   - {fileID: 11400000, guid: e37db9545a7738f4a8edbd061d24ce78, type: 2}
@@ -32,11 +32,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 85c9d252983ddac4ba60f00b32e0cfea, type: 2}
   - {fileID: 11400000, guid: e355865626a60b949ae1667cd2bd162b, type: 2}
   sonidosArrastrar:
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: 5c85ab278772c8146a348c493b22b4f2, type: 3}
+  - {fileID: 8300000, guid: 7001df3a203174f42abfcbeed2c3dff7, type: 3}
+  - {fileID: 8300000, guid: 3ec037f23f2400147a92dd41742465ae, type: 3}
+  - {fileID: 8300000, guid: 52cc38530f82028459f4472df05b1c61, type: 3}
+  - {fileID: 8300000, guid: 041f167b98470d64093fde63c0b85938, type: 3}
   sonidosCorrecto:
   - {fileID: 8300000, guid: 43af2f96609df954c8b9ca99bdd0825a, type: 3}
   - {fileID: 8300000, guid: 49768e84dec12a24aa12419f19b38a8b, type: 3}

@@ -45,7 +45,7 @@ public class Drag : MonoBehaviour
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-
+            GetComponent<SpriteRenderer>().sortingOrder = 11;
             posX = mousePos.x - this.transform.localPosition.x;
             posY = mousePos.y - this.transform.localPosition.y;
             if (audioS != null && miSonido != null)
@@ -61,5 +61,6 @@ public class Drag : MonoBehaviour
     private void OnMouseUp()
     {
         moviendo = false;
+        GetComponent<SpriteRenderer>().sortingOrder = 10;
     }
 }
