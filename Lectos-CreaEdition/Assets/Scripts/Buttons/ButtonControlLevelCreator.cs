@@ -8,15 +8,18 @@ public class ButtonControlLevelCreator : MonoBehaviour
     private float waitTimeDuring = 0.8f;
     private float WaitingTimeEnd = 0.5f;
 
+    private CreateLevel master;
     private SpriteRenderer fondo;
     private Animator transition;
     private ButtonToController controllerMiniGames;
     private GameObject parent;
     private MoveAnimationInOut moons;
+    private GameObject canvasMinijuego;
     //private MoveAnimationInOut moon_2;
     //private MoveAnimationInOut moon_3;
 
     private void Start() {
+        master = GameObject.Find("Controlador").GetComponent<CreateLevel>();
         controllerMiniGames = GetComponent<ButtonToController>();
         fondo = GameObject.Find("FondoPlaneta").GetComponent<SpriteRenderer>();
         transition = GameObject.Find("TransitionAnimation").GetComponent<Animator>();
@@ -42,7 +45,11 @@ public class ButtonControlLevelCreator : MonoBehaviour
         moons.InAnimation();
         //moon_2.InAnimation();
         //moon_3.InAnimation();
-        parent.SetActive(false);
+        canvasMinijuego = GameObject.Find("MinijuegoTerminado");
+        if (canvasMinijuego != null) {
+            canvasMinijuego.SetActive(false);
+            master.CerrarMinijuego();
+        }
     }
 
     IEnumerator OutTransitionEvent() {
