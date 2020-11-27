@@ -24,11 +24,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 33d024dc771d86a43b1cf70510f2b2d6, type: 2}
   - {fileID: 11400000, guid: 3786d0580ebad1643bebff817eaf2d87, type: 2}
   animacionCorrecto:
-  - {fileID: -1035589768069632394, guid: 7e624f7e4e037174ca52d19ea0335fbb, type: 3}
-  - {fileID: -2614286804149147913, guid: 71d7b2f4d81920c488ebdd03299afbf7, type: 3}
-  - {fileID: 7088837913197697549, guid: 23f7c8ab0c7385445b7ab4ad73edc25f, type: 3}
-  - {fileID: -7365867223671865068, guid: 723e9e3914fab30448a14f34f04a69f0, type: 3}
-  - {fileID: 1273111523708713699, guid: 2f17ca0aac0a704498ff3674c4ff8848, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   sonidosParlante:
   - {fileID: 8300000, guid: 43af2f96609df954c8b9ca99bdd0825a, type: 3}
   - {fileID: 8300000, guid: 49768e84dec12a24aa12419f19b38a8b, type: 3}
@@ -36,8 +36,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d64c2d007825dce459aa58d3fb6c3e1c, type: 3}
   - {fileID: 8300000, guid: f8f28b5b151b7ad45a9ee176711be955, type: 3}
   sonidosCorrecto:
-  - {fileID: 8300000, guid: 43af2f96609df954c8b9ca99bdd0825a, type: 3}
-  - {fileID: 8300000, guid: 49768e84dec12a24aa12419f19b38a8b, type: 3}
-  - {fileID: 8300000, guid: e2576346a46df0d438fc9464320eba0a, type: 3}
-  - {fileID: 8300000, guid: d64c2d007825dce459aa58d3fb6c3e1c, type: 3}
-  - {fileID: 8300000, guid: f8f28b5b151b7ad45a9ee176711be955, type: 3}
+  - {fileID: 8300000, guid: fe326a550d96c2b469abf546a46079de, type: 3}
+  - {fileID: 8300000, guid: 0ea13ad54116e744d82b115da4f4d234, type: 3}
+  - {fileID: 8300000, guid: af589f4938a5333418f57adc92b95a8a, type: 3}
+  - {fileID: 8300000, guid: be5c732797b476c45a612ce01dc20c89, type: 3}
+  - {fileID: 8300000, guid: f5a7e0370e896f34ea3b79d574546cda, type: 3}

@@ -17,7 +17,7 @@ MonoBehaviour:
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
-  flip: {fileID: 0}
+  flip: {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
   parejasElemento1:
   - {fileID: 11400000, guid: b31cd2dfd63dfcc4eaaa721ba07b4e84, type: 2}
   - {fileID: 11400000, guid: 632f1645576f5a14d84276d811318070, type: 2}

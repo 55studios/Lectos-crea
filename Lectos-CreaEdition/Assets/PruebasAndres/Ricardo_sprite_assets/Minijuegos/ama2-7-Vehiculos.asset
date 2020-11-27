@@ -18,7 +18,7 @@ MonoBehaviour:
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
   variante: 2
-  variacion: 2
+  variacion: 3
   arrastrables:
   - {fileID: 11400000, guid: 551a1e635881e894fb7a5db23593e3a4, type: 2}
   - {fileID: 11400000, guid: 0304d8cf0da54e646b30a148aea4bbe4, type: 2}
