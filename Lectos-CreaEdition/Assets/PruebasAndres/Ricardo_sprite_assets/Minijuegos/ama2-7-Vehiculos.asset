@@ -34,7 +34,7 @@ MonoBehaviour:
   sonidosArrastrar:
   - {fileID: 8300000, guid: 5d21e14ed79dedc46a9914978d86294c, type: 3}
   - {fileID: 8300000, guid: 4798ae9d47c40d64b933b69a5da3867d, type: 3}
-  - {fileID: 8300000, guid: 2aeeaf88c2ed0624285c4438ff6dfe9d, type: 3}
+  - {fileID: 8300000, guid: 03f7fe1e31e21b24fa60fc78d9b64640, type: 3}
   - {fileID: 8300000, guid: 76a71c43fa063f345a7b6d48ca583a1e, type: 3}
   - {fileID: 8300000, guid: 8415ba32bb8abab4fa1a80c42bac7934, type: 3}
   sonidosCorrecto:
