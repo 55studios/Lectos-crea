@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frames:
   - {fileID: 6858257994810689640, guid: 0b9dfdb12994a8947abd9c26fc6fb705, type: 3}
+  - {fileID: -1747534975865696378, guid: 0b9dfdb12994a8947abd9c26fc6fb705, type: 3}
+  - {fileID: -2123646126204501705, guid: 0b9dfdb12994a8947abd9c26fc6fb705, type: 3}
