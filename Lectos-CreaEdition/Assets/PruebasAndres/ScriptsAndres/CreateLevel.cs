@@ -15,6 +15,7 @@ public class CreateLevel : MonoBehaviour
     public GameObject InterfazFinMinijuego;
     public GameObject receptorTrenPrefab;
     public GameObject receptorAsteroidePrefab;
+    public GameObject dictadoPrefab;
 
     Organizador Or;
     AudioSource As;
@@ -112,6 +113,13 @@ public class CreateLevel : MonoBehaviour
                     As.clip = MGD.sonidoAcierto;
                     temporalFake = true;
                     break;
+                case 9: //dictado 
+                    As.clip = MGD.sonidoAcierto;
+                    Transform[] activDic = Or.activadores;
+                    Transform[] recepDic = Or.receptores;
+                    Dictado Dic = (Dictado)MGD;
+                    CreateSpritesDictado(activDic[0], recepDic[0], Dic.imagenes, dictadoPrefab, Dic.prefabPalabras, Dic.sonidoRespuestas, Or.gameObject);
+                    break;
                 default:
                     print("No tipo de minijuego");
                     break;
@@ -132,7 +140,11 @@ public class CreateLevel : MonoBehaviour
             {
                 Sprite[] temporales = imagenes[i].frames;
                 GameObject elemento = Instantiate(prefab, posiciones[i].position, Quaternion.identity);
-                elemento.transform.localScale = posiciones[i].localScale;
+                if (variante < 1)
+                {
+                    elemento.transform.localScale = posiciones[i].localScale;
+                }
+                //elemento.transform.localScale = posiciones[i].localScale;
                 elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
                 elemento.GetComponent<Respuesta>().respuesta = i;
                 if (elemento.GetComponent<Drop>() != null)
@@ -166,7 +178,7 @@ public class CreateLevel : MonoBehaviour
                 {
                     elementosCreados[i].transform.position = posiciones[i].position;
                     elementosCreados[i].transform.SetParent(posiciones[i]);
-                    elementosCreados[i].transform.localScale = new Vector3(30, 30, 30);
+                    //elementosCreados[i].transform.localScale = new Vector3(30, 30, 30);
                     print(elementosCreados[i].transform.localScale);
                     if (variante == 2)
                     {
@@ -346,6 +358,30 @@ public class CreateLevel : MonoBehaviour
         }
     }
 
+    void CreateSpritesDictado(Transform posicion, Transform posicion2, SpriteAsset[] imagenes, GameObject prefab, GameObject[] palabras, AudioClip[] sonidos, GameObject reproductor)
+    {
+        GameObject[] imagenesCreadas = new GameObject[imagenes.Length];
+        GameObject[] palabrasCreadas = new GameObject[imagenes.Length];
+        CheckDictado CD = reproductor.GetComponent<CheckDictado>();
+        CD.sonidos = sonidos;
+        for (int i = 0; i < imagenes.Length; i++)
+        {
+            Sprite[] temporales = imagenes[i].frames;
+            GameObject elemento = Instantiate(prefab, posicion.position, Quaternion.identity);
+            elemento.name = imagenes[i].name;
+            elemento.GetComponent<SpriteRenderer>().sprite = temporales[0];
+            elemento.GetComponent<ImagenDictado>().frames = temporales;
+            imagenesCreadas[i] = elemento;
+
+            GameObject elemento2 = Instantiate(palabras[i], posicion2.position, Quaternion.identity);
+            palabrasCreadas[i] = elemento2;
+        }
+
+        CD.palabras = palabrasCreadas;
+        CD.respuestas = imagenesCreadas;
+        CD.Iniciar();
+    }
+
     int RandomSort(Transform a, Transform b)
     {
         return Random.Range(-1, 2);
@@ -372,7 +408,7 @@ public class CreateLevel : MonoBehaviour
         if (puntaje == maxPuntaje)
         {           
             ganar.PlayDelayed(1f);
-            Invoke("TerminarMinijuego", 1f);
+            Invoke("TerminarMinijuego", 2f);
         }
     }
 

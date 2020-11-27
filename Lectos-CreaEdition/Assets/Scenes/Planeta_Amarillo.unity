@@ -7650,6 +7650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frameRate: 0.3
   isUi: 1
+  isLecto: 0
   animationsSprites:
   - {fileID: 2369325698142204542, guid: b6774afd4d43bbb49afb3c9583bef404, type: 3}
   - {fileID: -8605832087505043301, guid: b6774afd4d43bbb49afb3c9583bef404, type: 3}
@@ -18084,6 +18085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frameRate: 0.3
   isUi: 1
+  isLecto: 0
   animationsSprites:
   - {fileID: 5108601841118324724, guid: 3f181ea836df7ac49bd591aaa5f28444, type: 3}
   - {fileID: 763718201113852716, guid: 3f181ea836df7ac49bd591aaa5f28444, type: 3}
@@ -27581,7 +27583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7575c54b9b268024d930483148e83bfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MGD: {fileID: 11400000, guid: a60deee2284a9ff489fb84e9242436cc, type: 2}
+  MGD: {fileID: 0}
   activadorPrefab: {fileID: 6987833914917570782, guid: 9cd5829f512db5c4d800e60839c47dd1,
     type: 3}
   receptorPrefab: {fileID: 6630429714274493679, guid: 304cf45606d84364a84e0fc26e4ca6b1,
@@ -27598,6 +27600,8 @@ MonoBehaviour:
   receptorTrenPrefab: {fileID: 155120060774206947, guid: eb459ac6862cfbc46ac08fd04a564af8,
     type: 3}
   receptorAsteroidePrefab: {fileID: 8202590354657066980, guid: be47d041ac3f9f342b5743eb1b9268f7,
+    type: 3}
+  dictadoPrefab: {fileID: 7919832212016720613, guid: 53e637935621cc04185b9e9952ba1c33,
     type: 3}
   ganar: {fileID: 1970600708}
   perder: {fileID: 1912536829}
@@ -30114,6 +30118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frameRate: 0.3
   isUi: 1
+  isLecto: 0
   animationsSprites:
   - {fileID: -634939176177036431, guid: 893f89c6fdc242f4eb44e24b32c735fc, type: 3}
   - {fileID: 1291146559195552984, guid: 893f89c6fdc242f4eb44e24b32c735fc, type: 3}
