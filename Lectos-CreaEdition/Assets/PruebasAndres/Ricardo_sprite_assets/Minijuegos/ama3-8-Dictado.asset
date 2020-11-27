@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85984141a0401004ea537e56924949d0, type: 3}
+  m_Name: ama3-8-Dictado
+  m_EditorClassIdentifier: 
+  puntosLogrables: 10
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: dc136a3fc6c533b41bff831e9e8ca7db, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  imagenes:
+  - {fileID: 11400000, guid: d3a53289d8d27fc418abc6c6f5c8f82c, type: 2}
+  - {fileID: 11400000, guid: c7ad95c4ddbd49a498d5ec9e27f28922, type: 2}
+  - {fileID: 11400000, guid: d18656f87068d6749a1b81089021eb96, type: 2}
+  - {fileID: 11400000, guid: 358385e6e399a5843990b4ed5a8850a9, type: 2}
+  - {fileID: 11400000, guid: e584d7c827bd2a94cb65b326728fb073, type: 2}
+  - {fileID: 11400000, guid: d5ebd052c2b180748a0a44d202be910b, type: 2}
+  - {fileID: 11400000, guid: f46f2ac5435d8254aa20c799aa888109, type: 2}
+  - {fileID: 11400000, guid: babe4830e59b8db459932cde85626d4b, type: 2}
+  - {fileID: 11400000, guid: b61d85e323798b144af342edeb7cdb2f, type: 2}
+  - {fileID: 11400000, guid: f556dbeec2ab3154c91bb05265f05824, type: 2}
+  sonidoRespuestas:
+  - {fileID: 8300000, guid: e72f3b0bb219c3449aadfa5f09b8c598, type: 3}
+  - {fileID: 8300000, guid: 7d2fdd7db0733a74ca78fde3b7760cba, type: 3}
+  - {fileID: 8300000, guid: 19a64053e8fbef846bd03559a04528c9, type: 3}
+  - {fileID: 8300000, guid: 24eb4550caae3ab4e93dad6da42892ae, type: 3}
+  - {fileID: 8300000, guid: 52180d1bc20f54a478c12f175352bbc9, type: 3}
+  - {fileID: 8300000, guid: 28eaf97ddd523924a8cc0b934a1d50cd, type: 3}
+  - {fileID: 8300000, guid: 2a498bfd38354f74fa386f8241272e74, type: 3}
+  - {fileID: 8300000, guid: 65d02241015cd2a43b874866b4637879, type: 3}
+  - {fileID: 8300000, guid: 9069f184e77a2c242adf522b68673fc6, type: 3}
+  - {fileID: 8300000, guid: fc1192e024fe8d24793d529c5789315c, type: 3}
+  prefabPalabras:
+  - {fileID: 8644064433936275863, guid: 71c8fd4dd26cc0e4592fe65e01607387, type: 3}
+  - {fileID: 8761878664853104659, guid: 320742806e5a6954abd410d7a939640d, type: 3}
+  - {fileID: 487772992451413057, guid: 1510b5c7600a6954ea4212710df23f7a, type: 3}
+  - {fileID: 2810942803508663326, guid: bd72f40daf400ad459eacfdff509705f, type: 3}
+  - {fileID: 8243724343691060710, guid: 9ff69c4d717d99a44b3a0695a58e32f3, type: 3}
+  - {fileID: 9063768057321031737, guid: 9e6d5d0b4f5a2534cb838bd4d50ed68e, type: 3}
+  - {fileID: 3476681377563904653, guid: a0d3f0ae213bc424aac45d33ff9162b8, type: 3}
+  - {fileID: 4009098116653613197, guid: 30b8aafe26d59c24c9cf0a1977f3adac, type: 3}
+  - {fileID: 6354512606183525226, guid: fe1f8d60cd697cf4ab447a9f6a700568, type: 3}
+  - {fileID: 1255515291873633713, guid: ddaa07940f12c404f80722217c9ccda6, type: 3}

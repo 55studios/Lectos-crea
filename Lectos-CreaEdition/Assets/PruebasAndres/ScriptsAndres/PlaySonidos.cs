@@ -42,13 +42,26 @@ public class PlaySonidos : MonoBehaviour
         if (index < 4)
         {
             index++;
-            audioActual = ordenSonidos[index];
-            AS.clip = sonidos[audioActual];
-            foreach (Sonido so in elementosSonido)
+            if (ordenSonidos.Length > 2 )
             {
-                so.clickeable = false;
+                audioActual = ordenSonidos[index];
+                AS.clip = sonidos[audioActual];
+                foreach (Sonido so in elementosSonido)
+                {
+                    so.clickeable = false;
+                }
+            } else
+            {
+                if (index == 1)
+                {
+                    audioActual = ordenSonidos[index];
+                    AS.clip = sonidos[audioActual];
+                    foreach (Sonido so in elementosSonido)
+                    {
+                        so.clickeable = false;
+                    }
+                }
             }
-            
         }
     }
 
