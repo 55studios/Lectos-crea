@@ -69,15 +69,71 @@ public class Drop : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        print("entro");
         if (GetComponent<Respuesta>().respuesta == collision.GetComponent<Respuesta>().respuesta)
         {
             correcta = true;
+            incorrecta = false;
             activadorCorrecto = collision.gameObject;
         } else
         {
             incorrecta = true;
+            correcta = false;
         }
     }
+
+    /*private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (Input.GetMouseButtonUp(0) && correcta)
+        {
+            if (audioS != null && miSonido != null)
+            {
+                audioS.Stop();
+                audioS.clip = miSonido;
+                audioS.Play();
+            }
+            if (frames.Length > 1)
+            {
+                CambiarImagen();
+                InvokeRepeating("Animar", 0, 0.1f);
+            }
+            else
+            {
+                CambiarImagen();
+            }
+            if (hielo)
+            {
+                transform.Find("Hielo").gameObject.SetActive(false);
+            }
+            if (vehiculos)
+            {
+                activadorCorrecto.transform.SetParent(gameObject.transform);
+                activadorCorrecto.GetComponent<Drag>().enabled = false;
+                activadorCorrecto.transform.position = posActivador.position;
+                GameObject.FindWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().Mover();
+            }
+            else
+            {
+                if (!temporal)
+                {
+                    Destroy(activadorCorrecto);
+                    Destroy(gameObject, 1f);
+                }
+            }
+            if (temporal)
+            {
+                activadorCorrecto.GetComponent<Drag>().enabled = false;
+                activadorCorrecto.transform.position = transform.position;
+                Destroy(gameObject);
+            }
+        }
+        else if (Input.GetMouseButtonUp(0) && incorrecta)
+        {
+            GameObject controlador = GameObject.FindWithTag("GameController");
+            controlador.GetComponent<CreateLevel>().Error();
+            print("llamando error");
+        }
+    }*/
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -104,11 +160,62 @@ public class Drop : MonoBehaviour
 
     private void OnMouseUp()
     {
-        //if (!correcta)
-        //{
+        /*if (!correcta)
+        {
             GameObject controlador = GameObject.FindWithTag("GameController");
             controlador.GetComponent<CreateLevel>().Error();
             print("llamando error");
-        //}
+        }
+
+
+    if (/*Input.GetMouseButtonUp(0) && correcta)
+        {
+            if (audioS != null && miSonido != null)
+            {
+                audioS.Stop();
+                audioS.clip = miSonido;
+                audioS.Play();
+            }
+            if (frames.Length > 1)
+            {
+                CambiarImagen();
+                InvokeRepeating("Animar", 0, 0.1f);
+            }
+            else
+            {
+                CambiarImagen();
+            }
+            if (hielo)
+            {
+                transform.Find("Hielo").gameObject.SetActive(false);
+            }
+            if (vehiculos)
+            {
+                activadorCorrecto.transform.SetParent(gameObject.transform);
+                activadorCorrecto.GetComponent<Drag>().enabled = false;
+                activadorCorrecto.transform.position = posActivador.position;
+                GameObject.FindWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().Mover();
+            }
+            else
+            {
+                if (!temporal)
+                {
+                    Destroy(activadorCorrecto);
+                    Destroy(gameObject, 1f);
+                }
+            }
+            if (temporal)
+            {
+                activadorCorrecto.GetComponent<Drag>().enabled = false;
+                activadorCorrecto.transform.position = transform.position;
+                Destroy(gameObject);
+            }
+        }
+        else if (/*Input.GetMouseButtonUp(0) && incorrecta)
+        {
+            GameObject controlador = GameObject.FindWithTag("GameController");
+            controlador.GetComponent<CreateLevel>().Error();
+            print("llamando error");
+        }*/
     }
 }
