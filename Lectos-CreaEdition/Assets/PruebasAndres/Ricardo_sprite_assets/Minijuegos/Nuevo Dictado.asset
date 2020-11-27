@@ -9,8 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: basepelota
+  m_Script: {fileID: 11500000, guid: 85984141a0401004ea537e56924949d0, type: 3}
+  m_Name: Nuevo Dictado
   m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 882560814423585958, guid: 31064d8bae4043241a5305780163b953, type: 3}
+  puntosLogrables: 0
+  reward: 
+  sonidoAcierto: {fileID: 0}
+  particulasAcierto: {fileID: 0}
+  imagenes: []
+  sonidoRespuestas: []
+  prefabPalabras: []
