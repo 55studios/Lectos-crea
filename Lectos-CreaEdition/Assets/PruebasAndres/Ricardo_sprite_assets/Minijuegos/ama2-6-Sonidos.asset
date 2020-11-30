@@ -36,8 +36,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 226ff3e5d64780c40aa2a80bf6ec9a04, type: 3}
   - {fileID: 8300000, guid: c435afc5891d8264684708b19db18f34, type: 3}
   sonidosCorrecto:
-  - {fileID: 8300000, guid: 95eb277a66c09324db750ab6245fb9de, type: 3}
-  - {fileID: 8300000, guid: 05ef453e90541c94587352073bfa15db, type: 3}
-  - {fileID: 8300000, guid: 438b4e1d6935b1f4baddba2de7d01369, type: 3}
-  - {fileID: 8300000, guid: 226ff3e5d64780c40aa2a80bf6ec9a04, type: 3}
-  - {fileID: 8300000, guid: c435afc5891d8264684708b19db18f34, type: 3}
+  - {fileID: 8300000, guid: ad2e845efd1e77549992e59bb0463034, type: 3}
+  - {fileID: 8300000, guid: ff2b7f66392a8df4d981d7282fa18dc8, type: 3}
+  - {fileID: 8300000, guid: 5a30dc8714bef164b8b99e5294705c15, type: 3}
+  - {fileID: 8300000, guid: 60d3e05974b16724caeb4099b0e88805, type: 3}
+  - {fileID: 8300000, guid: 49ae0781e2b07f444ab2388445c73787, type: 3}

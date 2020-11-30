@@ -21,6 +21,7 @@ public class ScaleAnimationInOut : MonoBehaviour {
     private RectTransform mainTransform;
 
     void Start() {
+        DOTween.Init(true, true, LogBehaviour.Verbose);
         StartCoroutine(AwakeAnimation());
     }
 
@@ -69,5 +70,10 @@ public class ScaleAnimationInOut : MonoBehaviour {
                 _mainTransform.DOScale(moveTo, delayIn).SetEase(easeIn);
             }
         }
+    }
+
+    private void OnDisable() {
+        DOTween.ClearCachedTweens();
+        
     }
 }
