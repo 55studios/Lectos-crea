@@ -5,7 +5,7 @@ using UnityEngine;
 public class ButtonControlLevelCreator : MonoBehaviour
 {
     private float waitTimeStart = 1.5f;
-    private float waitTimeDuring = 0.8f;
+    private float waitTimeDuring = 1f;
     private float WaitingTimeEnd = 0.5f;
 
     private CreateLevel master;
@@ -14,7 +14,7 @@ public class ButtonControlLevelCreator : MonoBehaviour
     private ButtonToController controllerMiniGames;
     private GameObject parent;
     private MoveAnimationInOut moons;
-    private GameObject canvasMinijuego;
+    public GameObject canvasMinijuego;
     //private MoveAnimationInOut moon_2;
     //private MoveAnimationInOut moon_3;
 
@@ -45,11 +45,10 @@ public class ButtonControlLevelCreator : MonoBehaviour
         moons.InAnimation();
         //moon_2.InAnimation();
         //moon_3.InAnimation();
-        canvasMinijuego = GameObject.Find("MinijuegoTerminado");
-        //if (canvasMinijuego != null) {
-            //canvasMinijuego.SetActive(false);
-            master.CerrarMinijuego();
-        //}
+        master.CerrarMinijuego();
+        if (canvasMinijuego.gameObject.activeSelf == true) {
+            canvasMinijuego.SetActive(false);
+        }
     }
 
     IEnumerator OutTransitionEvent() {

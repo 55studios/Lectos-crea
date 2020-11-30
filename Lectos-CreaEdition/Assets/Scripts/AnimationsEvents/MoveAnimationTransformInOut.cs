@@ -22,7 +22,8 @@ public class MoveAnimationTransformInOut : MonoBehaviour
     private void Start() {
         mainTransform = this.gameObject.GetComponent<Transform>();
         if (onStartAnimation) {
-            mainTransform.DOLocalMove(moveTo, delay).SetEase(easeIn).OnComplete(() => { StartCoroutine(StartAnim(1)); });
+            //mainTransform.DOLocalMove(moveTo, delay).SetEase(easeIn).OnComplete(() => { StartCoroutine(StartAnim(1)); });
+            StartCoroutine(InAnim());
         }
     }
 
