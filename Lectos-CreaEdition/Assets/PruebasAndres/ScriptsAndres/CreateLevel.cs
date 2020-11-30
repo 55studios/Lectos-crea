@@ -26,7 +26,6 @@ public class CreateLevel : MonoBehaviour
     int puntaje;
     int maxPuntaje;
     string nombreMinijuego;
-    string mainScene;
     bool creado;
     float timeStart;
     float timeEnd;
@@ -59,13 +58,11 @@ public class CreateLevel : MonoBehaviour
         if (!creado)
         {
             SceneManager.SetActiveScene(SceneManager.GetSceneByName(nombreMinijuego));
-            Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
             creado = true;
             OnLoadGame.Invoke();
             maxPuntaje = MGD.puntosLogrables;
             timeStart = Time.deltaTime;
             Or = GameObject.FindGameObjectWithTag("Organizador").GetComponent<Organizador>();
-            //As = GetComponent<AudioSource>();
             switch (MGD.Tipo)
             {
                 case 0: //drag&drop 
@@ -431,12 +428,9 @@ public class CreateLevel : MonoBehaviour
         error.Play();
     }
 
-    void TerminarMinijuego (/*bool seguirEnLunas*/)
+    void TerminarMinijuego ()
     {
-        /*if (seguirEnLunas)
-        {
-            SceneManager.SetActiveScene(SceneManager.GetSceneByName(mainScene));
-        }       */
+        SceneManager.sceneLoaded -= OnSceneLoaded;
         timeEnd = Time.deltaTime;
         puntaje = 0;
         print("Terminado el juego" + nombreMinijuego);
@@ -453,11 +447,6 @@ public class CreateLevel : MonoBehaviour
         }
         
     }
-
-    /*IEnumerator TerminarConDelay ()
-    {
-
-    }*/
 
     void CambiarReceptor ()
     {
@@ -485,7 +474,7 @@ public class CreateLevel : MonoBehaviour
         repetirJuego.controlador = gameObject.GetComponent<CreateLevel>();
     }
 
-    public void CerrarMinijuego (/*bool seguirEnLunas*/)
+    public void CerrarMinijuego ()
     {
         TerminarMinijuego();
     }
