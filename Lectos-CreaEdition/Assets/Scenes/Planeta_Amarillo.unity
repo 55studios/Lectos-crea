@@ -22786,6 +22786,7 @@ MonoBehaviour:
     type: 3}
   dictadoPrefab: {fileID: 7919832212016720613, guid: 53e637935621cc04185b9e9952ba1c33,
     type: 3}
+  As: {fileID: 1887150184}
   ganar: {fileID: 1970600708}
   perder: {fileID: 1912536829}
   error: {fileID: 325168291}
