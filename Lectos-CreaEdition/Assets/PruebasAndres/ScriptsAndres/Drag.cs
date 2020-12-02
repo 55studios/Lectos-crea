@@ -46,6 +46,7 @@ public class Drag : MonoBehaviour
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
             GetComponent<SpriteRenderer>().sortingOrder = 11;
+            GetComponent<BoxCollider2D>().size = GetComponent<BoxCollider2D>().size / 4;
             posX = mousePos.x - this.transform.localPosition.x;
             posY = mousePos.y - this.transform.localPosition.y;
             if (audioS != null && miSonido != null)
@@ -62,5 +63,6 @@ public class Drag : MonoBehaviour
     {
         moviendo = false;
         GetComponent<SpriteRenderer>().sortingOrder = 10;
+        GetComponent<BoxCollider2D>().size = GetComponent<BoxCollider2D>().size * 4;
     }
 }
