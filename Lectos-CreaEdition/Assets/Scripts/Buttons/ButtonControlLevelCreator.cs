@@ -14,6 +14,7 @@ public class ButtonControlLevelCreator : MonoBehaviour
     private ButtonToController controllerMiniGames;
     private GameObject parent;
     private MoveAnimationInOut moons;
+    private SpriteRenderer ship;
     public GameObject canvasMinijuego;
     //private MoveAnimationInOut moon_2;
     //private MoveAnimationInOut moon_3;
@@ -22,6 +23,7 @@ public class ButtonControlLevelCreator : MonoBehaviour
         master = GameObject.Find("Controlador").GetComponent<CreateLevel>();
         controllerMiniGames = GetComponent<ButtonToController>();
         fondo = GameObject.Find("FondoPlaneta").GetComponent<SpriteRenderer>();
+        ship = GameObject.Find("Ship").GetComponent<SpriteRenderer>();
         transition = GameObject.Find("TransitionAnimation").GetComponent<Animator>();
         parent = GameObject.Find("MinijuegoTerminado");
         moons = GameObject.Find("Moons").GetComponent<MoveAnimationInOut>();
@@ -40,6 +42,7 @@ public class ButtonControlLevelCreator : MonoBehaviour
         transition.SetTrigger("Out");
         yield return new WaitForSeconds(waitTimeStart);
         fondo.enabled = true;
+        ship.enabled = true;
         yield return new WaitForSeconds(waitTimeDuring);
         transition.SetTrigger("In");
         moons.InAnimation();
@@ -56,6 +59,7 @@ public class ButtonControlLevelCreator : MonoBehaviour
         transition.SetTrigger("Out");
         yield return new WaitForSeconds(waitTimeDuring);
         fondo.enabled = false;
+        ship.enabled = false;
         controllerMiniGames.CrearMinijuego();
         yield return new WaitForSeconds(WaitingTimeEnd);
         transition.SetTrigger("In");
