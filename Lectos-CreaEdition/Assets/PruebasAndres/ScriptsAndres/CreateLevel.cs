@@ -45,7 +45,8 @@ public class CreateLevel : MonoBehaviour
 
     public void Cargar (string s)
     {
-        InterfazFinMinijuego.SetActive(false);
+        //InterfazFinMinijuego.SetActive(false);
+        InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationOut();
         puntaje = 0;
         terminadoPorPuntaje = false;
         SceneManager.LoadScene(s, LoadSceneMode.Additive);
@@ -443,7 +444,8 @@ public class CreateLevel : MonoBehaviour
         temporalFake = false;
         if (terminadoPorPuntaje)
         {
-            InterfazFinMinijuego.SetActive(true);
+            //InterfazFinMinijuego.SetActive(true);
+            InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationIn();
         }
         
     }
@@ -458,13 +460,16 @@ public class CreateLevel : MonoBehaviour
     {
         ButtonToController siguienteNivel = InterfazFinMinijuego.transform.Find("Siguiente").GetComponent<ButtonToController>();
         siguienteNivel.gameObject.SetActive(true);
-        InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(false);
+        //InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(false);
+        InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().OutAnimation();
         siguienteNivel.Lista = lm;
         siguienteNivel.index = ind + 1;
         if (siguienteNivel.index > lm.lista.Length - 1)
         {
-            siguienteNivel.gameObject.SetActive(false);
-            InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(true);
+            //siguienteNivel.gameObject.SetActive(false);
+            siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
+            InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
+            //InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(true);
         }
         siguienteNivel.controlador = gameObject.GetComponent<CreateLevel>();
 
