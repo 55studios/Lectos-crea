@@ -457,10 +457,8 @@ public class CreateLevel : MonoBehaviour
         if (terminadoPorPuntaje){
             //InterfazFinMinijuego.SetActive(true);
             InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationIn();
-<<<<<<< HEAD
             GetComponent<Tiempo>().Terminar();
         }       
-=======
             if (SwitchButtonEndGame) {
                 if (siguienteNivel != null) {
                     InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
@@ -469,10 +467,7 @@ public class CreateLevel : MonoBehaviour
             else {
                 siguienteNivel.GetComponent<ScaleAnimationInOut>().InAnimation();
             }
-        }
-        
-        
->>>>>>> master
+              
     }
 
     void CambiarReceptor ()
