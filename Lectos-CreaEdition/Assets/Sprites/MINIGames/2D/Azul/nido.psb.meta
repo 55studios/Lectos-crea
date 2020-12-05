@@ -242,7 +242,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 462
     mosaicPosition: {x: 0, y: 0}
   - name: Group 4
@@ -256,7 +256,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 455
     mosaicPosition: {x: 0, y: 0}
   - name: Layer 4 copy

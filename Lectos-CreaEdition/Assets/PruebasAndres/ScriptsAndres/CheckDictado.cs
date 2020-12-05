@@ -28,14 +28,14 @@ public class CheckDictado : MonoBehaviour
             {
                 letrasEnRespuesta[i] = nombreChar[i].ToString();
             }
-            foreach (string ch in letrasEnRespuesta)
+            /*foreach (string ch in letrasEnRespuesta)
             {
                 string nombrechar = ch;
                 GameObject temp = teclado.transform.Find(nombrechar).gameObject;
                 temp.transform.Find("letra").gameObject.SetActive(true);
                 temp.GetComponent<Letra>().enabled = true;                
                 temp.transform.Find("fondo").GetComponent<SpriteRenderer>().color = Color.white;
-            }
+            }*/
         }
         letrasCorrectas = 0;
         index = 0;
@@ -60,7 +60,7 @@ public class CheckDictado : MonoBehaviour
         if (presionado == letras[letrasCorrectas])
         {
             letrasCorrectas++;
-            palabras[orden[index]].GetComponent<PalabraDictado>().letraCorrecta();
+            palabras[orden[index]].GetComponent<PalabraDictado>().LetraCorrecta();
             if (letrasCorrectas == letras.Length)
             {
                 AudioSource auTemp = respuestas[orden[index]].GetComponent<AudioSource>();
