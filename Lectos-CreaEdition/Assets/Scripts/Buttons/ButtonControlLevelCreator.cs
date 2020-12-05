@@ -49,9 +49,9 @@ public class ButtonControlLevelCreator : MonoBehaviour
         //moon_2.InAnimation();
         //moon_3.InAnimation();
         master.CerrarMinijuego();
-        if (canvasMinijuego.gameObject.activeSelf == true) {
-            canvasMinijuego.SetActive(false);
-        }
+        //if (canvasMinijuego.gameObject.activeSelf == true) {
+            //canvasMinijuego.SetActive(false);
+        //}
     }
 
     IEnumerator OutTransitionEvent() {
