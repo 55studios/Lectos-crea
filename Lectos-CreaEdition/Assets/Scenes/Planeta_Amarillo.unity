@@ -4541,7 +4541,7 @@ GameObject:
   - component: {fileID: 304095858}
   - component: {fileID: 304095857}
   m_Layer: 5
-  m_Name: Contend
+  m_Name: Contend_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10143,7 +10143,7 @@ GameObject:
   - component: {fileID: 687494193}
   - component: {fileID: 687494192}
   m_Layer: 5
-  m_Name: Contend
+  m_Name: Contend_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14662,7 +14662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53158ee503866cc48ba536ab2675fe7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasMinijuego: {fileID: 0}
+  canvasMinijuego: {fileID: 1032150817}
 --- !u!1 &1008648268
 GameObject:
   m_ObjectHideFlags: 0
@@ -15114,6 +15114,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1025920284}
+        m_MethodName: OutAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1025920281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15315,7 +15326,6 @@ MonoBehaviour:
   - {fileID: 1276448236}
   - {fileID: 1206210933}
   - {fileID: 294099071}
-  - {fileID: 1025920284}
   - {fileID: 1367586128}
 --- !u!1 &1039403888
 GameObject:
@@ -21095,7 +21105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53158ee503866cc48ba536ab2675fe7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasMinijuego: {fileID: 1032150817}
+  canvasMinijuego: {fileID: 0}
 --- !u!114 &1547324581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21152,47 +21162,47 @@ MonoBehaviour:
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
   _LevelsData:
-  - LevelButton: {fileID: 1007777692}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 242941704}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 2654868}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 350446645}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 1595051481}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 448403970}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 730123079}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 1353127613}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 973943810}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 60721209}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
-  - LevelButton: {fileID: 1950188938}
+  - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 
     RecordTime: 0
@@ -21933,7 +21943,7 @@ GameObject:
   - component: {fileID: 1576004543}
   - component: {fileID: 1576004542}
   m_Layer: 5
-  m_Name: Contend
+  m_Name: Contend_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24193,7 +24203,7 @@ Transform:
   m_GameObject: {fileID: 1860556848}
   m_LocalRotation: {x: -0, y: -0, z: 0.70469916, w: 0.7095063}
   m_LocalPosition: {x: -22.499996, y: 64.29999, z: 0.9799008}
-  m_LocalScale: {x: 4.629223, y: 4.629223, z: 4.629223}
+  m_LocalScale: {x: 2.8517618, y: 2.851763, z: 2.8517618}
   m_Children: []
   m_Father: {fileID: 209461913}
   m_RootOrder: 4
@@ -24260,7 +24270,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: be54902d25a840947a445683c6c077a8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c62017f34c551634287fcea4075db0d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

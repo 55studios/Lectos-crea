@@ -14,8 +14,12 @@ public class HandlerLevelsData : MonoBehaviour
     public FieldsOfGame[] _LevelsData;
 
     private string dataPlanet;
+    private GameObject contend;
 
     private void Awake() {
+        contend = GameObject.Find("Contend_1");
+        //_LevelsData = new FieldsOfGame[contend.transform.childCount];
+
         _FirstTime = PlayerPrefs.GetInt(PlanetName + "startGame", _FirstTime);
         if (_FirstTime == 0) {
             for (int i = 0; i < _LevelsData.Length; i++) {
@@ -41,6 +45,13 @@ public class HandlerLevelsData : MonoBehaviour
         else {
             ReadData();
         }
+    }
+
+    private void Start() {
+        for (int i = 0; i < _LevelsData.Length; i++) {
+            _LevelsData[i].LevelButton = contend.transform.GetChild(i).gameObject;
+        }
+
     }
 
     void ReadData() {

@@ -31,12 +31,14 @@ public class CreateLevel : MonoBehaviour
     float timeEnd;
     bool temporalFake;
     bool terminadoPorPuntaje;
+    bool SwitchButtonEndGame = false;
     [SerializeField]
     AudioSource ganar;
     [SerializeField]
     AudioSource perder;
     [SerializeField]
     AudioSource error;
+    ButtonToController siguienteNivel;
 
     [Space(8)]
     [Header("Events")]
@@ -452,12 +454,25 @@ public class CreateLevel : MonoBehaviour
         creado = false;
         OnDisableGame.Invoke();
         temporalFake = false;
-        if (terminadoPorPuntaje)
-        {
+        if (terminadoPorPuntaje){
             //InterfazFinMinijuego.SetActive(true);
             InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationIn();
+<<<<<<< HEAD
             GetComponent<Tiempo>().Terminar();
         }       
+=======
+            if (SwitchButtonEndGame) {
+                if (siguienteNivel != null) {
+                    InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
+                }
+            }
+            else {
+                siguienteNivel.GetComponent<ScaleAnimationInOut>().InAnimation();
+            }
+        }
+        
+        
+>>>>>>> master
     }
 
     void CambiarReceptor ()
@@ -468,21 +483,20 @@ public class CreateLevel : MonoBehaviour
     
     public void SetNextLevelButton (ListaMinigames lm, int ind)
     {
-        ButtonToController siguienteNivel = InterfazFinMinijuego.transform.Find("Siguiente").GetComponent<ButtonToController>();
-        siguienteNivel.gameObject.SetActive(true);
+        siguienteNivel = InterfazFinMinijuego.transform.Find("Siguiente").GetComponent<ButtonToController>();
+        //siguienteNivel.gameObject.SetActive(true);
         //InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(false);
-        InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().OutAnimation();
+        //InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().OutAnimation();
         siguienteNivel.Lista = lm;
         siguienteNivel.index = ind + 1;
-        if (siguienteNivel.index > lm.lista.Length - 1)
-        {
+        if (siguienteNivel.index > lm.lista.Length - 1){
             //siguienteNivel.gameObject.SetActive(false);
-            siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
-            InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
+            //siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
+            //InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
             //InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(true);
+            SwitchButtonEndGame = true;
         }
         siguienteNivel.controlador = gameObject.GetComponent<CreateLevel>();
-
         ButtonToController repetirJuego = InterfazFinMinijuego.transform.Find("Replay").GetComponent<ButtonToController>();
         repetirJuego.Lista = lm;
         repetirJuego.index = ind;
