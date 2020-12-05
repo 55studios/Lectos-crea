@@ -13590,7 +13590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanetName: Moon_2
+  moon: 0
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
   _LevelsData:
@@ -18313,7 +18313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanetName: Moon_3
+  moon: 0
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
   _LevelsData:
@@ -21158,54 +21158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanetName: Moon_1
+  moon: 0
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
-  _LevelsData:
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 
-    RecordTime: 0
+  _LevelsData: []
 --- !u!4 &1551992098
 Transform:
   m_ObjectHideFlags: 0
