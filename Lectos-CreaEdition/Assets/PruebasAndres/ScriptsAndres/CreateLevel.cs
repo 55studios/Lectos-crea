@@ -461,15 +461,16 @@ public class CreateLevel : MonoBehaviour
             //InterfazFinMinijuego.SetActive(true);
             InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationIn();
             GetComponent<Tiempo>().Terminar();
-        }       
             if (SwitchButtonEndGame) {
-                if (siguienteNivel != null) {
-                    InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
-                }
+                InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
+                siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
             }
             else {
                 siguienteNivel.GetComponent<ScaleAnimationInOut>().InAnimation();
-            }    
+                InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().OutAnimation();
+            }
+        }
+        
     }
 
     void CambiarReceptor ()

@@ -13577,7 +13577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &973287108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13590,41 +13590,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moon: 0
+  moon: 1
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
   _LevelsData:
-  - LevelButton: {fileID: 1704225826}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 125401793}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 438331414}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 140968772}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 1993678660}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 1750797662}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 507105456}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 255869963}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
 --- !u!4 &973287109
 Transform:
@@ -18300,7 +18308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1351457268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18313,41 +18321,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moon: 0
+  moon: 2
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
   _LevelsData:
-  - LevelButton: {fileID: 505217550}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 219745383}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 657646787}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 1372293570}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 247568072}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 511550342}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 679458594}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
-  - LevelButton: {fileID: 1291462189}
+  - LevelButton: {fileID: 0}
     isActive: 0
-    Stars: 
+    Stars: 000000
+    TimePlay: 0
     RecordTime: 0
 --- !u!4 &1351457269
 Transform:
@@ -21046,7 +21062,29 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1547324580}
-        m_MethodName: OnCLickInTransition
+        m_MethodName: OnclickRestorePlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1032150822}
+        m_MethodName: OnAnimationOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1547324581}
+        m_MethodName: OutAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21105,7 +21143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53158ee503866cc48ba536ab2675fe7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasMinijuego: {fileID: 0}
+  canvasMinijuego: {fileID: 1032150817}
 --- !u!114 &1547324581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21161,7 +21199,62 @@ MonoBehaviour:
   moon: 0
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
-  _LevelsData: []
+  _LevelsData:
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
+  - LevelButton: {fileID: 0}
+    isActive: 0
+    Stars: 000000
+    TimePlay: 0
+    RecordTime: 0
 --- !u!4 &1551992098
 Transform:
   m_ObjectHideFlags: 0

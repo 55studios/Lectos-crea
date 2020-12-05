@@ -38,6 +38,20 @@ public class ButtonControlLevelCreator : MonoBehaviour
         StartCoroutine(OutTransitionEvent());
     }
 
+    public void OnclickRestorePlanet() {
+        StartCoroutine(InRestoreEvent());
+    }
+
+    IEnumerator InRestoreEvent() {
+        transition.SetTrigger("Out");
+        yield return new WaitForSeconds(waitTimeStart);
+        fondo.enabled = true;
+        ship.enabled = true;
+        yield return new WaitForSeconds(waitTimeDuring);
+        transition.SetTrigger("In");
+        moons.InAnimation();
+    }
+
     IEnumerator InTransitionEvent() {
         transition.SetTrigger("Out");
         yield return new WaitForSeconds(waitTimeStart);
