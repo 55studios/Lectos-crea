@@ -39,6 +39,7 @@ public class CreateLevel : MonoBehaviour
     [SerializeField]
     AudioSource error;
     ButtonToController siguienteNivel;
+    int tipoDeVehiculo;
 
     [Space(8)]
     [Header("Events")]
@@ -112,6 +113,7 @@ public class CreateLevel : MonoBehaviour
                     Transform[] activTren = Or.activadores;
                     Transform[] recepTren = Or.receptores;
                     Vehiculos DydTren = (Vehiculos)MGD;
+                    tipoDeVehiculo = (int)DydTren.variacion;
                     CreateSprites(activTren, DydTren.arrastrables, activadorPrefab, DydTren.variante, DydTren.sonidosArrastrar, Or.gameObject);
                     CreateSprites(recepTren, DydTren.receptores, receptorTrenPrefab, DydTren.variante, DydTren.sonidosCorrecto, Or.gameObject);
                     GetComponent<Tiempo>().Iniciar();
@@ -184,6 +186,7 @@ public class CreateLevel : MonoBehaviour
                     } else if (variante == 2)
                     {
                         elemento.GetComponent<Drop>().vehiculos = true;
+                        elemento.GetComponent<Drop>().tipoDeVehiculo = tipoDeVehiculo;
                     }
                 }
                 if (elemento.GetComponent<Drag>() != null)

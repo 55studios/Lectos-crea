@@ -16,7 +16,7 @@ public class Drop : MonoBehaviour
     public Transform posActivador;
     public AudioSource audioS;
     public AudioClip miSonido;
-    int tipoDeVehiculo;
+    public int tipoDeVehiculo;
 
     private void Start()
     {
@@ -25,8 +25,8 @@ public class Drop : MonoBehaviour
             switch (tipoDeVehiculo)
             {
                 case 0: //tren
-                    float valor = 1f;
-                    float otroValor = 0;
+                    float valor = 6f;
+                    float otroValor = -9.5f;
                     BoxCollider2D bc = GetComponent<BoxCollider2D>();
                     bc.size = new Vector2(valor, valor);
                     bc.offset = new Vector2 (otroValor, 0);
@@ -39,15 +39,15 @@ public class Drop : MonoBehaviour
                     bc1.offset = new Vector2(otroValor1, 0);
                     break;
                 case 2: //asteroides
-                    float valor2 = 1f;
-                    float otroValor2 = 0;
+                    float valor2 = 8.5f;
+                    float otroValor2 = -12f;
                     BoxCollider2D bc2 = GetComponent<BoxCollider2D>();
                     bc2.size = new Vector2(valor2, valor2);
                     bc2.offset = new Vector2(otroValor2, 0);
                     break;
                 case 3: //estrellas
-                    float valor3 = 1f;
-                    float otroValor3 = 0;
+                    float valor3 = 8f;
+                    float otroValor3 = -4.5f;
                     BoxCollider2D bc3 = GetComponent<BoxCollider2D>();
                     bc3.size = new Vector2(valor3, valor3);
                     bc3.offset = new Vector2(otroValor3, 0);
