@@ -7,7 +7,7 @@ public class PalabraDictado : MonoBehaviour
 {
     int letraActual = 0;
 
-    public void letraCorrecta ()
+    public void LetraCorrecta ()
     {
         GameObject hijo = transform.GetChild(letraActual).gameObject;
         hijo.transform.DOScale(hijo.transform.localScale * 1.5f, 0.5f);
