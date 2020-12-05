@@ -466,8 +466,7 @@ public class CreateLevel : MonoBehaviour
             }
             else {
                 siguienteNivel.GetComponent<ScaleAnimationInOut>().InAnimation();
-            }
-              
+            }    
     }
 
     void CambiarReceptor ()
