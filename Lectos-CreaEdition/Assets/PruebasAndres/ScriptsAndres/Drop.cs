@@ -123,7 +123,7 @@ public class Drop : MonoBehaviour
             
         } else
         {
-            print("Es incorrecta la entrada: " + GetComponent<Respuesta>().respuesta + " - " + collision.GetComponent<Respuesta>().respuesta);
+            //print("Es incorrecta la entrada: " + GetComponent<Respuesta>().respuesta + " - " + collision.GetComponent<Respuesta>().respuesta);
             incorrecta = true;
             correcta = false;
         }

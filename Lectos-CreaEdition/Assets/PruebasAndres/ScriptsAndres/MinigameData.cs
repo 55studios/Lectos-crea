@@ -19,8 +19,9 @@ public abstract class MinigameData : ScriptableObject
     }
 
     public int puntosLogrables;
-    [HideInInspector]
+    public float[] tiemposAVencer = new float[3];
     public string reward;
+
     public AudioClip sonidoAcierto;
     public GameObject particulasAcierto;
 }

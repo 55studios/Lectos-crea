@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: ama1-3-Sonidos
   m_EditorClassIdentifier: 
   puntosLogrables: 5
+  tiemposAVencer:
+  - 30
+  - 22
+  - 15
   reward: 
   sonidoAcierto: {fileID: 8300000, guid: dc136a3fc6c533b41bff831e9e8ca7db, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,

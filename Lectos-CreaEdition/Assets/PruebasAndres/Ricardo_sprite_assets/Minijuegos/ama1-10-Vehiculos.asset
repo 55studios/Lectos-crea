@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: ama1-10-Vehiculos
   m_EditorClassIdentifier: 
   puntosLogrables: 5
+  tiemposAVencer:
+  - 30
+  - 22
+  - 15
   reward: 
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
   variante: 2
-  variacion: 0
+  variacion: 1
   arrastrables:
   - {fileID: 11400000, guid: c57b6359a6cdba74aa5ff91ccd7516c1, type: 2}
   - {fileID: 11400000, guid: 9186ba71b75524a43a347093cc92a9ab, type: 2}

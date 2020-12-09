@@ -76,28 +76,28 @@ public class CreateLevel : MonoBehaviour
                     DragAndDrop Dyd = (DragAndDrop)MGD;
                     CreateSprites(activ, Dyd.arrastrables, activadorPrefab, Dyd.variante, Dyd.sonidosArrastrar, Or.gameObject);
                     CreateSprites(recep, Dyd.receptores, receptorPrefab, Dyd.variante, Dyd.sonidosCorrecto, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 1: //escribir palabra
                     As.clip = MGD.sonidoAcierto;
                     Transform[] recepText = Or.receptores;
                     Escribir Es = (Escribir)MGD;
                     CreateSpritesText(recepText, Es.respuestas, receptorTextoPrefab, Es.sonidosRespuestas, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 2: //memoria
                     As.clip = MGD.sonidoAcierto;
                     Transform[] recepMemo = Or.receptores;
                     Memoria Me = (Memoria)MGD;
                     CreateSpritesMemoria(recepMemo, Me.parejasElemento1, Me.parejasElemento2, receptorMemoriaPrefab, Me.flip, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 3: //sonidos
                     As.clip = MGD.sonidoAcierto;
                     Transform[] recepSonido = Or.receptores;
                     Sonidos So = (Sonidos)MGD;
                     CreateSpritesSonidos(recepSonido, So.clickeables, So.sonidosParlante, receptorSonidosPrefab, So.sonidosCorrecto, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 4: //congelados 
                     As.clip = MGD.sonidoAcierto;
@@ -106,7 +106,7 @@ public class CreateLevel : MonoBehaviour
                     Congelados DydCon = (Congelados)MGD;
                     CreateSprites(activCon, DydCon.arrastrables, activadorPrefab, DydCon.variante, DydCon.sonidosArrastrar, Or.gameObject);
                     CreateSprites(recepCon, DydCon.receptores, receptorCongeladoPrefab, DydCon.variante, DydCon.sonidosCorrecto, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 5: //tren 
                     As.clip = MGD.sonidoAcierto;
@@ -116,7 +116,7 @@ public class CreateLevel : MonoBehaviour
                     tipoDeVehiculo = (int)DydTren.variacion;
                     CreateSprites(activTren, DydTren.arrastrables, activadorPrefab, DydTren.variante, DydTren.sonidosArrastrar, Or.gameObject);
                     CreateSprites(recepTren, DydTren.receptores, receptorTrenPrefab, DydTren.variante, DydTren.sonidosCorrecto, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 6: //canchas 
                     As.clip = MGD.sonidoAcierto;
@@ -125,17 +125,17 @@ public class CreateLevel : MonoBehaviour
                     Canchas DydCan = (Canchas)MGD;
                     CreateSpritesCanchas(activCan, DydCan.arrastrables, activadorPrefab, DydCan.animacionFinal, DydCan.sonidosArrastrar, Or.gameObject);
                     CreateSpritesCanchas(recepCan, DydCan.receptores, receptorPrefab, DydCan.animacionFinal, DydCan.sonidosCorrecto, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 7: //habitaciones 
                     As.clip = MGD.sonidoAcierto;
                     temporalFake = true;
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 8: //rompecabezas 
                     As.clip = MGD.sonidoAcierto;
                     temporalFake = true;
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 9: //dictado 
                     As.clip = MGD.sonidoAcierto;
@@ -143,7 +143,7 @@ public class CreateLevel : MonoBehaviour
                     Transform[] recepDic = Or.receptores;
                     Dictado Dic = (Dictado)MGD;
                     CreateSpritesDictado(activDic[0], recepDic[0], Dic.imagenes, dictadoPrefab, Dic.prefabPalabras, Dic.sonidoRespuestas, Or.gameObject);
-                    GetComponent<Tiempo>().Iniciar();
+                    GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 default:
                     print("No tipo de minijuego");
