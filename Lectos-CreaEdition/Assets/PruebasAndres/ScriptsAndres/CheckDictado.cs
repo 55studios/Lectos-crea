@@ -68,13 +68,13 @@ public class CheckDictado : MonoBehaviour
                 auTemp.PlayDelayed(0.5f);
                 respuestas[orden[index]].GetComponent<ImagenDictado>().Animar();
                 respuestas[orden[index]].GetComponent<ImagenDictado>().Destruir();
-                Destroy(palabras[orden[index]], 2f);
+                Destroy(palabras[orden[index]], 3f);
                 CambiarImagen();
                 if (index < respuestas.Length -1)
                 {
                     index++;
                     AS.clip = sonidos[orden[index]];
-                    Invoke("SiguienteImagen", 2f);
+                    Invoke("SiguienteImagen", 3f);
                 }                                        
             }
         } else

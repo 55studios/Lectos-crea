@@ -30014,6 +30014,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoTiempo: {fileID: 2103511952}
+  estrellasFinal:
+  - {fileID: 591335922}
+  - {fileID: 1392372327}
+  - {fileID: 485524302}
 --- !u!1 &1903559259
 GameObject:
   m_ObjectHideFlags: 0

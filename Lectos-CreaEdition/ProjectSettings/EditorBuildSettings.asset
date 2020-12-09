@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PruebasAndres/ScenesAndres/TemplateDictado.unity
     guid: fc97183c22f7fca488c6e7aa74013baa
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/TemplateNaves.unity
+    guid: cb7fa34f35267314c8ede14b2f2b4a58
   m_configObjects: {}

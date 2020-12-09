@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: ama1-5-Congelados
   m_EditorClassIdentifier: 
   puntosLogrables: 5
+  tiemposAVencer:
+  - 30
+  - 22
+  - 15
   reward: 
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1162233278015826, guid: cdc9d629b077e7246b83d6ca2c6a5f5b,

@@ -11,6 +11,9 @@ public class Tiempo : MonoBehaviour
     float tiempo;
     float t;
     bool terminado = true;
+    [SerializeField]
+    GameObject[] estrellasFinal = new GameObject[3];
+    float[] Tiempos;
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +29,13 @@ public class Tiempo : MonoBehaviour
         t = Time.time - tiempo;
     }
 
-    public void Iniciar ()
+    public void Iniciar (float[] tiempos)
     {
+        Tiempos = tiempos;
         tiempo = 0;
         tiempo = Time.time;
         terminado = false;
+        PrenderEstrellas(false);
     }
 
     public void Terminar ()
@@ -40,5 +45,26 @@ public class Tiempo : MonoBehaviour
         string segundos = (t % 60).ToString("f0");
         print("segundos = " + t);
         textoTiempo.text = minutos + ":" + segundos;
+        PrenderEstrellas(true);
+    }
+
+    void PrenderEstrellas(bool terminar)
+    {
+        if (terminar)
+        {
+            for (int i = 0; i < estrellasFinal.Length; i++)
+            {
+                if (t < Tiempos[i])
+                {
+                    estrellasFinal[i].SetActive(true);
+                }
+            }
+        } else
+        {
+            foreach (GameObject estrella in estrellasFinal)
+            {
+                estrella.SetActive(false);
+            }
+        }
     }
 }

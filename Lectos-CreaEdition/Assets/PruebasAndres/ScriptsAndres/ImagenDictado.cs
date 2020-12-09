@@ -24,6 +24,6 @@ public class ImagenDictado : MonoBehaviour
 
     public void Destruir ()
     {
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 3f);
     }
 }
