@@ -5,11 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenesStandart : MonoBehaviour {
 
-   public string currentScene;
+    public string currentScene;
     public GameObject transition;
+    public GameObject loading;
+    public float delay = 0.25f;
 
-   public void LoadScene()
-    {
+    private void Start() {
+        loading.SetActive(true);
+        StartCoroutine(DelayTime());
+    }
+
+    public void LoadScene(){
         StartCoroutine(LoadingScenes());
     }
 
@@ -28,7 +34,13 @@ public class LoadScenesStandart : MonoBehaviour {
         Application.Quit();
     }
 
+    IEnumerator DelayTime() {
+        yield return new WaitForSeconds(delay);
+        loading.SetActive(false);
+    }
+
     IEnumerator LoadingScenes() {
+        loading.SetActive(true);
         transition.GetComponent<Animator>().SetTrigger("Out");
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(currentScene);
