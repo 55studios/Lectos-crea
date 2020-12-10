@@ -53,11 +53,110 @@ public class CreateLevel : MonoBehaviour
         puntaje = 0;
         terminadoPorPuntaje = false;
         SceneManager.LoadScene(s, LoadSceneMode.Additive);
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        //SceneManager.sceneLoaded += OnSceneLoaded;
         nombreMinijuego = s;
     }
 
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    public void PoblarMinijuego ()
+    {        
+            if (!creado)
+            {
+                SceneManager.SetActiveScene(SceneManager.GetSceneByName(nombreMinijuego));
+                creado = true;
+                OnLoadGame.Invoke();
+                maxPuntaje = MGD.puntosLogrables;
+                timeStart = Time.deltaTime;
+                Or = GameObject.FindGameObjectWithTag("Organizador").GetComponent<Organizador>();
+                switch (MGD.Tipo)
+                {
+                    case 0: //drag&drop 
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] activ = Or.activadores;
+                        Transform[] recep = Or.receptores;
+                        DragAndDrop Dyd = (DragAndDrop)MGD;
+                        CreateSprites(activ, Dyd.arrastrables, activadorPrefab, Dyd.variante, Dyd.sonidosArrastrar, Or.gameObject);
+                        CreateSprites(recep, Dyd.receptores, receptorPrefab, Dyd.variante, Dyd.sonidosCorrecto, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 1: //escribir palabra
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] recepText = Or.receptores;
+                        Escribir Es = (Escribir)MGD;
+                        CreateSpritesText(recepText, Es.respuestas, receptorTextoPrefab, Es.sonidosRespuestas, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 2: //memoria
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] recepMemo = Or.receptores;
+                        Memoria Me = (Memoria)MGD;
+                        CreateSpritesMemoria(recepMemo, Me.parejasElemento1, Me.parejasElemento2, receptorMemoriaPrefab, Me.flip, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 3: //sonidos
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] recepSonido = Or.receptores;
+                        Sonidos So = (Sonidos)MGD;
+                        CreateSpritesSonidos(recepSonido, So.clickeables, So.sonidosParlante, receptorSonidosPrefab, So.sonidosCorrecto, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 4: //congelados 
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] activCon = Or.activadores;
+                        Transform[] recepCon = Or.receptores;
+                        Congelados DydCon = (Congelados)MGD;
+                        CreateSprites(activCon, DydCon.arrastrables, activadorPrefab, DydCon.variante, DydCon.sonidosArrastrar, Or.gameObject);
+                        CreateSprites(recepCon, DydCon.receptores, receptorCongeladoPrefab, DydCon.variante, DydCon.sonidosCorrecto, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 5: //tren 
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] activTren = Or.activadores;
+                        Transform[] recepTren = Or.receptores;
+                        Vehiculos DydTren = (Vehiculos)MGD;
+                        tipoDeVehiculo = (int)DydTren.variacion;
+                        CreateSprites(activTren, DydTren.arrastrables, activadorPrefab, DydTren.variante, DydTren.sonidosArrastrar, Or.gameObject);
+                        CreateSprites(recepTren, DydTren.receptores, receptorTrenPrefab, DydTren.variante, DydTren.sonidosCorrecto, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 6: //canchas 
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] activCan = Or.activadores;
+                        Transform[] recepCan = Or.receptores;
+                        Canchas DydCan = (Canchas)MGD;
+                        CreateSpritesCanchas(activCan, DydCan.arrastrables, activadorPrefab, DydCan.animacionFinal, DydCan.sonidosArrastrar, Or.gameObject);
+                        CreateSpritesCanchas(recepCan, DydCan.receptores, receptorPrefab, DydCan.animacionFinal, DydCan.sonidosCorrecto, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 7: //habitaciones 
+                        As.clip = MGD.sonidoAcierto;
+                        temporalFake = true;
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 8: //rompecabezas 
+                        As.clip = MGD.sonidoAcierto;
+                        temporalFake = true;
+                        Transform[] activPuz = Or.activadores;
+                        Transform[] recepPuz = Or.receptores;
+                        Puzzle DydPuz = (Puzzle)MGD;
+                        CreateSpritesRompecabezas(activPuz, recepPuz[0], DydPuz.Completo, DydPuz.piezas, DydPuz.sonidoPalabra, DydPuz.sonidoElemento, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    case 9: //dictado 
+                        As.clip = MGD.sonidoAcierto;
+                        Transform[] activDic = Or.activadores;
+                        Transform[] recepDic = Or.receptores;
+                        Dictado Dic = (Dictado)MGD;
+                        CreateSpritesDictado(activDic[0], recepDic[0], Dic.imagenes, dictadoPrefab, Dic.prefabPalabras, Dic.sonidoRespuestas, Or.gameObject);
+                        GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
+                        break;
+                    default:
+                        print("No tipo de minijuego");
+                        break;
+                }
+            }       
+    }
+
+    /*void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (!creado)
         {
@@ -154,7 +253,7 @@ public class CreateLevel : MonoBehaviour
                     break;
             }
         }
-    }
+    }*/
 
     void CreateSprites (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, int variante, AudioClip[] sonidos, GameObject reproductor)
     {
@@ -465,7 +564,7 @@ public class CreateLevel : MonoBehaviour
 
     void TerminarMinijuego ()
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
+        //SceneManager.sceneLoaded -= OnSceneLoaded;
         timeEnd = Time.deltaTime;
         puntaje = 0;
         print("Terminado el juego" + nombreMinijuego);
