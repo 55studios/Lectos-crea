@@ -32,8 +32,8 @@ public class Drop : MonoBehaviour
                     bc.offset = new Vector2 (otroValor, 0);
                     break;
                 case 1: //naves
-                    float valor1 = 1f;
-                    float otroValor1 = 0;
+                    float valor1 = 5f;
+                    float otroValor1 = -7f;
                     BoxCollider2D bc1 = GetComponent<BoxCollider2D>();
                     bc1.size = new Vector2(valor1, valor1);
                     bc1.offset = new Vector2(otroValor1, 0);

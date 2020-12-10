@@ -330,7 +330,7 @@ GameObject:
   m_Layer: 0
   m_Name: Encuentro
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -536,7 +536,7 @@ PrefabInstance:
     - target: {fileID: 2027168039758647269, guid: 57b50c1ec10de314e96878535d4f0b09,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.45
+      value: 1.83
       objectReference: {fileID: 0}
     - target: {fileID: 3750642336465057048, guid: 57b50c1ec10de314e96878535d4f0b09,
         type: 3}
@@ -556,7 +556,7 @@ PrefabInstance:
     - target: {fileID: 7805424879696391504, guid: 57b50c1ec10de314e96878535d4f0b09,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.82
+      value: -3.64
       objectReference: {fileID: 0}
     - target: {fileID: 8338557324207130734, guid: 57b50c1ec10de314e96878535d4f0b09,
         type: 3}
@@ -1114,3 +1114,151 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7483785027564000723}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7483785027564000726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483785027564000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -333801856, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateType: 0
+  isSpeedBased: 0
+  hasOnStart: 0
+  hasOnPlay: 0
+  hasOnUpdate: 0
+  hasOnStepComplete: 0
+  hasOnComplete: 0
+  hasOnTweenCreated: 0
+  hasOnRewind: 0
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  onUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  onStepComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onTweenCreated:
+    m_PersistentCalls:
+      m_Calls: []
+  onRewind:
+    m_PersistentCalls:
+      m_Calls: []
+  delay: 0
+  duration: 1
+  easeType: 6
+  easeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  loops: 1
+  id: 
+  loopType: 0
+  orientType: 0
+  lookAtTransform: {fileID: 0}
+  lookAtPosition: {x: 0, y: 0, z: 0}
+  lookAhead: 0.01
+  autoPlay: 1
+  autoKill: 1
+  relative: 0
+  isLocal: 0
+  isClosedPath: 0
+  pathResolution: 10
+  pathMode: 1
+  lockRotation: 0
+  assignForwardAndUp: 0
+  forwardDirection: {x: 0, y: 0, z: 1}
+  upDirection: {x: 0, y: 1, z: 0}
+  tweenRigidbody: 0
+  wps:
+  - {x: 3.0344543, y: 1.6500471, z: 0}
+  - {x: 6.365013, y: 2.342105, z: 0}
+  - {x: 8.6026325, y: 3.75707, z: 0}
+  - {x: 12.938648, y: 9.389356, z: 0}
+  fullWps: []
+  path:
+    wpLengths:
+    - 0
+    - 17.374456
+    - 3.4017005
+    - 2.6474643
+    - 7.1080008
+    wps:
+    - {x: -14.34, y: 1.66, z: 0}
+    - {x: 3.0344543, y: 1.6500471, z: 0}
+    - {x: 6.365013, y: 2.342105, z: 0}
+    - {x: 8.6026325, y: 3.75707, z: 0}
+    - {x: 12.938648, y: 9.389356, z: 0}
+    type: 0
+    subdivisionsXSegment: 10
+    subdivisions: 50
+    controlPoints: []
+    length: 30.531624
+    isFinalized: 1
+    timesTable:
+    - 0
+    - 0.56906426
+    - 0.68047994
+    - 0.7671921
+    - 1
+    lengthsTable: []
+  inspectorMode: 0
+  pathType: 0
+  handlesType: 0
+  livePreview: 1
+  handlesDrawMode: 0
+  perspectiveHandleSize: 0.5
+  showIndexes: 1
+  showWpLength: 0
+  pathColor: {r: 1, g: 1, b: 1, a: 0.5}
+  lastSrcPosition: {x: -14.34, y: 1.66, z: 0}
+  lastSrcRotation: {x: 0, y: 0, z: 0, w: 1}
+  wpsDropdown: 0
+  dropToFloorOffset: 0
+--- !u!114 &7483785027564000727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483785027564000724}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 40306178, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preset: 0
+  onEnableBehaviour: 1
+  onDisableBehaviour: 0
