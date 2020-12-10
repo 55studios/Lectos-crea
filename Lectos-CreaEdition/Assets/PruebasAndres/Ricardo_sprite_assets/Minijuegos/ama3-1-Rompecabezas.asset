@@ -21,3 +21,14 @@ MonoBehaviour:
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
+  piezas:
+  - {fileID: 9196162459531051896, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
+  - {fileID: 1521767309915982157, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
+  - {fileID: 6230858787595703988, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
+  - {fileID: 4558170038365714432, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
+  - {fileID: 7231604704612244705, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
+  - {fileID: 3803146898948437824, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
+  Completo: {fileID: -3724831398393682971, guid: ddcb3724d7a0acb4c86434faa678c05f,
+    type: 3}
+  sonidoPalabra: {fileID: 8300000, guid: d9ce04f660822364aac165bcee9c9f52, type: 3}
+  sonidoElemento: {fileID: 8300000, guid: b7a311413f37d134589f62c980fa7fb9, type: 3}

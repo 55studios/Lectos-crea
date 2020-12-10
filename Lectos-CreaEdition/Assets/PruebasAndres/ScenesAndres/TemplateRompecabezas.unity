@@ -162,6 +162,7 @@ MonoBehaviour:
   posActivador: {fileID: 0}
   audioS: {fileID: 0}
   miSonido: {fileID: 0}
+  tipoDeVehiculo: 0
 --- !u!61 &45711901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -565,6 +566,7 @@ MonoBehaviour:
   posActivador: {fileID: 0}
   audioS: {fileID: 0}
   miSonido: {fileID: 0}
+  tipoDeVehiculo: 0
 --- !u!61 &176169768
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1205,6 +1207,7 @@ MonoBehaviour:
   posActivador: {fileID: 0}
   audioS: {fileID: 0}
   miSonido: {fileID: 0}
+  tipoDeVehiculo: 0
 --- !u!61 &408502950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1371,6 +1374,7 @@ MonoBehaviour:
   posActivador: {fileID: 0}
   audioS: {fileID: 0}
   miSonido: {fileID: 0}
+  tipoDeVehiculo: 0
 --- !u!61 &433630675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1506,8 +1510,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1214964561}
   - component: {fileID: 1214964562}
+  - component: {fileID: 1214964563}
   m_Layer: 0
-  m_Name: OrganizadorFake (1)
+  m_Name: Organizador
   m_TagString: Organizador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1623,6 +1628,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1214964563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214964560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8927e6761f090341bac5fd65fd21199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activadores:
+  - {fileID: 1488353035}
+  - {fileID: 1677678562}
+  - {fileID: 317984741}
+  - {fileID: 2085320738}
+  - {fileID: 335211067}
+  - {fileID: 175552029}
+  receptores:
+  - {fileID: 1827683260}
 --- !u!1 &1340815987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,6 +1690,7 @@ MonoBehaviour:
   posActivador: {fileID: 0}
   audioS: {fileID: 0}
   miSonido: {fileID: 0}
+  tipoDeVehiculo: 0
 --- !u!61 &1340815989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2274,7 +2301,7 @@ GameObject:
   - component: {fileID: 1827683260}
   - component: {fileID: 1827683259}
   m_Layer: 0
-  m_Name: buque-opaco
+  m_Name: Completo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2623,6 +2650,7 @@ MonoBehaviour:
   posActivador: {fileID: 0}
   audioS: {fileID: 0}
   miSonido: {fileID: 0}
+  tipoDeVehiculo: 0
 --- !u!61 &2136018997
 BoxCollider2D:
   m_ObjectHideFlags: 0

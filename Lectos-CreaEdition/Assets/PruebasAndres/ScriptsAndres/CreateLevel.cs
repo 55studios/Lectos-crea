@@ -135,6 +135,10 @@ public class CreateLevel : MonoBehaviour
                 case 8: //rompecabezas 
                     As.clip = MGD.sonidoAcierto;
                     temporalFake = true;
+                    Transform[] activPuz = Or.activadores;
+                    Transform[] recepPuz = Or.receptores;
+                    Puzzle DydPuz = (Puzzle)MGD;
+                    CreateSpritesRompecabezas(activPuz, recepPuz[0], DydPuz.Completo, DydPuz.piezas, DydPuz.sonidoPalabra, DydPuz.sonidoElemento, Or.gameObject);
                     GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 9: //dictado 
@@ -406,6 +410,21 @@ public class CreateLevel : MonoBehaviour
         CD.palabras = palabrasCreadas;
         CD.respuestas = imagenesCreadas;
         CD.Iniciar();
+    }
+
+    void CreateSpritesRompecabezas(Transform[] posiciones, Transform completo, Sprite imagen, Sprite[] piezas, AudioClip sonidoInicial, AudioClip sonidoFinal, GameObject reproductor)
+    {
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
+        System.Array.Sort(posiciones, RandomSort);
+        int respuesta = 0;
+        completo.GetComponent<SpriteRenderer>().sprite = imagen;
+        foreach (Transform pieza in posiciones)
+        {
+            pieza.GetComponent<SpriteRenderer>().sprite = piezas[respuesta];
+            pieza.GetComponent<Respuesta>().respuesta = respuesta;
+            respuesta++;
+        }
     }
 
     int RandomSort(Transform a, Transform b)

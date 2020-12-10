@@ -10,4 +10,9 @@ public class Puzzle : MinigameData
         Tipo = 8;
         Template = "TemplateRompecabezas";
     }
+
+    public Sprite[] piezas;
+    public Sprite Completo;
+    public AudioClip sonidoPalabra;
+    public AudioClip sonidoElemento;
 }

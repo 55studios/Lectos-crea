@@ -15745,7 +15745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScene: PruebasAndres
   transition: {fileID: 1788665845}
-  loading: {fileID: 1887150181}
+  loading: {fileID: 6961321365625725372}
   delay: 0.25
 --- !u!4 &904078540
 Transform:
