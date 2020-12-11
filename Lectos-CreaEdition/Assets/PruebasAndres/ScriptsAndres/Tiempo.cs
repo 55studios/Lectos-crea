@@ -8,6 +8,8 @@ public class Tiempo : MonoBehaviour
 {
     [SerializeField]
     TMP_Text textoTiempo;
+    [SerializeField]
+    TMP_Text tiempoEnVivo;
     float tiempo;
     float t;
     bool terminado = true;
@@ -27,6 +29,9 @@ public class Tiempo : MonoBehaviour
         if (terminado)
             return;
         t = Time.time - tiempo;
+        string minutos = ((int)t / 60).ToString();
+        string segundos = (t % 60).ToString("f0");
+        tiempoEnVivo.text = minutos + ":" + segundos;
     }
 
     public void Iniciar (float[] tiempos)

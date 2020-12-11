@@ -36294,6 +36294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoTiempo: {fileID: 2103511952}
+  tiempoEnVivo: {fileID: 716020064}
   estrellasFinal:
   - {fileID: 591335922}
   - {fileID: 1392372327}
