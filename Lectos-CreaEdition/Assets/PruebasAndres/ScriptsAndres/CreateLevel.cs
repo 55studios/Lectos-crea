@@ -57,6 +57,17 @@ public class CreateLevel : MonoBehaviour
         nombreMinijuego = s;
     }
 
+    public void CargarYPoblar(string s)
+    {
+        //InterfazFinMinijuego.SetActive(false);
+        InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationOut();
+        puntaje = 0;
+        terminadoPorPuntaje = false;
+        SceneManager.LoadScene(s, LoadSceneMode.Additive);
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        nombreMinijuego = s;
+    }
+
     public void PoblarMinijuego ()
     {        
             if (!creado)
@@ -156,7 +167,7 @@ public class CreateLevel : MonoBehaviour
             }       
     }
 
-    /*void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (!creado)
         {
@@ -195,7 +206,7 @@ public class CreateLevel : MonoBehaviour
                     As.clip = MGD.sonidoAcierto;
                     Transform[] recepSonido = Or.receptores;
                     Sonidos So = (Sonidos)MGD;
-                    CreateSpritesSonidos(recepSonido, So.clickeables, So.sonidosParlante, receptorSonidosPrefab, So.sonidosCorrecto, Or.gameObject);
+                    CreateSpritesSonidos(recepSonido, So.clickeables, So.animacionCorrecto, So.sonidosParlante, receptorSonidosPrefab, So.sonidosCorrecto, Or.gameObject);
                     GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                     break;
                 case 4: //congelados 
@@ -253,7 +264,7 @@ public class CreateLevel : MonoBehaviour
                     break;
             }
         }
-    }*/
+    }
 
     void CreateSprites (Transform[] posiciones, SpriteAsset[] imagenes, GameObject prefab, int variante, AudioClip[] sonidos, GameObject reproductor)
     {
@@ -572,7 +583,7 @@ public class CreateLevel : MonoBehaviour
 
     void TerminarMinijuego ()
     {
-        //SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneLoaded -= OnSceneLoaded;
         timeEnd = Time.deltaTime;
         puntaje = 0;
         print("Terminado el juego" + nombreMinijuego);
