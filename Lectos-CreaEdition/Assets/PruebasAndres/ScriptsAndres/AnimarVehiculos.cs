@@ -8,11 +8,13 @@ public class AnimarVehiculos : MonoBehaviour
 
     int index = 0;
 
-    private void Start()
+    public void Iniciar()
     {
+        print("iniciado");
         if (vehiculos[0].activeSelf == false)
         {
             vehiculos[0].SetActive(true);
+            MoverPrimero();
         }
     }
 
@@ -28,7 +30,24 @@ public class AnimarVehiculos : MonoBehaviour
             if (index != vehiculos.Length)
             {
                 vehiculos[index].SetActive(true);
+                vehiculos[index].SendMessage("Mover");
             }
         }
+    }
+
+    public void AsteroideVacio ()
+    {
+        index++;
+        if (index != vehiculos.Length)
+        {
+            vehiculos[index].SetActive(true);
+            vehiculos[index].SendMessage("Mover");
+        }
+
+    }
+
+    void MoverPrimero ()
+    {
+        vehiculos[index].SendMessage("Mover");
     }
 }

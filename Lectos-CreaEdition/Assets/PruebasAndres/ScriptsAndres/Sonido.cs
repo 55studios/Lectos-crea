@@ -34,9 +34,10 @@ public class Sonido : MonoBehaviour
                 playS.CambiarAudio();
                 GameObject controlador = GameObject.FindWithTag("GameController");
                 controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
-                if (frames.Length > 1)
+                if (frames.Length > 1 && frames != null)
                 {
                     InvokeRepeating("animar", 0, 0.1f);
+                    transform.localScale = new Vector3(0.3f, 0.3f, 1);
                 }                
                 Destroy(gameObject, 1f);
             } else

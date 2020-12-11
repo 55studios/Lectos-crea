@@ -14,12 +14,15 @@ public class ImagenDictado : MonoBehaviour
 
     void Animacion ()
     {
-        GetComponent<SpriteRenderer>().sprite = frames[frame];
-        frame++;
-        if (frame == frames.Length - 1)
+        if (frames.Length > 1)
         {
-            frame = 0;
-        }
+            GetComponent<SpriteRenderer>().sprite = frames[frame];
+            frame++;
+            if (frame == frames.Length - 1)
+            {
+                frame = 0;
+            }
+        }        
     }
 
     public void Destruir ()

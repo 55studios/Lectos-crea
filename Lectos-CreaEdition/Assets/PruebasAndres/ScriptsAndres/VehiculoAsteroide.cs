@@ -11,21 +11,44 @@ public class VehiculoAsteroide : MonoBehaviour
     Sprite roto2;
 
     public Transform encuentro;
+    bool moviendo;
 
-    void Start()
+    /*private void OnEnable()
     {
-        
-    }
-
-    private void OnEnable()
-    {
-        transform.DOMove(encuentro.position, 3f);
-    }
+        print("hijos " + transform.childCount);
+        if (transform.childCount == 3)
+        {
+            transform.DOMove(encuentro.position, 3f);
+        } else
+        {
+            GameObject.FindGameObjectWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().AsteroideVacio();
+            //Destroy(gameObject);
+        }        
+    }*/
 
     void Mover ()
     {
-        transform.Find("1").GetComponent<SpriteRenderer>().sprite = roto1;
-        transform.Find("2").GetComponent<SpriteRenderer>().sprite = roto2;
-        Destroy(gameObject, 0.8f);
+        if (moviendo)
+        {
+            transform.Find("1").GetComponent<SpriteRenderer>().sprite = roto1;
+            transform.Find("2").GetComponent<SpriteRenderer>().sprite = roto2;
+            Destroy(gameObject, 0.8f);
+        } else
+        {
+            print("hijos " + transform.childCount);
+            if (transform.childCount == 3)
+            {
+                
+                transform.DOMove(encuentro.position, 3f);
+                moviendo = true;
+            }
+            else
+            {
+                print("se llamo esta mierda");
+                GameObject.FindGameObjectWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().AsteroideVacio();
+                //Destroy(gameObject);
+            }
+        }
+        
     }
 }
