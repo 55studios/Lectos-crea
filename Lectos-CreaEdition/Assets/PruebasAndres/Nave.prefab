@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 1799008103284174517}
   - component: {fileID: 8338557324207130734}
   - component: {fileID: -1211171511179349820}
+  - component: {fileID: 7961548561648771360}
   m_Layer: 0
   m_Name: Nave
   m_TagString: Untagged
@@ -157,3 +158,212 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encuentro: {fileID: 0}
+--- !u!114 &7961548561648771360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750642336465057048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -333801856, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateType: 0
+  isSpeedBased: 0
+  hasOnStart: 0
+  hasOnPlay: 0
+  hasOnUpdate: 0
+  hasOnStepComplete: 0
+  hasOnComplete: 0
+  hasOnTweenCreated: 0
+  hasOnRewind: 0
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  onUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  onStepComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onTweenCreated:
+    m_PersistentCalls:
+      m_Calls: []
+  onRewind:
+    m_PersistentCalls:
+      m_Calls: []
+  delay: 0
+  duration: 3
+  easeType: 6
+  easeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  loops: 1
+  id: 
+  loopType: 0
+  orientType: 1
+  lookAtTransform: {fileID: 0}
+  lookAtPosition: {x: 0, y: 0, z: 0}
+  lookAhead: 0.01
+  autoPlay: 0
+  autoKill: 0
+  relative: 0
+  isLocal: 1
+  isClosedPath: 0
+  pathResolution: 10
+  pathMode: 1
+  lockRotation: 0
+  assignForwardAndUp: 0
+  forwardDirection: {x: 0, y: 0, z: 1}
+  upDirection: {x: 0, y: 1, z: 0}
+  tweenRigidbody: 0
+  wps:
+  - {x: 2.763188, y: 1.9188623, z: 0}
+  - {x: 7.759013, y: 2.6113544, z: 0}
+  - {x: 9.787022, y: 5.57917, z: 0}
+  fullWps: []
+  path:
+    wpLengths:
+    - 0
+    - 17.105553
+    - 5.09553
+    - 3.65669
+    wps:
+    - {x: -14.34, y: 1.66, z: 0}
+    - {x: 2.763188, y: 1.9188623, z: 0}
+    - {x: 7.759013, y: 2.6113544, z: 0}
+    - {x: 9.787022, y: 5.57917, z: 0}
+    type: 1
+    subdivisionsXSegment: 10
+    subdivisions: 40
+    controlPoints:
+    - a: {x: 2.763188, y: 1.9188623, z: 0}
+      b: {x: 0, y: 0, z: 0}
+    - a: {x: 11.81503, y: 8.546986, z: 0}
+      b: {x: 0, y: 0, z: 0}
+    length: 25.85866
+    isFinalized: 1
+    timesTable:
+    - 0.025
+    - 0.05
+    - 0.075
+    - 0.1
+    - 0.125
+    - 0.15
+    - 0.175
+    - 0.2
+    - 0.22500001
+    - 0.25
+    - 0.275
+    - 0.3
+    - 0.32500002
+    - 0.35
+    - 0.375
+    - 0.4
+    - 0.425
+    - 0.45000002
+    - 0.475
+    - 0.5
+    - 0.52500004
+    - 0.55
+    - 0.575
+    - 0.6
+    - 0.625
+    - 0.65000004
+    - 0.675
+    - 0.7
+    - 0.725
+    - 0.75
+    - 0.77500004
+    - 0.8
+    - 0.825
+    - 0.85
+    - 0.875
+    - 0.90000004
+    - 0.925
+    - 0.95
+    - 0.975
+    - 1
+    lengthsTable:
+    - 0.21670035
+    - 0.8277234
+    - 1.7744555
+    - 2.9982824
+    - 4.44059
+    - 6.042764
+    - 7.7461915
+    - 9.492267
+    - 11.222375
+    - 12.877913
+    - 14.400282
+    - 15.730895
+    - 16.811195
+    - 17.632519
+    - 18.330719
+    - 18.928604
+    - 19.437828
+    - 19.870071
+    - 20.237087
+    - 20.55078
+    - 20.823298
+    - 21.067135
+    - 21.29511
+    - 21.520166
+    - 21.755024
+    - 22.011934
+    - 22.299313
+    - 22.583885
+    - 22.858948
+    - 23.129343
+    - 23.398533
+    - 23.668646
+    - 23.94067
+    - 24.214699
+    - 24.490198
+    - 24.76627
+    - 25.041882
+    - 25.316107
+    - 25.588364
+    - 25.85866
+  inspectorMode: 0
+  pathType: 1
+  handlesType: 0
+  livePreview: 1
+  handlesDrawMode: 0
+  perspectiveHandleSize: 0.5
+  showIndexes: 1
+  showWpLength: 0
+  pathColor: {r: 1, g: 1, b: 1, a: 0.5}
+  lastSrcPosition: {x: -14.34, y: 1.66, z: 0}
+  lastSrcRotation: {x: 0, y: 0, z: 0, w: 1}
+  wpsDropdown: 0
+  dropToFloorOffset: 0

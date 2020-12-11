@@ -20,6 +20,7 @@ public class VehiculoNave : MonoBehaviour
 
     void Mover ()
     {
-        Destroy(gameObject, 2f);
+        //Destroy(gameObject, 2f);
+        GetComponent<DOTweenPath>().DOPlay();
     }
 }
