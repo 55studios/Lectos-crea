@@ -457,6 +457,7 @@ public class CreateLevel : MonoBehaviour
                 }                
             }            
             play.GetComponent<PlaySonidos>().sonidos[i] = audios[i];
+            play.GetComponent<PlaySonidos>().Iniciar();
         }
     }
 

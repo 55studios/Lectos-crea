@@ -14,7 +14,7 @@ public class PlaySonidos : MonoBehaviour
     int index;
 
     // Start is called before the first frame update
-    void Start()
+    public void Iniciar()
     {
         index = 0;
         AS = GetComponent<AudioSource>();
