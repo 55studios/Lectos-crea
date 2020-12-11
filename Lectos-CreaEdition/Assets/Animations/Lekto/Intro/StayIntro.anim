@@ -4,7 +4,8 @@
 AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: StayIntro
   serializedVersion: 6
   m_Legacy: 0
@@ -115,7 +116,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -57.017082, y: 0, z: 1.5713481}
+        value: {x: -97, y: 0, z: 1.6}
         inSlope: {x: 6.950982, y: 0, z: 0}
         outSlope: {x: 6.950982, y: 0, z: 0}
         tangentMode: 0
@@ -465,7 +466,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -57.017082
+        value: -97
         inSlope: 6.950982
         outSlope: 6.950982
         tangentMode: 0
@@ -503,7 +504,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1.5713481
+        value: 1.6
         inSlope: 1.3877787e-14
         outSlope: 1.3877787e-14
         tangentMode: 0
@@ -1945,5 +1946,4 @@ AnimationClip:
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
-  m_GenerateMotionCurves: 0
   m_Events: []
