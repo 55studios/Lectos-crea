@@ -6,6 +6,7 @@ using DG.Tweening;
 public class VehiculoNave : MonoBehaviour
 {
     public Transform encuentro;
+    bool moviendo;
 
     // Start is called before the first frame update
     void Start()
@@ -13,14 +14,21 @@ public class VehiculoNave : MonoBehaviour
         
     }
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         transform.DOMove(encuentro.position, 3f);
-    }
+    }*/
 
     void Mover ()
     {
-        //Destroy(gameObject, 2f);
-        GetComponent<DOTweenPath>().DOPlay();
+        if (moviendo)
+        {
+            //Destroy(gameObject, 2f);
+            GetComponent<DOTweenPath>().DOPlay();
+        } else
+        {
+            transform.DOMove(encuentro.position, 3f);
+            moviendo = true;
+        }
     }
 }

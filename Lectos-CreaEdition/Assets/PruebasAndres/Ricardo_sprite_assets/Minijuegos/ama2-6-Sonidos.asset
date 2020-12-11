@@ -28,11 +28,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ce98f35d64fe73646a687854cafad7e7, type: 2}
   - {fileID: 11400000, guid: 7f69dc4139245f3489214117185be6ff, type: 2}
   animacionCorrecto:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b31cd2dfd63dfcc4eaaa721ba07b4e84, type: 2}
+  - {fileID: 11400000, guid: 632f1645576f5a14d84276d811318070, type: 2}
+  - {fileID: 11400000, guid: 856dee6d7c3e3bc4c8e7544b11012095, type: 2}
+  - {fileID: 11400000, guid: 74f9be6dd6b79b54e9dbed92d26c3058, type: 2}
+  - {fileID: 11400000, guid: 5f11dbae74bede14f9ed2d94be9eea66, type: 2}
   sonidosParlante:
   - {fileID: 8300000, guid: 95eb277a66c09324db750ab6245fb9de, type: 3}
   - {fileID: 8300000, guid: 05ef453e90541c94587352073bfa15db, type: 3}

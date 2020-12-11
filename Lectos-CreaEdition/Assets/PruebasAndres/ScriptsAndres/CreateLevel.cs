@@ -96,7 +96,7 @@ public class CreateLevel : MonoBehaviour
                         As.clip = MGD.sonidoAcierto;
                         Transform[] recepSonido = Or.receptores;
                         Sonidos So = (Sonidos)MGD;
-                        CreateSpritesSonidos(recepSonido, So.clickeables, So.sonidosParlante, receptorSonidosPrefab, So.sonidosCorrecto, Or.gameObject);
+                        CreateSpritesSonidos(recepSonido, So.clickeables, So.animacionCorrecto, So.sonidosParlante, receptorSonidosPrefab, So.sonidosCorrecto, Or.gameObject);
                         GetComponent<Tiempo>().Iniciar(MGD.tiemposAVencer);
                         break;
                     case 4: //congelados 
@@ -314,7 +314,13 @@ public class CreateLevel : MonoBehaviour
                         elementosCreados[i].GetComponent<Drop>().posActivador = posiciones[i].transform.Find("1").transform;
                     }
                 }
+                if (variante == 2)
+                {
+                    print("este es");
+                    GameObject.FindGameObjectWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().Iniciar();
+                }
             }
+            
         } else
         {
             receptoresCreados = new GameObject[imagenes.Length];
@@ -364,6 +370,7 @@ public class CreateLevel : MonoBehaviour
                 elementosCreados[0].SetActive(true);
                 receptoresCreados = elementosCreados;
             }
+            
         }
     }
 
@@ -426,12 +433,12 @@ public class CreateLevel : MonoBehaviour
             if (flip != null)
             {
                 elemento2.GetComponent<Memo>().miSonido = flip;
-                elemento.GetComponent<Memo>().audioS = reproductor.GetComponent<AudioSource>();
+                elemento2.GetComponent<Memo>().audioS = reproductor.GetComponent<AudioSource>();
             }
         }
     }
 
-    void CreateSpritesSonidos(Transform[] posiciones, SpriteAsset[] imagenes, AudioClip[] audios, GameObject prefab, AudioClip[] sonidosCorrecto, GameObject reproductor)
+    void CreateSpritesSonidos(Transform[] posiciones, SpriteAsset[] imagenes, SpriteAsset[] animaciones, AudioClip[] audios, GameObject prefab, AudioClip[] sonidosCorrecto, GameObject reproductor)
     {
         System.Array.Sort(posiciones, RandomSort);
         System.Array.Sort(posiciones, RandomSort);
@@ -448,7 +455,7 @@ public class CreateLevel : MonoBehaviour
             elemento.GetComponent<Respuesta>().respuesta = i;
             if (elemento.GetComponent<Sonido>() != null)
             {
-                elemento.GetComponent<Sonido>().frames = temporales;
+                elemento.GetComponent<Sonido>().frames = animaciones[i].frames;
                 play.GetComponent<PlaySonidos>().elementosSonido[i] = elemento.GetComponent<Sonido>();
                 if (sonidosCorrecto != null)
                 {

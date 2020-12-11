@@ -7,12 +7,12 @@ public class VehiculoEstrella : MonoBehaviour
 {
 
     public Transform encuentro;
+    bool moviendo;
 
-
-    private void OnEnable()
+    /*private void OnEnable()
     {
         transform.DOMove(encuentro.position, 3.2f).SetDelay(1f);
-    }
+    }*/
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +21,15 @@ public class VehiculoEstrella : MonoBehaviour
 
     void Mover()
     {
-        Sequence secuencia = DOTween.Sequence();
-        secuencia.Append(GetComponent<SpriteRenderer>().DOColor(Color.yellow, 1f));
-        secuencia.Append(transform.DOMoveY(10, 0.8f));
+        if (moviendo)
+        {
+            Sequence secuencia = DOTween.Sequence();
+            secuencia.Append(GetComponent<SpriteRenderer>().DOColor(Color.yellow, 1f));
+            secuencia.Append(transform.DOMoveY(10, 0.8f));
+        } else
+        {
+            transform.DOMove(encuentro.position, 3.2f).SetDelay(1f);
+            moviendo = true;
+        }
     }
 }
