@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 2654872}
   - component: {fileID: 2654871}
   - component: {fileID: 2654870}
+  - component: {fileID: 2654876}
   m_Layer: 5
   m_Name: Save_Point (12)
   m_TagString: Untagged
@@ -303,6 +304,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2654874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,6 +352,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2654868}
   m_CullTransparentMesh: 0
+--- !u!114 &2654876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &3652962
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,6 +582,7 @@ GameObject:
   - component: {fileID: 60721213}
   - component: {fileID: 60721212}
   - component: {fileID: 60721211}
+  - component: {fileID: 60721217}
   m_Layer: 5
   m_Name: Save_Point (19)
   m_TagString: Untagged
@@ -723,6 +750,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &60721215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -760,6 +798,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60721209}
   m_CullTransparentMesh: 0
+--- !u!114 &60721217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60721209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &67407947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,6 +1722,7 @@ GameObject:
   - component: {fileID: 125401797}
   - component: {fileID: 125401796}
   - component: {fileID: 125401795}
+  - component: {fileID: 125401801}
   m_Layer: 5
   m_Name: Save_Point (1)
   m_TagString: Untagged
@@ -1837,6 +1890,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &125401799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1874,6 +1938,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125401793}
   m_CullTransparentMesh: 0
+--- !u!114 &125401801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125401793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &130328239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2223,7 @@ GameObject:
   - component: {fileID: 140968776}
   - component: {fileID: 140968775}
   - component: {fileID: 140968774}
+  - component: {fileID: 140968780}
   m_Layer: 5
   m_Name: Save_Point (3)
   m_TagString: Untagged
@@ -2312,6 +2391,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &140968778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2349,6 +2439,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140968772}
   m_CullTransparentMesh: 0
+--- !u!114 &140968780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140968772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &146917948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3437,6 +3541,7 @@ GameObject:
   - component: {fileID: 219745386}
   - component: {fileID: 219745384}
   - component: {fileID: 219745385}
+  - component: {fileID: 219745391}
   m_Layer: 5
   m_Name: Save_Point (1)
   m_TagString: Untagged
@@ -3583,6 +3688,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &219745388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3641,6 +3757,20 @@ RectTransform:
   m_AnchoredPosition: {x: -160, y: 162}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &219745391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219745383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &219779003
 GameObject:
   m_ObjectHideFlags: 0
@@ -4131,6 +4261,7 @@ GameObject:
   - component: {fileID: 242941708}
   - component: {fileID: 242941707}
   - component: {fileID: 242941706}
+  - component: {fileID: 242941712}
   m_Layer: 5
   m_Name: Save_Point (11)
   m_TagString: Untagged
@@ -4298,6 +4429,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &242941710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4335,6 +4477,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242941704}
   m_CullTransparentMesh: 0
+--- !u!114 &242941712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242941704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &243049980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,6 +4580,7 @@ GameObject:
   - component: {fileID: 247568075}
   - component: {fileID: 247568073}
   - component: {fileID: 247568074}
+  - component: {fileID: 247568080}
   m_Layer: 5
   m_Name: Save_Point (4)
   m_TagString: Untagged
@@ -4570,6 +4727,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &247568077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4628,6 +4796,20 @@ RectTransform:
   m_AnchoredPosition: {x: 495, y: 123}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &247568080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247568072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &255869963
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,6 +4825,7 @@ GameObject:
   - component: {fileID: 255869967}
   - component: {fileID: 255869966}
   - component: {fileID: 255869965}
+  - component: {fileID: 255869971}
   m_Layer: 5
   m_Name: Save_Point (7)
   m_TagString: Untagged
@@ -4810,6 +4993,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &255869969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4847,6 +5041,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255869963}
   m_CullTransparentMesh: 0
+--- !u!114 &255869971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255869963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &258175968
 GameObject:
   m_ObjectHideFlags: 0
@@ -6230,7 +6438,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1237851366}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6283,6 +6491,28 @@ MonoBehaviour:
       - m_Target: {fileID: 1887150182}
         m_MethodName: PoblarMinijuego
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1887150182}
+        m_MethodName: PoblarMinijuego
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1237851365}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6523,6 +6753,7 @@ GameObject:
   - component: {fileID: 350446649}
   - component: {fileID: 350446648}
   - component: {fileID: 350446647}
+  - component: {fileID: 350446653}
   m_Layer: 5
   m_Name: Save_Point (13)
   m_TagString: Untagged
@@ -6690,6 +6921,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &350446651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6727,6 +6969,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350446645}
   m_CullTransparentMesh: 0
+--- !u!114 &350446653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350446645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &353398418
 GameObject:
   m_ObjectHideFlags: 0
@@ -7493,6 +7749,7 @@ GameObject:
   - component: {fileID: 438331418}
   - component: {fileID: 438331417}
   - component: {fileID: 438331416}
+  - component: {fileID: 438331422}
   m_Layer: 5
   m_Name: Save_Point (2)
   m_TagString: Untagged
@@ -7660,6 +7917,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &438331420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7697,6 +7965,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438331414}
   m_CullTransparentMesh: 0
+--- !u!114 &438331422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438331414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &444936239
 GameObject:
   m_ObjectHideFlags: 0
@@ -8152,6 +8434,7 @@ GameObject:
   - component: {fileID: 448403974}
   - component: {fileID: 448403973}
   - component: {fileID: 448403972}
+  - component: {fileID: 448403978}
   m_Layer: 5
   m_Name: Save_Point (15)
   m_TagString: Untagged
@@ -8319,6 +8602,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &448403976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8356,6 +8650,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448403970}
   m_CullTransparentMesh: 0
+--- !u!114 &448403978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448403970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &448737517
 GameObject:
   m_ObjectHideFlags: 0
@@ -9803,6 +10111,7 @@ GameObject:
   - component: {fileID: 505217553}
   - component: {fileID: 505217551}
   - component: {fileID: 505217552}
+  - component: {fileID: 505217558}
   m_Layer: 5
   m_Name: Save_Point
   m_TagString: Untagged
@@ -9949,6 +10258,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &505217555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10007,6 +10327,20 @@ RectTransform:
   m_AnchoredPosition: {x: -505, y: 123}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &505217558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505217550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &507105456
 GameObject:
   m_ObjectHideFlags: 0
@@ -10022,6 +10356,7 @@ GameObject:
   - component: {fileID: 507105460}
   - component: {fileID: 507105459}
   - component: {fileID: 507105458}
+  - component: {fileID: 507105464}
   m_Layer: 5
   m_Name: Save_Point (6)
   m_TagString: Untagged
@@ -10189,6 +10524,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &507105462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10226,6 +10572,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507105456}
   m_CullTransparentMesh: 0
+--- !u!114 &507105464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507105456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &509110772
 GameObject:
   m_ObjectHideFlags: 0
@@ -10354,6 +10714,7 @@ GameObject:
   - component: {fileID: 511550345}
   - component: {fileID: 511550343}
   - component: {fileID: 511550344}
+  - component: {fileID: 511550350}
   m_Layer: 5
   m_Name: Save_Point (5)
   m_TagString: Untagged
@@ -10500,6 +10861,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &511550347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10558,6 +10930,20 @@ RectTransform:
   m_AnchoredPosition: {x: 456, y: -134}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &511550350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511550342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &524333357
 GameObject:
   m_ObjectHideFlags: 0
@@ -12752,6 +13138,7 @@ GameObject:
   - component: {fileID: 657646790}
   - component: {fileID: 657646788}
   - component: {fileID: 657646789}
+  - component: {fileID: 657646795}
   m_Layer: 5
   m_Name: Save_Point (2)
   m_TagString: Untagged
@@ -12898,6 +13285,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &657646792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12956,6 +13354,20 @@ RectTransform:
   m_AnchoredPosition: {x: -77.18, y: -60}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &657646795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657646787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &657670620
 GameObject:
   m_ObjectHideFlags: 0
@@ -13202,6 +13614,7 @@ GameObject:
   - component: {fileID: 679458597}
   - component: {fileID: 679458595}
   - component: {fileID: 679458596}
+  - component: {fileID: 679458602}
   m_Layer: 5
   m_Name: Save_Point (6)
   m_TagString: Untagged
@@ -13348,6 +13761,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &679458599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13406,6 +13830,20 @@ RectTransform:
   m_AnchoredPosition: {x: 142, y: -202}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &679458602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679458594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &687494191
 GameObject:
   m_ObjectHideFlags: 0
@@ -14320,6 +14758,7 @@ GameObject:
   - component: {fileID: 730123083}
   - component: {fileID: 730123082}
   - component: {fileID: 730123081}
+  - component: {fileID: 730123087}
   m_Layer: 5
   m_Name: Save_Point (16)
   m_TagString: Untagged
@@ -14487,6 +14926,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &730123085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14524,6 +14974,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730123079}
   m_CullTransparentMesh: 0
+--- !u!114 &730123087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730123079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1001 &735878319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18059,6 +18523,7 @@ GameObject:
   - component: {fileID: 973943814}
   - component: {fileID: 973943813}
   - component: {fileID: 973943812}
+  - component: {fileID: 973943818}
   m_Layer: 5
   m_Name: Save_Point (18)
   m_TagString: Untagged
@@ -18226,6 +18691,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &973943816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18263,6 +18739,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973943810}
   m_CullTransparentMesh: 0
+--- !u!114 &973943818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973943810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &974257019
 GameObject:
   m_ObjectHideFlags: 0
@@ -18961,6 +19451,7 @@ GameObject:
   - component: {fileID: 1007777695}
   - component: {fileID: 1007777694}
   - component: {fileID: 1007777699}
+  - component: {fileID: 1007777700}
   m_Layer: 5
   m_Name: Save_Point
   m_TagString: Untagged
@@ -19115,6 +19606,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1007777697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19165,6 +19667,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasMinijuego: {fileID: 1129408568}
+--- !u!114 &1007777700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007777692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &1008648268
 GameObject:
   m_ObjectHideFlags: 0
@@ -19686,6 +20202,7 @@ GameObject:
   - component: {fileID: 1025920280}
   - component: {fileID: 1025920283}
   - component: {fileID: 1025920284}
+  - component: {fileID: 1025920285}
   m_Layer: 5
   m_Name: Siguiente
   m_TagString: Untagged
@@ -19777,6 +20294,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1025920285}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1025920281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19852,6 +20380,20 @@ MonoBehaviour:
   delayOut: 0.5
   easeOut: 7
   moveFrom: {x: 0, y: 0, z: 0}
+--- !u!114 &1025920285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025920278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 0
+  panel: {fileID: 1237851365}
 --- !u!1 &1032150817
 GameObject:
   m_ObjectHideFlags: 0
@@ -23456,8 +23998,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 88938887}
-  - {fileID: 346257834}
   - {fileID: 1364376045}
+  - {fileID: 346257834}
   m_Father: {fileID: 151225073}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24267,6 +24809,7 @@ GameObject:
   - component: {fileID: 1291462192}
   - component: {fileID: 1291462190}
   - component: {fileID: 1291462191}
+  - component: {fileID: 1291462197}
   m_Layer: 5
   m_Name: Save_Point (7)
   m_TagString: Untagged
@@ -24413,6 +24956,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1291462194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24471,6 +25025,20 @@ RectTransform:
   m_AnchoredPosition: {x: -411, y: -185}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1291462197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291462189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &1300357615
 GameObject:
   m_ObjectHideFlags: 0
@@ -24995,6 +25563,7 @@ GameObject:
   - component: {fileID: 1353127617}
   - component: {fileID: 1353127616}
   - component: {fileID: 1353127615}
+  - component: {fileID: 1353127621}
   m_Layer: 5
   m_Name: Save_Point (17)
   m_TagString: Untagged
@@ -25162,6 +25731,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1353127619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25199,6 +25779,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353127613}
   m_CullTransparentMesh: 0
+--- !u!114 &1353127621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353127613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &1364376044
 GameObject:
   m_ObjectHideFlags: 0
@@ -25231,7 +25825,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1237851366}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -25332,6 +25926,7 @@ GameObject:
   - component: {fileID: 1367586124}
   - component: {fileID: 1367586127}
   - component: {fileID: 1367586128}
+  - component: {fileID: 1367586129}
   m_Layer: 5
   m_Name: Replay
   m_TagString: Untagged
@@ -25423,6 +26018,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1025920285}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1367586125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25498,6 +26104,20 @@ MonoBehaviour:
   delayOut: 0.5
   easeOut: 7
   moveFrom: {x: 0, y: 0, z: 0}
+--- !u!114 &1367586129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367586122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 0
+  panel: {fileID: 1237851365}
 --- !u!1 &1370426620
 GameObject:
   m_ObjectHideFlags: 0
@@ -25661,6 +26281,7 @@ GameObject:
   - component: {fileID: 1372293573}
   - component: {fileID: 1372293571}
   - component: {fileID: 1372293572}
+  - component: {fileID: 1372293578}
   m_Layer: 5
   m_Name: Save_Point (3)
   m_TagString: Untagged
@@ -25807,6 +26428,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219745391}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1372293575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25865,6 +26497,20 @@ RectTransform:
   m_AnchoredPosition: {x: 201, y: 108}
   m_SizeDelta: {x: 82.81958, y: 82.819595}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1372293578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372293570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &1376751666
 GameObject:
   m_ObjectHideFlags: 0
@@ -29141,6 +29787,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1887150182}
+        m_MethodName: PoblarMinijuego
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 556719565}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1552353541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30449,6 +31117,7 @@ GameObject:
   - component: {fileID: 1595051485}
   - component: {fileID: 1595051484}
   - component: {fileID: 1595051483}
+  - component: {fileID: 1595051489}
   m_Layer: 5
   m_Name: Save_Point (14)
   m_TagString: Untagged
@@ -30616,6 +31285,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1595051487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30653,6 +31333,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595051481}
   m_CullTransparentMesh: 0
+--- !u!114 &1595051489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595051481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &1599214030
 GameObject:
   m_ObjectHideFlags: 0
@@ -31408,6 +32102,7 @@ GameObject:
   - component: {fileID: 1704225830}
   - component: {fileID: 1704225829}
   - component: {fileID: 1704225828}
+  - component: {fileID: 1704225834}
   m_Layer: 5
   m_Name: Save_Point
   m_TagString: Untagged
@@ -31575,6 +32270,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1704225832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31612,6 +32318,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704225826}
   m_CullTransparentMesh: 0
+--- !u!114 &1704225834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704225826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &1708204698
 GameObject:
   m_ObjectHideFlags: 0
@@ -32357,6 +33077,7 @@ GameObject:
   - component: {fileID: 1750797666}
   - component: {fileID: 1750797665}
   - component: {fileID: 1750797664}
+  - component: {fileID: 1750797670}
   m_Layer: 5
   m_Name: Save_Point (5)
   m_TagString: Untagged
@@ -32524,6 +33245,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1750797668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32561,6 +33293,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750797662}
   m_CullTransparentMesh: 0
+--- !u!114 &1750797670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750797662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &1752524505
 GameObject:
   m_ObjectHideFlags: 0
@@ -35151,6 +35897,7 @@ GameObject:
   - component: {fileID: 1950188942}
   - component: {fileID: 1950188941}
   - component: {fileID: 1950188940}
+  - component: {fileID: 1950188946}
   m_Layer: 5
   m_Name: Save_Point (20)
   m_TagString: Untagged
@@ -35318,6 +36065,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2654876}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1950188944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35355,6 +36113,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950188938}
   m_CullTransparentMesh: 0
+--- !u!114 &1950188946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950188938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1001 &1970600706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35542,6 +36314,7 @@ GameObject:
   - component: {fileID: 1993678664}
   - component: {fileID: 1993678663}
   - component: {fileID: 1993678662}
+  - component: {fileID: 1993678668}
   m_Layer: 5
   m_Name: Save_Point (4)
   m_TagString: Untagged
@@ -35709,6 +36482,17 @@ MonoBehaviour:
           m_StringArgument: Close
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 125401801}
+        m_MethodName: StartDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1993678666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35746,6 +36530,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993678660}
   m_CullTransparentMesh: 0
+--- !u!114 &1993678668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993678660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f230b6388d8982c4f85b37373c97c342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Delay: 3
+  panel: {fileID: 1237851365}
 --- !u!1 &2000689539
 GameObject:
   m_ObjectHideFlags: 0
@@ -38180,6 +38978,28 @@ MonoBehaviour:
       - m_Target: {fileID: 1887150182}
         m_MethodName: PoblarMinijuego
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1887150182}
+        m_MethodName: PoblarMinijuego
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2113006841}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -10,10 +10,9 @@ public class GameManager : MonoBehaviour {
     public bool[] subEnableLevels;
     public bool[] MiniGamesSubLevel_1;
     public bool trofeo;
-    
+
 
     public static GameManager _GameManager;
-
     private DialogManager dialogManager;
 
     private void Awake()
