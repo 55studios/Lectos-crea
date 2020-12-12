@@ -12,15 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d2442629484354c832ab856228ea4b, type: 3}
   m_Name: azu2-1-puzzle_mano
   m_EditorClassIdentifier: 
-  puntosLogrables: 0
+  puntosLogrables: 6
   tiemposAVencer:
-  - 0
-  - 0
-  - 0
+  - 35
+  - 22
+  - 15
   reward: 
-  sonidoAcierto: {fileID: 0}
-  particulasAcierto: {fileID: 0}
-  piezas: []
-  Completo: {fileID: 0}
-  sonidoPalabra: {fileID: 0}
-  sonidoElemento: {fileID: 0}
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  piezas:
+  - {fileID: 4666604811453088315, guid: 6772f02a26f9c7742a9ff8220016b8a3, type: 3}
+  - {fileID: 8541540131630720944, guid: 6772f02a26f9c7742a9ff8220016b8a3, type: 3}
+  - {fileID: -7395304101660249675, guid: 6772f02a26f9c7742a9ff8220016b8a3, type: 3}
+  - {fileID: -2949917657335074086, guid: 6772f02a26f9c7742a9ff8220016b8a3, type: 3}
+  - {fileID: -1034004574315546055, guid: 6772f02a26f9c7742a9ff8220016b8a3, type: 3}
+  - {fileID: -6837303762080079374, guid: 6772f02a26f9c7742a9ff8220016b8a3, type: 3}
+  Completo: {fileID: 8279799341647997470, guid: 6772f02a26f9c7742a9ff8220016b8a3,
+    type: 3}
+  sonidoPalabra: {fileID: 8300000, guid: 209e9cab50ae6a04db53035110a826b5, type: 3}
+  sonidoElemento: {fileID: 8300000, guid: 0898277591ce2324597666538f0e3e42, type: 3}

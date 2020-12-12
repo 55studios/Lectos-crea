@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Group 4
+  - name: Layer 12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1693
-      y: 1254
-      width: 265
-      height: 226
-    spriteID: fa0870d80bb82e94ea4191cab89f03dc
+      x: 4
+      y: 564
+      width: 827
+      height: 551
+    spriteID: 67cd4a984b1a1174bb6b746d2b5da8a0
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,19 +108,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1401, y: 1091}
-  - name: Layer 4 copy
+    uvTransform: {x: -6, y: 421}
+  - name: Layer 13
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 857
-      y: 1254
-      width: 828
-      height: 531
-    spriteID: 6e7ee4e3296e3ff40855d92e9071367e
+      x: 4
+      y: 1123
+      width: 832
+      height: 542
+    spriteID: 215a9fef6404d5c4caf5aa1c313e248b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,41 +130,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 850, y: 1103}
-  - name: Layer 11
+    uvTransform: {x: -4, y: 977}
+  - name: Layer 14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 857
+      x: 4
       y: 4
-      width: 845
-      height: 682
-    spriteID: 6d4d67ea6f225f24cad58628e9d73916
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 857, y: 4}
-  - name: Layer 10
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 857
-      y: 694
       width: 832
       height: 552
-    spriteID: 9d2ecfcd6cb4f264b93fb458121d7e9c
+    spriteID: cbb0d79c84357814ca4bdca4bd4a24a4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,51 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 852, y: 558}
-  - name: Captura-de-pantalla-(22)
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 845
-      height: 845
-    spriteID: 72a5df1ebb0a1d44087d97332e686cd5
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 857
-      width: 845
-      height: 845
-    spriteID: 5aa5d5fdd60ae4040aab693f473c7544
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 857}
+    uvTransform: {x: -1, y: -132}
   platformSettings:
   - name: Default
     overridden: 1
@@ -246,76 +180,41 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
+  importedTextureWidth: 1024
   importedTextureHeight: 2048
   documentSize: {x: 845, y: 845}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
+  textureActualWidth: 1024
   textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Group 5
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 00000000000000000000000000000000
-    layerID: 462
-    mosaicPosition: {x: 0, y: 0}
-  - name: Group 4
-    spriteName: Group 4
-    isGroup: 0
-    parentIndex: 0
-    spriteID: fa0870d80bb82e94ea4191cab89f03dc
-    layerID: 461
-    mosaicPosition: {x: 1693, y: 1254}
-  - name: 3
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 00000000000000000000000000000000
-    layerID: 455
-    mosaicPosition: {x: 0, y: 0}
-  - name: Layer 4 copy
-    spriteName: Layer 4 copy
-    isGroup: 0
-    parentIndex: 2
-    spriteID: 6e7ee4e3296e3ff40855d92e9071367e
-    layerID: 457
-    mosaicPosition: {x: 857, y: 1254}
-  - name: Layer 11
-    spriteName: Layer 11
-    isGroup: 0
-    parentIndex: 2
-    spriteID: 6d4d67ea6f225f24cad58628e9d73916
-    layerID: 454
-    mosaicPosition: {x: 857, y: 4}
-  - name: Layer 10
-    spriteName: Layer 10
-    isGroup: 0
-    parentIndex: 2
-    spriteID: 9d2ecfcd6cb4f264b93fb458121d7e9c
-    layerID: 453
-    mosaicPosition: {x: 857, y: 694}
-  - name: Captura-de-pantalla-(22)
-    spriteName: Captura-de-pantalla-(22)
+  - name: Layer 12
+    spriteName: Layer 12
     isGroup: 0
     parentIndex: -1
-    spriteID: 72a5df1ebb0a1d44087d97332e686cd5
-    layerID: 3
+    spriteID: 67cd4a984b1a1174bb6b746d2b5da8a0
+    layerID: 464
+    mosaicPosition: {x: 4, y: 564}
+  - name: Layer 13
+    spriteName: Layer 13
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 215a9fef6404d5c4caf5aa1c313e248b
+    layerID: 466
+    mosaicPosition: {x: 4, y: 1123}
+  - name: Layer 14
+    spriteName: Layer 14
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cbb0d79c84357814ca4bdca4bd4a24a4
+    layerID: 467
     mosaicPosition: {x: 4, y: 4}
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 5aa5d5fdd60ae4040aab693f473c7544
-    layerID: 2
-    mosaicPosition: {x: 4, y: 857}
   characterData:
     bones: []
     parts: []

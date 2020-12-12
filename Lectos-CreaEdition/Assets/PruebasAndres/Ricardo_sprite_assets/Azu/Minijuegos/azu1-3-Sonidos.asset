@@ -12,15 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf57e1d91bf2c748b7e9bb157ea75a7, type: 3}
   m_Name: azu1-3-Sonidos
   m_EditorClassIdentifier: 
-  puntosLogrables: 0
+  puntosLogrables: 5
   tiemposAVencer:
   - 0
   - 0
   - 0
   reward: 
-  sonidoAcierto: {fileID: 0}
-  particulasAcierto: {fileID: 0}
-  clickeables: []
-  animacionCorrecto: []
-  sonidosParlante: []
-  sonidosCorrecto: []
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  clickeables:
+  - {fileID: 11400000, guid: 9774d9156774f1e499735dd7143fbc2f, type: 2}
+  - {fileID: 11400000, guid: 17993fe5c44213741adee81b8129f472, type: 2}
+  - {fileID: 11400000, guid: ab399ecc8d270184cbc76173d7c40827, type: 2}
+  - {fileID: 11400000, guid: 1fbd73d26166a994ba584e690bf57c59, type: 2}
+  - {fileID: 11400000, guid: 748d585501c990944a3352072375c5db, type: 2}
+  animacionCorrecto:
+  - {fileID: 11400000, guid: e90cc990f95e6e14f9a5044c133161b9, type: 2}
+  - {fileID: 11400000, guid: b163e0871ec3dc2428247fedadc4c3f3, type: 2}
+  - {fileID: 11400000, guid: b07f2153f3ff877478f3b0efbb0fdb33, type: 2}
+  - {fileID: 11400000, guid: ad4f76d0702df7e469add1e99326a417, type: 2}
+  - {fileID: 11400000, guid: a6fcf4c34f18c574f9333f9aa2ad4cb3, type: 2}
+  sonidosParlante:
+  - {fileID: 8300000, guid: 0e8a4882d7dbd92469e79f8edc5feaf9, type: 3}
+  - {fileID: 8300000, guid: 5f20825021f8ebb4db83c6256d402c6d, type: 3}
+  - {fileID: 8300000, guid: c159ace8d0f9a5846851fc90be81863c, type: 3}
+  - {fileID: 8300000, guid: fc11820f405ad8c4582acdcac9e4a668, type: 3}
+  - {fileID: 8300000, guid: 61285d54744aacb418a6de280aa0e653, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: abf8056e51ec4484ab51fcda93be5264, type: 3}
+  - {fileID: 8300000, guid: 3b04e62365e38414eb2fb3666dfcf417, type: 3}
+  - {fileID: 8300000, guid: b37ad920ff866cd489379e423a6f61d9, type: 3}
+  - {fileID: 8300000, guid: dd6e56132d1eab24e8d271e12a077ab2, type: 3}
+  - {fileID: 8300000, guid: cf3ec00f152976b46ae6666b8a9a3744, type: 3}

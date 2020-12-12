@@ -18,11 +18,32 @@ MonoBehaviour:
   - 0
   - 0
   reward: 
-  sonidoAcierto: {fileID: 0}
-  particulasAcierto: {fileID: 0}
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
   variante: 2
-  variacion: 0
-  arrastrables: []
-  receptores: []
-  sonidosArrastrar: []
-  sonidosCorrecto: []
+  variacion: 2
+  arrastrables:
+  - {fileID: 11400000, guid: f16633a90095e6a4da5dfebb25159e53, type: 2}
+  - {fileID: 11400000, guid: b510d7adae1c4d54bb073ad024ecd4f4, type: 2}
+  - {fileID: 11400000, guid: b3291885776a020428bab37d05bbf5f5, type: 2}
+  - {fileID: 11400000, guid: 5bf4f420e3fa4ea499d119ab75b23ac1, type: 2}
+  - {fileID: 11400000, guid: 8177904253435b344a130e1376c2fe35, type: 2}
+  receptores:
+  - {fileID: 11400000, guid: 7c55b8abea0338a4ba3b4c3ed1673e74, type: 2}
+  - {fileID: 11400000, guid: d9fae36056bb01f47b296c993f9459e7, type: 2}
+  - {fileID: 11400000, guid: 13fd2d734614e5d479b691259f20ec7d, type: 2}
+  - {fileID: 11400000, guid: 0f61fd5f4603c834eac648ddaff0f92e, type: 2}
+  - {fileID: 11400000, guid: 91c3e35990f9aba4a8b11e9277058c44, type: 2}
+  sonidosArrastrar:
+  - {fileID: 8300000, guid: 25226138fe8113a44951a9014e13a3d0, type: 3}
+  - {fileID: 8300000, guid: 0eda8a246d1003c4a9e6ae91a4712ccd, type: 3}
+  - {fileID: 8300000, guid: c3b57e6ea8a68484e8a0bde4366ec9bb, type: 3}
+  - {fileID: 8300000, guid: 5cf0cf0d5dd87084ea35527f259ae583, type: 3}
+  - {fileID: 8300000, guid: ac3f55c5cdbe10d428ea4e59c54ad7a0, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: 34dc6e9732fed66488e3bcc6b63aa978, type: 3}
+  - {fileID: 8300000, guid: 1aae4b4cf1509db4ca184c10d34c9f3e, type: 3}
+  - {fileID: 8300000, guid: ade7dfb986a06914091bc9b9adb4eae7, type: 3}
+  - {fileID: 8300000, guid: 32ab9f7f89924a44896737f46615b5bb, type: 3}
+  - {fileID: 8300000, guid: 83c90ad8107a4464d89da7bb369fff4c, type: 3}

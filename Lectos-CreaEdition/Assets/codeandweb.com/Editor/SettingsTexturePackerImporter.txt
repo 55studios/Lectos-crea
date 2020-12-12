@@ -2,11 +2,17 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Resources/Palabras/AZUL/ficha-futbol.tpsheet
+- Assets/Resources/Palabras/AZUL/foto-hechiza.tpsheet
 - Assets/Sprites/Caras/Face.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Resources/Palabras/AZUL/FICHA-FUTBOL.png
+- Assets/Resources/Palabras/AZUL/FOTO-HECHIZA.png
 - Assets/Sprites/Caras/Face.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
 - 
 enableDebugOutput: 0
