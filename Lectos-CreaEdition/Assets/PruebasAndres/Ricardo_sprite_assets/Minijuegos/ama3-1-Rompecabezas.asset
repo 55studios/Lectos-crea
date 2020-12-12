@@ -28,7 +28,7 @@ MonoBehaviour:
   - {fileID: 4558170038365714432, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
   - {fileID: 7231604704612244705, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
   - {fileID: 3803146898948437824, guid: ddcb3724d7a0acb4c86434faa678c05f, type: 3}
-  Completo: {fileID: -3724831398393682971, guid: ddcb3724d7a0acb4c86434faa678c05f,
+  Completo: {fileID: -3222814986313817189, guid: ddcb3724d7a0acb4c86434faa678c05f,
     type: 3}
-  sonidoPalabra: {fileID: 8300000, guid: d9ce04f660822364aac165bcee9c9f52, type: 3}
-  sonidoElemento: {fileID: 8300000, guid: b7a311413f37d134589f62c980fa7fb9, type: 3}
+  sonidoPalabra: {fileID: 8300000, guid: 95b07ac07c3337d459c1584385402cdd, type: 3}
+  sonidoElemento: {fileID: 8300000, guid: ca3b635301509314494110a93d445fbe, type: 3}
