@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 126
+  - name: choza1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -98,7 +98,7 @@ ScriptedImporter:
       y: 4
       width: 289
       height: 302
-    spriteID: 733473f2839626f4293973846034f3cf
+    spriteID: 8ddef3c5578216c4094ab17de8cfd929
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -109,95 +109,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 717, y: -174}
-  - name: Layer 127
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 887
-      width: 317
-      height: 303
-    spriteID: b6d72819e8f3146458a018143ed5d436
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -216, y: 710}
-  - name: Layer 128
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1453
-      width: 236
-      height: 303
-    spriteID: 5257375762787174ca58772f61ec3bdb
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -465, y: 1276}
-  - name: Layer 129
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1198
-      width: 290
-      height: 247
-    spriteID: a401349ff5d765c4e9d2ea45fe377342
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1198}
-  - name: Layer 130
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1764
-      width: 267
-      height: 246
-    spriteID: c8075c434a28c794ea4e5b70fd5efbaf
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -217, y: 1764}
-  - name: Layer 113 copy
+  - name: choza2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -206,9 +118,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 492
-      width: 659
-      height: 387
-    spriteID: 5556b666e25f23a4d92ce9682fea30ae
+      width: 317
+      height: 303
+    spriteID: 4d4ec11fc8223f648941d320a8e2fde1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,8 +130,96 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -42, y: 492}
-  - name: Layer 113 copy 2
+    uvTransform: {x: -216, y: 315}
+  - name: choza3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1058
+      width: 236
+      height: 303
+    spriteID: a560c5d73d90ad343a2b036663985924
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -465, y: 881}
+  - name: choza4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 803
+      width: 290
+      height: 247
+    spriteID: f53591a5bd390134597b3d45672510e8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 803}
+  - name: choza5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1624
+      width: 267
+      height: 246
+    spriteID: 2059fa6f53f202d458525bb15a10b5f3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -217, y: 1624}
+  - name: choza6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1369
+      width: 287
+      height: 247
+    spriteID: fa5e99da0a295f74092afc6ce2431f59
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -414, y: 1369}
+  - name: choza-rompecabezas
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 705
       height: 480
-    spriteID: bfc3aebd02839ca49bc5ed0e9ee794d5
+    spriteID: c97ba7ae90a9f52488d79b630302a08f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -241,7 +241,29 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  platformSettings: []
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 1
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
@@ -260,53 +282,53 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 126
-    spriteName: Layer 126
+  - name: choza1
+    spriteName: choza1
     isGroup: 0
     parentIndex: -1
-    spriteID: 733473f2839626f4293973846034f3cf
+    spriteID: 8ddef3c5578216c4094ab17de8cfd929
     layerID: 59
     mosaicPosition: {x: 717, y: 4}
-  - name: Layer 127
-    spriteName: Layer 127
+  - name: choza2
+    spriteName: choza2
     isGroup: 0
     parentIndex: -1
-    spriteID: b6d72819e8f3146458a018143ed5d436
+    spriteID: 4d4ec11fc8223f648941d320a8e2fde1
     layerID: 60
-    mosaicPosition: {x: 4, y: 887}
-  - name: Layer 128
-    spriteName: Layer 128
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 5257375762787174ca58772f61ec3bdb
-    layerID: 61
-    mosaicPosition: {x: 4, y: 1453}
-  - name: Layer 129
-    spriteName: Layer 129
-    isGroup: 0
-    parentIndex: -1
-    spriteID: a401349ff5d765c4e9d2ea45fe377342
-    layerID: 62
-    mosaicPosition: {x: 4, y: 1198}
-  - name: Layer 130
-    spriteName: Layer 130
-    isGroup: 0
-    parentIndex: -1
-    spriteID: c8075c434a28c794ea4e5b70fd5efbaf
-    layerID: 63
-    mosaicPosition: {x: 4, y: 1764}
-  - name: Layer 113 copy
-    spriteName: Layer 113 copy
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 5556b666e25f23a4d92ce9682fea30ae
-    layerID: 58
     mosaicPosition: {x: 4, y: 492}
-  - name: Layer 113 copy 2
-    spriteName: Layer 113 copy 2
+  - name: choza3
+    spriteName: choza3
     isGroup: 0
     parentIndex: -1
-    spriteID: bfc3aebd02839ca49bc5ed0e9ee794d5
+    spriteID: a560c5d73d90ad343a2b036663985924
+    layerID: 61
+    mosaicPosition: {x: 4, y: 1058}
+  - name: choza4
+    spriteName: choza4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f53591a5bd390134597b3d45672510e8
+    layerID: 62
+    mosaicPosition: {x: 4, y: 803}
+  - name: choza5
+    spriteName: choza5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2059fa6f53f202d458525bb15a10b5f3
+    layerID: 63
+    mosaicPosition: {x: 4, y: 1624}
+  - name: choza6
+    spriteName: choza6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fa5e99da0a295f74092afc6ce2431f59
+    layerID: 58
+    mosaicPosition: {x: 4, y: 1369}
+  - name: choza-rompecabezas
+    spriteName: choza-rompecabezas
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c97ba7ae90a9f52488d79b630302a08f
     layerID: 74
     mosaicPosition: {x: 4, y: 4}
   characterData:

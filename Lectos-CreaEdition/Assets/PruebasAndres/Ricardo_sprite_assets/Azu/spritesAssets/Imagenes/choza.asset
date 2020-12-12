@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
+  m_Name: choza
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 1870755448048254249, guid: 6508dd9e0bf93964184652862c595225, type: 3}
+  - {fileID: 8578037326731749144, guid: 6508dd9e0bf93964184652862c595225, type: 3}
+  - {fileID: 1748293813921823872, guid: 6508dd9e0bf93964184652862c595225, type: 3}

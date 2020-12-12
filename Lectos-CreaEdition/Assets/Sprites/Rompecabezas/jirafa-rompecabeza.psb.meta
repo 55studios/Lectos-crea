@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 131
+  - name: jirafa1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -98,7 +98,7 @@ ScriptedImporter:
       y: 4
       width: 289
       height: 302
-    spriteID: 79039f0bbc4d68e4baba5d706bc21c3f
+    spriteID: be5d92265d7afb249b2fc9df9726bccb
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -109,7 +109,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 717, y: -174}
-  - name: Layer 132
+  - name: jirafa2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -120,7 +120,7 @@ ScriptedImporter:
       y: 887
       width: 317
       height: 303
-    spriteID: 62dbeb0c7d5d9b348b9fa11910569fa0
+    spriteID: 86becdab6c316b9448189913dc0c5794
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -131,7 +131,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -216, y: 710}
-  - name: Layer 133
+  - name: jirafa3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -142,7 +142,7 @@ ScriptedImporter:
       y: 1453
       width: 236
       height: 303
-    spriteID: a4a28d46ec3ff9e488812d56634aa5bd
+    spriteID: 3ad6107f331040b4cac05e50d4162410
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -153,7 +153,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -465, y: 1276}
-  - name: Layer 134
+  - name: jirafa4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -164,7 +164,7 @@ ScriptedImporter:
       y: 1198
       width: 290
       height: 247
-    spriteID: adcb8996fec81294394f220cb3ce4f2f
+    spriteID: 51ffef79fe8b85147b8a67fa4ebbd1df
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -175,7 +175,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 1198}
-  - name: Layer 135
+  - name: jirafa5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -186,7 +186,7 @@ ScriptedImporter:
       y: 1764
       width: 267
       height: 246
-    spriteID: 079945f17fa2cea49bfe64528c0af28f
+    spriteID: fe4e0ea9babc4634b8da98fe2f5a5d23
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -197,18 +197,18 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -217, y: 1764}
-  - name: JIRAFA3 copy
+  - name: jirafa6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 195
       y: 492
-      width: 659
-      height: 387
-    spriteID: c6e0d10b5b34b2a4e82337ffa9e2b526
+      width: 289
+      height: 249
+    spriteID: 0739272e7f98693439d319c6c0881ed4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,8 +218,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -42, y: 492}
-  - name: JIRAFA3
+    uvTransform: {x: -221, y: 492}
+  - name: jirafa-ropecabeza
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 705
       height: 480
-    spriteID: cfc6c5caf90b9464aa9ce03b6e509588
+    spriteID: 6828a9e81afae5d4f85949f4deda317d
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -241,13 +241,35 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  platformSettings: []
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 2048
+  importedTextureWidth: 512
+  importedTextureHeight: 1024
   documentSize: {x: 705, y: 480}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
@@ -260,53 +282,53 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 131
-    spriteName: Layer 131
+  - name: jirafa1
+    spriteName: jirafa1
     isGroup: 0
     parentIndex: -1
-    spriteID: 79039f0bbc4d68e4baba5d706bc21c3f
+    spriteID: be5d92265d7afb249b2fc9df9726bccb
     layerID: 69
     mosaicPosition: {x: 717, y: 4}
-  - name: Layer 132
-    spriteName: Layer 132
+  - name: jirafa2
+    spriteName: jirafa2
     isGroup: 0
     parentIndex: -1
-    spriteID: 62dbeb0c7d5d9b348b9fa11910569fa0
+    spriteID: 86becdab6c316b9448189913dc0c5794
     layerID: 70
     mosaicPosition: {x: 4, y: 887}
-  - name: Layer 133
-    spriteName: Layer 133
+  - name: jirafa3
+    spriteName: jirafa3
     isGroup: 0
     parentIndex: -1
-    spriteID: a4a28d46ec3ff9e488812d56634aa5bd
+    spriteID: 3ad6107f331040b4cac05e50d4162410
     layerID: 71
     mosaicPosition: {x: 4, y: 1453}
-  - name: Layer 134
-    spriteName: Layer 134
+  - name: jirafa4
+    spriteName: jirafa4
     isGroup: 0
     parentIndex: -1
-    spriteID: adcb8996fec81294394f220cb3ce4f2f
+    spriteID: 51ffef79fe8b85147b8a67fa4ebbd1df
     layerID: 72
     mosaicPosition: {x: 4, y: 1198}
-  - name: Layer 135
-    spriteName: Layer 135
+  - name: jirafa5
+    spriteName: jirafa5
     isGroup: 0
     parentIndex: -1
-    spriteID: 079945f17fa2cea49bfe64528c0af28f
+    spriteID: fe4e0ea9babc4634b8da98fe2f5a5d23
     layerID: 73
     mosaicPosition: {x: 4, y: 1764}
-  - name: JIRAFA3 copy
-    spriteName: JIRAFA3 copy
+  - name: jirafa6
+    spriteName: jirafa6
     isGroup: 0
     parentIndex: -1
-    spriteID: c6e0d10b5b34b2a4e82337ffa9e2b526
+    spriteID: 0739272e7f98693439d319c6c0881ed4
     layerID: 66
     mosaicPosition: {x: 4, y: 492}
-  - name: JIRAFA3
-    spriteName: JIRAFA3
+  - name: jirafa-ropecabeza
+    spriteName: jirafa-ropecabeza
     isGroup: 0
     parentIndex: -1
-    spriteID: cfc6c5caf90b9464aa9ce03b6e509588
+    spriteID: 6828a9e81afae5d4f85949f4deda317d
     layerID: 65
     mosaicPosition: {x: 4, y: 4}
   characterData:

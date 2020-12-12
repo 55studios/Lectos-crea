@@ -35,10 +35,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7227f1f71f300d7439a72bdc3aa56a2b, type: 2}
   animacionFinal:
   - {fileID: 11400000, guid: a2e5a922620a11e4786529a3aa36bfef, type: 2}
-  - {fileID: 11400000, guid: 627e1b610d7b9b644a015114bfdbf427, type: 2}
-  - {fileID: 11400000, guid: b9e6c9ae8d698a64784afa00584d81e2, type: 2}
-  - {fileID: 11400000, guid: 0816eadca94880c4a88df1e88ee0dea1, type: 2}
-  - {fileID: 11400000, guid: 7227f1f71f300d7439a72bdc3aa56a2b, type: 2}
+  - {fileID: 11400000, guid: f7292a414e43c6047a6d80596c1c468f, type: 2}
+  - {fileID: 11400000, guid: 607adc5f269a2474f96d9f314b7b4bb7, type: 2}
+  - {fileID: 11400000, guid: 161fd75dd41255f4eaeb6694b30a94d5, type: 2}
+  - {fileID: 11400000, guid: 185eb80ca1d3c354d92465f6af4c38c5, type: 2}
   sonidosArrastrar:
   - {fileID: 8300000, guid: d709b4cc6c074fd42a36353fce0ae833, type: 3}
   - {fileID: 8300000, guid: c3f707925c0cc594cbe5d3278b0145a3, type: 3}
@@ -46,8 +46,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a5e90a229c31c7b49abe4e255bbe98e9, type: 3}
   - {fileID: 8300000, guid: 0d3ff5407b4875a40b135ebfc3835f9f, type: 3}
   sonidosCorrecto:
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: 7cc1edb729f89994a997cab1a272d53f, type: 3}
+  - {fileID: 8300000, guid: 873f5dbede43d9844ab3a607cafd7a02, type: 3}
+  - {fileID: 8300000, guid: c1040885181c5cb45a69cc9e581fcd56, type: 3}
+  - {fileID: 8300000, guid: 26b75661823c7e44eb676fc8711e3363, type: 3}
+  - {fileID: 8300000, guid: dc403588bdcfb0c40a77e770a2aba9fd, type: 3}

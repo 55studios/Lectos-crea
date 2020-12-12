@@ -28,8 +28,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2b362a67d9bd4a940a7599a278179ed2, type: 2}
   - {fileID: 11400000, guid: 4eea1f7da8495a3478ffadc33d2c5acc, type: 2}
   sonidosRespuestas:
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
-  - {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  - {fileID: 8300000, guid: 750c1e1f676a1a24ebc633c9338135e5, type: 3}
+  - {fileID: 8300000, guid: 0c3eec4ecefd76f43a48ce616466ca3b, type: 3}
+  - {fileID: 8300000, guid: 2f6e2a1c9d2641241a05409ef9d60db1, type: 3}
+  - {fileID: 8300000, guid: bc104c2864d8121499700429e4ec2593, type: 3}
+  - {fileID: 8300000, guid: a58b84f8b94e6f44492b050ed10af602, type: 3}
