@@ -113,6 +113,7 @@ public class Drop : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        transform.Find("Marco").gameObject.SetActive(true);
         print("entro");
         if (GetComponent<Respuesta>().respuesta == collision.GetComponent<Respuesta>().respuesta)
         {
@@ -133,6 +134,7 @@ public class Drop : MonoBehaviour
     {
         correcta = false;
         incorrecta = false;
+        transform.Find("Marco").gameObject.SetActive(false);
     }
 
     void Animar()

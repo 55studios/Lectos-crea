@@ -72,4 +72,9 @@ public class Tiempo : MonoBehaviour
             }
         }
     }
+
+    public void Guardar ()
+    {
+        print("guardado");
+    }
 }
