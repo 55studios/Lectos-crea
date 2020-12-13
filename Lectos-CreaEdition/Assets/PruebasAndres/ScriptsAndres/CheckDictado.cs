@@ -18,6 +18,7 @@ public class CheckDictado : MonoBehaviour
 
     public void Iniciar()
     {
+        teclado.SetActive(true);
         AS = GetComponent<AudioSource>();
         foreach (GameObject gob in respuestas)
         {

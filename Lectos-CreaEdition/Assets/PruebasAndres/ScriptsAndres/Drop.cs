@@ -107,16 +107,17 @@ public class Drop : MonoBehaviour
             incorrecta = false;
             GameObject controlador = GameObject.FindWithTag("GameController");
             controlador.GetComponent<CreateLevel>().Error();
-            print("llamando error");
+            //print("llamando error");
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("entro");
+        transform.Find("Marco").gameObject.SetActive(true);
+        //print("entro");
         if (GetComponent<Respuesta>().respuesta == collision.GetComponent<Respuesta>().respuesta)
         {
-            print("Es correcta la entrada");
+            //print("Es correcta la entrada");
             correcta = true;
             incorrecta = false;
             activadorCorrecto = collision.gameObject;
@@ -133,6 +134,7 @@ public class Drop : MonoBehaviour
     {
         correcta = false;
         incorrecta = false;
+        transform.Find("Marco").gameObject.SetActive(false);
     }
 
     void Animar()
@@ -147,7 +149,7 @@ public class Drop : MonoBehaviour
 
     void CambiarImagen ()
     {
-        print("se llamo");
+        //print("se llamo");
         GameObject controlador = GameObject.FindWithTag("GameController");
         controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
     }

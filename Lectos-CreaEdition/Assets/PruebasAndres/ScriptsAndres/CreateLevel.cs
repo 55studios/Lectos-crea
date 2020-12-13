@@ -596,6 +596,7 @@ public class CreateLevel : MonoBehaviour
         temporalFake = false;
         if (terminadoPorPuntaje){
             //InterfazFinMinijuego.SetActive(true);
+            GetComponent<Tiempo>().Guardar();
             InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationIn();
             GetComponent<Tiempo>().Terminar();
             if (SwitchButtonEndGame) {
