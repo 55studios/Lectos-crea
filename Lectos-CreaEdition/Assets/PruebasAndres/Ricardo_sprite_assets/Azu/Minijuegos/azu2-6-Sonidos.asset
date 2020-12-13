@@ -18,9 +18,30 @@ MonoBehaviour:
   - 0
   - 0
   reward: 
-  sonidoAcierto: {fileID: 0}
-  particulasAcierto: {fileID: 0}
-  clickeables: []
-  animacionCorrecto: []
-  sonidosParlante: []
-  sonidosCorrecto: []
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  clickeables:
+  - {fileID: 11400000, guid: 98b5c609bb8940b49a757549b519725e, type: 2}
+  - {fileID: 11400000, guid: f126b38c00648654c9c2d374b1e0cf4b, type: 2}
+  - {fileID: 11400000, guid: e293430fd55892640a5742038e3ae5dc, type: 2}
+  - {fileID: 11400000, guid: 17993fe5c44213741adee81b8129f472, type: 2}
+  - {fileID: 11400000, guid: fd6a4010398d0eb4f833045ebc519d08, type: 2}
+  animacionCorrecto:
+  - {fileID: 11400000, guid: d129d1b08f9c68d4d9685c6d4e5d2e48, type: 2}
+  - {fileID: 11400000, guid: e6e2c696306137946bae77862637899d, type: 2}
+  - {fileID: 11400000, guid: 07a84e8bdbdd28d48924c0b0f04be959, type: 2}
+  - {fileID: 11400000, guid: b163e0871ec3dc2428247fedadc4c3f3, type: 2}
+  - {fileID: 11400000, guid: c86321727e3844d4e99b1412501a6839, type: 2}
+  sonidosParlante:
+  - {fileID: 8300000, guid: 9aae8e5925935b046be49b61a15000c9, type: 3}
+  - {fileID: 8300000, guid: 4c98ba47c433b2547b248f666e0ab701, type: 3}
+  - {fileID: 8300000, guid: adfc107c853e6e94aace09b85cc91588, type: 3}
+  - {fileID: 8300000, guid: fd3d4d7166112324fa7519a0c0ce9449, type: 3}
+  - {fileID: 8300000, guid: b7e3bc60d8a62e84f991378b746cb6e1, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: e4c236212fc65d14ea1a99939c87e0af, type: 3}
+  - {fileID: 8300000, guid: 183f330c97801954c8b1dd51bec19cca, type: 3}
+  - {fileID: 8300000, guid: 232f2b413d35b534ca59ab781573bc64, type: 3}
+  - {fileID: 8300000, guid: bad6380bda0390f47b3158cbdea64c9f, type: 3}
+  - {fileID: 8300000, guid: 9f186408220dc7a458ba18d110daa417, type: 3}

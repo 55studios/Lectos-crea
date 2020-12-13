@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: 1
+  - name: Layer 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -97,8 +97,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 355
-      height: 800
-    spriteID: f8b12b3a502c16b4094f2c72d99152f2
+      height: 805
+    spriteID: 066c29faf2bdcf044ba881aab78611b4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,33 +108,91 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -46, y: -16}
+    uvTransform: {x: -45, y: -11}
+  - name: Layer 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 817
+      width: 355
+      height: 800
+    spriteID: 8455b73717f7a4a40b43d61709962137
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -46, y: 798}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 367
+      y: 4
+      width: 355
+      height: 800
+    spriteID: bb416b05c7e8de742b07332f54c9f3a6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 317, y: -16}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 512
-  importedTextureHeight: 1024
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
   documentSize: {x: 437, y: 820}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 512
-  textureActualHeight: 1024
+  textureActualWidth: 1024
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: 1
-    spriteName: 1
+  - name: Layer 3
+    spriteName: Layer 3
     isGroup: 0
     parentIndex: -1
-    spriteID: f8b12b3a502c16b4094f2c72d99152f2
-    layerID: 577
+    spriteID: 066c29faf2bdcf044ba881aab78611b4
+    layerID: 591
     mosaicPosition: {x: 4, y: 4}
+  - name: Layer 2
+    spriteName: Layer 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8455b73717f7a4a40b43d61709962137
+    layerID: 590
+    mosaicPosition: {x: 4, y: 817}
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bb416b05c7e8de742b07332f54c9f3a6
+    layerID: 589
+    mosaicPosition: {x: 367, y: 4}
   characterData:
     bones: []
     parts: []
