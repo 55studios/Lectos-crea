@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: yudo 1____
+  m_Name: "pi\xF1ata 1"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -5462829633080500159, guid: 9396004e0c3fe5d4e81d224623f02ce3, type: 3}
+  - {fileID: -6489331990356798740, guid: 9396004e0c3fe5d4e81d224623f02ce3, type: 3}
+  - {fileID: 6515104246002765238, guid: 9396004e0c3fe5d4e81d224623f02ce3, type: 3}
