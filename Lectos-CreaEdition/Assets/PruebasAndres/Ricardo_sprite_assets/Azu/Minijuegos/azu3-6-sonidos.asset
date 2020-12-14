@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecf57e1d91bf2c748b7e9bb157ea75a7, type: 3}
-  m_Name: azu3-6-Sonidos
+  m_Name: azu3-6-sonidos
   m_EditorClassIdentifier: 
   puntosLogrables: 5
   tiemposAVencer:
