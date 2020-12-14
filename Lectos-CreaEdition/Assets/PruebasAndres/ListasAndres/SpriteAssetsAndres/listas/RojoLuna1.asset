@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836b6686fab9f5d488ebde1405302674, type: 3}
+  m_Name: RojoLuna1
+  m_EditorClassIdentifier: 
+  lista:
+  - {fileID: 11400000, guid: 894be8bda0b2beb4783f2e07dfd45374, type: 2}
+  - {fileID: 11400000, guid: d76fea3a816a0024ca428e96313b8854, type: 2}
+  - {fileID: 11400000, guid: 95e230d59361da941b2a1d8bf254e59d, type: 2}
+  - {fileID: 11400000, guid: b6f1319f154ef26468b6c6103fc13bb4, type: 2}
+  - {fileID: 11400000, guid: ad8c36a1605b72d45a19837603ac0e63, type: 2}
+  - {fileID: 11400000, guid: 0d3cdeb0dbc762b4aa44392d78c9f48f, type: 2}
+  - {fileID: 11400000, guid: d73e2cc5641ccc64091edea038870350, type: 2}
+  - {fileID: 11400000, guid: a4d7dfd33f92a9641a6e35c96ab8d3d4, type: 2}

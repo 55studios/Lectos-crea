@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: dedo 1
+  m_Name: "da\xF1o"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -4934849435195468617, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
-  - {fileID: -7856817979597780150, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
-  - {fileID: 5625391261387132399, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
+  - {fileID: -1537049390870373210, guid: 63638e9a7b8400a4e9061700885e16f8, type: 3}
+  - {fileID: 3375288092997556715, guid: 63638e9a7b8400a4e9061700885e16f8, type: 3}
+  - {fileID: 5322028523214359936, guid: 63638e9a7b8400a4e9061700885e16f8, type: 3}

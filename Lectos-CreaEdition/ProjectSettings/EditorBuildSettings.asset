@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: fc6c5978e24854d4ebb565e27d686bf2
   - enabled: 1
-    path: Assets/Scenes/Lunas_Crea/Planeta_Amarillo.unity
+    path: Assets/Scenes/Planetas_Crea/Planeta_Amarillo.unity
     guid: b324a1b92d064864ea5d6bf5d657bf77
   - enabled: 1
     path: Assets/PruebasAndres/ScenesAndres/GameManager.unity

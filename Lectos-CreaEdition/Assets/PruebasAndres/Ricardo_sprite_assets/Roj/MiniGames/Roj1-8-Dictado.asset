@@ -9,27 +9,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 309196475b9b705428fea4edf50f4695, type: 3}
-  m_Name: Roj1-8-Escribir
+  m_Script: {fileID: 11500000, guid: 85984141a0401004ea537e56924949d0, type: 3}
+  m_Name: Roj1-8-Dictado
   m_EditorClassIdentifier: 
   puntosLogrables: 5
   tiemposAVencer:
-  - 35
-  - 22
-  - 12
+  - 0
+  - 0
+  - 0
   reward: 
-  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  sonidoAcierto: {fileID: 8300000, guid: dc136a3fc6c533b41bff831e9e8ca7db, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
-  respuestas:
+  imagenes:
   - {fileID: 11400000, guid: a67baf98477d08241bffab8426565ba5, type: 2}
   - {fileID: 11400000, guid: ef48f3cd5ac2fa44a8099016b957afd0, type: 2}
   - {fileID: 11400000, guid: 0a015b80c5c414443921e2700ad486fb, type: 2}
   - {fileID: 11400000, guid: aa3ca981b5d8ccc4da94d0639b91ee3e, type: 2}
   - {fileID: 11400000, guid: 8f9511deb4196d241820524a3a30d430, type: 2}
-  sonidosRespuestas:
+  sonidoRespuestas:
   - {fileID: 8300000, guid: c7ea88b267f3bcd4aa39050696630441, type: 3}
   - {fileID: 8300000, guid: 3a93c9aa4ddf32d4e8df77f0c10e0168, type: 3}
   - {fileID: 8300000, guid: 99c3da5a9c0dfea4cb469f4a49e51e40, type: 3}
   - {fileID: 8300000, guid: 49957b875bc6a194aa61dd3067fa0629, type: 3}
   - {fileID: 8300000, guid: 65d952032e943964c99b85edc833424a, type: 3}
+  prefabPalabras:
+  - {fileID: 2576804703842466088, guid: dff08e2c846da5d41a104e029f97395c, type: 3}
+  - {fileID: 2112131244093957436, guid: 8816949e03b5d40468c67f65a15ca9c3, type: 3}
+  - {fileID: 5153948295579631990, guid: 7e2f899391b3c0b40aca5d7eec664900, type: 3}
+  - {fileID: 169958741281513119, guid: 320fcb6a0c3591346b6623c3bee173d6, type: 3}
+  - {fileID: 8304853585998227837, guid: a05e05445481e7646a777d65142b8ebd, type: 3}

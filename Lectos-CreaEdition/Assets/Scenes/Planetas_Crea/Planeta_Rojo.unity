@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 2
 --- !u!114 &2654873
 MonoBehaviour:
@@ -589,7 +589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &60721210
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2114,7 +2114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 1
 --- !u!114 &125401798
 MonoBehaviour:
@@ -2743,7 +2743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 3
 --- !u!114 &140968777
 MonoBehaviour:
@@ -4371,7 +4371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 1
 --- !u!114 &219745387
 MonoBehaviour:
@@ -5186,7 +5186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 1
 --- !u!114 &242941709
 MonoBehaviour:
@@ -5484,7 +5484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 4
 --- !u!114 &247568076
 MonoBehaviour:
@@ -5848,7 +5848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 7
 --- !u!114 &255869968
 MonoBehaviour:
@@ -7813,7 +7813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 3
 --- !u!114 &350446650
 MonoBehaviour:
@@ -8809,7 +8809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 2
 --- !u!114 &438331419
 MonoBehaviour:
@@ -9626,7 +9626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 5
 --- !u!114 &448403975
 MonoBehaviour:
@@ -11449,7 +11449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 0
 --- !u!114 &505217554
 MonoBehaviour:
@@ -11715,7 +11715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 6
 --- !u!114 &507105461
 MonoBehaviour:
@@ -12052,7 +12052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 5
 --- !u!114 &511550346
 MonoBehaviour:
@@ -14735,7 +14735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 2
 --- !u!114 &657646791
 MonoBehaviour:
@@ -15211,7 +15211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 6
 --- !u!114 &679458598
 MonoBehaviour:
@@ -16565,7 +16565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 6
 --- !u!114 &730123084
 MonoBehaviour:
@@ -20909,7 +20909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &973943811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21895,7 +21895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 0
 --- !u!114 &1007777696
 MonoBehaviour:
@@ -27609,7 +27609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 7
 --- !u!114 &1291462193
 MonoBehaviour:
@@ -28581,7 +28581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 7
 --- !u!114 &1353127618
 MonoBehaviour:
@@ -29289,7 +29289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: bc55074474095504391ba4e0b0383496, type: 2}
+  Lista: {fileID: 11400000, guid: e71055d091bfb6e4885e52c01d220bd1, type: 2}
   index: 3
 --- !u!114 &1372293574
 MonoBehaviour:
@@ -34452,7 +34452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 61c10d6318e1e1f4bb86318f0f188211, type: 2}
+  Lista: {fileID: 11400000, guid: 30d652bf4a4d511448349c0424b33e49, type: 2}
   index: 4
 --- !u!114 &1595051486
 MonoBehaviour:
@@ -35818,7 +35818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 0
 --- !u!114 &1704225831
 MonoBehaviour:
@@ -36803,7 +36803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 5
 --- !u!114 &1750797667
 MonoBehaviour:
@@ -39849,7 +39849,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1950188939
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40337,7 +40337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlador: {fileID: 1887150182}
-  Lista: {fileID: 11400000, guid: 932129ce38a4cc44ca5d96f578f7a979, type: 2}
+  Lista: {fileID: 11400000, guid: 571ac8db08c62424ea7a13656817e6f8, type: 2}
   index: 4
 --- !u!114 &1993678665
 MonoBehaviour:

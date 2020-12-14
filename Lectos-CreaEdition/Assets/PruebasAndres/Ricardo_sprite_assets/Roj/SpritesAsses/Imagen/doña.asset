@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: "da\xF1o 1"
+  m_Name: "do\xF1a"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -1537049390870373210, guid: 63638e9a7b8400a4e9061700885e16f8, type: 3}
-  - {fileID: 3375288092997556715, guid: 63638e9a7b8400a4e9061700885e16f8, type: 3}
-  - {fileID: 5322028523214359936, guid: 63638e9a7b8400a4e9061700885e16f8, type: 3}
+  - {fileID: 3239112982475462758, guid: db6e0e94d4aa4824d98f9c806d2d794a, type: 3}
+  - {fileID: 3600632379463221104, guid: db6e0e94d4aa4824d98f9c806d2d794a, type: 3}
+  - {fileID: 914250587069470378, guid: db6e0e94d4aa4824d98f9c806d2d794a, type: 3}
