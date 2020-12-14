@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ducha 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 193380482616689628, guid: c7bd58ab2f71aed468b6be38920845ef, type: 3}
+  - {fileID: 8613379558534572721, guid: c7bd58ab2f71aed468b6be38920845ef, type: 3}
+  - {fileID: -3088043530495843485, guid: c7bd58ab2f71aed468b6be38920845ef, type: 3}

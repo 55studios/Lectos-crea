@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: dedo 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -4934849435195468617, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
+  - {fileID: -7856817979597780150, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
+  - {fileID: 5625391261387132399, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}

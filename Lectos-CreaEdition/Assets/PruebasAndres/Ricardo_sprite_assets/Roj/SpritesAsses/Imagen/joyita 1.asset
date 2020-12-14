@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: joyita 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3544187973421359235, guid: 224a55fefaac7b242b5e52afe50cd623, type: 3}
+  - {fileID: -3374724558840508835, guid: 224a55fefaac7b242b5e52afe50cd623, type: 3}
+  - {fileID: 7339304902585832653, guid: 224a55fefaac7b242b5e52afe50cd623, type: 3}

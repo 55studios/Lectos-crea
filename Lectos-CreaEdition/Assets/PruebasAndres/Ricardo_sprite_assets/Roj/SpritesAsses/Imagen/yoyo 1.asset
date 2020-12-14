@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: yoyo 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -3485215318703457823, guid: 3b606c84d4ae8014cac9d1cc852ba824, type: 3}
+  - {fileID: 983883670783987349, guid: 3b606c84d4ae8014cac9d1cc852ba824, type: 3}
+  - {fileID: 6382206283414204484, guid: 3b606c84d4ae8014cac9d1cc852ba824, type: 3}

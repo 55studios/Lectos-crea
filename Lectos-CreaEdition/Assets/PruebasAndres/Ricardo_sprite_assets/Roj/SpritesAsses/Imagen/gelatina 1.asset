@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: gelatina 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -6381615555312600104, guid: d18e8deba79716c458d45d164712163a, type: 3}
+  - {fileID: 3304693391526120430, guid: d18e8deba79716c458d45d164712163a, type: 3}
+  - {fileID: 6588939561450991402, guid: d18e8deba79716c458d45d164712163a, type: 3}

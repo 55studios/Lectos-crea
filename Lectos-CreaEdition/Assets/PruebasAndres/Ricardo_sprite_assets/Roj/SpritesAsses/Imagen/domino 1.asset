@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: domino 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5254960791937414153, guid: 9d89fe45cdd29cf4d9946ef865850661, type: 3}
+  - {fileID: 3015518497474260181, guid: 9d89fe45cdd29cf4d9946ef865850661, type: 3}
+  - {fileID: 1694698714910416834, guid: 9d89fe45cdd29cf4d9946ef865850661, type: 3}

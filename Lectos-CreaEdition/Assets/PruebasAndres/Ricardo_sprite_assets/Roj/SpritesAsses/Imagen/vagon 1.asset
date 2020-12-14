@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: vagon 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 6157825961509024991, guid: 00c3e511985166f45912a7db95eb85e2, type: 3}
+  - {fileID: 1241876549863958286, guid: 00c3e511985166f45912a7db95eb85e2, type: 3}
+  - {fileID: 5611743141145405270, guid: 00c3e511985166f45912a7db95eb85e2, type: 3}

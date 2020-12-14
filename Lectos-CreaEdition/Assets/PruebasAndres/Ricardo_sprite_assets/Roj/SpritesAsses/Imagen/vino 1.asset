@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: vino 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7687911907086296535, guid: e6cbccca7fb2d894b8d091067fb70f3d, type: 3}
+  - {fileID: 8342861072507973521, guid: e6cbccca7fb2d894b8d091067fb70f3d, type: 3}
+  - {fileID: -1720094615198651018, guid: e6cbccca7fb2d894b8d091067fb70f3d, type: 3}
