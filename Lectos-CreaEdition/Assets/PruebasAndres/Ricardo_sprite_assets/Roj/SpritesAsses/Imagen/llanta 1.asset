@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: llanta 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1364405811590484964, guid: 6f2905b4456cefa41a4a5abd6c0ee972, type: 3}
+  - {fileID: 1866687510412149768, guid: 6f2905b4456cefa41a4a5abd6c0ee972, type: 3}
+  - {fileID: -8274992842873537137, guid: 6f2905b4456cefa41a4a5abd6c0ee972, type: 3}

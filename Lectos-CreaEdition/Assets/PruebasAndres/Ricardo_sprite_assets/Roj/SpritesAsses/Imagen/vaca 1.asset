@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: vaca 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -4672361587118062750, guid: 33969f819c028c64eb85b34224500ef9, type: 3}
+  - {fileID: 604797284951034806, guid: 33969f819c028c64eb85b34224500ef9, type: 3}
+  - {fileID: -8722333773046816182, guid: 33969f819c028c64eb85b34224500ef9, type: 3}

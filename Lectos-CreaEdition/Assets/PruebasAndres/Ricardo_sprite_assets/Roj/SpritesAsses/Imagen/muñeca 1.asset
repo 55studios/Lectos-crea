@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "mu\xF1eca 1"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -1744369855618356459, guid: 25038c223d611e24f8287684926c2ddc, type: 3}
+  - {fileID: 2616632553190546655, guid: 25038c223d611e24f8287684926c2ddc, type: 3}
+  - {fileID: -7955829037580252878, guid: 25038c223d611e24f8287684926c2ddc, type: 3}

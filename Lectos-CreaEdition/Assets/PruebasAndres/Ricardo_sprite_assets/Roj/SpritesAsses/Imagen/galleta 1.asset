@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: galleta 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -6852676381344946500, guid: 209b9865d0c46b746ab788b7096f2112, type: 3}
+  - {fileID: -9038624515855294586, guid: 209b9865d0c46b746ab788b7096f2112, type: 3}
+  - {fileID: 3368860224077734460, guid: 209b9865d0c46b746ab788b7096f2112, type: 3}

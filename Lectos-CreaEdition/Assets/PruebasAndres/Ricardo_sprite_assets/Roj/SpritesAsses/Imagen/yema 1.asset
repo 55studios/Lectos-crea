@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: yema 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2620681378925839141, guid: 2629da552f2641c46a82086207abc7ab, type: 3}
+  - {fileID: -1866066356145700755, guid: 2629da552f2641c46a82086207abc7ab, type: 3}
+  - {fileID: -7688050654124990572, guid: 2629da552f2641c46a82086207abc7ab, type: 3}

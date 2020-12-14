@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: dado 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -1056539820830948672, guid: 30fedab8b3d251f408d8749936fc3e2e, type: 3}
+  - {fileID: -6479802023117368116, guid: 30fedab8b3d251f408d8749936fc3e2e, type: 3}
+  - {fileID: 3890607008518114037, guid: 30fedab8b3d251f408d8749936fc3e2e, type: 3}

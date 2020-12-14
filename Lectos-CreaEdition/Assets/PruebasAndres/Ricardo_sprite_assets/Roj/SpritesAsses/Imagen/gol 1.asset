@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: gol 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -6047293974804430515, guid: 103e5a67e1a5c434dbf0e4983cdd4b23, type: 3}
+  - {fileID: 4691753186410190066, guid: 103e5a67e1a5c434dbf0e4983cdd4b23, type: 3}
+  - {fileID: -5297923680681013239, guid: 103e5a67e1a5c434dbf0e4983cdd4b23, type: 3}

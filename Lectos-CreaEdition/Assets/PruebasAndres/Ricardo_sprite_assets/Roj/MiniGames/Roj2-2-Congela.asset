@@ -29,11 +29,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4b87f9659d47a3f4482586724453e0ac, type: 2}
   - {fileID: 11400000, guid: 714064f9f079b6e47b6035cc6f282e0f, type: 2}
   receptores:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: fed6899508e50b84ca48f391f5b756d0, type: 2}
+  - {fileID: 11400000, guid: c34888365bef13946a76ab9c842c26fe, type: 2}
+  - {fileID: 11400000, guid: f3ab4987aacb3214688794a70b42b89b, type: 2}
+  - {fileID: 11400000, guid: b16c06dc2e2a7db4884e496a379579de, type: 2}
+  - {fileID: 11400000, guid: e5f89fbedee296d4a9372ec034fc956f, type: 2}
   sonidosArrastrar:
   - {fileID: 8300000, guid: 6d484e62e8e5f5c4b83eba4881d9c919, type: 3}
   - {fileID: 8300000, guid: 1af10e5e98d8eb647a8e735c6c89f711, type: 3}

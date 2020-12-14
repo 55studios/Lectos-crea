@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: dinosaurio 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -471691519821093256, guid: ab13c3e2962277a48962c077d9924f60, type: 3}
+  - {fileID: -6007435558795950661, guid: ab13c3e2962277a48962c077d9924f60, type: 3}
+  - {fileID: -3572184925777173513, guid: ab13c3e2962277a48962c077d9924f60, type: 3}

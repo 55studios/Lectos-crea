@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: gusano 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5684004495141599422, guid: 8aedd37589f3b084ba4ee0ee845b0da2, type: 3}
+  - {fileID: -3516932154423384380, guid: 8aedd37589f3b084ba4ee0ee845b0da2, type: 3}
+  - {fileID: 4359340594367411890, guid: 8aedd37589f3b084ba4ee0ee845b0da2, type: 3}
