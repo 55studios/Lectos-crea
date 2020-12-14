@@ -24,12 +24,14 @@ public class Drop : MonoBehaviour
         {
             switch (tipoDeVehiculo)
             {
-                case 0: //tren
+                case 0: //tren                   
                     float valor = 6f;
                     float otroValor = -9.5f;
                     BoxCollider2D bc = GetComponent<BoxCollider2D>();
                     bc.size = new Vector2(valor, valor);
                     bc.offset = new Vector2 (otroValor, 0);
+                    GameObject marco = transform.Find("Marco").gameObject;
+                    marco.transform.position = new Vector3(transform.position.x - 2.8f, transform.position.y + 0.2f, transform.position.z);
                     break;
                 case 1: //naves
                     float valor1 = 5f;
@@ -37,6 +39,8 @@ public class Drop : MonoBehaviour
                     BoxCollider2D bc1 = GetComponent<BoxCollider2D>();
                     bc1.size = new Vector2(valor1, valor1);
                     bc1.offset = new Vector2(otroValor1, 0);
+                    GameObject marco1 = transform.Find("Marco").gameObject;
+                    marco1.transform.position = new Vector3(transform.position.x - 2.4f, transform.position.y, transform.position.z);
                     break;
                 case 2: //asteroides
                     float valor2 = 8.5f;
@@ -44,6 +48,8 @@ public class Drop : MonoBehaviour
                     BoxCollider2D bc2 = GetComponent<BoxCollider2D>();
                     bc2.size = new Vector2(valor2, valor2);
                     bc2.offset = new Vector2(otroValor2, 0);
+                    GameObject marco2 = transform.Find("Marco").gameObject;
+                    marco2.transform.position = new Vector3(transform.position.x - 3.5f, transform.position.y + 0.2f, transform.position.z);
                     break;
                 case 3: //estrellas
                     float valor3 = 8f;
@@ -51,6 +57,8 @@ public class Drop : MonoBehaviour
                     BoxCollider2D bc3 = GetComponent<BoxCollider2D>();
                     bc3.size = new Vector2(valor3, valor3);
                     bc3.offset = new Vector2(otroValor3, 0);
+                    GameObject marco3 = transform.Find("Marco").gameObject;
+                    marco3.transform.position = new Vector3(transform.position.x - 1.2f, transform.position.y + 0.2f, transform.position.z);
                     break;
                 default:
                     print("No hay vehiculos");
