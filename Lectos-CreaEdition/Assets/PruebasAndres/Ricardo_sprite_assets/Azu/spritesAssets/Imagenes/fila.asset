@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: risa________
+  m_Name: fila
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 21300000, guid: 1f0081b11fbc24f21be87b8cfb313a31, type: 3}
-  - {fileID: 21300000, guid: 1f0081b11fbc24f21be87b8cfb313a31, type: 3}
-  - {fileID: 21300000, guid: 1f0081b11fbc24f21be87b8cfb313a31, type: 3}
+  - {fileID: 5111580164930773560, guid: 3ad565334585ebb40aad2ebeee1f3567, type: 3}
+  - {fileID: 9144910371754638722, guid: 3ad565334585ebb40aad2ebeee1f3567, type: 3}
+  - {fileID: -2159747167502658635, guid: 3ad565334585ebb40aad2ebeee1f3567, type: 3}

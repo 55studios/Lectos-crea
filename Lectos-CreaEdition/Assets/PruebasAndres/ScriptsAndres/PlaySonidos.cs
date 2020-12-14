@@ -25,9 +25,12 @@ public class PlaySonidos : MonoBehaviour
 
     private void OnMouseUp()
     {
-        AS.clip = sonidos[audioActual];
+        AS.clip = sonidos[audioActual];       
         if (Input.GetMouseButtonUp(0))
         {
+            GetComponent<SpriteRenderer>().color = Color.green;
+            GetComponent<BoxCollider2D>().enabled = false;
+            Invoke("DevolverColor", sonidos[audioActual].length);
             AS.Stop();
             AS.Play();
             foreach (Sonido so in elementosSonido)
@@ -79,5 +82,11 @@ public class PlaySonidos : MonoBehaviour
     int RandomSort(int a, int b)
     {
         return Random.Range(-1, 2);
+    }
+
+    void DevolverColor ()
+    {
+        GetComponent<SpriteRenderer>().color = Color.white;
+        GetComponent<BoxCollider2D>().enabled = true;
     }
 }

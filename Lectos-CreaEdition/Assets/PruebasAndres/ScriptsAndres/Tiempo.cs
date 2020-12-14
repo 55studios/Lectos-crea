@@ -16,14 +16,15 @@ public class Tiempo : MonoBehaviour
     [SerializeField]
     GameObject[] estrellasFinal = new GameObject[3];
     float[] Tiempos;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    int tempMoon;
+    public HandlerLevelsData[] dataMoons;
+    CreateLevel controlador;
+    public int TempStars = 0;
+    private void Start() {
+        //PlayerPrefs.DeleteAll();
+        controlador = GetComponent<CreateLevel>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (terminado)
@@ -41,6 +42,7 @@ public class Tiempo : MonoBehaviour
         tiempo = Time.time;
         terminado = false;
         PrenderEstrellas(false);
+        TempStars = 0;
     }
 
     public void Terminar ()
@@ -59,8 +61,8 @@ public class Tiempo : MonoBehaviour
         {
             for (int i = 0; i < estrellasFinal.Length; i++)
             {
-                if (t < Tiempos[i])
-                {
+                if (t < Tiempos[i]){
+                    TempStars++;
                     estrellasFinal[i].SetActive(true);
                 }
             }
@@ -73,8 +75,40 @@ public class Tiempo : MonoBehaviour
         }
     }
 
-    public void Guardar ()
-    {
-        print("guardado");
+    public void SetMoonhandler(int moonData) {
+        tempMoon = moonData;
+    }
+
+    public void Guardar (int Lvl){
+        switch (tempMoon) {
+            case 0:
+                dataMoons[0].WriteLevelData(MoonsLevel.MoonOne, Lvl, true, TempStars, t, t);
+                if (dataMoons[0]._LevelsData[Lvl + 1].isActive) {
+                    print("Data is saved");
+                }
+                else {
+                    dataMoons[0].WriteLevelData(MoonsLevel.MoonOne, Lvl + 1, true, 0, 0, 0);
+                }
+                break;
+            case 1:
+                dataMoons[1].WriteLevelData(MoonsLevel.MoonTwo, Lvl, true, TempStars, t, t);
+                if (dataMoons[0]._LevelsData[Lvl + 1].isActive) {
+                    print("Data is saved");
+                }
+                else {
+                    dataMoons[1].WriteLevelData(MoonsLevel.MoonTwo, Lvl + 1, true, 0, 0, 0);
+                }
+                break;
+            case 2:
+                dataMoons[2].WriteLevelData(MoonsLevel.MoonTree, Lvl, true, TempStars, t, t);
+                if (dataMoons[0]._LevelsData[Lvl + 1].isActive) {
+                    print("Data is saved");
+                }
+                else {
+                    dataMoons[2].WriteLevelData(MoonsLevel.MoonTree, Lvl + 1, true, 0, 0, 0);
+                }
+                break;
+        }
+
     }
 }

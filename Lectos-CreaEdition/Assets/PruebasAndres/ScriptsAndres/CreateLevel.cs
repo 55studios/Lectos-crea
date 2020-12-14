@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class CreateLevel : MonoBehaviour
 {
     public MinigameData MGD;
@@ -17,6 +17,9 @@ public class CreateLevel : MonoBehaviour
     public GameObject receptorTrenPrefab;
     public GameObject receptorAsteroidePrefab;
     public GameObject dictadoPrefab;
+    public GameObject[] _Slider;
+    [HideInInspector]
+    public int tempLvl = 0;
 
     Organizador Or;
     [SerializeField]
@@ -40,6 +43,7 @@ public class CreateLevel : MonoBehaviour
     AudioSource error;
     ButtonToController siguienteNivel;
     int tipoDeVehiculo;
+    int moonSlider = 0;
 
     [Space(8)]
     [Header("Events")]
@@ -596,9 +600,9 @@ public class CreateLevel : MonoBehaviour
         temporalFake = false;
         if (terminadoPorPuntaje){
             //InterfazFinMinijuego.SetActive(true);
-            GetComponent<Tiempo>().Guardar();
             InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationIn();
             GetComponent<Tiempo>().Terminar();
+            GetComponent<Tiempo>().Guardar(tempLvl);
             if (SwitchButtonEndGame) {
                 InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
                 siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
@@ -625,6 +629,8 @@ public class CreateLevel : MonoBehaviour
         //InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().OutAnimation();
         siguienteNivel.Lista = lm;
         siguienteNivel.index = ind + 1;
+        tempLvl = ind;
+        _Slider[moonSlider].GetComponentInParent<Slider>().value = ind;
         if (siguienteNivel.index > lm.lista.Length - 1){
             //siguienteNivel.gameObject.SetActive(false);
             //siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
@@ -642,5 +648,22 @@ public class CreateLevel : MonoBehaviour
     public void CerrarMinijuego ()
     {
         TerminarMinijuego();
+    }
+
+    public void Swap(int moonIndex) {
+        switch (moonIndex) {
+            case 0:
+                _Slider[0].gameObject.SetActive(true);
+                _Slider[1].gameObject.SetActive(false);
+                _Slider[moonSlider].GetComponentInParent<Slider>().maxValue = 11;
+                moonSlider = moonIndex;
+                break;
+            case 1:
+                _Slider[0].gameObject.SetActive(false);
+                _Slider[1].gameObject.SetActive(true);
+                _Slider[moonSlider].GetComponentInParent<Slider>().maxValue = 8;
+                moonSlider = moonIndex;
+                break;
+        }
     }
 }

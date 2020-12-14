@@ -40,6 +40,6 @@ public class SimpleDebug : MonoBehaviour
     public float record;
 
     public void EventButton() {
-        data.WriteDataAndUpdate(level,activableLevel,stars,record);
+        //data.WriteDataAndUpdate(level,activableLevel,stars,record);
     }
 }
