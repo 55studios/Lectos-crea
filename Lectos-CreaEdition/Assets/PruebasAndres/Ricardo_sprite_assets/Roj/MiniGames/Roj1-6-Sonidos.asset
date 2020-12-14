@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf57e1d91bf2c748b7e9bb157ea75a7, type: 3}
   m_Name: Roj1-6-Sonidos
   m_EditorClassIdentifier: 
-  puntosLogrables: 0
+  puntosLogrables: 5
   tiemposAVencer:
   - 35
   - 22
