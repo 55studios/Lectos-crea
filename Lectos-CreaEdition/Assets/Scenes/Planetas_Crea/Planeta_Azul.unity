@@ -10743,7 +10743,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -92, y: -889.85}
-  m_SizeDelta: {x: 302.32294, y: 295.74173}
+  m_SizeDelta: {x: 423.95917, y: 414.73007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &486836091
 MonoBehaviour:
@@ -10884,7 +10884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f31da431bd74124c857ebbb8aed017f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2148a315ca9e51449a390a5b0314056e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10941,9 +10941,9 @@ MonoBehaviour:
   isUi: 1
   isLecto: 0
   animationsSprites:
-  - {fileID: 21300000, guid: 3f31da431bd74124c857ebbb8aed017f, type: 3}
-  - {fileID: 21300000, guid: 3e07a11bee508004da3a544254d30777, type: 3}
-  - {fileID: 21300000, guid: 199fcf976949a49489a11484e1fe15a4, type: 3}
+  - {fileID: 21300000, guid: 2148a315ca9e51449a390a5b0314056e, type: 3}
+  - {fileID: 21300000, guid: bc706698c97e449438af4a18bc1c9295, type: 3}
+  - {fileID: 21300000, guid: a9206919e34487b438a1205e6148443b, type: 3}
   animationTextures: []
 --- !u!1 &489696294
 GameObject:
@@ -11902,8 +11902,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000016972, y: 9}
-  m_SizeDelta: {x: 192.41635, y: 160.19461}
+  m_AnchoredPosition: {x: -42.6, y: -55.331}
+  m_SizeDelta: {x: 132.92078, y: 110.66208}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &509110774
 MonoBehaviour:
@@ -20828,7 +20828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanetName: Planeta amarillo
+  PlanetName: Planeta azul
   moon: 1
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
@@ -21594,8 +21594,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 1e5116b71e730254382549e408fb59fb, type: 3}
-  m_Color: {r: 1, g: 0.907035, b: 0.5754717, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ed0ceedee903dbc499a227eaf7434a1f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -22451,8 +22451,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: 17}
-  m_SizeDelta: {x: 167.49655, y: 139.44785}
+  m_AnchoredPosition: {x: -31.1, y: -47.2}
+  m_SizeDelta: {x: 126.61951, y: 105.416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016135313
 MonoBehaviour:
@@ -24752,7 +24752,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 662, y: -922}
-  m_SizeDelta: {x: 254.0788, y: 248.54782}
+  m_SizeDelta: {x: 439.11652, y: 429.55746}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126765682
 MonoBehaviour:
@@ -24893,7 +24893,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d32c18999dc8d7744be8be1f90c16e95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4706969a75409164894e5b9695a2c7d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24950,9 +24950,9 @@ MonoBehaviour:
   isUi: 1
   isLecto: 0
   animationsSprites:
-  - {fileID: 21300000, guid: d32c18999dc8d7744be8be1f90c16e95, type: 3}
-  - {fileID: 21300000, guid: 92418a97c97a5a24b8b51dc1170414d3, type: 3}
-  - {fileID: 21300000, guid: 2af9ef5f26a3a8b4b8b07e54f98845e7, type: 3}
+  - {fileID: 21300000, guid: 4706969a75409164894e5b9695a2c7d8, type: 3}
+  - {fileID: 21300000, guid: e62249f47ec18c6498b9d7d52ad7ffd4, type: 3}
+  - {fileID: 21300000, guid: 727696ac94ef60748904569f2b72d0e7, type: 3}
   animationTextures: []
 --- !u!1 &1129408568
 GameObject:
@@ -28429,7 +28429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanetName: Planeta amarillo
+  PlanetName: Planeta azul
   moon: 2
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
@@ -30547,11 +30547,11 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: dd2613a6c1ff02f49978048260b0bdaf,
+    m_HighlightedSprite: {fileID: 21300000, guid: 36aba09dfcd92b64297d8410585dcaaa,
       type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: f6aae2b2e5838414ca6d141a463079dd, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: dd2613a6c1ff02f49978048260b0bdaf, type: 3}
-    m_DisabledSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 32932a2416227ae45a17bd62909a0d78, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 36aba09dfcd92b64297d8410585dcaaa, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: dd2613a6c1ff02f49978048260b0bdaf, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -30609,13 +30609,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7838533, g: 0.24056602, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dd2613a6c1ff02f49978048260b0bdaf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 36aba09dfcd92b64297d8410585dcaaa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -32943,26 +32943,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e5e53fe80ec21478a4b61bd9489b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanetName: Planeta amarillo
+  PlanetName: Planeta azul
   moon: 0
   Star: {fileID: 21300000, guid: ff88bbef36b03af4b81d19afa9927509, type: 3}
   BlockStar: {fileID: 21300000, guid: ad44007716a5d274e9f0e5045e930db4, type: 3}
   _LevelsData:
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 000000
-    TimePlay: 0
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 000000
-    TimePlay: 0
-    RecordTime: 0
-  - LevelButton: {fileID: 0}
-    isActive: 0
-    Stars: 000000
-    TimePlay: 0
-    RecordTime: 0
   - LevelButton: {fileID: 0}
     isActive: 0
     Stars: 000000
@@ -33402,8 +33387,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.3, y: 13.6}
-  m_SizeDelta: {x: 167.49655, y: 139.44785}
+  m_AnchoredPosition: {x: -49.8, y: 14.9}
+  m_SizeDelta: {x: 119.872406, y: 99.79877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560396468
 MonoBehaviour:
@@ -34118,9 +34103,6 @@ MonoBehaviour:
   - {fileID: 448403973}
   - {fileID: 730123082}
   - {fileID: 1353127616}
-  - {fileID: 973943813}
-  - {fileID: 60721212}
-  - {fileID: 1950188941}
   - {fileID: 1854562362}
 --- !u!114 &1576004543
 MonoBehaviour:
@@ -38518,8 +38500,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860556848}
   m_LocalRotation: {x: -0, y: -0, z: 0.70469916, w: 0.7095063}
-  m_LocalPosition: {x: -22.499996, y: 64.29999, z: 0.9799008}
-  m_LocalScale: {x: 2.8517618, y: 2.851763, z: 2.8517618}
+  m_LocalPosition: {x: -10.3, y: 67.1, z: 0.9799008}
+  m_LocalScale: {x: 2.769931, y: 2.7699323, z: 2.769931}
   m_Children:
   - {fileID: 6850693599123873133}
   - {fileID: 6850699579365809017}
@@ -38545,13 +38527,13 @@ MonoBehaviour:
   startInDelay: 1.5
   delay: 5
   easeIn: 6
-  moveTo: {x: -22.5, y: 18.5}
+  moveTo: {x: -10.3, y: 15.3}
   OnCompleteStart:
     m_PersistentCalls:
       m_Calls: []
   startOutDelay: 10
   easeOut: 17
-  moveFrom: {x: -22.5, y: 64.29999}
+  moveFrom: {x: -10.3, y: 67.1}
   OnCompleteEvent:
     m_PersistentCalls:
       m_Calls:
@@ -41970,7 +41952,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 296, y: -793}
-  m_SizeDelta: {x: 283.8542, y: 277.67508}
+  m_SizeDelta: {x: 482.11102, y: 471.61618}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052881632
 MonoBehaviour:
@@ -42111,7 +42093,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 19fccbe396bc9a34aa97232b9cf3b949, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7cfbe705ba22ba747bb75fa679e2ae1d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -42168,9 +42150,9 @@ MonoBehaviour:
   isUi: 1
   isLecto: 0
   animationsSprites:
-  - {fileID: 21300000, guid: 19fccbe396bc9a34aa97232b9cf3b949, type: 3}
-  - {fileID: 21300000, guid: fa04200d575d24e488a66d6cd4dbddcb, type: 3}
-  - {fileID: 21300000, guid: bef762544be17ba4d94e7c9fe4ba65ea, type: 3}
+  - {fileID: 21300000, guid: 7cfbe705ba22ba747bb75fa679e2ae1d, type: 3}
+  - {fileID: 21300000, guid: 365fbba9b8b6b9841a198077a5ea3927, type: 3}
+  - {fileID: 21300000, guid: f65befa3615ad4e419041ed51d33fc42, type: 3}
   animationTextures: []
 --- !u!1 &2053924194
 GameObject:
