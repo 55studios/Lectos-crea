@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: lluvia 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -5142252264576950578, guid: f862537c02cdc14418ca1842d803aefa, type: 3}
+  - {fileID: -5804940545724397575, guid: f862537c02cdc14418ca1842d803aefa, type: 3}
+  - {fileID: -8986545162364079282, guid: f862537c02cdc14418ca1842d803aefa, type: 3}

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosLogrables: 5
   tiemposAVencer:
-  - 0
-  - 0
-  - 0
+  - 35
+  - 22
+  - 12
   reward: 
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
@@ -28,11 +28,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f3d48a630afcff64ebd9107554320232, type: 2}
   - {fileID: 11400000, guid: f28ac7be588db9f46a1b8be248e19064, type: 2}
   animacionCorrecto:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 6fbc3d36207b690489f2d5e4c1e8113d, type: 2}
+  - {fileID: 11400000, guid: 178e91fabb9f3a741aea51a711dc8feb, type: 2}
+  - {fileID: 11400000, guid: 98e2827b290d31b4eb6679a91a505fc1, type: 2}
+  - {fileID: 11400000, guid: 168b8901ebca2f146b272b61ff53f66f, type: 2}
+  - {fileID: 11400000, guid: ba3e4f3b2f34f914489b326a279d7ebc, type: 2}
   sonidosParlante:
   - {fileID: 8300000, guid: 85579bcf10cdfa74aa83648dd6de176f, type: 3}
   - {fileID: 8300000, guid: 2b8fe83e49834124c903b0901b608c6e, type: 3}

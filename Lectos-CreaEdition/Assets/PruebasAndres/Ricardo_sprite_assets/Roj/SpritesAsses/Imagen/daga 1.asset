@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: daga 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 6935512651184645536, guid: 31c07af0d4da3e4499adb5001e2cb7e9, type: 3}
+  - {fileID: 5054241277939075501, guid: 31c07af0d4da3e4499adb5001e2cb7e9, type: 3}
+  - {fileID: 918458411297005349, guid: 31c07af0d4da3e4499adb5001e2cb7e9, type: 3}

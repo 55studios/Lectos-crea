@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: llora 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -6894150865332985727, guid: 197366a617f2e594ab4f9b5e1acfd330, type: 3}
+  - {fileID: -6947555844458815321, guid: 197366a617f2e594ab4f9b5e1acfd330, type: 3}
+  - {fileID: -2077296803543459486, guid: 197366a617f2e594ab4f9b5e1acfd330, type: 3}

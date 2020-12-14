@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: gallo 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -5144301640355648236, guid: 406a51d2aef25004282f4c156c2581c1, type: 3}
+  - {fileID: -1653881686555903488, guid: 406a51d2aef25004282f4c156c2581c1, type: 3}
+  - {fileID: -6129672551554682603, guid: 406a51d2aef25004282f4c156c2581c1, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: vela 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -5079978272410102012, guid: c09d76aae273883459f6032f578bd439, type: 3}
+  - {fileID: -1766699918693839033, guid: c09d76aae273883459f6032f578bd439, type: 3}
+  - {fileID: 1420887565107660769, guid: c09d76aae273883459f6032f578bd439, type: 3}

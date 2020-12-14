@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "bu\xF1uelo 1"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -3885121979496284166, guid: 1a047f15eee53f0478a0c97e499b4ea9, type: 3}
+  - {fileID: 8296442424641034755, guid: 1a047f15eee53f0478a0c97e499b4ea9, type: 3}
+  - {fileID: 4205193432555972502, guid: 1a047f15eee53f0478a0c97e499b4ea9, type: 3}

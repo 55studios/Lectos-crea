@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosLogrables: 7
   tiemposAVencer:
-  - 0
-  - 0
-  - 0
+  - 35
+  - 22
+  - 12
   reward: 
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
   respuestas:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 342b2566a4897cd448e00ac49b20be9a, type: 2}
+  - {fileID: 11400000, guid: b2f79b74a4be6ed469f8b653ac1ba259, type: 2}
+  - {fileID: 11400000, guid: 8f9511deb4196d241820524a3a30d430, type: 2}
+  - {fileID: 11400000, guid: 599af43a47abce34aa024de67b61c9f7, type: 2}
+  - {fileID: 11400000, guid: cf909d29bd03abd499349071207873f0, type: 2}
+  - {fileID: 11400000, guid: 9c6b4699e4ef8684cbe7f09e51f39732, type: 2}
+  - {fileID: 11400000, guid: a84b7c9e1dc2fb94eac7a640a6243e72, type: 2}
   sonidosRespuestas:
   - {fileID: 8300000, guid: f1db288f012f1cf48b60aee7981d12ba, type: 3}
   - {fileID: 8300000, guid: 2dba27857fe96cd41a95af6522a8ce5b, type: 3}

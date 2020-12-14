@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: divan 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -3451923489643452925, guid: 33834624aa3d93748bf0c3724fd31640, type: 3}
+  - {fileID: -1346576884304943718, guid: 33834624aa3d93748bf0c3724fd31640, type: 3}
+  - {fileID: -7276160287661706759, guid: 33834624aa3d93748bf0c3724fd31640, type: 3}
