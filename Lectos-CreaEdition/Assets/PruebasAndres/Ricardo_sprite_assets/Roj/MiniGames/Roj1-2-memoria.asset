@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4938fd8f73879794881f46fb2f91b7ca, type: 3}
+  m_Name: Roj1-2-memoria
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  tiemposAVencer:
+  - 0
+  - 0
+  - 0
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  flip: {fileID: 0}
+  parejasElemento1:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  parejasElemento2:
+  - {fileID: 11400000, guid: 9334cd977022e774e9d56f33ee3b736d, type: 2}
+  - {fileID: 11400000, guid: 3352baadcc2e4204bba091a437d5bf50, type: 2}
+  - {fileID: 11400000, guid: c8d8065435395ef4ebe065599da120b8, type: 2}
+  - {fileID: 11400000, guid: f9112e03192c282418652c23b3be6a58, type: 2}
+  - {fileID: 11400000, guid: af618fc3b530b404a9cdd5b0f795f63d, type: 2}

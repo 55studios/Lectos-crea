@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309196475b9b705428fea4edf50f4695, type: 3}
+  m_Name: Roj2-8-escribir
+  m_EditorClassIdentifier: 
+  puntosLogrables: 7
+  tiemposAVencer:
+  - 0
+  - 0
+  - 0
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  respuestas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  sonidosRespuestas:
+  - {fileID: 8300000, guid: f1db288f012f1cf48b60aee7981d12ba, type: 3}
+  - {fileID: 8300000, guid: 2dba27857fe96cd41a95af6522a8ce5b, type: 3}
+  - {fileID: 8300000, guid: 65d952032e943964c99b85edc833424a, type: 3}
+  - {fileID: 8300000, guid: 6175eaa43a88bba458bc24dee60c4a5a, type: 3}
+  - {fileID: 8300000, guid: 10a6ef9799421f24c9fd085f4da366fc, type: 3}
+  - {fileID: 8300000, guid: b089f32556570f645966e332c937bdac, type: 3}
+  - {fileID: 8300000, guid: 2eef02aeed6158f4cb6eacab5fb52ff9, type: 3}
