@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b729e892686b444a9a3507c97845b29
+guid: b3ba9f3cd7ac5294b8b7aa8b4564064f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Group 5
+  - name: 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 630
-      width: 822
-      height: 620
-    spriteID: 3bd1f9f7dec070b4dbd7bb2df0d6b838
+      x: 850
+      y: 4
+      width: 805
+      height: 770
+    spriteID: 9b99805fda3e1554c999085292f4a31e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,8 +108,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -17, y: 610}
-  - name: Group 4
+    uvTransform: {x: 831, y: -36}
+  - name: 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -118,9 +118,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 828
-      height: 618
-    spriteID: cc3d4a9973d0207429e8fe4251db7c2d
+      width: 838
+      height: 796
+    spriteID: e219c2f7d6bc1aa469b3d8f833df75dc
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,8 +130,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -12, y: -11}
-  - name: Group 2
+    uvTransform: {x: -3, y: -13}
+  - name: 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -139,10 +139,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1258
-      width: 805
-      height: 624
-    spriteID: c2a8af13436f25143bb25194c3c966da
+      y: 808
+      width: 826
+      height: 765
+    spriteID: 11fdaee7a6d1fb94aa5ec4c8887387e4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,76 +152,54 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -17, y: 1245}
-  platformSettings:
-  - name: Default
-    overridden: 1
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 1
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: 47
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+    uvTransform: {x: -15, y: 768}
+  platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
+  importedTextureWidth: 2048
   importedTextureHeight: 2048
-  documentSize: {x: 845, y: 671}
+  documentSize: {x: 845, y: 845}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
+  textureActualWidth: 2048
   textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Group 5
-    spriteName: Group 5
+  - name: 3
+    spriteName: 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 3bd1f9f7dec070b4dbd7bb2df0d6b838
-    layerID: 369
-    mosaicPosition: {x: 4, y: 630}
-  - name: Group 4
-    spriteName: Group 4
-    isGroup: 0
-    parentIndex: -1
-    spriteID: cc3d4a9973d0207429e8fe4251db7c2d
-    layerID: 365
+    spriteID: e219c2f7d6bc1aa469b3d8f833df75dc
+    layerID: 645
     mosaicPosition: {x: 4, y: 4}
-  - name: Group 2
-    spriteName: Group 2
+  - name: 2
+    spriteName: 2
     isGroup: 0
     parentIndex: -1
-    spriteID: c2a8af13436f25143bb25194c3c966da
-    layerID: 359
-    mosaicPosition: {x: 4, y: 1258}
+    spriteID: 9b99805fda3e1554c999085292f4a31e
+    layerID: 639
+    mosaicPosition: {x: 850, y: 4}
+  - name: 1
+    spriteName: 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 11fdaee7a6d1fb94aa5ec4c8887387e4
+    layerID: 632
+    mosaicPosition: {x: 4, y: 808}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: topo Texture
-  prefabAssetName: topo Prefab
-  spriteLibAssetName: topo Sprite Lib
+  textureAssetName: nicho Texture
+  prefabAssetName: nicho Prefab
+  spriteLibAssetName: nicho Sprite Lib
   secondarySpriteTextures: []

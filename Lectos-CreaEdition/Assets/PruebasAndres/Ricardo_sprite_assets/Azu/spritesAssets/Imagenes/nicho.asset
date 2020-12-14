@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: fila_________
+  m_Name: nicho
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 3776626532934700712, guid: 3a2e91b717e46f14e9b5f8c629f56bd2, type: 3}
-  - {fileID: 3776626532934700712, guid: 3a2e91b717e46f14e9b5f8c629f56bd2, type: 3}
-  - {fileID: 3776626532934700712, guid: 3a2e91b717e46f14e9b5f8c629f56bd2, type: 3}
+  - {fileID: 6709226689348504043, guid: b3ba9f3cd7ac5294b8b7aa8b4564064f, type: 3}
+  - {fileID: 2486094592117647735, guid: b3ba9f3cd7ac5294b8b7aa8b4564064f, type: 3}
+  - {fileID: 5208484474291901446, guid: b3ba9f3cd7ac5294b8b7aa8b4564064f, type: 3}
