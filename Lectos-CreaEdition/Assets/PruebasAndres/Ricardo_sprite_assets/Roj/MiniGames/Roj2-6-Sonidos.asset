@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf57e1d91bf2c748b7e9bb157ea75a7, type: 3}
+  m_Name: Roj2-6-Sonidos
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  tiemposAVencer:
+  - 0
+  - 0
+  - 0
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  clickeables:
+  - {fileID: 11400000, guid: a79de0b853220e8418b3fb15b984e732, type: 2}
+  - {fileID: 11400000, guid: e9bf2a0e499ef154dae60842cede13ac, type: 2}
+  - {fileID: 11400000, guid: cdebc1fe6d647ed4499f4aa793411802, type: 2}
+  - {fileID: 11400000, guid: 0278c987d86ecee47a0e1fabd7ec8a74, type: 2}
+  - {fileID: 11400000, guid: c40901d80ac09554a94e8446b3e250f9, type: 2}
+  animacionCorrecto:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  sonidosParlante:
+  - {fileID: 8300000, guid: b61dab075d47aba42b4eccbcca11bc25, type: 3}
+  - {fileID: 8300000, guid: 2b978c330e46f594d8e57612b13649e8, type: 3}
+  - {fileID: 8300000, guid: 8aac22019c338ff4dba4210109c68183, type: 3}
+  - {fileID: 8300000, guid: 264f3a9323f02624bb2b8d9202af42b6, type: 3}
+  - {fileID: 8300000, guid: 438ceeda4e2dcb14eb3ed14d01da7b24, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: 62a7012c1edff0e449d427d23264f6e3, type: 3}
+  - {fileID: 8300000, guid: a213bdaa349f2974f904560db967b03d, type: 3}
+  - {fileID: 8300000, guid: 3e47689fb666cc84f88549eba7f6b496, type: 3}
+  - {fileID: 8300000, guid: 4ff77ff9b1c8d8b4a8054dec818c385d, type: 3}
+  - {fileID: 8300000, guid: 2d8a8d8aff5591d46b4490a33f8906a4, type: 3}

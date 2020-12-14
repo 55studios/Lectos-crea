@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a64e25d596c56f4ea09ae5f1ee3f7da, type: 3}
+  m_Name: Roj2-7-vehiculos-ESTRELLA
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  tiemposAVencer:
+  - 0
+  - 0
+  - 0
+  reward: 
+  sonidoAcierto: {fileID: 0}
+  particulasAcierto: {fileID: 0}
+  variante: 2
+  variacion: 3
+  arrastrables:
+  - {fileID: 11400000, guid: c6d420bad4fe46741b90810a159c94b7, type: 2}
+  - {fileID: 11400000, guid: 18c1834db4012d942a9d02cde241b345, type: 2}
+  - {fileID: 11400000, guid: 4b2096b2a7ac17f40a2fd615f4b5467e, type: 2}
+  - {fileID: 11400000, guid: 806e1aca4c0b81f49be81eac7d5c3acf, type: 2}
+  - {fileID: 11400000, guid: d238fe9d559de3848ab2d119613043a8, type: 2}
+  receptores:
+  - {fileID: 11400000, guid: 557bd7a71e609b743a916671069e0958, type: 2}
+  - {fileID: 11400000, guid: f5d0992b0f544784ab486c6655bcc57c, type: 2}
+  - {fileID: 11400000, guid: ca30510eddf884441b7f61496f8e3176, type: 2}
+  - {fileID: 11400000, guid: 7ea72f9b18ab386408abfca13f56e18f, type: 2}
+  - {fileID: 11400000, guid: f5d0992b0f544784ab486c6655bcc57c, type: 2}
+  sonidosArrastrar:
+  - {fileID: 8300000, guid: 694235654e0799f419a1861dc1ba7b66, type: 3}
+  - {fileID: 8300000, guid: 8cc7df3cb2050d84884f89dbf3cab8cb, type: 3}
+  - {fileID: 8300000, guid: a8b64fd4ca0ac164ca072bff01fed68e, type: 3}
+  - {fileID: 8300000, guid: c39fd5be59ad634428d7f1fd751e8c14, type: 3}
+  - {fileID: 8300000, guid: 4124c1f0e2721fe4b85cd71d76a7ba40, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: b61dab075d47aba42b4eccbcca11bc25, type: 3}
+  - {fileID: 8300000, guid: 2b978c330e46f594d8e57612b13649e8, type: 3}
+  - {fileID: 8300000, guid: 8aac22019c338ff4dba4210109c68183, type: 3}
+  - {fileID: 8300000, guid: 264f3a9323f02624bb2b8d9202af42b6, type: 3}
+  - {fileID: 8300000, guid: 438ceeda4e2dcb14eb3ed14d01da7b24, type: 3}
