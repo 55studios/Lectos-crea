@@ -35840,6 +35840,7 @@ MonoBehaviour:
   - {fileID: 1551992097}
   - {fileID: 973287108}
   - {fileID: 1351457268}
+  TempStars: 0
 --- !u!1 &1903559259
 GameObject:
   m_ObjectHideFlags: 0
