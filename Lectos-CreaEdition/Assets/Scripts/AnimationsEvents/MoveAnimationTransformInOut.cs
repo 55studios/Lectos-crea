@@ -15,6 +15,7 @@ public class MoveAnimationTransformInOut : MonoBehaviour
     public float startOutDelay = 1;
     public Ease easeOut;
     public Vector2 moveFrom;
+    public UnityEvent OnCompleteEvent;
 
     private Transform mainTransform;
 
@@ -36,7 +37,7 @@ public class MoveAnimationTransformInOut : MonoBehaviour
     }
     IEnumerator InAnim() {
         yield return new WaitForSeconds(startInDelay);
-        mainTransform.DOLocalMove(moveTo, delay).SetEase(easeIn);
+        mainTransform.DOLocalMove(moveTo, delay).SetEase(easeIn).OnComplete(() => OnCompleteEvent.Invoke());
     }
 
     IEnumerator OutAnim() {
