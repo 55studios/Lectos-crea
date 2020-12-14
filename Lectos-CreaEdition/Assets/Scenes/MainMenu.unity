@@ -748,8 +748,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764589721}
   m_HandleRect: {fileID: 1764589720}
   m_Direction: 0
-  m_Value: -0.00000037507584
-  m_Size: 0.4539474
+  m_Value: -0.00000037507573
+  m_Size: 0.4539473
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7387,6 +7387,7 @@ GameObject:
   - component: {fileID: 1356911709}
   - component: {fileID: 1356911708}
   - component: {fileID: 1356911711}
+  - component: {fileID: 1356911712}
   m_Layer: 5
   m_Name: Planet_B
   m_TagString: Untagged
@@ -7416,7 +7417,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 484, y: 123}
-  m_SizeDelta: {x: 402.10233, y: 388.63644}
+  m_SizeDelta: {x: 452.8999, y: 409.90308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1356911708
 MonoBehaviour:
@@ -7491,7 +7492,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 30c084b7ffc06cb468f4511a0f745027, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 199047e035178bc4db1316e37d348ab4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7532,6 +7533,26 @@ MonoBehaviour:
   delayOut: 0.8
   easeOut: 5
   moveFrom: {x: 0, y: 0, z: 0}
+--- !u!114 &1356911712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356911706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa027ef06fd7724abd200261ffc068e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frameRate: 0.5
+  isUi: 1
+  isLecto: 0
+  animationsSprites:
+  - {fileID: 21300000, guid: 199047e035178bc4db1316e37d348ab4, type: 3}
+  - {fileID: 21300000, guid: 446318fd11a6e034db32dce79bebd5ba, type: 3}
+  - {fileID: 21300000, guid: 62606b3cfdf21c1429d177098dceb8a5, type: 3}
+  animationTextures: []
 --- !u!1 &1388924285
 GameObject:
   m_ObjectHideFlags: 0
@@ -7969,7 +7990,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 513639732}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9797,7 +9818,7 @@ RectTransform:
   m_GameObject: {fileID: 1811219450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 255899385}
   - {fileID: 870216022}
@@ -11107,8 +11128,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2030423145}
   m_HandleRect: {fileID: 2030423144}
   m_Direction: 2
-  m_Value: 1.0000023
-  m_Size: 0.87567234
+  m_Value: 1.0000017
+  m_Size: 0.8756723
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

@@ -44,6 +44,7 @@ public class CreateLevel : MonoBehaviour
     ButtonToController siguienteNivel;
     int tipoDeVehiculo;
     int moonSlider = 0;
+    int TempLenghtLvls = 0;
 
     [Space(8)]
     [Header("Events")]
@@ -602,7 +603,7 @@ public class CreateLevel : MonoBehaviour
             //InterfazFinMinijuego.SetActive(true);
             InterfazFinMinijuego.GetComponent<ManagerAnimations>().OnAnimationIn();
             GetComponent<Tiempo>().Terminar();
-            GetComponent<Tiempo>().Guardar(tempLvl);
+            GetComponent<Tiempo>().Guardar(tempLvl, TempLenghtLvls);
             if (SwitchButtonEndGame) {
                 InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
                 siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
@@ -629,6 +630,7 @@ public class CreateLevel : MonoBehaviour
         //InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().OutAnimation();
         siguienteNivel.Lista = lm;
         siguienteNivel.index = ind + 1;
+        TempLenghtLvls = lm.lista.Length;
         tempLvl = ind;
         _Slider[moonSlider].GetComponentInParent<Slider>().value = ind;
         if (siguienteNivel.index > lm.lista.Length - 1){
