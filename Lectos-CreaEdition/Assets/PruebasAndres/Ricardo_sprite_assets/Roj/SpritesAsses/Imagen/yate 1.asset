@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: yate 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7552663926409282091, guid: ba15b02da97ebca47bf12679d85a2642, type: 3}
+  - {fileID: 8379535421503110094, guid: ba15b02da97ebca47bf12679d85a2642, type: 3}
+  - {fileID: -6428549219354438086, guid: ba15b02da97ebca47bf12679d85a2642, type: 3}

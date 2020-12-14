@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: uva 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -4492546484733267346, guid: e458f5f6374c63f4f8eaf88e2752f643, type: 3}
+  - {fileID: -3705119502805187975, guid: e458f5f6374c63f4f8eaf88e2752f643, type: 3}
+  - {fileID: -5494902415309247949, guid: e458f5f6374c63f4f8eaf88e2752f643, type: 3}

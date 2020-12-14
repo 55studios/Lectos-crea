@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: gigante 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1769307844509317993, guid: 69bdf29b17b726f4380c824206410f16, type: 3}
+  - {fileID: 2089390890898091190, guid: 69bdf29b17b726f4380c824206410f16, type: 3}
+  - {fileID: -2592046601061689115, guid: 69bdf29b17b726f4380c824206410f16, type: 3}

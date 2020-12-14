@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: lleva 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 6324496564133185292, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}
+  - {fileID: 5544851788358798006, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}
+  - {fileID: 4697938195019456946, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: vigia 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3048006851199872385, guid: 08cedd8df6d9e2a42b411c88e05eabe7, type: 3}
+  - {fileID: 3904736455334200512, guid: 08cedd8df6d9e2a42b411c88e05eabe7, type: 3}
+  - {fileID: -5101196043535354660, guid: 08cedd8df6d9e2a42b411c88e05eabe7, type: 3}

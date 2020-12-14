@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: yuca 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -1761458020084673293, guid: eb00d33c26dc49d4c963a75461a20b0f, type: 3}
+  - {fileID: -9174840776467266501, guid: eb00d33c26dc49d4c963a75461a20b0f, type: 3}
+  - {fileID: -6806419747988210134, guid: eb00d33c26dc49d4c963a75461a20b0f, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: volcan 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5233958787856750334, guid: fd8797a0b1b074c4eb9e639dc15d1f0b, type: 3}
+  - {fileID: 3930112214522486322, guid: fd8797a0b1b074c4eb9e639dc15d1f0b, type: 3}
+  - {fileID: -1745212162133038373, guid: fd8797a0b1b074c4eb9e639dc15d1f0b, type: 3}

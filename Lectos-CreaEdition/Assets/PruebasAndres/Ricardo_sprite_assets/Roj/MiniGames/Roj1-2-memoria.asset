@@ -23,11 +23,11 @@ MonoBehaviour:
     type: 3}
   flip: {fileID: 0}
   parejasElemento1:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: cecd6cead2557374f928681c4b411bb6, type: 2}
+  - {fileID: 11400000, guid: ef386e5308b847d4592ff03067c67f83, type: 2}
+  - {fileID: 11400000, guid: 582236b0317a67549a00a5551df3dd4f, type: 2}
+  - {fileID: 11400000, guid: deb07ec3071dec44f91107411a3039a3, type: 2}
+  - {fileID: 11400000, guid: 8371b1481fed9f1408da8b008aa8ff40, type: 2}
   parejasElemento2:
   - {fileID: 11400000, guid: 9334cd977022e774e9d56f33ee3b736d, type: 2}
   - {fileID: 11400000, guid: 3352baadcc2e4204bba091a437d5bf50, type: 2}

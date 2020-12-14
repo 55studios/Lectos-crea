@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "sue\xF1o 1"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 6983852108186533222, guid: df09e56861e9d4f48b930fa1f54bb23d, type: 3}
+  - {fileID: 8313586973630397101, guid: df09e56861e9d4f48b930fa1f54bb23d, type: 3}
+  - {fileID: -9142386346739808515, guid: df09e56861e9d4f48b930fa1f54bb23d, type: 3}

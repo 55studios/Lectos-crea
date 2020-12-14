@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: villa 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 4824327591436955390, guid: 160b37fe484c91f44b282a8e6412b749, type: 3}
+  - {fileID: 5191941573250305951, guid: 160b37fe484c91f44b282a8e6412b749, type: 3}
+  - {fileID: 5687053857372410760, guid: 160b37fe484c91f44b282a8e6412b749, type: 3}

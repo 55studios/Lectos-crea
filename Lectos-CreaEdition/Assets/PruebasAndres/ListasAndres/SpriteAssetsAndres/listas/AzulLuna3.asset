@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836b6686fab9f5d488ebde1405302674, type: 3}
+  m_Name: AzulLuna3
+  m_EditorClassIdentifier: 
+  lista:
+  - {fileID: 11400000, guid: 8ea72f22721470740b579c699617d85b, type: 2}
+  - {fileID: 11400000, guid: b66ac7f25ba258347b35c4c9cd467c4f, type: 2}
+  - {fileID: 11400000, guid: 83d9cfb4e1531ad44afed5cd916cd6b5, type: 2}
+  - {fileID: 11400000, guid: 0a5b0dd6516fdf7449a3245749f4a069, type: 2}
+  - {fileID: 11400000, guid: b3bc4cc46aa04b440a460b10eee216eb, type: 2}
+  - {fileID: 11400000, guid: bc4d566164601f74db4923e3fa86a071, type: 2}
+  - {fileID: 11400000, guid: 41ea3981bbac39449be69d6d519e0ac8, type: 2}
+  - {fileID: 11400000, guid: 2dc8196abe1cc5741b483bec78fb1cbe, type: 2}
+  - {fileID: 11400000, guid: fc42f73be14aba346a52537b0fb9ff4a, type: 2}
+  - {fileID: 11400000, guid: 441378abe910ee343b7fbb16e261ddfb, type: 2}
+  - {fileID: 11400000, guid: 71e026d06ae3c9546860701a17282500, type: 2}

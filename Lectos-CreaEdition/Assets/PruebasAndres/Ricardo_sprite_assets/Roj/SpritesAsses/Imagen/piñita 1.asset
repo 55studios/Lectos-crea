@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "pi\xF1ita 1"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -6431960330569419041, guid: 1542675b02bb6584faf0bd35389991ab, type: 3}
+  - {fileID: -1422544909953125433, guid: 1542675b02bb6584faf0bd35389991ab, type: 3}
+  - {fileID: -8142312294810097059, guid: 1542675b02bb6584faf0bd35389991ab, type: 3}

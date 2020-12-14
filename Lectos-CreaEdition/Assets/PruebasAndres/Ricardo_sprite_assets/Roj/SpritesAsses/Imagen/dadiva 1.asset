@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: dadiva 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2434447725323575302, guid: 8dd40cba1a08a3c4ab62ef42e8948e65, type: 3}
+  - {fileID: -4164455924104502830, guid: 8dd40cba1a08a3c4ab62ef42e8948e65, type: 3}
+  - {fileID: -4947904077185815809, guid: 8dd40cba1a08a3c4ab62ef42e8948e65, type: 3}

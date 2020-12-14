@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: gato 1
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3747042898219418764, guid: 0e2d606bfbd6e8a479d9c68c8656c7cd, type: 3}
+  - {fileID: -4050398635493954606, guid: 0e2d606bfbd6e8a479d9c68c8656c7cd, type: 3}
+  - {fileID: 8999618558073180510, guid: 0e2d606bfbd6e8a479d9c68c8656c7cd, type: 3}
