@@ -9,6 +9,7 @@ public class ImagenDictado : MonoBehaviour
 
     public void Animar()
     {
+        GetComponent<BoxCollider2D>().enabled = false;
         InvokeRepeating("Animacion", 0, 0.1f);
     }
 
@@ -28,5 +29,10 @@ public class ImagenDictado : MonoBehaviour
     public void Destruir ()
     {
         Destroy(gameObject, 3f);
+    }
+
+    private void OnMouseUp()
+    {
+        GameObject.FindGameObjectWithTag("Organizador").GetComponent<CheckDictado>().RepetirSonido();
     }
 }
