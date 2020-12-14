@@ -17,7 +17,9 @@ public class PalabraGeneradoraAnimationsIn : MonoBehaviour
 
     [Header("Palabra generadora")]
     public Image[] _SilabasMarcos;
+    public AudioSource audioSource;
     public UnityEvent[] _EndStepEvent;
+    public AudioClip[] clipAudio;
     public float Duration = 5;
     public Ease Interpolation = Ease.OutCirc;
     public float DelayStart;
@@ -36,9 +38,7 @@ public class PalabraGeneradoraAnimationsIn : MonoBehaviour
         StartButton.InAnimation();
         Palabra.InAnimation();
     }
-    private void OnDisable() {
 
-    }
     public void SequenceAnimationText(){
         StartCoroutine(SequencerDelay());
     }
@@ -60,6 +60,8 @@ public class PalabraGeneradoraAnimationsIn : MonoBehaviour
         yield return new WaitForSeconds(DelayStart);
         for (int i = 0; i < _SilabasMarcos.Length; i++) {
             _SilabasMarcos[i].DOFade(255, Duration).SetEase(Interpolation).OnComplete(() => _EndStepEvent[i].Invoke());
+            audioSource.clip = clipAudio[i];
+            audioSource.Play();
             yield return new WaitForSeconds(DelayStart);
             Debug.Log("Ends every tween");
         }
