@@ -24,23 +24,23 @@ MonoBehaviour:
   variante: 2
   variacion: 2
   arrastrables:
-  - {fileID: 11400000, guid: 210cfbe8466bac5419bc082f8c838dd0, type: 2}
-  - {fileID: 11400000, guid: a6f4dbce3bc360e4caa81ed8f16f8278, type: 2}
-  - {fileID: 11400000, guid: 369aac3920fb70541bb3cb75c7fae0b9, type: 2}
-  - {fileID: 11400000, guid: 56eed93550ee7814d8214f304f1c8a84, type: 2}
-  - {fileID: 11400000, guid: 268fd6f5adac8114f901a4c12bf38c97, type: 2}
-  receptores:
-  - {fileID: 11400000, guid: 37dede3320c057247bef8110ed5b1f19, type: 2}
-  - {fileID: 11400000, guid: 51e757eee31bf5e43add8ed16a9be378, type: 2}
-  - {fileID: 11400000, guid: e60a91758aae19740a7031a456b01ea9, type: 2}
+  - {fileID: 11400000, guid: a920702726a2582479a1b2363a949415, type: 2}
+  - {fileID: 11400000, guid: 3e025d2d02a672d42aebc4d65a5f5137, type: 2}
+  - {fileID: 11400000, guid: a920702726a2582479a1b2363a949415, type: 2}
   - {fileID: 11400000, guid: 7e416099d864d304b810ceaa0c23225b, type: 2}
-  - {fileID: 11400000, guid: ac1b34b3bd00d43408ab8527e693997c, type: 2}
+  - {fileID: 11400000, guid: 3269ffd26e37d3b42948b01eb0309c20, type: 2}
+  receptores:
+  - {fileID: 11400000, guid: 8f5385ffb5fba544385614d381aab712, type: 2}
+  - {fileID: 11400000, guid: ca1cbdf720331de408155c278b34f583, type: 2}
+  - {fileID: 11400000, guid: f8c7c81e133713541bb814c0151097c9, type: 2}
+  - {fileID: 11400000, guid: 56eed93550ee7814d8214f304f1c8a84, type: 2}
+  - {fileID: 11400000, guid: 52f580881d33dc8409852c9dbc8b4cf4, type: 2}
   sonidosArrastrar:
-  - {fileID: 8300000, guid: 7575549674a21234ea591e9a8501da8c, type: 3}
-  - {fileID: 8300000, guid: 297df913b2861c0469b4fee18361e6cc, type: 3}
-  - {fileID: 8300000, guid: 01c9eff1900353344bdda3478bca7104, type: 3}
-  - {fileID: 8300000, guid: 66fcb92633200cc4b81a691e2cf6ef66, type: 3}
-  - {fileID: 8300000, guid: 833af606d987a3142ba8ac6aaebb137b, type: 3}
+  - {fileID: 8300000, guid: 60ddf805f6eae984b9a357a40ce48093, type: 3}
+  - {fileID: 8300000, guid: 2d801558eb74dfa40ab7b6acf1c25962, type: 3}
+  - {fileID: 8300000, guid: 60ddf805f6eae984b9a357a40ce48093, type: 3}
+  - {fileID: 8300000, guid: 8415ba32bb8abab4fa1a80c42bac7934, type: 3}
+  - {fileID: 8300000, guid: 65e9b447fe5f1904fa9e4322edfb8ec8, type: 3}
   sonidosCorrecto:
   - {fileID: 8300000, guid: 747be97960af8c94e94d4ffb989a93fe, type: 3}
   - {fileID: 8300000, guid: 2c0da7ad54d48494f8b6400b2e8ee9de, type: 3}
