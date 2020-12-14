@@ -53,7 +53,7 @@ public class CheckDictado : MonoBehaviour
         letras = Convertir(respuestas[orden[index]].name.ToCharArray(), letras);
 
         AS.clip = sonidos[orden[index]];
-        AS.PlayDelayed(2f);
+        AS.PlayDelayed(1f);
     }
 
     public void CompararLetras(string presionado)
@@ -120,8 +120,12 @@ public class CheckDictado : MonoBehaviour
     }
 
     void SiguienteSonido ()
-    {
-        
+    {        
         AS.PlayDelayed(2f);
+    }
+
+    public void RepetirSonido ()
+    {
+        AS.Play();
     }
 }
