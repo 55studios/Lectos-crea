@@ -657,13 +657,13 @@ public class CreateLevel : MonoBehaviour
             case 0:
                 _Slider[0].gameObject.SetActive(true);
                 _Slider[1].gameObject.SetActive(false);
-                _Slider[moonSlider].GetComponentInParent<Slider>().maxValue = 11;
+                _Slider[moonSlider].GetComponentInParent<Slider>().maxValue = 10;
                 moonSlider = moonIndex;
                 break;
             case 1:
                 _Slider[0].gameObject.SetActive(false);
                 _Slider[1].gameObject.SetActive(true);
-                _Slider[moonSlider].GetComponentInParent<Slider>().maxValue = 8;
+                _Slider[moonSlider].GetComponentInParent<Slider>().maxValue = 7;
                 moonSlider = moonIndex;
                 break;
         }
