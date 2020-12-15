@@ -7,6 +7,9 @@ public class FichaRompecabezas : MonoBehaviour
 
     private void OnDestroy()
     {
-        GameObject.FindWithTag("Organizador").GetComponent<PuzzleCompleto>().SumarRespuesta();
+        if (GameObject.FindWithTag("Organizador") != null)
+        {
+            GameObject.FindWithTag("Organizador").GetComponent<PuzzleCompleto>().SumarRespuesta();
+        }       
     }
 }
