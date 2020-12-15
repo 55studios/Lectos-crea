@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a64e25d596c56f4ea09ae5f1ee3f7da, type: 3}
   m_Name: azu1-7-Vehiculos_Tren 1
   m_EditorClassIdentifier: 
-  puntosLogrables: 0
+  puntosLogrables: 5
   tiemposAVencer:
-  - 0
-  - 0
-  - 0
+  - 50
+  - 40
+  - 30
   reward: 
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
@@ -28,7 +28,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f151679fd8414aa45bb2229b843ba9b8, type: 2}
   - {fileID: 11400000, guid: eeb91fde1af584b47bef63fef4c1a6ff, type: 2}
   - {fileID: 11400000, guid: ca4011eac85464041bba22dc138d73ac, type: 2}
-  - {fileID: 11400000, guid: f963a169855e59740955a10631cb0eb8, type: 2}
+  - {fileID: 11400000, guid: 741c89a3d535d0b4ca5e61215f978bfc, type: 2}
   receptores:
   - {fileID: 11400000, guid: 532b8a069f798e54db4e93afb3a7be92, type: 2}
   - {fileID: 11400000, guid: c57b6359a6cdba74aa5ff91ccd7516c1, type: 2}

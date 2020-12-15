@@ -12,14 +12,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85984141a0401004ea537e56924949d0, type: 3}
   m_Name: azu3-11-Dictado
   m_EditorClassIdentifier: 
-  puntosLogrables: 0
+  puntosLogrables: 10
   tiemposAVencer:
-  - 0
-  - 0
-  - 0
+  - 50
+  - 40
+  - 30
   reward: 
-  sonidoAcierto: {fileID: 0}
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 0}
-  imagenes: []
-  sonidoRespuestas: []
-  prefabPalabras: []
+  imagenes:
+  - {fileID: 11400000, guid: 49b52921b48affb45969ae2a813290e1, type: 2}
+  - {fileID: 11400000, guid: 6e36334fdcd5d204fb693bcc49ecefa0, type: 2}
+  - {fileID: 11400000, guid: 64c3f6925fe82954ead3103ce8e9d2b1, type: 2}
+  - {fileID: 11400000, guid: 935444e47e125f341a0f995795d0a6a2, type: 2}
+  - {fileID: 11400000, guid: 53ab0a82a15e51e49a22942c2a2df7aa, type: 2}
+  - {fileID: 11400000, guid: 4316e7fbbd83f97459bdf8942eb565e6, type: 2}
+  - {fileID: 11400000, guid: 3a48b59381fe15341a956d622a7a0117, type: 2}
+  - {fileID: 11400000, guid: d9e63c62b856aa84bb079f6a568620db, type: 2}
+  - {fileID: 11400000, guid: 361f38b35d36458438352c1a2d7e8792, type: 2}
+  - {fileID: 11400000, guid: 0e2f270c77d41b14fa0fe63c494624ba, type: 2}
+  sonidoRespuestas:
+  - {fileID: 8300000, guid: 34dc6e9732fed66488e3bcc6b63aa978, type: 3}
+  - {fileID: 8300000, guid: 6b80c775dc8648d4988e6e38e0b34fd1, type: 3}
+  - {fileID: 8300000, guid: f9ea262f55949c3489ab175037fc4bff, type: 3}
+  - {fileID: 8300000, guid: 0a5a258b78020b74a9311abe6f60807c, type: 3}
+  - {fileID: 8300000, guid: 4052563ad6cf6f34d97d2ba4accdea73, type: 3}
+  - {fileID: 8300000, guid: 4f6d93bee0d36e0489d20dd92a08714a, type: 3}
+  - {fileID: 8300000, guid: 6713e18c0f3d9f846bae98c526d2b60e, type: 3}
+  - {fileID: 8300000, guid: 3f5d73c1e97fa8a4692344ae1547f0a9, type: 3}
+  - {fileID: 8300000, guid: 5ca90b18744a92347b94c014ce0365ce, type: 3}
+  - {fileID: 8300000, guid: 3d7916d047ee8c34f9b707698ae26c08, type: 3}
+  prefabPalabras:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

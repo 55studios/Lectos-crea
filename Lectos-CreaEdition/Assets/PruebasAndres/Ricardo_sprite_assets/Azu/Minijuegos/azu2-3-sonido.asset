@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf57e1d91bf2c748b7e9bb157ea75a7, type: 3}
   m_Name: azu2-3-sonido
   m_EditorClassIdentifier: 
-  puntosLogrables: 0
+  puntosLogrables: 5
   tiemposAVencer:
-  - 0
-  - 0
-  - 0
+  - 50
+  - 40
+  - 30
   reward: 
   sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
@@ -38,7 +38,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: dfa5acaf6e9db444caa1410639945007, type: 3}
   - {fileID: 8300000, guid: 1c508d33f80449643aea3a2db638ca8d, type: 3}
   - {fileID: 8300000, guid: 960ea818e883d5f468089618a6a6d25a, type: 3}
-  - {fileID: 8300000, guid: 33a26310962fd8e40962f021f78fe7d8, type: 3}
+  - {fileID: 8300000, guid: 2c0da7ad54d48494f8b6400b2e8ee9de, type: 3}
   sonidosCorrecto:
   - {fileID: 8300000, guid: 51b84665a8d943844b345f9e3bbe85ac, type: 3}
   - {fileID: 8300000, guid: 6659650bc780a0941a367d0ee6340e10, type: 3}
