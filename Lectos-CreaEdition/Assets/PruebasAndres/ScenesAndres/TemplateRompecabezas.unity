@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 45711900}
   - component: {fileID: 45711905}
   - component: {fileID: 45711904}
+  - component: {fileID: 45711906}
   m_Layer: 0
   m_Name: ficha2
   m_TagString: Untagged
@@ -289,6 +290,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respuesta: 1
+--- !u!114 &45711906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45711899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa222321ef6beb41b8cc1f9cc822f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &84195043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -630,6 +643,7 @@ GameObject:
   - component: {fileID: 176169767}
   - component: {fileID: 176169772}
   - component: {fileID: 176169771}
+  - component: {fileID: 176169773}
   m_Layer: 0
   m_Name: ficha3
   m_TagString: Untagged
@@ -784,6 +798,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respuesta: 2
+--- !u!114 &176169773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176169766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa222321ef6beb41b8cc1f9cc822f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &317984735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1388,7 @@ GameObject:
   - component: {fileID: 408502949}
   - component: {fileID: 408502954}
   - component: {fileID: 408502953}
+  - component: {fileID: 408502955}
   m_Layer: 0
   m_Name: ficha4
   m_TagString: Untagged
@@ -1516,6 +1543,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respuesta: 3
+--- !u!114 &408502955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408502948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa222321ef6beb41b8cc1f9cc822f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &433630673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,6 +1569,7 @@ GameObject:
   - component: {fileID: 433630674}
   - component: {fileID: 433630679}
   - component: {fileID: 433630678}
+  - component: {fileID: 433630680}
   m_Layer: 0
   m_Name: ficha6
   m_TagString: Untagged
@@ -1684,6 +1724,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respuesta: 5
+--- !u!114 &433630680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433630673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa222321ef6beb41b8cc1f9cc822f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &680778826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1875,6 +1927,7 @@ GameObject:
   - component: {fileID: 1214964561}
   - component: {fileID: 1214964562}
   - component: {fileID: 1214964563}
+  - component: {fileID: 1214964564}
   m_Layer: 0
   m_Name: Organizador
   m_TagString: Organizador
@@ -2013,6 +2066,21 @@ MonoBehaviour:
   - {fileID: 175552029}
   receptores:
   - {fileID: 1827683260}
+--- !u!114 &1214964564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214964560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ebb793276f4fc4f941d281e787eb79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completo: {fileID: 1827683259}
+  sonido: {fileID: 0}
+  palabra: {fileID: 0}
 --- !u!1001 &1257195620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2117,6 +2185,7 @@ GameObject:
   - component: {fileID: 1340815988}
   - component: {fileID: 1340815993}
   - component: {fileID: 1340815992}
+  - component: {fileID: 1340815994}
   m_Layer: 0
   m_Name: ficha1
   m_TagString: Untagged
@@ -2271,6 +2340,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respuesta: 0
+--- !u!114 &1340815994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340815987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa222321ef6beb41b8cc1f9cc822f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1488353029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3168,6 +3249,7 @@ GameObject:
   - component: {fileID: 2136018996}
   - component: {fileID: 2136019001}
   - component: {fileID: 2136019000}
+  - component: {fileID: 2136019002}
   m_Layer: 0
   m_Name: ficha5
   m_TagString: Untagged
@@ -3322,3 +3404,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respuesta: 4
+--- !u!114 &2136019002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136018995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa222321ef6beb41b8cc1f9cc822f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

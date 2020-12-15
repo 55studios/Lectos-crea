@@ -30,8 +30,6 @@ public class CreateLevel : MonoBehaviour
     int maxPuntaje;
     string nombreMinijuego;
     bool creado;
-    float timeStart;
-    float timeEnd;
     bool temporalFake;
     bool terminadoPorPuntaje;
     bool SwitchButtonEndGame = false;
@@ -81,7 +79,6 @@ public class CreateLevel : MonoBehaviour
                 creado = true;
                 OnLoadGame.Invoke();
                 maxPuntaje = MGD.puntosLogrables;
-                timeStart = Time.deltaTime;
                 Or = GameObject.FindGameObjectWithTag("Organizador").GetComponent<Organizador>();
                 switch (MGD.Tipo)
                 {
@@ -180,7 +177,6 @@ public class CreateLevel : MonoBehaviour
             creado = true;
             OnLoadGame.Invoke();
             maxPuntaje = MGD.puntosLogrables;
-            timeStart = Time.deltaTime;
             Or = GameObject.FindGameObjectWithTag("Organizador").GetComponent<Organizador>();
             switch (MGD.Tipo)
             {
@@ -540,6 +536,10 @@ public class CreateLevel : MonoBehaviour
         System.Array.Sort(posiciones, RandomSort);
         System.Array.Sort(posiciones, RandomSort);
         System.Array.Sort(posiciones, RandomSort);
+        PuzzleCompleto Pc = reproductor.GetComponent<PuzzleCompleto>();
+        print(Pc.gameObject.name);
+        Pc.sonido = sonidoFinal;
+        Pc.palabra = sonidoInicial;
         int respuesta = 0;
         completo.GetComponent<SpriteRenderer>().sprite = imagen;
         foreach (Transform pieza in posiciones)
@@ -548,6 +548,7 @@ public class CreateLevel : MonoBehaviour
             pieza.GetComponent<Respuesta>().respuesta = respuesta;
             respuesta++;
         }
+        Pc.Iniciar();
     }
 
     int RandomSort(Transform a, Transform b)
@@ -562,7 +563,7 @@ public class CreateLevel : MonoBehaviour
 
     public void RespuestaCorrecta(Vector3 posiParticulas)
     {
-        print("correcto!!!!!");
+        //print("correcto!!!!!");
         puntaje++;
         As.Play();
         if (MGD.particulasAcierto != null)
@@ -589,9 +590,8 @@ public class CreateLevel : MonoBehaviour
     void TerminarMinijuego ()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-        timeEnd = Time.deltaTime;
         puntaje = 0;
-        print("Terminado el juego" + nombreMinijuego);
+        //print("Terminado el juego" + nombreMinijuego);
         SceneManager.UnloadSceneAsync(nombreMinijuego);
         MGD = null;
         Or = null;

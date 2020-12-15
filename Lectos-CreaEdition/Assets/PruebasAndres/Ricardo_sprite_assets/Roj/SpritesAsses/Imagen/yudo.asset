@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: dadiva 1
+  m_Name: yudo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 2434447725323575302, guid: 8dd40cba1a08a3c4ab62ef42e8948e65, type: 3}
-  - {fileID: -4164455924104502830, guid: 8dd40cba1a08a3c4ab62ef42e8948e65, type: 3}
-  - {fileID: -4947904077185815809, guid: 8dd40cba1a08a3c4ab62ef42e8948e65, type: 3}
+  - {fileID: -5463840899483355663, guid: 249d3bb804d791c4f8824b41aaf3742d, type: 3}
+  - {fileID: -6340138851654053890, guid: 249d3bb804d791c4f8824b41aaf3742d, type: 3}
+  - {fileID: 1558589206327985813, guid: 249d3bb804d791c4f8824b41aaf3742d, type: 3}
