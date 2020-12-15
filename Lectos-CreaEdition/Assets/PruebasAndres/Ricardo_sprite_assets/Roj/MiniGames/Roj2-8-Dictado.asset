@@ -9,19 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 309196475b9b705428fea4edf50f4695, type: 3}
-  m_Name: Roj2-8-escribir
+  m_Script: {fileID: 11500000, guid: 85984141a0401004ea537e56924949d0, type: 3}
+  m_Name: Roj2-8-Dictado
   m_EditorClassIdentifier: 
   puntosLogrables: 7
   tiemposAVencer:
-  - 35
+  - 30
   - 22
-  - 12
+  - 15
   reward: 
-  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  sonidoAcierto: {fileID: 8300000, guid: dc136a3fc6c533b41bff831e9e8ca7db, type: 3}
   particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
     type: 3}
-  respuestas:
+  imagenes:
   - {fileID: 11400000, guid: 342b2566a4897cd448e00ac49b20be9a, type: 2}
   - {fileID: 11400000, guid: b2f79b74a4be6ed469f8b653ac1ba259, type: 2}
   - {fileID: 11400000, guid: 8f9511deb4196d241820524a3a30d430, type: 2}
@@ -29,7 +29,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cf909d29bd03abd499349071207873f0, type: 2}
   - {fileID: 11400000, guid: 9c6b4699e4ef8684cbe7f09e51f39732, type: 2}
   - {fileID: 11400000, guid: a84b7c9e1dc2fb94eac7a640a6243e72, type: 2}
-  sonidosRespuestas:
+  sonidoRespuestas:
   - {fileID: 8300000, guid: f1db288f012f1cf48b60aee7981d12ba, type: 3}
   - {fileID: 8300000, guid: 2dba27857fe96cd41a95af6522a8ce5b, type: 3}
   - {fileID: 8300000, guid: 65d952032e943964c99b85edc833424a, type: 3}
@@ -37,3 +37,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 10a6ef9799421f24c9fd085f4da366fc, type: 3}
   - {fileID: 8300000, guid: b089f32556570f645966e332c937bdac, type: 3}
   - {fileID: 8300000, guid: 2eef02aeed6158f4cb6eacab5fb52ff9, type: 3}
+  prefabPalabras:
+  - {fileID: 1337281849528344828, guid: 152d19045a8d7d3418ca746eef1b3993, type: 3}
+  - {fileID: 8252000692781223700, guid: 41ba2b4e64ff1264c83bcb7879e0c067, type: 3}
+  - {fileID: 8304853585998227837, guid: a05e05445481e7646a777d65142b8ebd, type: 3}
+  - {fileID: 7447353269469857342, guid: e500d4199d3d01746b10fe78649c6cd7, type: 3}
+  - {fileID: 5786719028742060310, guid: 1fd2ab12712c2d847810a18ad6d7c868, type: 3}
+  - {fileID: 2885733558514886255, guid: 00077c8bc0a480d45849bdc5e0af73f0, type: 3}
+  - {fileID: 1667124228243240651, guid: c374cf56a31a6fb41973e75674c5f69b, type: 3}

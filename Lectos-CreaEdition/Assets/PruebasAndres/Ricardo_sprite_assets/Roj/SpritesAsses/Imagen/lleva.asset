@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: valle 1
+  m_Name: lleva
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -4379796867789023135, guid: df423975105c87b4a9d9762e3f7ea5dd, type: 3}
-  - {fileID: -6804648141783147726, guid: df423975105c87b4a9d9762e3f7ea5dd, type: 3}
-  - {fileID: -1385869480539830515, guid: df423975105c87b4a9d9762e3f7ea5dd, type: 3}
+  - {fileID: 6324496564133185292, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}
+  - {fileID: 5544851788358798006, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}
+  - {fileID: 4697938195019456946, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}

@@ -20,7 +20,7 @@ public class CheckMemoria : MonoBehaviour
     {
         if (activados != 2)
         {
-            Go.GetComponent<SpriteRenderer>().color = Color.white;
+            Go.GetComponent<SpriteRenderer>().enabled = true;
             Go.GetComponent<Memo>().activado = true;
             Go.transform.Find("Back").gameObject.SetActive(false);
             activados++;
@@ -50,8 +50,8 @@ public class CheckMemoria : MonoBehaviour
 
     void Desactivar ()
     {
-        objetos[0].GetComponent<SpriteRenderer>().color = Color.black;
-        objetos[1].GetComponent<SpriteRenderer>().color = Color.black;
+        objetos[0].GetComponent<SpriteRenderer>().enabled = false;
+        objetos[1].GetComponent<SpriteRenderer>().enabled = false;
         objetos[0].transform.Find("Back").gameObject.SetActive(true);
         objetos[1].transform.Find("Back").gameObject.SetActive(true);
         objetos[0].GetComponent<Memo>().activado = false;

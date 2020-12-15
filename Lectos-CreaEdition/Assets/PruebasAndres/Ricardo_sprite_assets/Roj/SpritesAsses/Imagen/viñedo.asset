@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
-  m_Name: daga 1
+  m_Name: "vi\xF1edo"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6935512651184645536, guid: 31c07af0d4da3e4499adb5001e2cb7e9, type: 3}
-  - {fileID: 5054241277939075501, guid: 31c07af0d4da3e4499adb5001e2cb7e9, type: 3}
-  - {fileID: 918458411297005349, guid: 31c07af0d4da3e4499adb5001e2cb7e9, type: 3}
+  - {fileID: 2865444640810751514, guid: e66b4deb596d5254e8795feff45471d8, type: 3}
+  - {fileID: 3567301990762296729, guid: e66b4deb596d5254e8795feff45471d8, type: 3}
+  - {fileID: 624831629039778723, guid: e66b4deb596d5254e8795feff45471d8, type: 3}

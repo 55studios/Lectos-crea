@@ -53,7 +53,7 @@ public class CheckDictado : MonoBehaviour
         letras = Convertir(respuestas[orden[index]].name.ToCharArray(), letras);
 
         AS.clip = sonidos[orden[index]];
-        AS.PlayDelayed(1f);
+        AS.Play();
     }
 
     public void CompararLetras(string presionado)
@@ -87,7 +87,7 @@ public class CheckDictado : MonoBehaviour
 
     void CambiarImagen()
     {
-        print("se llamo");
+        //print("se llamo");
         GameObject controlador = GameObject.FindWithTag("GameController");
         controlador.GetComponent<CreateLevel>().RespuestaCorrecta(palabras[orden[index]].transform.position);
     }
@@ -95,7 +95,7 @@ public class CheckDictado : MonoBehaviour
     void SiguienteImagen ()
     {
         index--;
-        AS.PlayDelayed(1f);        
+        AS.Play();        
         index++;
         respuestas[orden[index]].SetActive(true);
         palabras[orden[index]].SetActive(true);
