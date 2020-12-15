@@ -35,7 +35,7 @@ public class VehiculoAsteroide : MonoBehaviour
             Destroy(gameObject, 0.8f);
         } else
         {
-            print("hijos " + transform.childCount);
+            //print("hijos " + transform.childCount);
             if (transform.childCount == 3)
             {
                 
@@ -44,7 +44,6 @@ public class VehiculoAsteroide : MonoBehaviour
             }
             else
             {
-                print("se llamo esta mierda");
                 GameObject.FindGameObjectWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().AsteroideVacio();
                 //Destroy(gameObject);
             }
