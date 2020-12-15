@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosLogrables: 5
   tiemposAVencer:
-  - 0
-  - 0
-  - 0
+  - 50
+  - 40
+  - 30
   reward: 
-  sonidoAcierto: {fileID: 0}
-  particulasAcierto: {fileID: 0}
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
   variante: 1
   arrastrables:
   - {fileID: 11400000, guid: 946419023317fab45acf8c7f28b92a40, type: 2}
