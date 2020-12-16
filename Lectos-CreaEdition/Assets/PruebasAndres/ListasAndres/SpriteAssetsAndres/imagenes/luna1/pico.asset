@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: pico
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -2232033920286088070, guid: ae1f4b331b9b3ff4fb6fc8dc693bb1f8, type: 3}
-  - {fileID: -2565648128680764228, guid: ae1f4b331b9b3ff4fb6fc8dc693bb1f8, type: 3}
-  - {fileID: -2721742619120540656, guid: ae1f4b331b9b3ff4fb6fc8dc693bb1f8, type: 3}
+  - {fileID: -8503466693667032799, guid: e6533cbc4d29d9c46ab607b203f04544, type: 3}
+  - {fileID: 1663830748054236567, guid: e6533cbc4d29d9c46ab607b203f04544, type: 3}
+  - {fileID: 1510898324354973187, guid: e6533cbc4d29d9c46ab607b203f04544, type: 3}
+  - {fileID: 5085305828637859211, guid: e6533cbc4d29d9c46ab607b203f04544, type: 3}
+  - {fileID: -7588681027214907403, guid: e6533cbc4d29d9c46ab607b203f04544, type: 3}
