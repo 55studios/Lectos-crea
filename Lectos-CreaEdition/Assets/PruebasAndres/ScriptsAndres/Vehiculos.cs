@@ -25,6 +25,7 @@ public class Vehiculos : MinigameData
             default:                
                 break;
         }
+        Ind = 0;
     }
 
     [HideInInspector]

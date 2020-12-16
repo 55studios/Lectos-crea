@@ -9,5 +9,6 @@ public class Habitaciones : MinigameData
     {
         Tipo = 7;
         Template = "TemplateHabitaciones";
+        Ind = 0;
     }
 }

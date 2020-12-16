@@ -9,6 +9,7 @@ public class DragAndDrop : MinigameData
     {
         Tipo = 0;
         Template = "Template5-1";
+        Ind = 0;
     }
     [HideInInspector]
     public int variante = 0;

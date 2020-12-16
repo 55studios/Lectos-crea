@@ -9,6 +9,7 @@ public class Canchas : MinigameData
     {
         Tipo = 6;
         Template = "Template5-5";
+        Ind = 0;
     }
     public SpriteAsset[] arrastrables;
     public SpriteAsset[] receptores;

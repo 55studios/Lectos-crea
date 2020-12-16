@@ -642,7 +642,7 @@ public class CreateLevel : MonoBehaviour
         }
         else {
             SwitchButtonEndGame = false;
-            siguienteNivel.GetComponent<SimpleDelay>().index = 0;// esta parte deberia eljir el tutorial
+            siguienteNivel.GetComponent<SimpleDelay>().index = lm.lista[ind+1].Ind;// esta parte deberia eljir el tutorial
         }
         siguienteNivel.controlador = gameObject.GetComponent<CreateLevel>();
         ButtonToController repetirJuego = InterfazFinMinijuego.transform.Find("Replay").GetComponent<ButtonToController>();

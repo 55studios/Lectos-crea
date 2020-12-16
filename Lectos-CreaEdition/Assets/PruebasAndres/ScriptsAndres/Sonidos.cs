@@ -9,6 +9,7 @@ public class Sonidos : MinigameData
     {
         Tipo = 3;
         Template = "TemplateSonido";
+        Ind = 1;
     }
 
     public SpriteAsset[] clickeables;
