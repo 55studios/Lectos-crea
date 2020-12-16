@@ -5,7 +5,9 @@ using UnityEngine;
 public class SimpleDelay : MonoBehaviour
 {
     public float _Delay;
-    public GameObject panel;
+    [Range(0,3)]
+    public int index;
+    public GameObject[] m_Panel;
 
     public void StartDelay() {
         StartCoroutine(Delay());
@@ -13,6 +15,6 @@ public class SimpleDelay : MonoBehaviour
 
     IEnumerator Delay() {
         yield return new WaitForSeconds(_Delay);
-        panel.SetActive(true);
+        m_Panel[index].SetActive(true);
     }
 }

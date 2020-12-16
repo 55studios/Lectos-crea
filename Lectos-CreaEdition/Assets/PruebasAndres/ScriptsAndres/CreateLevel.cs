@@ -633,12 +633,16 @@ public class CreateLevel : MonoBehaviour
         TempLenghtLvls = lm.lista.Length;
         tempLvl = ind;
         _Slider[moonSlider].GetComponentInParent<Slider>().value = ind;
-        if (siguienteNivel.index > lm.lista.Length - 1){
+        if (siguienteNivel.index > lm.lista.Length - 1) {
             //siguienteNivel.gameObject.SetActive(false);
             //siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
             //InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
             //InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(true);
             SwitchButtonEndGame = true;
+        }
+        else {
+            SwitchButtonEndGame = false;
+            siguienteNivel.GetComponent<SimpleDelay>().index = 0;// esta parte deberia eljir el tutorial
         }
         siguienteNivel.controlador = gameObject.GetComponent<CreateLevel>();
         ButtonToController repetirJuego = InterfazFinMinijuego.transform.Find("Replay").GetComponent<ButtonToController>();
