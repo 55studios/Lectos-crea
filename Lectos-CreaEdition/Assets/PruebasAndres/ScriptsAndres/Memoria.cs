@@ -9,6 +9,7 @@ public class Memoria : MinigameData
     {
         Tipo = 2;
         Template = "TemplateMemoria";
+        Ind = 2;
     }
 
     public AudioClip flip;

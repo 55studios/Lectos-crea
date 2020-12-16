@@ -17,7 +17,12 @@ public abstract class MinigameData : ScriptableObject
         get { return tem; }
         set { tem = value; }
     }
-
+    int ind = 0;
+    public int Ind
+    {
+        get { return ind; }
+        set { ind = value; }
+    }
     public int puntosLogrables;
     public float[] tiemposAVencer = new float[3];
     public string reward;

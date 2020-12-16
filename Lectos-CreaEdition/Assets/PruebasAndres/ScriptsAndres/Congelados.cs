@@ -9,6 +9,7 @@ public class Congelados : MinigameData
     {
         Tipo = 4;
         Template = "TemplateCongelados";
+        Ind = 0;
     }
 
     [HideInInspector]

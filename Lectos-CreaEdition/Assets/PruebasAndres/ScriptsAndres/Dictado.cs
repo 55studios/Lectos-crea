@@ -9,6 +9,7 @@ public class Dictado : MinigameData
     {
         Tipo = 9;
         Template = "TemplateDictado";
+        Ind = 3;
     }
 
     public SpriteAsset[] imagenes;
