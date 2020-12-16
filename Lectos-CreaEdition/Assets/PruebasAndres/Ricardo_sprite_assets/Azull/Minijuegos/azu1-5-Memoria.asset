@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4938fd8f73879794881f46fb2f91b7ca, type: 3}
+  m_Name: azu1-5-Memoria
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  tiemposAVencer:
+  - 50
+  - 40
+  - 30
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  flip: {fileID: 8300000, guid: c83a9eb856576c341ae2095172b4b4ce, type: 3}
+  parejasElemento1:
+  - {fileID: 11400000, guid: 10930c4e748bcb64b9cad9d4cb56610a, type: 2}
+  - {fileID: 11400000, guid: b251ed40307223b4a97b26900e1aac15, type: 2}
+  - {fileID: 11400000, guid: 2fc50ec9a9031fe47af58adf24b90286, type: 2}
+  - {fileID: 11400000, guid: 0e2f270c77d41b14fa0fe63c494624ba, type: 2}
+  - {fileID: 11400000, guid: a7391e3a308b93c4fa8492f4bcdc6ca4, type: 2}
+  parejasElemento2:
+  - {fileID: 11400000, guid: 597a5eac0a3fa8c49a7a95c766a5b5d6, type: 2}
+  - {fileID: 11400000, guid: 1fcef6dc54711c945981f3f28bb7d798, type: 2}
+  - {fileID: 11400000, guid: 19dfd845a483d724c8fdb0d75cea76f8, type: 2}
+  - {fileID: 11400000, guid: 21c787de4f58d3044a0f671b9f10a2b1, type: 2}
+  - {fileID: 11400000, guid: 7eab2ab828fe2ae4e8b55a97e9ad3836, type: 2}

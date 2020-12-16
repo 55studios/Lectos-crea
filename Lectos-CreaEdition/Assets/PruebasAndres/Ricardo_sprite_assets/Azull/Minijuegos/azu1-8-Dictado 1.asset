@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85984141a0401004ea537e56924949d0, type: 3}
+  m_Name: azu1-8-Dictado 1
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  tiemposAVencer:
+  - 50
+  - 40
+  - 30
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  imagenes:
+  - {fileID: 11400000, guid: f637ea1442d677741b1eadc3f2bafb3c, type: 2}
+  - {fileID: 11400000, guid: ad4f76d0702df7e469add1e99326a417, type: 2}
+  - {fileID: 11400000, guid: 632cc438be348094ca22ddd2f79758ae, type: 2}
+  - {fileID: 11400000, guid: ed660d32f471e5a4da7f3779f0d304a5, type: 2}
+  - {fileID: 11400000, guid: c1907cb891dcb0e408d38aea9d3632e7, type: 2}
+  sonidoRespuestas:
+  - {fileID: 8300000, guid: 97999d6245c03014c9017666a505428f, type: 3}
+  - {fileID: 8300000, guid: fc11820f405ad8c4582acdcac9e4a668, type: 3}
+  - {fileID: 8300000, guid: 29f8ab24728750141a061ba8b23b0622, type: 3}
+  - {fileID: 8300000, guid: 056045d0b24ee634c99921ec16970250, type: 3}
+  - {fileID: 8300000, guid: 718eb1258446cfa43b0afdf486204ef6, type: 3}
+  prefabPalabras:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

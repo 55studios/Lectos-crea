@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf57e1d91bf2c748b7e9bb157ea75a7, type: 3}
+  m_Name: azu2-3-sonido
+  m_EditorClassIdentifier: 
+  puntosLogrables: 5
+  tiemposAVencer:
+  - 50
+  - 40
+  - 30
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  clickeables:
+  - {fileID: 11400000, guid: 946419023317fab45acf8c7f28b92a40, type: 2}
+  - {fileID: 11400000, guid: 075c1dd9d79a38c4399b928b456e5d8e, type: 2}
+  - {fileID: 11400000, guid: 761a0b91073ff7a49a8c7f64495b2904, type: 2}
+  - {fileID: 11400000, guid: 8b49328d753549e4789bf85531d04074, type: 2}
+  - {fileID: 11400000, guid: 5044ea17ffd194e4aa0aec31bcb2f921, type: 2}
+  animacionCorrecto:
+  - {fileID: 11400000, guid: 6545a2e87dc918448a6bf4ad097fb4f9, type: 2}
+  - {fileID: 11400000, guid: 16ae0ab6bf30e8045ae5414995f6a156, type: 2}
+  - {fileID: 11400000, guid: 5340078449cc3b14fa6c1289cf0e3bac, type: 2}
+  - {fileID: 11400000, guid: aac7d2ca82da1d045b44394efcc3922d, type: 2}
+  - {fileID: 11400000, guid: dcf85f52db7fcf64cacb328764fc57b8, type: 2}
+  sonidosParlante:
+  - {fileID: 8300000, guid: a05610405fb2cf04caeb33e4e216e937, type: 3}
+  - {fileID: 8300000, guid: dfa5acaf6e9db444caa1410639945007, type: 3}
+  - {fileID: 8300000, guid: 1c508d33f80449643aea3a2db638ca8d, type: 3}
+  - {fileID: 8300000, guid: 960ea818e883d5f468089618a6a6d25a, type: 3}
+  - {fileID: 8300000, guid: 2c0da7ad54d48494f8b6400b2e8ee9de, type: 3}
+  sonidosCorrecto:
+  - {fileID: 8300000, guid: 51b84665a8d943844b345f9e3bbe85ac, type: 3}
+  - {fileID: 8300000, guid: 6659650bc780a0941a367d0ee6340e10, type: 3}
+  - {fileID: 8300000, guid: b8704cf3f4215334484b3b286292fe01, type: 3}
+  - {fileID: 8300000, guid: 37165af0515c6594f90d4578050711d0, type: 3}
+  - {fileID: 8300000, guid: 33a26310962fd8e40962f021f78fe7d8, type: 3}

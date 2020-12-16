@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85984141a0401004ea537e56924949d0, type: 3}
+  m_Name: azu2-8-Dictado
+  m_EditorClassIdentifier: 
+  puntosLogrables: 7
+  tiemposAVencer:
+  - 50
+  - 40
+  - 30
+  reward: 
+  sonidoAcierto: {fileID: 8300000, guid: 00309e99a9553d5498279f5dd1db05aa, type: 3}
+  particulasAcierto: {fileID: 1020700446254126, guid: 21063822e2dfd954b9e370cfaef24141,
+    type: 3}
+  imagenes:
+  - {fileID: 11400000, guid: efa4b08d0583d774ba3531be356a8515, type: 2}
+  - {fileID: 11400000, guid: b163e0871ec3dc2428247fedadc4c3f3, type: 2}
+  - {fileID: 11400000, guid: 5377107fbbb7d3540b2d93d594a2f0d8, type: 2}
+  - {fileID: 11400000, guid: 62d570e661f4dab42867a4bcfc2ba7ea, type: 2}
+  - {fileID: 11400000, guid: 2444607317b9e1744b376b1ca075f8cd, type: 2}
+  - {fileID: 11400000, guid: 405ce1eb5df876a4cb78001c14f0ccf6, type: 2}
+  - {fileID: 11400000, guid: 8893592509109e9458731da58d44c687, type: 2}
+  sonidoRespuestas:
+  - {fileID: 8300000, guid: 625f98b480281d9478f3f28636f6e7b4, type: 3}
+  - {fileID: 8300000, guid: 5f20825021f8ebb4db83c6256d402c6d, type: 3}
+  - {fileID: 8300000, guid: 4d0634efb9832f3418436796ead98cc4, type: 3}
+  - {fileID: 8300000, guid: fd3d4d7166112324fa7519a0c0ce9449, type: 3}
+  - {fileID: 8300000, guid: 209e9cab50ae6a04db53035110a826b5, type: 3}
+  - {fileID: 8300000, guid: 8d2bfd42de2b0aa40be058d2ddb08b96, type: 3}
+  - {fileID: 8300000, guid: 7a242ab4c8004ca46ae04397d74ce72f, type: 3}
+  prefabPalabras:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
