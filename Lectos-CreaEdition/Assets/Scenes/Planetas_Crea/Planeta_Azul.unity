@@ -24068,7 +24068,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Delay: 0
   index: 0
-  m_Panel: []
+  m_Panel:
+  - {fileID: 1237851365}
+  - {fileID: 556719565}
+  - {fileID: 795208872}
+  - {fileID: 2025999017}
 --- !u!1 &1032150817
 GameObject:
   m_ObjectHideFlags: 0
