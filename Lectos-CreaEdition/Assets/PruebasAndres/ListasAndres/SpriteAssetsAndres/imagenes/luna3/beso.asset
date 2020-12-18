@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: beso
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 5357705515655123690, guid: 69a0782e434e13349a15164262cffc94, type: 3}
+  - {fileID: 7551788023309089465, guid: 6878276df4a267d469cff0e12e77d05c, type: 3}
+  - {fileID: -7725756693781694361, guid: 6878276df4a267d469cff0e12e77d05c, type: 3}
+  - {fileID: -3949865195682438902, guid: 6878276df4a267d469cff0e12e77d05c, type: 3}
+  - {fileID: 8403146048699100423, guid: 6878276df4a267d469cff0e12e77d05c, type: 3}
+  - {fileID: 5448971937634893081, guid: 6878276df4a267d469cff0e12e77d05c, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: leche
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8564686179576902926, guid: 59266d9fef244104fa05fa49f2893bc0, type: 3}
-  - {fileID: -5530314905396957116, guid: 59266d9fef244104fa05fa49f2893bc0, type: 3}
-  - {fileID: -9016250787259805837, guid: 59266d9fef244104fa05fa49f2893bc0, type: 3}
+  - {fileID: 1174423430443340887, guid: 4efbc0eb83d1a6641a51a79b50b7c684, type: 3}
+  - {fileID: -5347844740410128212, guid: 4efbc0eb83d1a6641a51a79b50b7c684, type: 3}
+  - {fileID: -635567299155479531, guid: 4efbc0eb83d1a6641a51a79b50b7c684, type: 3}
+  - {fileID: 4569142677747850948, guid: 4efbc0eb83d1a6641a51a79b50b7c684, type: 3}
+  - {fileID: -198135110169417503, guid: 4efbc0eb83d1a6641a51a79b50b7c684, type: 3}

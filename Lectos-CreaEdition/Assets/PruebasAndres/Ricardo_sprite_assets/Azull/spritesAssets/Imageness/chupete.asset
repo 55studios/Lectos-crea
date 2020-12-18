@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: chupete
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -4130970379337923725, guid: 2696b5f3f39106e4488eb3a7040f25ca, type: 3}
-  - {fileID: -3790522125909791597, guid: 2696b5f3f39106e4488eb3a7040f25ca, type: 3}
-  - {fileID: -9054910045129421647, guid: 2696b5f3f39106e4488eb3a7040f25ca, type: 3}
+  - {fileID: 5834274323529962833, guid: 2ab08169dc2a40342b8177cf1287fde6, type: 3}
+  - {fileID: 5466855953869447365, guid: 2ab08169dc2a40342b8177cf1287fde6, type: 3}
+  - {fileID: -4676552906107921319, guid: 2ab08169dc2a40342b8177cf1287fde6, type: 3}
+  - {fileID: -4795448275187491748, guid: 2ab08169dc2a40342b8177cf1287fde6, type: 3}
+  - {fileID: 6225291269429567635, guid: 2ab08169dc2a40342b8177cf1287fde6, type: 3}

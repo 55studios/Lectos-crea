@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: cama
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -1035589768069632394, guid: 7e624f7e4e037174ca52d19ea0335fbb, type: 3}
-  - {fileID: 4534462167665328540, guid: 7e624f7e4e037174ca52d19ea0335fbb, type: 3}
-  - {fileID: 5614498855257644126, guid: 7e624f7e4e037174ca52d19ea0335fbb, type: 3}
+  - {fileID: -2883524746073209707, guid: b30e90e88528de844ac3656164ada326, type: 3}
+  - {fileID: 4796707357985570487, guid: b30e90e88528de844ac3656164ada326, type: 3}
+  - {fileID: -1033803982729521793, guid: b30e90e88528de844ac3656164ada326, type: 3}
+  - {fileID: -3232264433775724515, guid: b30e90e88528de844ac3656164ada326, type: 3}
+  - {fileID: 3698723383677910541, guid: b30e90e88528de844ac3656164ada326, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: joya
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 3544187973421359235, guid: 224a55fefaac7b242b5e52afe50cd623, type: 3}
-  - {fileID: -3374724558840508835, guid: 224a55fefaac7b242b5e52afe50cd623, type: 3}
-  - {fileID: 7339304902585832653, guid: 224a55fefaac7b242b5e52afe50cd623, type: 3}
+  - {fileID: -8653870410535599522, guid: ef353e216f6475846b8758858fbaacd8, type: 3}
+  - {fileID: -4710713866077303117, guid: ef353e216f6475846b8758858fbaacd8, type: 3}
+  - {fileID: 2329737742613744467, guid: ef353e216f6475846b8758858fbaacd8, type: 3}
+  - {fileID: 7855508449084531832, guid: ef353e216f6475846b8758858fbaacd8, type: 3}
+  - {fileID: 3704742511940053753, guid: ef353e216f6475846b8758858fbaacd8, type: 3}

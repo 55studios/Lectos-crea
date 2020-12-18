@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: rama
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -6696076117261726069, guid: 6ff08f6efbbf20443ae87b8b3a1d6ded, type: 3}
-  - {fileID: -1601782152289120440, guid: 6ff08f6efbbf20443ae87b8b3a1d6ded, type: 3}
-  - {fileID: -829170280396729961, guid: 6ff08f6efbbf20443ae87b8b3a1d6ded, type: 3}
+  - {fileID: -7986138303073846907, guid: b507222ca4c07cd4585d83085c60bb8e, type: 3}
+  - {fileID: 4982448073416172268, guid: b507222ca4c07cd4585d83085c60bb8e, type: 3}
+  - {fileID: 1058193083817781818, guid: b507222ca4c07cd4585d83085c60bb8e, type: 3}
+  - {fileID: -8867790254746888152, guid: b507222ca4c07cd4585d83085c60bb8e, type: 3}
+  - {fileID: 1613562213888351588, guid: b507222ca4c07cd4585d83085c60bb8e, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: mina
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 1872440078071371786, guid: b9e2cff832fbe0e449f791ab2da1cef7, type: 3}
-  - {fileID: 1440339501577715656, guid: b9e2cff832fbe0e449f791ab2da1cef7, type: 3}
-  - {fileID: 9169737578476811788, guid: b9e2cff832fbe0e449f791ab2da1cef7, type: 3}
+  - {fileID: -222904569093319075, guid: ed4cc13452aab404da457ea836a742e7, type: 3}
+  - {fileID: -5624683428846608420, guid: ed4cc13452aab404da457ea836a742e7, type: 3}
+  - {fileID: 383484541769642293, guid: ed4cc13452aab404da457ea836a742e7, type: 3}
+  - {fileID: 3756045819192335574, guid: ed4cc13452aab404da457ea836a742e7, type: 3}
+  - {fileID: 513379842369590501, guid: ed4cc13452aab404da457ea836a742e7, type: 3}

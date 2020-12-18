@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: yudo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -5463840899483355663, guid: 249d3bb804d791c4f8824b41aaf3742d, type: 3}
-  - {fileID: -6340138851654053890, guid: 249d3bb804d791c4f8824b41aaf3742d, type: 3}
-  - {fileID: 1558589206327985813, guid: 249d3bb804d791c4f8824b41aaf3742d, type: 3}
+  - {fileID: -2318467299495477852, guid: 690b8cb39d7ee464abe1b9b5b8084961, type: 3}
+  - {fileID: -6191601434061188861, guid: 690b8cb39d7ee464abe1b9b5b8084961, type: 3}
+  - {fileID: -2323152051193331376, guid: 690b8cb39d7ee464abe1b9b5b8084961, type: 3}
+  - {fileID: 6664974076010256585, guid: 690b8cb39d7ee464abe1b9b5b8084961, type: 3}
+  - {fileID: 5374042426388620402, guid: 690b8cb39d7ee464abe1b9b5b8084961, type: 3}

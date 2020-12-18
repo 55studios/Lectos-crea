@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: bici
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 1365996201426530718, guid: 640517b9a1dad9142aecafc0dcbc0b83, type: 3}
-  - {fileID: -5493036486526582120, guid: 640517b9a1dad9142aecafc0dcbc0b83, type: 3}
-  - {fileID: 6479381932252305695, guid: 640517b9a1dad9142aecafc0dcbc0b83, type: 3}
+  - {fileID: -6509650371720372474, guid: db8d37991fe7bef48b52907434b85819, type: 3}
+  - {fileID: -4932253602916685067, guid: db8d37991fe7bef48b52907434b85819, type: 3}
+  - {fileID: 3973552841979897737, guid: db8d37991fe7bef48b52907434b85819, type: 3}
+  - {fileID: -624003172742845994, guid: db8d37991fe7bef48b52907434b85819, type: 3}
+  - {fileID: -4859159088959329666, guid: db8d37991fe7bef48b52907434b85819, type: 3}

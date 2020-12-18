@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: chucha
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -489815042423131273, guid: 07d4081a2289c7541bce5661cd63d7f1, type: 3}
-  - {fileID: 3059218045189084178, guid: 07d4081a2289c7541bce5661cd63d7f1, type: 3}
-  - {fileID: -3443589982819043522, guid: 07d4081a2289c7541bce5661cd63d7f1, type: 3}
+  - {fileID: 8272116808872251050, guid: 612a734aebbc4a44594a6ff60ab63a4f, type: 3}
+  - {fileID: 1782210102983243508, guid: 612a734aebbc4a44594a6ff60ab63a4f, type: 3}
+  - {fileID: -7115292507792790567, guid: 612a734aebbc4a44594a6ff60ab63a4f, type: 3}
+  - {fileID: -7978409927235648935, guid: 612a734aebbc4a44594a6ff60ab63a4f, type: 3}
+  - {fileID: -3137720184444711344, guid: 612a734aebbc4a44594a6ff60ab63a4f, type: 3}

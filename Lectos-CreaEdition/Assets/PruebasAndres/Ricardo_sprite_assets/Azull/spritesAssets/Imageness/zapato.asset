@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: zapato
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -4153177814751128212, guid: 63fcf46cdc0c11045bc63e4a27984c6c, type: 3}
-  - {fileID: -3496350284818124100, guid: 63fcf46cdc0c11045bc63e4a27984c6c, type: 3}
-  - {fileID: 2449952330274688219, guid: 63fcf46cdc0c11045bc63e4a27984c6c, type: 3}
+  - {fileID: 5029987622842805508, guid: b4c76bbf109f36a419475571372dca5f, type: 3}
+  - {fileID: 5256137806759571294, guid: b4c76bbf109f36a419475571372dca5f, type: 3}
+  - {fileID: -674646136193660688, guid: b4c76bbf109f36a419475571372dca5f, type: 3}
+  - {fileID: 9048733035606220772, guid: b4c76bbf109f36a419475571372dca5f, type: 3}
+  - {fileID: 3155098181816277820, guid: b4c76bbf109f36a419475571372dca5f, type: 3}

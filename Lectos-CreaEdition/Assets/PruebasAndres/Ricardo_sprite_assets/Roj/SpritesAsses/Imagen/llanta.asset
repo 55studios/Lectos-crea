@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
+  m_Name: llanta
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 1364405811590484964, guid: 6f2905b4456cefa41a4a5abd6c0ee972, type: 3}
+  - {fileID: 1866687510412149768, guid: 6f2905b4456cefa41a4a5abd6c0ee972, type: 3}
+  - {fileID: -8274992842873537137, guid: 6f2905b4456cefa41a4a5abd6c0ee972, type: 3}

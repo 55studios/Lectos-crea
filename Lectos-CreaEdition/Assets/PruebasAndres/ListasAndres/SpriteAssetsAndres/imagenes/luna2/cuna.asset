@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: cuna
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 1273111523708713699, guid: 2f17ca0aac0a704498ff3674c4ff8848, type: 3}
+  - {fileID: -6753046271692375284, guid: f4f3f0d7d9a9261468dce2716b16b340, type: 3}
+  - {fileID: 8560423449586447194, guid: f4f3f0d7d9a9261468dce2716b16b340, type: 3}
+  - {fileID: -1999623405106783106, guid: f4f3f0d7d9a9261468dce2716b16b340, type: 3}
+  - {fileID: -2921229746471059889, guid: f4f3f0d7d9a9261468dce2716b16b340, type: 3}
+  - {fileID: 4754680948043733089, guid: f4f3f0d7d9a9261468dce2716b16b340, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: puma
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6472841219049058882, guid: 614b4f3ca0c9602468dba41c1c03fb46, type: 3}
-  - {fileID: 6801258187658889964, guid: 614b4f3ca0c9602468dba41c1c03fb46, type: 3}
-  - {fileID: -3471437602824343823, guid: 614b4f3ca0c9602468dba41c1c03fb46, type: 3}
+  - {fileID: 5812538136893896770, guid: 8685bb501b00e384fa47d9256da6f365, type: 3}
+  - {fileID: -9040394185759042495, guid: 8685bb501b00e384fa47d9256da6f365, type: 3}
+  - {fileID: 8468476849565696475, guid: 8685bb501b00e384fa47d9256da6f365, type: 3}
+  - {fileID: 1012339252187176709, guid: 8685bb501b00e384fa47d9256da6f365, type: 3}
+  - {fileID: -293984940913945500, guid: 8685bb501b00e384fa47d9256da6f365, type: 3}

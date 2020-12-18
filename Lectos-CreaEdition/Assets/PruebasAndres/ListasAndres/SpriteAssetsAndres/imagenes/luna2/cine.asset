@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: cine
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -3279321591439571374, guid: 56a52106c77c2464b9b994a3db8b9ad7, type: 3}
+  - {fileID: -6320601333976723730, guid: 8a0d21694fca8c14cbe5b8ba9734e8bf, type: 3}
+  - {fileID: 4152968873609461582, guid: 8a0d21694fca8c14cbe5b8ba9734e8bf, type: 3}
+  - {fileID: 5764254176789740623, guid: 8a0d21694fca8c14cbe5b8ba9734e8bf, type: 3}
+  - {fileID: 5733648266395729239, guid: 8a0d21694fca8c14cbe5b8ba9734e8bf, type: 3}
+  - {fileID: 6599586802121564288, guid: 8a0d21694fca8c14cbe5b8ba9734e8bf, type: 3}

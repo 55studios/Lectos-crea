@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: capa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 7463697840429812532, guid: 692552a707fdd8f4d885bb2b2ff050aa, type: 3}
-  - {fileID: -2513658867400311821, guid: 692552a707fdd8f4d885bb2b2ff050aa, type: 3}
-  - {fileID: -283840324951804012, guid: 692552a707fdd8f4d885bb2b2ff050aa, type: 3}
+  - {fileID: 465000723267628276, guid: ac59654c1df290144b52040b445a6a10, type: 3}
+  - {fileID: 9144431112616054719, guid: ac59654c1df290144b52040b445a6a10, type: 3}
+  - {fileID: -1577922939006694575, guid: ac59654c1df290144b52040b445a6a10, type: 3}
+  - {fileID: -7636605829694828347, guid: ac59654c1df290144b52040b445a6a10, type: 3}
+  - {fileID: -6807895483310238036, guid: ac59654c1df290144b52040b445a6a10, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: suma
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8141670081222363869, guid: 7577752862000ec439060721c6f08a0d, type: 3}
-  - {fileID: -8802348758867056194, guid: 7577752862000ec439060721c6f08a0d, type: 3}
-  - {fileID: -1766509818185699105, guid: 7577752862000ec439060721c6f08a0d, type: 3}
+  - {fileID: -2544220022564638328, guid: 4ecac8c47d2d02047bd0146a1e46c7bb, type: 3}
+  - {fileID: -8538701055422349214, guid: 4ecac8c47d2d02047bd0146a1e46c7bb, type: 3}
+  - {fileID: 1820675913508282330, guid: 4ecac8c47d2d02047bd0146a1e46c7bb, type: 3}
+  - {fileID: -31942087288887122, guid: 4ecac8c47d2d02047bd0146a1e46c7bb, type: 3}
+  - {fileID: -6867198764579009973, guid: 4ecac8c47d2d02047bd0146a1e46c7bb, type: 3}

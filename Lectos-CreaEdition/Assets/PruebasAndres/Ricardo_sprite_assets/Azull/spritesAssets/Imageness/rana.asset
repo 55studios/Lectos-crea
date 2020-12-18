@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: rana
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -6051505593467867046, guid: 9201690f30ef95140b8fe4a285b81afd, type: 3}
-  - {fileID: 854623834284786976, guid: 9201690f30ef95140b8fe4a285b81afd, type: 3}
-  - {fileID: -7550044184776037649, guid: 9201690f30ef95140b8fe4a285b81afd, type: 3}
+  - {fileID: 8193853248785580598, guid: 997cdbb585e3a8d438b1fbff0966e661, type: 3}
+  - {fileID: -8389702938289578259, guid: 997cdbb585e3a8d438b1fbff0966e661, type: 3}
+  - {fileID: 6266928426829989048, guid: 997cdbb585e3a8d438b1fbff0966e661, type: 3}
+  - {fileID: -7188672814886183985, guid: 997cdbb585e3a8d438b1fbff0966e661, type: 3}
+  - {fileID: -2198567799497408077, guid: 997cdbb585e3a8d438b1fbff0966e661, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: nicho
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6709226689348504043, guid: b3ba9f3cd7ac5294b8b7aa8b4564064f, type: 3}
-  - {fileID: 2486094592117647735, guid: b3ba9f3cd7ac5294b8b7aa8b4564064f, type: 3}
-  - {fileID: 5208484474291901446, guid: b3ba9f3cd7ac5294b8b7aa8b4564064f, type: 3}
+  - {fileID: 3246065413003985625, guid: b2cc784c15452384c80a4dd8b87633b9, type: 3}
+  - {fileID: -8656784458257229136, guid: b2cc784c15452384c80a4dd8b87633b9, type: 3}
+  - {fileID: 1680096523865932484, guid: b2cc784c15452384c80a4dd8b87633b9, type: 3}
+  - {fileID: 2436631052720876016, guid: b2cc784c15452384c80a4dd8b87633b9, type: 3}
+  - {fileID: -392707811106161542, guid: b2cc784c15452384c80a4dd8b87633b9, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: "u\xF1a"
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -2854744490457815180, guid: e531519abb0066848a5b8adeb4ece789, type: 3}
-  - {fileID: 5970931767735224197, guid: e531519abb0066848a5b8adeb4ece789, type: 3}
-  - {fileID: -7851482693650538938, guid: e531519abb0066848a5b8adeb4ece789, type: 3}
+  - {fileID: 271069369408545460, guid: 7aaab1aa54a540947ba6791b9f8756b5, type: 3}
+  - {fileID: 2613776928817271246, guid: 7aaab1aa54a540947ba6791b9f8756b5, type: 3}
+  - {fileID: -7790513550352928460, guid: 7aaab1aa54a540947ba6791b9f8756b5, type: 3}
+  - {fileID: -5471523771571893383, guid: 7aaab1aa54a540947ba6791b9f8756b5, type: 3}
+  - {fileID: 3787694832882656256, guid: 7aaab1aa54a540947ba6791b9f8756b5, type: 3}

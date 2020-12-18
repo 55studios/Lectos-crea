@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: guayo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 4002118686055703383, guid: 1fedcfec88c323c4f9f460270aa555ce, type: 3}
-  - {fileID: 4520624579948874509, guid: 1fedcfec88c323c4f9f460270aa555ce, type: 3}
-  - {fileID: -460768105724679756, guid: 1fedcfec88c323c4f9f460270aa555ce, type: 3}
+  - {fileID: 4822386534408208460, guid: 86f600e23f0b76f4787e6e1339654399, type: 3}
+  - {fileID: -7388964930497717219, guid: 86f600e23f0b76f4787e6e1339654399, type: 3}
+  - {fileID: 4262429792050889209, guid: 86f600e23f0b76f4787e6e1339654399, type: 3}
+  - {fileID: 1995777459415568746, guid: 86f600e23f0b76f4787e6e1339654399, type: 3}
+  - {fileID: -6807470595762072420, guid: 86f600e23f0b76f4787e6e1339654399, type: 3}

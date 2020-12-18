@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: ficha
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 993879680742952521, guid: 4b562b36a8391824cbe27abb3c217b7f, type: 3}
-  - {fileID: 6766254794363355902, guid: 4b562b36a8391824cbe27abb3c217b7f, type: 3}
-  - {fileID: 6155893370616905008, guid: 4b562b36a8391824cbe27abb3c217b7f, type: 3}
+  - {fileID: -8016452305028206882, guid: 4528a370044ecb24b84e6eb9cd398107, type: 3}
+  - {fileID: 7935830746168504837, guid: 4528a370044ecb24b84e6eb9cd398107, type: 3}
+  - {fileID: 131617878567817711, guid: 4528a370044ecb24b84e6eb9cd398107, type: 3}
+  - {fileID: 5941252786638591271, guid: 4528a370044ecb24b84e6eb9cd398107, type: 3}
+  - {fileID: -7193118028235546319, guid: 4528a370044ecb24b84e6eb9cd398107, type: 3}

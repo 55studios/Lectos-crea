@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: pato
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6520262071781556843, guid: fe9f6aa685547fa48a7948e965ad21db, type: 3}
-  - {fileID: 7091131413761526458, guid: fe9f6aa685547fa48a7948e965ad21db, type: 3}
-  - {fileID: 3318740700455785176, guid: fe9f6aa685547fa48a7948e965ad21db, type: 3}
+  - {fileID: -3387682834446151281, guid: 730ff4def835b6748b2537ab759eeaf1, type: 3}
+  - {fileID: -8418086510797181346, guid: 730ff4def835b6748b2537ab759eeaf1, type: 3}
+  - {fileID: 4591825125109435236, guid: 730ff4def835b6748b2537ab759eeaf1, type: 3}
+  - {fileID: -6866495928973207605, guid: 730ff4def835b6748b2537ab759eeaf1, type: 3}
+  - {fileID: -8141107034323888963, guid: 730ff4def835b6748b2537ab759eeaf1, type: 3}

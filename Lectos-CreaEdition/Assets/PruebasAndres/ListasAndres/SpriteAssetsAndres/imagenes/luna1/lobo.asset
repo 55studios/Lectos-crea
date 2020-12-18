@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: lobo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6091895465350196298, guid: 161dce2a43dc3ad458f540107115c269, type: 3}
-  - {fileID: -3320848049755299116, guid: 161dce2a43dc3ad458f540107115c269, type: 3}
-  - {fileID: -3148668765464293096, guid: 161dce2a43dc3ad458f540107115c269, type: 3}
+  - {fileID: 345383561160272499, guid: 6ffb4c0d392bad54dbcb72ddc8d62c74, type: 3}
+  - {fileID: -6376473778086596629, guid: 6ffb4c0d392bad54dbcb72ddc8d62c74, type: 3}
+  - {fileID: 4742229935447353981, guid: 6ffb4c0d392bad54dbcb72ddc8d62c74, type: 3}
+  - {fileID: 7136633609321445653, guid: 6ffb4c0d392bad54dbcb72ddc8d62c74, type: 3}
+  - {fileID: -4247104910592294658, guid: 6ffb4c0d392bad54dbcb72ddc8d62c74, type: 3}
