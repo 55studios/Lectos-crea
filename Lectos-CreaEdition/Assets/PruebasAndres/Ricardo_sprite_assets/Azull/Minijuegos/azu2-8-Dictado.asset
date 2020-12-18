@@ -38,10 +38,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8d2bfd42de2b0aa40be058d2ddb08b96, type: 3}
   - {fileID: 8300000, guid: 7a242ab4c8004ca46ae04397d74ce72f, type: 3}
   prefabPalabras:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3427285518282163698, guid: 8468db191a0c9ca44942cdfed396b69c, type: 3}
+  - {fileID: 7193536720751289962, guid: 2620999cab5c8574f8a5b7228123fc82, type: 3}
+  - {fileID: 5842342340149085478, guid: 3765e7fcc2be9bf4b9a8afd9c1581869, type: 3}
+  - {fileID: 7885172988772420221, guid: 750f7873db0fb454b9b8077393061590, type: 3}
+  - {fileID: 8372248534866912482, guid: d69fa8cf235aa28438fa89ac5b4bd367, type: 3}
+  - {fileID: 1813909624019273304, guid: a3f2789b59ed6cf4a99af2691a0ee143, type: 3}
+  - {fileID: 3963953899920771488, guid: 577fc3971dba12d4d983f8e0f06717e0, type: 3}
