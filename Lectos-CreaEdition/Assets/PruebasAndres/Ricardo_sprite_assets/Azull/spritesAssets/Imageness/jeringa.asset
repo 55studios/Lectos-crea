@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: jeringa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6372349335873266594, guid: 1d8c001cc500dec49b9af54a3aea06cb, type: 3}
-  - {fileID: 6001694849317022961, guid: 1d8c001cc500dec49b9af54a3aea06cb, type: 3}
-  - {fileID: 4182607749256666185, guid: 1d8c001cc500dec49b9af54a3aea06cb, type: 3}
+  - {fileID: 7446888143641140248, guid: cd45b22e7d4994645b53031b2bfda160, type: 3}
+  - {fileID: -8482676300407796545, guid: cd45b22e7d4994645b53031b2bfda160, type: 3}
+  - {fileID: 1528798741404559692, guid: cd45b22e7d4994645b53031b2bfda160, type: 3}
+  - {fileID: 5474276671887188727, guid: cd45b22e7d4994645b53031b2bfda160, type: 3}
+  - {fileID: -2818684342001518027, guid: cd45b22e7d4994645b53031b2bfda160, type: 3}

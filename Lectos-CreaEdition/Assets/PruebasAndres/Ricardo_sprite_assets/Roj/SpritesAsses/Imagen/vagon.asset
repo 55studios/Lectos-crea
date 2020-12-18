@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: vagon
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6157825961509024991, guid: 00c3e511985166f45912a7db95eb85e2, type: 3}
-  - {fileID: 1241876549863958286, guid: 00c3e511985166f45912a7db95eb85e2, type: 3}
-  - {fileID: 5611743141145405270, guid: 00c3e511985166f45912a7db95eb85e2, type: 3}
+  - {fileID: -9205378143131285016, guid: bf8bb8c425a8d15409ac43d7edbb508a, type: 3}
+  - {fileID: 7632674680187584556, guid: bf8bb8c425a8d15409ac43d7edbb508a, type: 3}
+  - {fileID: -2895108590208806385, guid: bf8bb8c425a8d15409ac43d7edbb508a, type: 3}
+  - {fileID: 5187976126068883695, guid: bf8bb8c425a8d15409ac43d7edbb508a, type: 3}
+  - {fileID: -4085536532467187489, guid: bf8bb8c425a8d15409ac43d7edbb508a, type: 3}

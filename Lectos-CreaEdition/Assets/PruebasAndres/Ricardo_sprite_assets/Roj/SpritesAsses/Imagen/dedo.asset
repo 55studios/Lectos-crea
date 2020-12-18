@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: dedo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -4934849435195468617, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
-  - {fileID: -7856817979597780150, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
-  - {fileID: 5625391261387132399, guid: 71bb9f51641fdda4c8fe6e71e0059591, type: 3}
+  - {fileID: 1120123023512195264, guid: eef677fac9ad83748ad581710d0a8ea0, type: 3}
+  - {fileID: -5358355271164714183, guid: eef677fac9ad83748ad581710d0a8ea0, type: 3}
+  - {fileID: -8045009530835281032, guid: eef677fac9ad83748ad581710d0a8ea0, type: 3}
+  - {fileID: -736192116774735551, guid: eef677fac9ad83748ad581710d0a8ea0, type: 3}
+  - {fileID: -2178252289052748531, guid: eef677fac9ad83748ad581710d0a8ea0, type: 3}

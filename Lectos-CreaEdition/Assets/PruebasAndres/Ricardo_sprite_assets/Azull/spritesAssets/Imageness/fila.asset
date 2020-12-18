@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: fila
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 5111580164930773560, guid: 3ad565334585ebb40aad2ebeee1f3567, type: 3}
-  - {fileID: 9144910371754638722, guid: 3ad565334585ebb40aad2ebeee1f3567, type: 3}
-  - {fileID: -2159747167502658635, guid: 3ad565334585ebb40aad2ebeee1f3567, type: 3}
+  - {fileID: -2535977737515117875, guid: 1e9a4c313fb813f4eafc561c02595580, type: 3}
+  - {fileID: 7472087658642661463, guid: 1e9a4c313fb813f4eafc561c02595580, type: 3}
+  - {fileID: 8097505531195856157, guid: 1e9a4c313fb813f4eafc561c02595580, type: 3}
+  - {fileID: 1948281834891997793, guid: 1e9a4c313fb813f4eafc561c02595580, type: 3}
+  - {fileID: -7822106801464857976, guid: 1e9a4c313fb813f4eafc561c02595580, type: 3}

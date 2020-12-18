@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: queso
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6206821980559901093, guid: bfd50f196949a7f4d9d681609aca9e52, type: 3}
-  - {fileID: 2243743299982671731, guid: bfd50f196949a7f4d9d681609aca9e52, type: 3}
-  - {fileID: -6439273847699990350, guid: bfd50f196949a7f4d9d681609aca9e52, type: 3}
+  - {fileID: 7219818607539797803, guid: 9de24d99e3c455045b6baa220beb8a6d, type: 3}
+  - {fileID: 2898601440130676003, guid: 9de24d99e3c455045b6baa220beb8a6d, type: 3}
+  - {fileID: 4656041569045090515, guid: 9de24d99e3c455045b6baa220beb8a6d, type: 3}
+  - {fileID: 6916515548351624935, guid: 9de24d99e3c455045b6baa220beb8a6d, type: 3}
+  - {fileID: 6023694852192627052, guid: 9de24d99e3c455045b6baa220beb8a6d, type: 3}

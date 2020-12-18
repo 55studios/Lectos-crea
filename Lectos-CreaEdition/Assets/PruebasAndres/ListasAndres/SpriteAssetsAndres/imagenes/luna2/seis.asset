@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: seis
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 1709979363123176853, guid: 58bcfda670d8d9e4ca95dc7fc7061f96, type: 3}
-  - {fileID: -1227838181174435634, guid: 58bcfda670d8d9e4ca95dc7fc7061f96, type: 3}
-  - {fileID: 7493468438441366949, guid: 58bcfda670d8d9e4ca95dc7fc7061f96, type: 3}
+  - {fileID: -9009988708285441229, guid: 73e8a37da8e85c646a74569fce774d87, type: 3}
+  - {fileID: 8120827971725406211, guid: 73e8a37da8e85c646a74569fce774d87, type: 3}
+  - {fileID: 7778008241542701722, guid: 73e8a37da8e85c646a74569fce774d87, type: 3}
+  - {fileID: -2430199727679672747, guid: 73e8a37da8e85c646a74569fce774d87, type: 3}
+  - {fileID: -4724639083834477572, guid: 73e8a37da8e85c646a74569fce774d87, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: rueda
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -7673334351324311772, guid: 6ce9535712ad34243b6ddd52401d3172, type: 3}
-  - {fileID: -4847770268919695768, guid: 6ce9535712ad34243b6ddd52401d3172, type: 3}
-  - {fileID: -1776227447623653486, guid: 6ce9535712ad34243b6ddd52401d3172, type: 3}
+  - {fileID: 1087283339372603068, guid: c8b298e8bb73c4345933d8b86d92121b, type: 3}
+  - {fileID: -6925291769318798851, guid: c8b298e8bb73c4345933d8b86d92121b, type: 3}
+  - {fileID: -3916833083811091999, guid: c8b298e8bb73c4345933d8b86d92121b, type: 3}
+  - {fileID: 795941520790247837, guid: c8b298e8bb73c4345933d8b86d92121b, type: 3}
+  - {fileID: -5256646906059348697, guid: c8b298e8bb73c4345933d8b86d92121b, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: mico
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -7136080976516607454, guid: cdff1ddb21c1f9f41afd6e2996c66ce7, type: 3}
-  - {fileID: -7658869750641233652, guid: cdff1ddb21c1f9f41afd6e2996c66ce7, type: 3}
-  - {fileID: -8475102714077076804, guid: cdff1ddb21c1f9f41afd6e2996c66ce7, type: 3}
+  - {fileID: -398773423305929401, guid: e06cd0c1576d20d459f20ba7a87ad854, type: 3}
+  - {fileID: -637565579510208149, guid: e06cd0c1576d20d459f20ba7a87ad854, type: 3}
+  - {fileID: -4169354606653778620, guid: e06cd0c1576d20d459f20ba7a87ad854, type: 3}
+  - {fileID: -4435373006400500034, guid: e06cd0c1576d20d459f20ba7a87ad854, type: 3}
+  - {fileID: 4443806913432775768, guid: e06cd0c1576d20d459f20ba7a87ad854, type: 3}

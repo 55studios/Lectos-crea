@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: lluvia
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -5142252264576950578, guid: f862537c02cdc14418ca1842d803aefa, type: 3}
-  - {fileID: -5804940545724397575, guid: f862537c02cdc14418ca1842d803aefa, type: 3}
-  - {fileID: -8986545162364079282, guid: f862537c02cdc14418ca1842d803aefa, type: 3}
+  - {fileID: -7269438665583178672, guid: b8c97b00d48ebb94a897bcd04b3d22d2, type: 3}
+  - {fileID: 9162985530971995792, guid: b8c97b00d48ebb94a897bcd04b3d22d2, type: 3}
+  - {fileID: -563072984187716141, guid: b8c97b00d48ebb94a897bcd04b3d22d2, type: 3}
+  - {fileID: -5956914943480745724, guid: b8c97b00d48ebb94a897bcd04b3d22d2, type: 3}
+  - {fileID: 7267634247827038637, guid: b8c97b00d48ebb94a897bcd04b3d22d2, type: 3}

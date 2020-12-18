@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: esqui
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8452262912726857100, guid: f6edbd9e06459bc4ca17f438b9e80cef, type: 3}
-  - {fileID: -8452262912726857100, guid: f6edbd9e06459bc4ca17f438b9e80cef, type: 3}
-  - {fileID: -8452262912726857100, guid: f6edbd9e06459bc4ca17f438b9e80cef, type: 3}
+  - {fileID: 6010654887098842956, guid: e58e361e48dcfa140a3f1c06a462bc31, type: 3}
+  - {fileID: 8415671402025190202, guid: e58e361e48dcfa140a3f1c06a462bc31, type: 3}
+  - {fileID: -7227960941526005299, guid: e58e361e48dcfa140a3f1c06a462bc31, type: 3}
+  - {fileID: -935789570532968820, guid: e58e361e48dcfa140a3f1c06a462bc31, type: 3}
+  - {fileID: -5993448354561996898, guid: e58e361e48dcfa140a3f1c06a462bc31, type: 3}

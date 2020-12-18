@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: cola
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -5391072057235577417, guid: 077ae3bac51c76e49b6d46030db0e20e, type: 3}
-  - {fileID: -5229593450777310841, guid: 077ae3bac51c76e49b6d46030db0e20e, type: 3}
-  - {fileID: 5103352589876466986, guid: 077ae3bac51c76e49b6d46030db0e20e, type: 3}
+  - {fileID: -3086706244083457847, guid: 76f39c4dc79c56d4abc36ce0fa08d0a8, type: 3}
+  - {fileID: 2420918184860158160, guid: 76f39c4dc79c56d4abc36ce0fa08d0a8, type: 3}
+  - {fileID: 1526090546409084611, guid: 76f39c4dc79c56d4abc36ce0fa08d0a8, type: 3}
+  - {fileID: -4626767545708930149, guid: 76f39c4dc79c56d4abc36ce0fa08d0a8, type: 3}
+  - {fileID: 527784415384889725, guid: 76f39c4dc79c56d4abc36ce0fa08d0a8, type: 3}

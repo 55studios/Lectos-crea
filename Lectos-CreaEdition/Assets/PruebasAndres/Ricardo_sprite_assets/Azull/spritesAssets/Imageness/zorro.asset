@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: zorro
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 4377053257178901703, guid: cc2da0ecf5526ec47ad012811b5548ed, type: 3}
-  - {fileID: 3743335013506526949, guid: cc2da0ecf5526ec47ad012811b5548ed, type: 3}
-  - {fileID: 224980891563699025, guid: cc2da0ecf5526ec47ad012811b5548ed, type: 3}
+  - {fileID: 1518108216766273328, guid: bafffacc4be732544958e2c4c0eeb351, type: 3}
+  - {fileID: -2300771446957975194, guid: bafffacc4be732544958e2c4c0eeb351, type: 3}
+  - {fileID: 1740415881944991021, guid: bafffacc4be732544958e2c4c0eeb351, type: 3}
+  - {fileID: 7213543928898447085, guid: bafffacc4be732544958e2c4c0eeb351, type: 3}
+  - {fileID: -4811960330610521069, guid: bafffacc4be732544958e2c4c0eeb351, type: 3}

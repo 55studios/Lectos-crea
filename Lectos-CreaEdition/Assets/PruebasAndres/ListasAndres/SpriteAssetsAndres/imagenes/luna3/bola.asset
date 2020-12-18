@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: bola
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 2331653325389183570, guid: 489c3e516578ee448869c8d55b4c21ea, type: 3}
-  - {fileID: 4770197268302788396, guid: 489c3e516578ee448869c8d55b4c21ea, type: 3}
-  - {fileID: -4831621297396104741, guid: 489c3e516578ee448869c8d55b4c21ea, type: 3}
+  - {fileID: 1557714510882140647, guid: 9a7da0be63abeeb49a434f26c90b8c0c, type: 3}
+  - {fileID: 4484608708973036395, guid: 9a7da0be63abeeb49a434f26c90b8c0c, type: 3}
+  - {fileID: -1575365122814785032, guid: 9a7da0be63abeeb49a434f26c90b8c0c, type: 3}
+  - {fileID: 2218378387479793921, guid: 9a7da0be63abeeb49a434f26c90b8c0c, type: 3}
+  - {fileID: -4306358993066024167, guid: 9a7da0be63abeeb49a434f26c90b8c0c, type: 3}

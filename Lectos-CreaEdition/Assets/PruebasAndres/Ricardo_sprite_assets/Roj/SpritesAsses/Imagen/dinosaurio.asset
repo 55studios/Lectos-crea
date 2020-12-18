@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
+  m_Name: dinosaurio
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 8923926768082909685, guid: db1965dd0adf8994994d4b58fb0cb825, type: 3}
+  - {fileID: -1293293587561669264, guid: db1965dd0adf8994994d4b58fb0cb825, type: 3}
+  - {fileID: 7946558563924871073, guid: db1965dd0adf8994994d4b58fb0cb825, type: 3}
+  - {fileID: 8137308270656562626, guid: db1965dd0adf8994994d4b58fb0cb825, type: 3}
+  - {fileID: -7779603667783194999, guid: db1965dd0adf8994994d4b58fb0cb825, type: 3}

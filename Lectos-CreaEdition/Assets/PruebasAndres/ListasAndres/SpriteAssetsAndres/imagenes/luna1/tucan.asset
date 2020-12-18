@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: tucan
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -3014775205863211706, guid: b2db6a918bf256d43907edb43ff0e293, type: 3}
-  - {fileID: -8747497769011109592, guid: b2db6a918bf256d43907edb43ff0e293, type: 3}
-  - {fileID: -4591358801299313201, guid: b2db6a918bf256d43907edb43ff0e293, type: 3}
+  - {fileID: 4787343192786854258, guid: c235e84ff82b564478758cfb69c9609e, type: 3}
+  - {fileID: 1090881092655698778, guid: c235e84ff82b564478758cfb69c9609e, type: 3}
+  - {fileID: 1476080537298526526, guid: c235e84ff82b564478758cfb69c9609e, type: 3}
+  - {fileID: 6147196623405674004, guid: c235e84ff82b564478758cfb69c9609e, type: 3}
+  - {fileID: 8060359293280215809, guid: c235e84ff82b564478758cfb69c9609e, type: 3}

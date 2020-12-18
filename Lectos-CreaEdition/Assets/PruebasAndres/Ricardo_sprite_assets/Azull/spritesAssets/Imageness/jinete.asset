@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: jinete
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -3116369189487301936, guid: 1fc34e3b644735c42ac07f67485e9dfb, type: 3}
-  - {fileID: -5107333680282215146, guid: 1fc34e3b644735c42ac07f67485e9dfb, type: 3}
-  - {fileID: 7024521184905192926, guid: 1fc34e3b644735c42ac07f67485e9dfb, type: 3}
+  - {fileID: -2179247304114854977, guid: 0b138569de14dc84bbc860487c56f6c7, type: 3}
+  - {fileID: 3082501798576608350, guid: 0b138569de14dc84bbc860487c56f6c7, type: 3}
+  - {fileID: -4123101173425727613, guid: 0b138569de14dc84bbc860487c56f6c7, type: 3}
+  - {fileID: -6367262833269767127, guid: 0b138569de14dc84bbc860487c56f6c7, type: 3}
+  - {fileID: -2000041379383326434, guid: 0b138569de14dc84bbc860487c56f6c7, type: 3}

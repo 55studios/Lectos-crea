@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: perro
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -6906674651886795139, guid: 1cd2a04ce5c73374abb5ea2eef3199a5, type: 3}
-  - {fileID: 2870879247031276972, guid: 1cd2a04ce5c73374abb5ea2eef3199a5, type: 3}
-  - {fileID: 8517925150514742230, guid: 1cd2a04ce5c73374abb5ea2eef3199a5, type: 3}
+  - {fileID: 1687892196588945500, guid: 76fffaeebf88d4948b86115174850d0e, type: 3}
+  - {fileID: 592870463492420557, guid: 76fffaeebf88d4948b86115174850d0e, type: 3}
+  - {fileID: -9063107555632981528, guid: 76fffaeebf88d4948b86115174850d0e, type: 3}
+  - {fileID: 1727697256505442813, guid: 76fffaeebf88d4948b86115174850d0e, type: 3}
+  - {fileID: 5494731958185972432, guid: 76fffaeebf88d4948b86115174850d0e, type: 3}

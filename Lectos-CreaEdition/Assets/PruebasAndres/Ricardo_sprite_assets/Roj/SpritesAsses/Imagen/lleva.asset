@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: lleva
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6324496564133185292, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}
-  - {fileID: 5544851788358798006, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}
-  - {fileID: 4697938195019456946, guid: acab1a5f82c5c7f458e61450d41f0f6b, type: 3}
+  - {fileID: 7162328222023655095, guid: 7a6d33dd8092cad408d092642666d038, type: 3}
+  - {fileID: -2364019596354485824, guid: 7a6d33dd8092cad408d092642666d038, type: 3}
+  - {fileID: 6195932588401193643, guid: 7a6d33dd8092cad408d092642666d038, type: 3}
+  - {fileID: -8843283832273858194, guid: 7a6d33dd8092cad408d092642666d038, type: 3}
+  - {fileID: -1397735106136216207, guid: 7a6d33dd8092cad408d092642666d038, type: 3}

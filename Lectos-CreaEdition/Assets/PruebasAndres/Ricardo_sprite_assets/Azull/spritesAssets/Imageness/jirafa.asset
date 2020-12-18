@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: jirafa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -2811215039805475120, guid: 575239fe940d89d4389ff50e501d687e, type: 3}
-  - {fileID: -1677555131615294879, guid: 575239fe940d89d4389ff50e501d687e, type: 3}
-  - {fileID: -2311634386331462720, guid: 575239fe940d89d4389ff50e501d687e, type: 3}
+  - {fileID: 1434272132202641536, guid: fd9c505d68c861743aaadf98f12eb629, type: 3}
+  - {fileID: 915449852498915401, guid: fd9c505d68c861743aaadf98f12eb629, type: 3}
+  - {fileID: 8665663734685566422, guid: fd9c505d68c861743aaadf98f12eb629, type: 3}
+  - {fileID: -5337775540423443229, guid: fd9c505d68c861743aaadf98f12eb629, type: 3}
+  - {fileID: 7384792397171002959, guid: fd9c505d68c861743aaadf98f12eb629, type: 3}

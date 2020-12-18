@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: burro
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 848780716103598258, guid: e83d0862f8bd3f0498244c1ade9cdb3e, type: 3}
-  - {fileID: 8115539910025390648, guid: e83d0862f8bd3f0498244c1ade9cdb3e, type: 3}
-  - {fileID: -5864707562913446428, guid: e83d0862f8bd3f0498244c1ade9cdb3e, type: 3}
+  - {fileID: 4691692079343736887, guid: c589228b589a0924fb7887b68c7da85b, type: 3}
+  - {fileID: 8465204840744626755, guid: c589228b589a0924fb7887b68c7da85b, type: 3}
+  - {fileID: 5094948595596307697, guid: c589228b589a0924fb7887b68c7da85b, type: 3}
+  - {fileID: -6794531426729045443, guid: c589228b589a0924fb7887b68c7da85b, type: 3}
+  - {fileID: 6816496987400047290, guid: c589228b589a0924fb7887b68c7da85b, type: 3}

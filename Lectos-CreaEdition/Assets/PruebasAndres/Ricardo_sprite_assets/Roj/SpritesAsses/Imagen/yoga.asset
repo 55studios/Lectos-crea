@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: yoga
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -2396420462119867329, guid: ef755e6648c17c541ad659a01d107c52, type: 3}
-  - {fileID: -7194232614947673364, guid: ef755e6648c17c541ad659a01d107c52, type: 3}
-  - {fileID: -6333728512254250160, guid: ef755e6648c17c541ad659a01d107c52, type: 3}
+  - {fileID: -8336303500485053477, guid: 00bc7255646afe243855ab030212ae7d, type: 3}
+  - {fileID: 6301560303984923866, guid: 00bc7255646afe243855ab030212ae7d, type: 3}
+  - {fileID: -3194496085795209817, guid: 00bc7255646afe243855ab030212ae7d, type: 3}
+  - {fileID: 2270519835516608422, guid: 00bc7255646afe243855ab030212ae7d, type: 3}
+  - {fileID: -2557583724617214275, guid: 00bc7255646afe243855ab030212ae7d, type: 3}

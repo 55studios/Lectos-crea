@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: lana
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6858257994810689640, guid: 0b9dfdb12994a8947abd9c26fc6fb705, type: 3}
-  - {fileID: -1747534975865696378, guid: 0b9dfdb12994a8947abd9c26fc6fb705, type: 3}
-  - {fileID: -2123646126204501705, guid: 0b9dfdb12994a8947abd9c26fc6fb705, type: 3}
+  - {fileID: 8113743269434108726, guid: 18621b01bacb9bf4483b25051b81922f, type: 3}
+  - {fileID: -3775956991221048260, guid: 18621b01bacb9bf4483b25051b81922f, type: 3}
+  - {fileID: 1996236684672950647, guid: 18621b01bacb9bf4483b25051b81922f, type: 3}
+  - {fileID: -1847965761181596999, guid: 18621b01bacb9bf4483b25051b81922f, type: 3}
+  - {fileID: 3986811407729264911, guid: 18621b01bacb9bf4483b25051b81922f, type: 3}

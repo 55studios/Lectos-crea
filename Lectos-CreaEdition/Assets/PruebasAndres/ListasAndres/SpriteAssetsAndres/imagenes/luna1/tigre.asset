@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: tigre
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8191021876737586977, guid: 92db9dd3f037b9c43be6254be230fb0c, type: 3}
-  - {fileID: -4159197884400303432, guid: 92db9dd3f037b9c43be6254be230fb0c, type: 3}
-  - {fileID: 7371255569072488144, guid: 92db9dd3f037b9c43be6254be230fb0c, type: 3}
+  - {fileID: 7050132978196101103, guid: 27134ca612c10c24583ac9af7d05ab62, type: 3}
+  - {fileID: 6063569897671866178, guid: 27134ca612c10c24583ac9af7d05ab62, type: 3}
+  - {fileID: 8625400235102371572, guid: 27134ca612c10c24583ac9af7d05ab62, type: 3}
+  - {fileID: -8604162897533848371, guid: 27134ca612c10c24583ac9af7d05ab62, type: 3}
+  - {fileID: 1351510797020836506, guid: 27134ca612c10c24583ac9af7d05ab62, type: 3}

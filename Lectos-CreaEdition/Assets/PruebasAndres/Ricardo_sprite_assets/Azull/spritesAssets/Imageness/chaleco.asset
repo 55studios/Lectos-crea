@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: chaleco
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -6189414580359751530, guid: da11d3848997db145a126a9e29e73a91, type: 3}
-  - {fileID: 2548599038730852552, guid: da11d3848997db145a126a9e29e73a91, type: 3}
-  - {fileID: 9073532577346541822, guid: da11d3848997db145a126a9e29e73a91, type: 3}
+  - {fileID: -4155502101392430120, guid: d35bb34cdbdf8bf45b1259aca1474a9c, type: 3}
+  - {fileID: -39201862744308416, guid: d35bb34cdbdf8bf45b1259aca1474a9c, type: 3}
+  - {fileID: -8892418123718323546, guid: d35bb34cdbdf8bf45b1259aca1474a9c, type: 3}
+  - {fileID: 7634398013850605169, guid: d35bb34cdbdf8bf45b1259aca1474a9c, type: 3}
+  - {fileID: -4179472104862830306, guid: d35bb34cdbdf8bf45b1259aca1474a9c, type: 3}
