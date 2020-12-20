@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: zuro
   m_EditorClassIdentifier: 
   frames:
+  - {fileID: 8184168421913108604, guid: b837accc409ac2541b34ddbc34af7ba5, type: 3}
   - {fileID: -8768721725161088490, guid: b837accc409ac2541b34ddbc34af7ba5, type: 3}
   - {fileID: 4477614899096349461, guid: b837accc409ac2541b34ddbc34af7ba5, type: 3}
   - {fileID: -2989004742914648154, guid: b837accc409ac2541b34ddbc34af7ba5, type: 3}
   - {fileID: 2234616566905714045, guid: b837accc409ac2541b34ddbc34af7ba5, type: 3}
-  - {fileID: 8184168421913108604, guid: b837accc409ac2541b34ddbc34af7ba5, type: 3}

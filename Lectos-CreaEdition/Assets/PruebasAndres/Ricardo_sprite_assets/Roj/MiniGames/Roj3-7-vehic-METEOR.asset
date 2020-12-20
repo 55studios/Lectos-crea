@@ -27,13 +27,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b5bfcb9ee7c89bd40a163a34152749a0, type: 2}
   - {fileID: 11400000, guid: df3cd7ac51b3f0b429be2d6efa1c2a53, type: 2}
   - {fileID: 11400000, guid: df2e59b409c75eb43a650d63a3069d18, type: 2}
-  - {fileID: 11400000, guid: f3d48a630afcff64ebd9107554320232, type: 2}
+  - {fileID: 11400000, guid: 91c3e35990f9aba4a8b11e9277058c44, type: 2}
   - {fileID: 11400000, guid: e4d9b2469a78e924281749845f8ee9c5, type: 2}
   receptores:
   - {fileID: 11400000, guid: 59118e26aed580845b11242823a8e24b, type: 2}
   - {fileID: 11400000, guid: b4adf1ea4fde6574e95a70b937f9a5c1, type: 2}
   - {fileID: 11400000, guid: 29d12eb21e6f91a4abd577e42e6be3ec, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 06938beb9a942794e9795bfff9d33161, type: 2}
   - {fileID: 11400000, guid: aea9a0b1da6ef734593e330236b26921, type: 2}
   sonidosArrastrar:
   - {fileID: 8300000, guid: aaa11bc8dab4917449ed2a992c32a613, type: 3}
@@ -45,5 +45,5 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 85579bcf10cdfa74aa83648dd6de176f, type: 3}
   - {fileID: 8300000, guid: 2b8fe83e49834124c903b0901b608c6e, type: 3}
   - {fileID: 8300000, guid: 095549aaa5e21944e8f49dc22c595b1e, type: 3}
-  - {fileID: 8300000, guid: 9112d96980dd94f4ab8bcfd43453605f, type: 3}
+  - {fileID: 8300000, guid: 000c6055d706d764fa2814c36ba46269, type: 3}
   - {fileID: 8300000, guid: 3019d3e408de63d4f96ef46704299cb1, type: 3}

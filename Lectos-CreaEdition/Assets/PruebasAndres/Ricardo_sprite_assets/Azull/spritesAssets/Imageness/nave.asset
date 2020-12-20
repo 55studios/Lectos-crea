@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: nave
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 7128469630766996854, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
-  - {fileID: -191972122885537153, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
-  - {fileID: -8478577791158220573, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
-  - {fileID: 812238483027291543, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
   - {fileID: 2787844710392879691, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
+  - {fileID: 812238483027291543, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
+  - {fileID: -8478577791158220573, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
+  - {fileID: -191972122885537153, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
+  - {fileID: 7128469630766996854, guid: 34adbdc385b0b954183d7ae532aa6441, type: 3}
