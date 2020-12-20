@@ -30,5 +30,5 @@ MonoBehaviour:
   - {fileID: -6837303762080079374, guid: 6772f02a26f9c7742a9ff8220016b8a3, type: 3}
   Completo: {fileID: 8279799341647997470, guid: 6772f02a26f9c7742a9ff8220016b8a3,
     type: 3}
-  sonidoPalabra: {fileID: 8300000, guid: 209e9cab50ae6a04db53035110a826b5, type: 3}
+  sonidoPalabra: {fileID: 8300000, guid: b038c0a24cdd57e438ed52eac4798631, type: 3}
   sonidoElemento: {fileID: 8300000, guid: 0898277591ce2324597666538f0e3e42, type: 3}
