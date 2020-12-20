@@ -7,11 +7,17 @@ public class VehiculoNave : MonoBehaviour
 {
     public Transform encuentro;
     bool moviendo;
+    bool salir;
+    bool adentro;
+    TweenCallback callBack;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
+        if (salir && adentro)
+        {
+            GetComponent<DOTweenPath>().DOPlay();
+            adentro = false;
+        }
     }
 
     /*private void OnEnable()
@@ -23,12 +29,18 @@ public class VehiculoNave : MonoBehaviour
     {
         if (moviendo)
         {
-            //Destroy(gameObject, 2f);
-            GetComponent<DOTweenPath>().DOPlay();
+            //Destroy(gameObject, 2f);         
+            //GetComponent<DOTweenPath>().DOPlay();
+            salir = true;
         } else
         {
-            transform.DOMove(encuentro.position, 3f);
+            transform.DOMove(encuentro.position, 3f).OnComplete(()=>Arribo());
             moviendo = true;
         }
+    }
+
+    void Arribo ()
+    {
+        adentro = true;
     }
 }

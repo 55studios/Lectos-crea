@@ -80,7 +80,7 @@ public class Drop : MonoBehaviour
             if (frames.Length > 1)
             {
                 CambiarImagen();
-                InvokeRepeating("Animar", 0, 0.1f);
+                InvokeRepeating("Animar", 0, 0.2f);
             } else
             {
                 CambiarImagen();
