@@ -10,7 +10,7 @@ public class AnimarVehiculos : MonoBehaviour
 
     public void Iniciar()
     {
-        print("iniciado");
+        //print("iniciado");
         if (vehiculos[0].activeSelf == false)
         {
             vehiculos[0].SetActive(true);

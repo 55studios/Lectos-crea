@@ -43,13 +43,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5ca90b18744a92347b94c014ce0365ce, type: 3}
   - {fileID: 8300000, guid: 3d7916d047ee8c34f9b707698ae26c08, type: 3}
   prefabPalabras:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5459755168718372487, guid: 027cc6518bc91934c99cc359d1be9a98, type: 3}
+  - {fileID: 6551405336016370017, guid: 578720a671a080f488f1a279dcbc2214, type: 3}
+  - {fileID: 4427632906117926735, guid: 88c16090c00ff304888cdfbbef1f8bb6, type: 3}
+  - {fileID: 7812508245794621361, guid: d6f43b2c51d8a60438e3f23493fba89e, type: 3}
+  - {fileID: 5086232348281074295, guid: 4e2a2eb61729ef6448c5e59e6a1beb05, type: 3}
+  - {fileID: 1231225997472912592, guid: 83e96e31fa3d6264fad2a28e36bba404, type: 3}
+  - {fileID: 1578461340172486305, guid: 16bc0480821f5b449a6f16db5d9d8812, type: 3}
+  - {fileID: 8536091673825341646, guid: 7384fec0877cc7c4990ed40c9a711461, type: 3}
+  - {fileID: 4125455807856756322, guid: ac814f02b575e1c40a01dc0564ef1160, type: 3}
+  - {fileID: 4819913998398802826, guid: 9c5c8a5dbdd5af14aa705fa7dbe7cf33, type: 3}

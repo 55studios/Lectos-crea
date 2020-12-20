@@ -30,9 +30,13 @@ public class Tiempo : MonoBehaviour
         if (terminado)
             return;
         t = Time.time - tiempo;
-        string minutos = ((int)t / 60).ToString();
+        /*string minutos = ((int)t / 60).ToString();
         string segundos = (t % 60).ToString("f0");
-        tiempoEnVivo.text = minutos + ":" + segundos;
+        tiempoEnVivo.text = minutos + ":" + segundos;*/
+        int minutos = Mathf.FloorToInt(t / 60f);
+        int segundos = Mathf.FloorToInt(t - minutos * 60);
+        string tiempoTexto = string.Format("{0:0}:{1:00}", minutos, segundos);
+        tiempoEnVivo.text = tiempoTexto;
     }
 
     public void Iniciar (float[] tiempos)
@@ -48,10 +52,14 @@ public class Tiempo : MonoBehaviour
     public void Terminar ()
     {
         terminado = true;
-        string minutos = ((int)t / 60).ToString();
+        /*string minutos = ((int)t / 60).ToString();
         string segundos = (t % 60).ToString("f0");
         print("segundos = " + t);
-        textoTiempo.text = minutos + ":" + segundos;
+        textoTiempo.text = minutos + ":" + segundos;*/
+        int minutos = Mathf.FloorToInt(t/60f);
+        int segundos = Mathf.FloorToInt(t - minutos * 60);
+        string tiempoTexto = string.Format("{0:0}:{1:00}", minutos, segundos);
+        textoTiempo.text = tiempoTexto;
         PrenderEstrellas(true);
     }
 

@@ -290,7 +290,7 @@ public class CreateLevel : MonoBehaviour
                 if (elemento.GetComponent<Drop>() != null)
                 {
                     sonDrop = true;
-                    print(sonDrop);
+                    //print(sonDrop);
                     elementosCreados[i] = elemento;
                     elemento.GetComponent<Drop>().frames = temporales;
                     elemento.GetComponent<Drop>().miSonido = sonidos[i];
@@ -320,7 +320,7 @@ public class CreateLevel : MonoBehaviour
                     elementosCreados[i].transform.position = posiciones[i].position;
                     elementosCreados[i].transform.SetParent(posiciones[i]);
                     //elementosCreados[i].transform.localScale = new Vector3(30, 30, 30);
-                    print(elementosCreados[i].transform.localScale);
+                    //print(elementosCreados[i].transform.localScale);
                     if (variante == 2)
                     {
                         elementosCreados[i].GetComponent<Drop>().posActivador = posiciones[i].transform.Find("1").transform;
@@ -328,7 +328,7 @@ public class CreateLevel : MonoBehaviour
                 }
                 if (variante == 2)
                 {
-                    print("este es");
+                    //print("este es");
                     GameObject.FindGameObjectWithTag("AnimadorVehiculos").GetComponent<AnimarVehiculos>().Iniciar();
                 }
             }
@@ -642,7 +642,7 @@ public class CreateLevel : MonoBehaviour
         }
         else {
             SwitchButtonEndGame = false;
-            siguienteNivel.GetComponent<SimpleDelay>().index = lm.lista[ind+1].Ind;// esta parte deberia eljir el tutorial
+            siguienteNivel.GetComponent<SimpleDelay>().index = lm.lista[ind].Ind;// esta parte deberia eljir el tutorial
         }
         siguienteNivel.controlador = gameObject.GetComponent<CreateLevel>();
         ButtonToController repetirJuego = InterfazFinMinijuego.transform.Find("Replay").GetComponent<ButtonToController>();
