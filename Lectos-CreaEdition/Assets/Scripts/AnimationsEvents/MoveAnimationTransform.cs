@@ -10,6 +10,8 @@ public class MoveAnimationTransform : MonoBehaviour
     [Header("lecto")]
     public AnimationLecto Lecto;
     public AnimationLecto Lectina;
+    public GameObject buttonLecto;
+    public GameObject buttonLectina;
 
     [Header("Principal Screen")]
     public ManagerAnimations StartAnimationUi;
@@ -56,6 +58,8 @@ public class MoveAnimationTransform : MonoBehaviour
         if (actualPosition <= 0) {
             RigthButton.interactable = false;
             LeftButton.interactable = false;
+            buttonLectina.SetActive(false);
+            buttonLecto.SetActive(false);
             if (actualPosition == 0) {
                 door_1.InAnimation();
                 door_2.InAnimation();
@@ -70,6 +74,8 @@ public class MoveAnimationTransform : MonoBehaviour
             LeftButton.interactable = false;
             door_1.OutAnimation();
             door_2.OutAnimation();
+            buttonLectina.SetActive(false);
+            buttonLecto.SetActive(false);
             StartCoroutine(OutAnim());
         }  
     }
@@ -83,6 +89,7 @@ public class MoveAnimationTransform : MonoBehaviour
                 StartAnimationUi.OnAnimationOut();
                 canvasTrophy.SetActive(true);
                 RigthButton.interactable = true;
+                buttonLectina.SetActive(true);
                 LeftButton.interactable = false;
             });
 
@@ -93,6 +100,8 @@ public class MoveAnimationTransform : MonoBehaviour
                 canvasTrophy.SetActive(false);
                 RigthButton.interactable = true;
                 LeftButton.interactable = true;
+                buttonLectina.SetActive(true);
+                buttonLecto.SetActive(true);
             });
         }
         actualPosition++;
@@ -107,6 +116,8 @@ public class MoveAnimationTransform : MonoBehaviour
                 StartAnimationUi.OnAnimationOut();
                 RigthButton.interactable = false;
                 LeftButton.interactable = true;
+                buttonLectina.SetActive(false);
+                buttonLecto.SetActive(true);
             });
         }
         else if (actualPosition == 1) {
@@ -116,6 +127,8 @@ public class MoveAnimationTransform : MonoBehaviour
                 StartAnimationUi.OnAnimationIn();
                 RigthButton.interactable = true;
                 LeftButton.interactable = true;
+                buttonLectina.SetActive(true);
+                buttonLecto.SetActive(true);
             });
             yield return new WaitForSeconds(1);
             canvasTrophy.SetActive(false);
