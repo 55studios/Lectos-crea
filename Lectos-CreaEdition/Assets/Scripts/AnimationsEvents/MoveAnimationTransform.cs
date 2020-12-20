@@ -38,8 +38,8 @@ public class MoveAnimationTransform : MonoBehaviour
     public Vector2 moveFrom;
 
     private Transform mainTransform;
-    [Range(-1,1)]
-    private int actualPosition = 0;
+    [Range(-1,1)][HideInInspector]
+    public int actualPosition = 0;
     //private Animator lectoAnimator;
     //private Animator lectinaAnimator;
 
