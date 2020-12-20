@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: mama
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -2227463774404004457, guid: 6675fde208e87484eaafb6d45880c227, type: 3}
-  - {fileID: 6637940748197370267, guid: 6675fde208e87484eaafb6d45880c227, type: 3}
-  - {fileID: 5136949586950953300, guid: 6675fde208e87484eaafb6d45880c227, type: 3}
+  - {fileID: -7384537963523143470, guid: ab3af4b40be543c478eb06966166361e, type: 3}
+  - {fileID: 501371788732981978, guid: ab3af4b40be543c478eb06966166361e, type: 3}
+  - {fileID: 3738821928337349548, guid: ab3af4b40be543c478eb06966166361e, type: 3}
+  - {fileID: 5654838264241058073, guid: ab3af4b40be543c478eb06966166361e, type: 3}
+  - {fileID: -7384537963523143470, guid: ab3af4b40be543c478eb06966166361e, type: 3}

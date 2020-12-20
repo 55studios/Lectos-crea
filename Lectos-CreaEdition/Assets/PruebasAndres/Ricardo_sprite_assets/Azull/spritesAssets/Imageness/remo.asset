@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: remo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 5727090791078852127, guid: f93d33719995fca448e5eb98bb8d5695, type: 3}
-  - {fileID: -3585236471680576890, guid: f93d33719995fca448e5eb98bb8d5695, type: 3}
-  - {fileID: 8513974799891501142, guid: f93d33719995fca448e5eb98bb8d5695, type: 3}
+  - {fileID: 6725048061195111365, guid: e32329e5dce3c2e4eaa8b1fd858b4550, type: 3}
+  - {fileID: 8338300527742865084, guid: e32329e5dce3c2e4eaa8b1fd858b4550, type: 3}
+  - {fileID: 2295023503324894884, guid: e32329e5dce3c2e4eaa8b1fd858b4550, type: 3}
+  - {fileID: -696075342387602845, guid: e32329e5dce3c2e4eaa8b1fd858b4550, type: 3}
+  - {fileID: -2777834070446268872, guid: e32329e5dce3c2e4eaa8b1fd858b4550, type: 3}

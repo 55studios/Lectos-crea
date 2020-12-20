@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: foto
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -184883638900096495, guid: ce868f3064b37bc4dbfea79f7b771b63, type: 3}
-  - {fileID: -3961786909849764521, guid: ce868f3064b37bc4dbfea79f7b771b63, type: 3}
-  - {fileID: -5910107246146796075, guid: ce868f3064b37bc4dbfea79f7b771b63, type: 3}
+  - {fileID: 5239935486706154592, guid: b2762abd0d267a542af767c1a8d9d13b, type: 3}
+  - {fileID: 2941869007831655704, guid: b2762abd0d267a542af767c1a8d9d13b, type: 3}
+  - {fileID: 7452744951618664852, guid: b2762abd0d267a542af767c1a8d9d13b, type: 3}
+  - {fileID: 791733497153966248, guid: b2762abd0d267a542af767c1a8d9d13b, type: 3}
+  - {fileID: -3473091814583170078, guid: b2762abd0d267a542af767c1a8d9d13b, type: 3}

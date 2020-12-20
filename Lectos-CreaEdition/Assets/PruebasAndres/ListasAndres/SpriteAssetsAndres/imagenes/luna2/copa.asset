@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: copa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -7365867223671865068, guid: 723e9e3914fab30448a14f34f04a69f0, type: 3}
-  - {fileID: 1079540818780941610, guid: 723e9e3914fab30448a14f34f04a69f0, type: 3}
-  - {fileID: -1277097240942953623, guid: 723e9e3914fab30448a14f34f04a69f0, type: 3}
+  - {fileID: -5336742209861974831, guid: e84439023dd35bb42b3da84de9ec3819, type: 3}
+  - {fileID: -9088635688421156116, guid: e84439023dd35bb42b3da84de9ec3819, type: 3}
+  - {fileID: -9190101557884081930, guid: e84439023dd35bb42b3da84de9ec3819, type: 3}
+  - {fileID: 4022902145977595838, guid: e84439023dd35bb42b3da84de9ec3819, type: 3}
+  - {fileID: -2084115003122110499, guid: e84439023dd35bb42b3da84de9ec3819, type: 3}

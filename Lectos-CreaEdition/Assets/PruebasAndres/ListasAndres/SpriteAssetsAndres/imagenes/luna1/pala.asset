@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: pala
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8403220026751593673, guid: f6082ecc006d4804d8e110fe16c4dcf0, type: 3}
-  - {fileID: -5133559820441773893, guid: f6082ecc006d4804d8e110fe16c4dcf0, type: 3}
-  - {fileID: 4004077398046599077, guid: f6082ecc006d4804d8e110fe16c4dcf0, type: 3}
+  - {fileID: -7059095988451331361, guid: b6b69377dece6f04fa87da298b0f6e80, type: 3}
+  - {fileID: -4128661903147988275, guid: b6b69377dece6f04fa87da298b0f6e80, type: 3}
+  - {fileID: 2752914522285471737, guid: b6b69377dece6f04fa87da298b0f6e80, type: 3}
+  - {fileID: -8480052671392430905, guid: b6b69377dece6f04fa87da298b0f6e80, type: 3}
+  - {fileID: 9206944291225936286, guid: b6b69377dece6f04fa87da298b0f6e80, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: sopa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -1137526599728633218, guid: 5e1c1a1a1d20d95469e456d91c505fb0, type: 3}
-  - {fileID: -3598399618156116117, guid: 5e1c1a1a1d20d95469e456d91c505fb0, type: 3}
-  - {fileID: -1521458011143817681, guid: 5e1c1a1a1d20d95469e456d91c505fb0, type: 3}
+  - {fileID: 3977439790610731009, guid: 317aafb66615231479d0db053cf210b1, type: 3}
+  - {fileID: 7536661856093473571, guid: 317aafb66615231479d0db053cf210b1, type: 3}
+  - {fileID: -4182335231837744179, guid: 317aafb66615231479d0db053cf210b1, type: 3}
+  - {fileID: -435867041545870111, guid: 317aafb66615231479d0db053cf210b1, type: 3}
+  - {fileID: 7807860899333088166, guid: 317aafb66615231479d0db053cf210b1, type: 3}

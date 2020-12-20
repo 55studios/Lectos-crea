@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: libro
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8655497366390060445, guid: 40b43622b7c4dd243a77bb9b9c91bd88, type: 3}
-  - {fileID: 1205162138379592887, guid: 40b43622b7c4dd243a77bb9b9c91bd88, type: 3}
-  - {fileID: -41761763339541152, guid: 40b43622b7c4dd243a77bb9b9c91bd88, type: 3}
+  - {fileID: 8930809943202532638, guid: a0898f512cafa2e45a5c9d5f4aedf015, type: 3}
+  - {fileID: -4794191138523281952, guid: a0898f512cafa2e45a5c9d5f4aedf015, type: 3}
+  - {fileID: 2818417932737868824, guid: a0898f512cafa2e45a5c9d5f4aedf015, type: 3}
+  - {fileID: 3841688788118420717, guid: a0898f512cafa2e45a5c9d5f4aedf015, type: 3}
+  - {fileID: -334190200873475470, guid: a0898f512cafa2e45a5c9d5f4aedf015, type: 3}

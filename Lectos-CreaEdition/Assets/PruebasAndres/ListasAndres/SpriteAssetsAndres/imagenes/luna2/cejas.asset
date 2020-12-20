@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: cejas
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -2614286804149147913, guid: 71d7b2f4d81920c488ebdd03299afbf7, type: 3}
-  - {fileID: -2836498597555779010, guid: 71d7b2f4d81920c488ebdd03299afbf7, type: 3}
-  - {fileID: 8298897404689969652, guid: 71d7b2f4d81920c488ebdd03299afbf7, type: 3}
+  - {fileID: -2348050106441154148, guid: 6abd964468c2e554895087666c4d214d, type: 3}
+  - {fileID: 2862101783704723482, guid: 6abd964468c2e554895087666c4d214d, type: 3}
+  - {fileID: -8447825153795867364, guid: 6abd964468c2e554895087666c4d214d, type: 3}
+  - {fileID: -8338605627453871194, guid: 6abd964468c2e554895087666c4d214d, type: 3}
+  - {fileID: -2526352849517677116, guid: 6abd964468c2e554895087666c4d214d, type: 3}

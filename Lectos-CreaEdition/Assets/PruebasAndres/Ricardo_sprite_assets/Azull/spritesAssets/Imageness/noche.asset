@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: noche
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -785533084684328486, guid: b89952aa32166054abf89f244fa3590c, type: 3}
-  - {fileID: -6817919587740587441, guid: b89952aa32166054abf89f244fa3590c, type: 3}
-  - {fileID: 8849000550065847433, guid: b89952aa32166054abf89f244fa3590c, type: 3}
+  - {fileID: 6572081496093016198, guid: 156a826ff12a1bc4a92cf4404bfd43b3, type: 3}
+  - {fileID: -2875024376921467790, guid: 156a826ff12a1bc4a92cf4404bfd43b3, type: 3}
+  - {fileID: 1356313751809530993, guid: 156a826ff12a1bc4a92cf4404bfd43b3, type: 3}
+  - {fileID: -5584098564081640676, guid: 156a826ff12a1bc4a92cf4404bfd43b3, type: 3}
+  - {fileID: -5141586723633227061, guid: 156a826ff12a1bc4a92cf4404bfd43b3, type: 3}

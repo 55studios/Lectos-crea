@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: chivo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -2405769127826261097, guid: 5953203b964c5e94fb64c41498bd1af0, type: 3}
-  - {fileID: 4986789853237944329, guid: 5953203b964c5e94fb64c41498bd1af0, type: 3}
-  - {fileID: 1249979028177875079, guid: 5953203b964c5e94fb64c41498bd1af0, type: 3}
+  - {fileID: 7507967282932576439, guid: dd26386c585bc154c8e60a2dbffa6f4f, type: 3}
+  - {fileID: -4639796049987442235, guid: dd26386c585bc154c8e60a2dbffa6f4f, type: 3}
+  - {fileID: 5872490579977955766, guid: dd26386c585bc154c8e60a2dbffa6f4f, type: 3}
+  - {fileID: 4007001982814166767, guid: dd26386c585bc154c8e60a2dbffa6f4f, type: 3}
+  - {fileID: 3586693957758436429, guid: dd26386c585bc154c8e60a2dbffa6f4f, type: 3}

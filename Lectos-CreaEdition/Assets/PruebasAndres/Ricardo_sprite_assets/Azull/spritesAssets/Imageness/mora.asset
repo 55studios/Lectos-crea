@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: mora
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -3657748097929334206, guid: a4f3c6507c246cb4c88d63cf0e375534, type: 3}
-  - {fileID: 8104583071961822328, guid: a4f3c6507c246cb4c88d63cf0e375534, type: 3}
-  - {fileID: 6230331291803495686, guid: a4f3c6507c246cb4c88d63cf0e375534, type: 3}
+  - {fileID: -2708811229772965801, guid: 7ee62f73ef6d21143a80f9a1f81ae19d, type: 3}
+  - {fileID: -2411412248262672319, guid: 7ee62f73ef6d21143a80f9a1f81ae19d, type: 3}
+  - {fileID: -8192266559464832992, guid: 7ee62f73ef6d21143a80f9a1f81ae19d, type: 3}
+  - {fileID: 5758476322731590085, guid: 7ee62f73ef6d21143a80f9a1f81ae19d, type: 3}
+  - {fileID: -8183402058022384197, guid: 7ee62f73ef6d21143a80f9a1f81ae19d, type: 3}

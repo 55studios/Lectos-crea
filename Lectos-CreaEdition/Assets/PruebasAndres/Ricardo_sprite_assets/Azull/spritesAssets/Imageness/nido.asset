@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: nido
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -6706401548707373545, guid: 3204644e8cc3bd74fa0b739b096755d4, type: 3}
-  - {fileID: 9199606512750539136, guid: 3204644e8cc3bd74fa0b739b096755d4, type: 3}
-  - {fileID: -6875608226460145806, guid: 3204644e8cc3bd74fa0b739b096755d4, type: 3}
+  - {fileID: -1241878019136546297, guid: 78f62e6891dcb6d40be9f588c0170a3d, type: 3}
+  - {fileID: 850376393138094365, guid: 78f62e6891dcb6d40be9f588c0170a3d, type: 3}
+  - {fileID: 7424042029379945906, guid: 78f62e6891dcb6d40be9f588c0170a3d, type: 3}
+  - {fileID: 3663042364483252625, guid: 78f62e6891dcb6d40be9f588c0170a3d, type: 3}
+  - {fileID: -2003476844023152949, guid: 78f62e6891dcb6d40be9f588c0170a3d, type: 3}

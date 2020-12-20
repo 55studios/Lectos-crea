@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70404bf04ff039d4ca23b78157662e41, type: 3}
+  m_Name: yoyo
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 1879229577415623513, guid: 2c536d962a3570849a864b27cec588d5, type: 3}
+  - {fileID: 7003192555974677688, guid: 2c536d962a3570849a864b27cec588d5, type: 3}
+  - {fileID: -6848164187849478886, guid: 2c536d962a3570849a864b27cec588d5, type: 3}
+  - {fileID: -3052297394845171666, guid: 2c536d962a3570849a864b27cec588d5, type: 3}
+  - {fileID: -4014687815731624102, guid: 2c536d962a3570849a864b27cec588d5, type: 3}

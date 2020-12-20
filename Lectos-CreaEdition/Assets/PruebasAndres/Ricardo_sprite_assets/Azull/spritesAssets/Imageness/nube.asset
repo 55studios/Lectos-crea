@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: nube
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 5144140360110833811, guid: c37e477d79d50d245b9d563749107de4, type: 3}
-  - {fileID: 1433963669998934934, guid: c37e477d79d50d245b9d563749107de4, type: 3}
-  - {fileID: 9079732961143718651, guid: c37e477d79d50d245b9d563749107de4, type: 3}
+  - {fileID: 1012801859611310923, guid: e71230d086c4f264ebbb43e7e680f852, type: 3}
+  - {fileID: -4566631842904577665, guid: e71230d086c4f264ebbb43e7e680f852, type: 3}
+  - {fileID: 8282711139194497383, guid: e71230d086c4f264ebbb43e7e680f852, type: 3}
+  - {fileID: 7107964542475293022, guid: e71230d086c4f264ebbb43e7e680f852, type: 3}
+  - {fileID: 592630991746301496, guid: e71230d086c4f264ebbb43e7e680f852, type: 3}

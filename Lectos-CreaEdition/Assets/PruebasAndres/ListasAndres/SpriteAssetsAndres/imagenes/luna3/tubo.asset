@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: tubo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -4092205364420328820, guid: f4d82d09dbd95cd4082b5ab493cc8298, type: 3}
-  - {fileID: -7597494137269138976, guid: f4d82d09dbd95cd4082b5ab493cc8298, type: 3}
-  - {fileID: -3551321753342517394, guid: f4d82d09dbd95cd4082b5ab493cc8298, type: 3}
+  - {fileID: -6005230953755801251, guid: 3aafeda6e135573408d25a568e81ef80, type: 3}
+  - {fileID: -830405190481673080, guid: 3aafeda6e135573408d25a568e81ef80, type: 3}
+  - {fileID: 5561987027838438038, guid: 3aafeda6e135573408d25a568e81ef80, type: 3}
+  - {fileID: -198787641214684657, guid: 3aafeda6e135573408d25a568e81ef80, type: 3}
+  - {fileID: -2243033920496198597, guid: 3aafeda6e135573408d25a568e81ef80, type: 3}

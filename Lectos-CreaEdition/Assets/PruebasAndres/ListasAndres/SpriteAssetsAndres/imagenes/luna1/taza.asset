@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: taza
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8954382217956679251, guid: 832b07e9e4d31414e9d1f14cba4d6965, type: 3}
-  - {fileID: 1218228481440925467, guid: 832b07e9e4d31414e9d1f14cba4d6965, type: 3}
-  - {fileID: 4021116234970169275, guid: 832b07e9e4d31414e9d1f14cba4d6965, type: 3}
+  - {fileID: -447873317244245795, guid: ab867f97f55983141a04be39f3e4cd35, type: 3}
+  - {fileID: -5503140911744764210, guid: ab867f97f55983141a04be39f3e4cd35, type: 3}
+  - {fileID: -6632211065061896213, guid: ab867f97f55983141a04be39f3e4cd35, type: 3}
+  - {fileID: 7584738756678171700, guid: ab867f97f55983141a04be39f3e4cd35, type: 3}
+  - {fileID: 969872426451561788, guid: ab867f97f55983141a04be39f3e4cd35, type: 3}

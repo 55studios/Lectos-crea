@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: pollito
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 7544754314151069752, guid: cca320e95887a114ca996f0f482de9c4, type: 3}
-  - {fileID: -2820925855751705595, guid: cca320e95887a114ca996f0f482de9c4, type: 3}
-  - {fileID: 175009789933402857, guid: cca320e95887a114ca996f0f482de9c4, type: 3}
+  - {fileID: -772891405558188916, guid: d777291d156bbdd498eb752db0a17f24, type: 3}
+  - {fileID: 9012954352506051092, guid: d777291d156bbdd498eb752db0a17f24, type: 3}
+  - {fileID: 1841950002493599306, guid: d777291d156bbdd498eb752db0a17f24, type: 3}
+  - {fileID: 3609375581032478645, guid: d777291d156bbdd498eb752db0a17f24, type: 3}
+  - {fileID: -7461032085875914127, guid: d777291d156bbdd498eb752db0a17f24, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: jugo
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -3160462980671549395, guid: bc5dbf40d9a6b5b45b3ea55910aff4d4, type: 3}
-  - {fileID: 5099515048647553268, guid: bc5dbf40d9a6b5b45b3ea55910aff4d4, type: 3}
-  - {fileID: -3039407644610524320, guid: bc5dbf40d9a6b5b45b3ea55910aff4d4, type: 3}
+  - {fileID: -7717346373326576133, guid: 1a57f2e1c02f47d4bae6b28df118d737, type: 3}
+  - {fileID: 9118063639282324792, guid: 1a57f2e1c02f47d4bae6b28df118d737, type: 3}
+  - {fileID: 2685119875985901671, guid: 1a57f2e1c02f47d4bae6b28df118d737, type: 3}
+  - {fileID: -6080075353407547893, guid: 1a57f2e1c02f47d4bae6b28df118d737, type: 3}
+  - {fileID: 8825768524703586640, guid: 1a57f2e1c02f47d4bae6b28df118d737, type: 3}

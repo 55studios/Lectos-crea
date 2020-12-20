@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: moto
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8608227558385006231, guid: 545d66bf9a168bb4a9a58ecde5672c54, type: 3}
-  - {fileID: 2173981672886939598, guid: 545d66bf9a168bb4a9a58ecde5672c54, type: 3}
-  - {fileID: -8174505723300090098, guid: 545d66bf9a168bb4a9a58ecde5672c54, type: 3}
+  - {fileID: -5263017662591464424, guid: 59fdb44e5ec813e4aa72f5b3efa3cd0c, type: 3}
+  - {fileID: 6246806684156715798, guid: 59fdb44e5ec813e4aa72f5b3efa3cd0c, type: 3}
+  - {fileID: 6421377448312335234, guid: 59fdb44e5ec813e4aa72f5b3efa3cd0c, type: 3}
+  - {fileID: -1639532397505114004, guid: 59fdb44e5ec813e4aa72f5b3efa3cd0c, type: 3}
+  - {fileID: 9133355337360051342, guid: 59fdb44e5ec813e4aa72f5b3efa3cd0c, type: 3}

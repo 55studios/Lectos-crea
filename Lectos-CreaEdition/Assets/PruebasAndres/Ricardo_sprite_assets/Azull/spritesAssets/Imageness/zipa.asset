@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: zipa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -4833414556341484822, guid: ee18f5ec3c6bc2b41bf894bd10eb17ff, type: 3}
-  - {fileID: -984951824087834464, guid: ee18f5ec3c6bc2b41bf894bd10eb17ff, type: 3}
-  - {fileID: 491964806360501638, guid: ee18f5ec3c6bc2b41bf894bd10eb17ff, type: 3}
+  - {fileID: -3344113409795356564, guid: 7ddb1bca736f4a04d80e96f26f9c6c67, type: 3}
+  - {fileID: 4665466639752501213, guid: 7ddb1bca736f4a04d80e96f26f9c6c67, type: 3}
+  - {fileID: -755990213536863564, guid: 7ddb1bca736f4a04d80e96f26f9c6c67, type: 3}
+  - {fileID: 848023850090728870, guid: 7ddb1bca736f4a04d80e96f26f9c6c67, type: 3}
+  - {fileID: 8077438488007395426, guid: 7ddb1bca736f4a04d80e96f26f9c6c67, type: 3}

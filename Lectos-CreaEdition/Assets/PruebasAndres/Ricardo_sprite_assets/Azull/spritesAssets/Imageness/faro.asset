@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: faro
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -8825423084987784392, guid: 483498801e3a41d4cb9fe337985b1e95, type: 3}
-  - {fileID: 4809634819436044408, guid: 483498801e3a41d4cb9fe337985b1e95, type: 3}
-  - {fileID: 8743786578402232077, guid: 483498801e3a41d4cb9fe337985b1e95, type: 3}
+  - {fileID: 7838491606528829262, guid: a341de127e487dd4c9f1b32c5698b3cb, type: 3}
+  - {fileID: -1268194605531628922, guid: a341de127e487dd4c9f1b32c5698b3cb, type: 3}
+  - {fileID: 4015429660063619194, guid: a341de127e487dd4c9f1b32c5698b3cb, type: 3}
+  - {fileID: -7670345796221699938, guid: a341de127e487dd4c9f1b32c5698b3cb, type: 3}
+  - {fileID: 3431244569731820197, guid: a341de127e487dd4c9f1b32c5698b3cb, type: 3}

@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: sala
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 21300000, guid: 5fbbb37895b19614bbe109ff9d532e8d, type: 3}
+  - {fileID: 7710547092450863781, guid: 4cec5180a7f561b40bfdd34b259e421b, type: 3}
+  - {fileID: -3557459551489171069, guid: 4cec5180a7f561b40bfdd34b259e421b, type: 3}
+  - {fileID: 7948964887861964036, guid: 4cec5180a7f561b40bfdd34b259e421b, type: 3}
+  - {fileID: -2672126089545236695, guid: 4cec5180a7f561b40bfdd34b259e421b, type: 3}
+  - {fileID: -1791577981560860178, guid: 4cec5180a7f561b40bfdd34b259e421b, type: 3}

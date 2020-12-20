@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: mofa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 6215376733833110458, guid: 5b1958ff94060ae46bb5dba49db85eb2, type: 3}
-  - {fileID: 3206270312966250502, guid: 5b1958ff94060ae46bb5dba49db85eb2, type: 3}
-  - {fileID: -5322925512847044946, guid: 5b1958ff94060ae46bb5dba49db85eb2, type: 3}
+  - {fileID: 7326264581867653603, guid: e45b7ebdac47bcd438dd3b10b23e9303, type: 3}
+  - {fileID: 8440260352509000081, guid: e45b7ebdac47bcd438dd3b10b23e9303, type: 3}
+  - {fileID: 1949173117424853241, guid: e45b7ebdac47bcd438dd3b10b23e9303, type: 3}
+  - {fileID: 7721709063444169267, guid: e45b7ebdac47bcd438dd3b10b23e9303, type: 3}
+  - {fileID: 1221820143601022952, guid: e45b7ebdac47bcd438dd3b10b23e9303, type: 3}

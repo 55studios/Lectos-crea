@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: lupa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -1895568768678473908, guid: aec25323b40d1f744bf50416ca140632, type: 3}
-  - {fileID: 7833220103016589286, guid: aec25323b40d1f744bf50416ca140632, type: 3}
-  - {fileID: 3195641350408790266, guid: aec25323b40d1f744bf50416ca140632, type: 3}
+  - {fileID: 9155076394381526699, guid: 07b192d0dfd373f41976c117202af6b2, type: 3}
+  - {fileID: 2430898033448905926, guid: 07b192d0dfd373f41976c117202af6b2, type: 3}
+  - {fileID: -1145392256570471801, guid: 07b192d0dfd373f41976c117202af6b2, type: 3}
+  - {fileID: 4756354492819374766, guid: 07b192d0dfd373f41976c117202af6b2, type: 3}
+  - {fileID: -1135780805647458411, guid: 07b192d0dfd373f41976c117202af6b2, type: 3}

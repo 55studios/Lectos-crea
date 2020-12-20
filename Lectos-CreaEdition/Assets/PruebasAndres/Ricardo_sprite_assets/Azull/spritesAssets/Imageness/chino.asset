@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: chino
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 191653306093010836, guid: e3a5b7a92c380b04c8904683ee96ab44, type: 3}
-  - {fileID: 8656579933973389578, guid: e3a5b7a92c380b04c8904683ee96ab44, type: 3}
-  - {fileID: -5029828535988134279, guid: e3a5b7a92c380b04c8904683ee96ab44, type: 3}
+  - {fileID: -1604155892033558254, guid: fdd30c0120a2b4f4cba6082696a33e69, type: 3}
+  - {fileID: -152839536664033662, guid: fdd30c0120a2b4f4cba6082696a33e69, type: 3}
+  - {fileID: -6435098486809915505, guid: fdd30c0120a2b4f4cba6082696a33e69, type: 3}
+  - {fileID: -3907477313418325817, guid: fdd30c0120a2b4f4cba6082696a33e69, type: 3}
+  - {fileID: 767654872371908439, guid: fdd30c0120a2b4f4cba6082696a33e69, type: 3}

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: risa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 246437285796896141, guid: 47d0f67fc4fc9024789dd467369e24a9, type: 3}
-  - {fileID: 1408321089715163861, guid: 47d0f67fc4fc9024789dd467369e24a9, type: 3}
-  - {fileID: -8693092776945991127, guid: 47d0f67fc4fc9024789dd467369e24a9, type: 3}
+  - {fileID: -2657211097338773546, guid: c4ed00296926a6545af1bc72ad0cad4a, type: 3}
+  - {fileID: -7332332720748632599, guid: c4ed00296926a6545af1bc72ad0cad4a, type: 3}
+  - {fileID: 2500067424810650208, guid: c4ed00296926a6545af1bc72ad0cad4a, type: 3}
+  - {fileID: -7290104014979091767, guid: c4ed00296926a6545af1bc72ad0cad4a, type: 3}
+  - {fileID: -1300821496625309339, guid: c4ed00296926a6545af1bc72ad0cad4a, type: 3}

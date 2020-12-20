@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: babosa
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -897206701113252447, guid: f7c1aa0336eedee4ab7fb5d712884eda, type: 3}
-  - {fileID: 9017911036007065312, guid: f7c1aa0336eedee4ab7fb5d712884eda, type: 3}
-  - {fileID: 273966814206524242, guid: f7c1aa0336eedee4ab7fb5d712884eda, type: 3}
+  - {fileID: 2129518160583909346, guid: 56807bf472cbf2844a523613dd2545c9, type: 3}
+  - {fileID: 4171112448952779336, guid: 56807bf472cbf2844a523613dd2545c9, type: 3}
+  - {fileID: -4076012773849070295, guid: 56807bf472cbf2844a523613dd2545c9, type: 3}
+  - {fileID: 8793976572962460194, guid: 56807bf472cbf2844a523613dd2545c9, type: 3}
+  - {fileID: -1094736348054931240, guid: 56807bf472cbf2844a523613dd2545c9, type: 3}

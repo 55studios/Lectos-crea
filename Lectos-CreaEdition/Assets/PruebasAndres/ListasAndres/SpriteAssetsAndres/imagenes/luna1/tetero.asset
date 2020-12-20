@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: tetero
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 7117163450868215058, guid: 450b81b1a503cb44aa0c1697898e8722, type: 3}
-  - {fileID: 2625502225016487612, guid: 450b81b1a503cb44aa0c1697898e8722, type: 3}
-  - {fileID: -4202238197050891512, guid: 450b81b1a503cb44aa0c1697898e8722, type: 3}
+  - {fileID: -2911882591205246298, guid: dbd575f4ec5a9e74c862bf87f85614a0, type: 3}
+  - {fileID: 4866595643297443070, guid: dbd575f4ec5a9e74c862bf87f85614a0, type: 3}
+  - {fileID: 4241967555852798277, guid: dbd575f4ec5a9e74c862bf87f85614a0, type: 3}
+  - {fileID: -249475016739343330, guid: dbd575f4ec5a9e74c862bf87f85614a0, type: 3}
+  - {fileID: -1058181049479571653, guid: dbd575f4ec5a9e74c862bf87f85614a0, type: 3}

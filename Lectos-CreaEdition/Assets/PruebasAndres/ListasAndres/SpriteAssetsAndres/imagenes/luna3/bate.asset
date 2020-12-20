@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: bate
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: -7183352143669790021, guid: 9f330b926635bf6498c1deab450c97e2, type: 3}
-  - {fileID: -7485238036229568029, guid: 9f330b926635bf6498c1deab450c97e2, type: 3}
-  - {fileID: 7959138598561829864, guid: 9f330b926635bf6498c1deab450c97e2, type: 3}
+  - {fileID: -689228787900539614, guid: df5a1e3df46be684f8f5870e4740330b, type: 3}
+  - {fileID: -157086649655509534, guid: df5a1e3df46be684f8f5870e4740330b, type: 3}
+  - {fileID: 3076705550368841273, guid: df5a1e3df46be684f8f5870e4740330b, type: 3}
+  - {fileID: -8959668917387704002, guid: df5a1e3df46be684f8f5870e4740330b, type: 3}
+  - {fileID: -2372714762198324175, guid: df5a1e3df46be684f8f5870e4740330b, type: 3}

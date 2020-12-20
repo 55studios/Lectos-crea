@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: bota
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 5474364817351063870, guid: dc3b34391af53564fbc8944d1a5720b0, type: 3}
-  - {fileID: 573400170481791291, guid: dc3b34391af53564fbc8944d1a5720b0, type: 3}
-  - {fileID: 6820233607778197422, guid: dc3b34391af53564fbc8944d1a5720b0, type: 3}
+  - {fileID: 8714815380335205587, guid: 6d723e48679be3847aadd7e878d9c8ae, type: 3}
+  - {fileID: 8291872584990147597, guid: 6d723e48679be3847aadd7e878d9c8ae, type: 3}
+  - {fileID: -7430875354924917724, guid: 6d723e48679be3847aadd7e878d9c8ae, type: 3}
+  - {fileID: -1816620698408272267, guid: 6d723e48679be3847aadd7e878d9c8ae, type: 3}
+  - {fileID: -6212400397884632488, guid: 6d723e48679be3847aadd7e878d9c8ae, type: 3}
