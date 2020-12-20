@@ -18,6 +18,11 @@ public class PuzzleCompleto : MonoBehaviour
         As = GetComponent<AudioSource>();
         As.clip = palabra;
         As.Play();
+        Transform[] lista = GetComponent<Organizador>().activadores;
+        foreach (Transform t in lista)
+        {
+            t.GetComponent<BoxCollider2D>().enabled = true;
+        }
     }
 
     public void SumarRespuesta ()

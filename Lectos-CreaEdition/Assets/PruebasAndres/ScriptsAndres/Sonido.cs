@@ -36,7 +36,7 @@ public class Sonido : MonoBehaviour
                 controlador.GetComponent<CreateLevel>().RespuestaCorrecta(transform.position);
                 if (frames.Length > 1 && frames != null)
                 {
-                    InvokeRepeating("animar", 0, 0.1f);
+                    InvokeRepeating("animar", 0, 0.2f);
                     transform.localScale = new Vector3(0.3f, 0.3f, 1);
                 }                
                 Destroy(gameObject, 1f);

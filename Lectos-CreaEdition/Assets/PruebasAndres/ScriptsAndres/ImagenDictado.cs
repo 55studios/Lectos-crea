@@ -10,7 +10,7 @@ public class ImagenDictado : MonoBehaviour
     public void Animar()
     {
         GetComponent<BoxCollider2D>().enabled = false;
-        InvokeRepeating("Animacion", 0, 0.1f);
+        InvokeRepeating("Animacion", 0, 0.2f);
     }
 
     void Animacion ()
