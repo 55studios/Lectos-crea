@@ -22,13 +22,15 @@ public class LectoTutorialEventButton : MonoBehaviour{
     private void Start() {
         m_Audio = GetComponent<AudioSource>();
         m_control = GameObject.Find("Ship").GetComponent<MoveAnimationTransform>();
-        PlayerPrefs.SetInt("IntroTutorial",0);
+
         if (PlayerPrefs.GetInt("IntroTutorial") == 0) {
             buttonLectinaTuto.interactable = false;
             m_Audio.clip = introLectina;
             m_DurationCLip = m_Audio.clip.length;
             StartCoroutine(DurationClip());
             m_Audio.Play();
+            PlayerPrefs.SetInt("IntroTutorial", 1);
+            print(PlayerPrefs.GetInt("IntroTutorial"));
         }
     }
 

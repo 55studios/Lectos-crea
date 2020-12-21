@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PruebasAndres/ScenesAndres/TemplateNaves.unity
     guid: cb7fa34f35267314c8ede14b2f2b4a58
+  - enabled: 1
+    path: Assets/PruebasAndres/ScenesAndres/Creditos.unity
+    guid: 0dd931b6cfbc1284a8fd68a435d101c0
   m_configObjects: {}
