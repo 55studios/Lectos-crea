@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: mano
   m_EditorClassIdentifier: 
   frames:
+  - {fileID: 7798977336804087184, guid: 4406f52f40c35d84c86f582cb810ced0, type: 3}
   - {fileID: 21894445903562589, guid: 4406f52f40c35d84c86f582cb810ced0, type: 3}
   - {fileID: -4334394973194243086, guid: 4406f52f40c35d84c86f582cb810ced0, type: 3}
   - {fileID: 49182163528881698, guid: 4406f52f40c35d84c86f582cb810ced0, type: 3}
   - {fileID: -7957381091016457278, guid: 4406f52f40c35d84c86f582cb810ced0, type: 3}
-  - {fileID: 7798977336804087184, guid: 4406f52f40c35d84c86f582cb810ced0, type: 3}
