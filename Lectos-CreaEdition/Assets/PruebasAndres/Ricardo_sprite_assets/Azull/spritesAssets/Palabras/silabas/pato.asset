@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: pato
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 21300000, guid: d50f8d0765acbe3428d3433512114f05, type: 3}
+  - {fileID: 21300000, guid: ba18e0f5d911aeb41bd4abe21085b71d, type: 3}
