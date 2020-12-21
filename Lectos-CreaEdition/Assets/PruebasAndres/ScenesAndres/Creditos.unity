@@ -23862,7 +23862,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703127802}
-  m_Text: Creditos
+  m_Text: "Cr\xE9ditos"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
