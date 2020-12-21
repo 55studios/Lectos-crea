@@ -15,6 +15,6 @@ public class Creditos : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scroll = GetComponent<RectTransform>().DOMoveY(distancia, tiempo).SetEase(Ease.Linear).SetDelay(demora);
+        scroll = GetComponent<Transform>().DOMoveY(distancia, tiempo).SetEase(Ease.Linear).SetDelay(demora);
     }
 }
