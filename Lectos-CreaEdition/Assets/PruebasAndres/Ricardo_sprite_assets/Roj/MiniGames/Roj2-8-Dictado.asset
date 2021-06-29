@@ -36,7 +36,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6175eaa43a88bba458bc24dee60c4a5a, type: 3}
   - {fileID: 8300000, guid: 10a6ef9799421f24c9fd085f4da366fc, type: 3}
   - {fileID: 8300000, guid: b089f32556570f645966e332c937bdac, type: 3}
-  - {fileID: 8300000, guid: 2eef02aeed6158f4cb6eacab5fb52ff9, type: 3}
+  - {fileID: 8300000, guid: 778bb6e12a7a61f41b49d3d3d2c9767a, type: 3}
   prefabPalabras:
   - {fileID: 1337281849528344828, guid: 152d19045a8d7d3418ca746eef1b3993, type: 3}
   - {fileID: 8252000692781223700, guid: 41ba2b4e64ff1264c83bcb7879e0c067, type: 3}
