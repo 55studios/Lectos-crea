@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8b18ab91e69959644b8a66aec267ce8f, type: 2}
   receptores:
   - {fileID: 11400000, guid: 78ce9449e31348146976bd83c50983e0, type: 2}
-  - {fileID: 11400000, guid: f5d0992b0f544784ab486c6655bcc57c, type: 2}
+  - {fileID: 11400000, guid: 79a9880bc271f834a8baf578355bb852, type: 2}
   - {fileID: 11400000, guid: 9f0ccd7a3cd01ab49a4aa12b0e4dad84, type: 2}
   - {fileID: 11400000, guid: a851868963b8ed74eb9dce291435bd7c, type: 2}
   - {fileID: 11400000, guid: 722bd235b62b22845866be71406b022a, type: 2}
