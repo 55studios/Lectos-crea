@@ -625,25 +625,24 @@ public class CreateLevel : MonoBehaviour
     public void SetNextLevelButton (ListaMinigames lm, int ind)
     {
         siguienteNivel = InterfazFinMinijuego.transform.Find("Siguiente").GetComponent<ButtonToController>();
-        //siguienteNivel.gameObject.SetActive(true);
-        //InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(false);
-        //InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().OutAnimation();
+
         siguienteNivel.Lista = lm;
         siguienteNivel.index = ind + 1;
         TempLenghtLvls = lm.lista.Length;
         tempLvl = ind;
         _Slider[moonSlider].GetComponentInParent<Slider>().value = ind;
+
         if (siguienteNivel.index > lm.lista.Length - 1) {
-            //siguienteNivel.gameObject.SetActive(false);
-            //siguienteNivel.GetComponent<ScaleAnimationInOut>().OutAnimation();
-            //InterfazFinMinijuego.transform.Find("LunaTerminada").GetComponent<ScaleAnimationInOut>().InAnimation();
-            //InterfazFinMinijuego.transform.Find("LunaTerminada").gameObject.SetActive(true);
+            siguienteNivel.GetComponent<SimpleDelay>().index = lm.lista[ind].Ind;
             SwitchButtonEndGame = true;
+            print("Esta entrando a la cola de mechas");
         }
         else {
             SwitchButtonEndGame = false;
+            print("Este es el tutorial" + lm.lista[ind].Ind);
             siguienteNivel.GetComponent<SimpleDelay>().index = lm.lista[ind].Ind;// esta parte deberia eljir el tutorial
         }
+
         siguienteNivel.controlador = gameObject.GetComponent<CreateLevel>();
         ButtonToController repetirJuego = InterfazFinMinijuego.transform.Find("Replay").GetComponent<ButtonToController>();
         repetirJuego.Lista = lm;
